@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Home",
+        "url":".",
+        "image":"img/blue.png"
+    },
+    {
+        "name":"Tot ! Chat",
+        "url":"chat.html",
+        "image":"img/green.png"
+    },
+    {
+        "name":"Tot ! Custom",
+        "url":"custom.html",
+        "image":"img/yellow.png"
+    },
+    {
+        "name":"Tot ! Admin",
+        "url":"admin.html",
+        "image":"img/red.png"
+    },
+    {
+        "name":"Tot ! iHUD",
+        "url":"ihud.html",
+        "image":"img/yellow.png"
+    },
+    {
+        "name":"Discord",
+        "url":"https://discord.gg/fTaxD9SNS9",
+        "image":"img/discord.png"
+    }
+]
