@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="./favicon.ico">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="description" content="Charles Capdeville Portfolio Unity Associate C# and HLSL">
+        <link href="main.css" rel="stylesheet">
+        <title>API Conan - Totchinuko</title>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <div id="header">
+            <div class="content">
+                <h1>Tot ! Conan API</h1>
+            </div>
+        </div>
+        <nav id="menu">
+            <a id="mobilemenu" class="button"><img src="img/menu.png" /></a>
+            <div id="mainmenu">
+                <a href="index.html" class="button"><img src="img/blue.png" /><span>Home</span></a>
+                <a href="chat.html" class="button"><img src="img/green.png" /><span>Tot ! Chat</span></a>
+                <a href="custom.html" class="button"><img src="img/yellow.png" /><span>Tot ! Custom</span></a>
+                <a href="ihud.html" class="button"><img src="img/yellow.png" /><span>Tot ! iHud</span></a>
+                <a href="admin.html" class="button"><img src="img/red.png" /><span>Tot ! Admin</span></a>
+                <a href="lib.html" class="button"><img src="img/blue.png" /><span>Tot ! Lib</span></a>
+            </div>
+        </nav>
+        <!-- /HEADER -->
+        
+        <div id="main">
+            <h2>Tot ! iHud API</h2>
+            <div class="block">
+                <h3>API Download</h3>
+                <div class="block">
+                    <span class="smalltitle warning">Important instructions</span>
+                    <p>1- Extract this into <span class="path">ConanExilesDevKit\Games\ConanSandbox\Content\ModsShared\</span></p>
+                    <p><span class="strong">2- Do not modify any of the files in there</span></p>
+                    <p><span class="strong">3- Do not put these files in your mod content folder and do not select them in the modfile list</span></p>
+                    <p>If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.</p>
+                </div>
+                <div class="block">
+                    <span class="smalltitle warning">Common pitfall since 3.1</span>
+                    <img src="img/screenshot/UE4Editor_1675034735.png" class="screenshot" /> 
+                    <p>Since a recent update of the Devkit, it is easy to pak by mistake API files in your mod. Please do check your file list and uncheck API files if you do not intend to pak them. Side effect of paking those file range from reintroducing bug if your mod is lower in the modlist, crash and other issues.</p>
+                    <br class="clear"/>
+                </div>
+                <p><a href="" class="button green"><img src="img/download.png" />Download <span class="version">2.0.0</span></a></p>
+                <div class="block">
+                    <span class="ueClass struct">Tot_S_iHUDWidgetRow</span>
+                    <span class="path">ModsShared/SudoExile/TotIHUD/Types/Tot_S_iHUDWidgetRow</span>
+                    <p><span class="ueVar string">Name</span> Name as displayed in the HUD Editor mode</p>
+                    <p><span class="ueVar class">Widget</span> Your HUD UserWidget. No need for a window root or place it in the game UIModules.</p>
+                    <p><span class="ueVar name">UIModuleToHide[]</span> List of vanilla (or other mods) UI module keys to hide while your iHUD widget is enabled.</p>
+                    <p><span class="ueVar name">SudoPermissionKey</span> Permission Key necessary to display the HUD widget.</p>
+                    <p><span class="ueVar class">EditorWidget</span> UserWidget with extra controle to add into your widget editing page.</p>
+                    <p><span class="ueVar struct">DefaultPosition</span> Default Position on the screen relative to the Anchors</p>
+                    <p><span class="ueVar struct">Anchors</span> Canvas anchors</p>
+                    <p><span class="ueVar struct">Alignment</span> Canvas Alignment</p>
+                    <p><span class="ueVar int">ZOrder</span> Widget order of display. Higher will be drawn on top of lower ones. I Recommand 40.</p>
+                    <p><span class="ueVar boolean">EnabledByDefault</span> Should your widget be enabled by default for a new user.</p>
+                    <p><span class="ueVar boolean">HideWithFullscreenModule</span> Should your widget be hidden when a fullscreen vanilla module show up, like the inventory.</p>
+                </div>
+                <div class="block">
+                    <span class="ueClass interface">Tot_I_iHUDWidget</span>
+                    <span class="path">ModsShared/SudoExile/TotIHUD/Types/Tot_I_iHUDWidget</span>
+                    <span class="ueMethod"><span class="context">Client</span>ShouldBeVisible() -> <span class="ueVar boolean">Return</span></span>
+                    <p>Return each frame if your widget should be visible on its own or not.</p>
+                    <span class="ueMethod"><span class="context">Client</span>OverridenPosition() -> <span class="ueVar struct">Position</span>, <span class="ueVar float">Scale</span>, <span class="ueVar float">Opacity</span>, <span class="ueVar boolean">Overriding</span></span>
+                    <p>Return each frame if your widget should not be placed where the user want it or not. This is used for example for the Shortcut bar to be displayed at its default position when the inventory is open and the user might want to drag stuff in it.</p>
+                    <span class="ueMethod"><span class="context">Client</span>ShouldBeActive() -> <span class="ueVar boolean">Return</span></span>
+                    <p>Return each frame if your widget should be completly deactivated. This is visually the same as ShouldBeVisible, but internally it stop computing a bunch of things and cannot show up with the hud input key.</p>
+                </div>
+            </div>
+        </div> 
+        
+        <!-- SPACER -->
+        <div style="height: 200px"></div>
+        <!-- /SPACER -->
+    </body>
+</html>

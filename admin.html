@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="./favicon.ico">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="description" content="Charles Capdeville Portfolio Unity Associate C# and HLSL">
+        <link href="main.css" rel="stylesheet">
+        <title>API Conan - Totchinuko</title>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <div id="header">
+            <div class="content">
+                <h1>Tot ! Conan API</h1>
+            </div>
+        </div>
+        <nav id="menu">
+            <a id="mobilemenu" class="button"><img src="img/menu.png" /></a>
+            <div id="mainmenu">
+                <a href="index.html" class="button"><img src="img/blue.png" /><span>Home</span></a>
+                <a href="chat.html" class="button"><img src="img/green.png" /><span>Tot ! Chat</span></a>
+                <a href="custom.html" class="button"><img src="img/yellow.png" /><span>Tot ! Custom</span></a>
+                <a href="ihud.html" class="button"><img src="img/yellow.png" /><span>Tot ! iHud</span></a>
+                <a href="admin.html" class="button"><img src="img/red.png" /><span>Tot ! Admin</span></a>
+                <a href="lib.html" class="button"><img src="img/blue.png" /><span>Tot ! Lib</span></a>
+            </div>
+        </nav>
+        <!-- /HEADER -->
+        
+        <div id="main">
+            <h2>Tot ! Admin API</h2>
+            <div class="block">
+                <h3>Move Tool Tags</h3>
+                <p>Adding the following tags to a placeable actor tags will have the given effect on the move tool.</p>
+                <p><span class="ueVar name">disable_move_command</span> Will completely prevent the use of the move tool on this placeable.</p>
+                <p><span class="ueVar name">disable_move_scale</span> <span class="version">1.1.0+</span> Disable the possibility to scale a placeable being moved.</p>                
+            </div>
+            <div class="block">
+                <h3>Cross Mod Event <span class="version">1.1.0+</span></h3>
+                <div class="block">
+                    <span class="smalltitle info">How to</span>
+                    <p>See the corresponding doc on <a href="lib.html">Tot ! Library</a> on how to listen and send such event</p>
+                </div>
+                <div class="block">
+                    <span class="ueMethod"><span class="context">Client</span><span class="ueVar name">TotPuppetIncarnate</span>, <span class="ueVar string">Data[]</span>, <span class="ueVar">Context[Player(BasePlayerChar)]</span></span>
+                    <p>Raised on <span class="ueVar">PuppetActor</span></p>
+                    <p>Raised when a player has taken the place of a puppet, taking its appearance, stats, languages, etc...</p>
+                    
+                    <span class="ueMethod"><span class="context">Client</span><span class="ueVar name">TotPuppetDeincarnate</span>, <span class="ueVar string">Data[]</span>, <span class="ueVar">Context[Player(BasePlayerChar)]</span></span>
+                    <p>Raised on <span class="ueVar">PuppetActor</span></p>
+                    <p>Raised when a player is no longuer a given puppet. Puppet is made visible again and take the previous spot of the player.</p>
+                </div>
+            </div>
+        </div> 
+        
+        <!-- SPACER -->
+        <div style="height: 200px"></div>
+        <!-- /SPACER -->
+    </body>
+</html>
