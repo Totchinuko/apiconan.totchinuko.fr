@@ -221,6 +221,17 @@ a {
   padding: 1px 6px;
 }
 
+.code {
+  padding: 5px;
+  font-family: Consolas, "Courier New";
+  white-space: pre-line;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.pre-line {
+  white-space: pre-line;
+}
+
 #visualizer {
   position: fixed;
   top: 0;

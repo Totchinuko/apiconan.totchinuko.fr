@@ -280,6 +280,17 @@ a {
     
 }
 
+.code {
+    padding: 5px;
+    font-family: $codefont;
+    white-space: pre-line;
+    background-color: $darkBlock;
+}
+
+.pre-line {
+    white-space: pre-line;
+}
+
 #visualizer {
     position: fixed;
     top: 0;
