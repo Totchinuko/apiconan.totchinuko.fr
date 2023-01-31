@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="./favicon.ico">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="main.css" rel="stylesheet">
+        <title>Tot ! Mods</title>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <div id="header">
+            <div class="content">
+                <h1>Tot ! Mods</h1>
+            </div>
+        </div>
+        <!-- /HEADER -->
+        
+        <div id="main">
+            <h2>Tips n' Tricks</h2>
+            <div class="block">
+                <div class="block">
+                    <h3>Tot ! Admin</h3>
+                    <h4>Prevent the server list to refresh automaticly when opening it</h4>
+                    <p>In this file, add those lines:<br/>
+                    <span class="path">Conan Exiles/ConanSandbox/Config/DefaultEngine.ini</span></p>
+                    <p class="code">[/Game/Mods/TotAdmin/PreLoad/Tot_W_NoServer.Tot_W_NoServer_C]
+                        NoServerListAutoRefresh=true
+                    </p>
+
+                    <h4>Crashing when trying to open an inventory on the admin map</h4>
+                    <p>A similar case was already resolved. If you are using Unlock+, try reducing both inventory multiplier to x1, save, and restore the previous value you had. We suspect this is due to some form of corrupted configuration somewhere, either from Unlock+ or from some vanilla data modified by Unlock+.</p>
+                </div>
+                <div class="block">
+                    <h3>Vanilla game</h3>
+                    <h4>No NPC spawn on the map</h4>
+                    <p>In this file, add those lines:<br/>
+                    <span class="path">ConanDedicatedServer/DedicatedServerLauncher/ConanExilesDedicatedServer/ConanSandbox/Saved/Config/Engine.ini</span></p>
+                    <p class="code">[/Script/ConanSandbox.SystemSettings]
+                        dw.EnableAISpawning=0
+                        dw.EnableInitialAISpawningPass=0</p>
+                    
+                    <h4>Start Dedicated with log window</h4>
+                    <p>Add <span class="ueVar">-log</span> in the arguments</p>
+                </div>
+                <div class="block">
+                    <h3>My Mods In General</h3>
+                    <h4>Manual slider values</h4>
+                    <p>So it's pretty obvious I like sliders, most of the time they allow to have a fixed range for valid values, but sometimes, it's just for adviced values. For the latter one, you can actually type a manual value with your keyboard, that goes beyond the slider value.</p>
+                </div>
+                <div class="block">
+                    <h3>Solution for Tot Chat getting stuck with Pippi</h3>
+                    <p>Bind your chat key (Enter for example) to <span class="ueVar">Toggle Chat Window</span> instead of <span class="ueVar">Global Chat</span> in your game settings. Let me know if it worked for you.</p>
+                </div>
+            </div>
+        </div> 
+        
+        <!-- SPACER -->
+        <div style="height: 200px"></div>
+        <!-- /SPACER -->
+    </body>
+</html>
