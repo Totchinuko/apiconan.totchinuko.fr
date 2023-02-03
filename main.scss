@@ -38,8 +38,14 @@ body {
 }
 
 a {
-    text-decoration: underline;
     color: #d68f8f;
+    font-weight: 600;
+
+    img {
+        max-height: 16px;
+        max-width: 16px;
+        display: inline-block;
+    }
 }
 
 iframe {
