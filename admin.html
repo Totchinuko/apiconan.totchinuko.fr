@@ -39,7 +39,37 @@
                 <p><span class="ueVar name">disable_move_scale</span> <span class="version">0.2.0+</span> Disable the possibility to scale a placeable being moved.</p>                
             </div>
             <div class="block">
-                <h3>Cross Mod Event <span class="version">1.1.0+</span></h3>
+                <h3>Warp API <span class="version">0.1.0+</span></h3>
+                
+                <div class="block">
+                    <span class="ueClass interface">Tot_I_Warp</span>
+                    <span class="path">ModsShared/SudoExile/TotAdmin/Tot_I_Warp</span>
+                    <div class="block">
+                        <span class="smalltitle info">How to ?</span>
+                        <p>To get the warp manager, simply use <span class="ueVar">GetAllActorWithInterface</span> node, and search for this interface.</p>
+                    </div>
+                    <span class="ueMethod"><span class="context">Server</span> Tot_TeleportCharacter(<span class="ueVar">Character</span>, <span class="ueVar vector">Position</span>, <span class="ueVar rotator">Rotation</span>, <span class="ueVar boolean">RecordReturn</span>, <span class="ueVar boolean">SnapToGround</span>) -> <span class="ueVar boolean">IsSuccess</span>, <span class="ueVar string">ErrorMessage</span></span>
+                    <p>Teleport the character to the given position using Tot ! Admin internal teleport mechanism. Meaning you can record a return, and teleportation under 200m will be without loading screen.</p>
+                    <span class="ueMethod"><span class="context">Server</span> Tot_GetWarpGuids() -> <span class="ueVar struct">Guids[]</span></span>
+                    <p>Get the list of all warp Guid that are currently saved on the server.</p>
+                    <span class="ueMethod"><span class="context">Server</span> Tot_GetWarp(<span class="ueVar struct">Guid</span>) -> <span class="ueVar string">Name</span>, <span class="ueVar vector">Position</span>, <span class="ueVar rotator">Rotation</span>, <span class="ueVar boolean">IsSpawn</span>, <span class="ueVar boolean">IsEnabled</span>, <span class="ueVar boolean">SnapToGround</span>, <span class="ueVar boolean">Found</span></span>
+                    <p>Get the warp data from its Guid.</p>
+                    <span class="ueMethod"><span class="context">Server</span> Tot_SendCharacterHome(<span class="ueVar">Character</span>, <span class="ueVar boolean">EnforceRules</span>) -> <span class="ueVar boolean">IsSuccess</span>, <span class="ueVar string">ErrorMessage</span></span>
+                    <p>Send a character to its recorded home, if he have any.</p>
+                    <span class="ueMethod"><span class="context">Server</span> Tot_SetCharacterHome(<span class="ueVar">Character</span>, <span class="ueVar vector">Position</span>, <span class="ueVar rotator">Rotation</span>, <span class="ueVar boolean">EnforceRules</span>) -> <span class="ueVar boolean">IsSuccess</span>, <span class="ueVar string">ErrorMessage</span></span>
+                    <p>Update the character home</p>
+                    <span class="ueMethod"><span class="context">Server</span> Tot_CheckWarpRules(<span class="ueVar">Character</span>, <span class="ueVar struct">Guid</span>) -> <span class="ueVar boolean">IsSuccess</span>, <span class="ueVar string">ErrorMessage</span></span>
+                    <p>Check if a character pass the global warp rules and target warp rules.</p>
+                    <span class="ueMethod"><span class="context">Server</span> Tot_ClearCharacterHome(<span class="ueVar">Character</span>) -> <span class="ueVar boolean">IsSuccess</span>, <span class="ueVar string">ErrorMessage</span></span>
+                    <p>Delete any home the given character could have.</p>
+                    <span class="ueMethod"><span class="context">Server</span> Tot_FindWarp(<span class="ueVar string">Name</span>) -> <span class="ueVar struct">Guid</span></span>
+                    <p>Find a warp Guid from a name or partial name.</p>
+                    <span class="ueMethod"><span class="context">Server</span> Tot_WarpCharacter(<span class="ueVar">Character</span>, <span class="ueVar struct">Guid</span>, <span class="ueVar boolean">EnforceRules</span>) -> <span class="ueVar boolean">IsSuccess</span>, <span class="ueVar string">ErrorMessage</span></span>
+                    <p>Warp a character to a given warp Guid.</p>
+                </div>
+            </div>
+            <div class="block">
+                <h3>Cross Mod Event <span class="version">0.2.0+</span></h3>
                 <div class="block">
                     <span class="smalltitle info">How to</span>
                     <p>See the corresponding doc on <a href="lib.html">Tot ! Library</a> on how to listen and send such event</p>
