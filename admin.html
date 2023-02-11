@@ -78,6 +78,26 @@
                 </div>
             </div>
             <div class="block">
+                <h3>Kit API <span class="version">0.1.0+</span></h3>
+                
+                <div class="block">
+                    <span class="ueClass interface">Tot_I_Kit</span>
+                    <span class="path">ModsShared/SudoExile/TotAdmin/Tot_I_Kit</span>
+                    <div class="block">
+                        <span class="smalltitle info">How to ?</span>
+                        <p>To get the warp manager, simply use <span class="ueVar">GetAllActorWithInterface</span> node, and search for this interface.</p>
+                    </div>
+                    <span class="ueMethod"><span class="context">Server</span> Tot_GetKitHeaders() -> <span class="ueVar struct">Headers[]</span></span>
+                    <p>Get the list of all kit Headers that are currently saved on the server. Header contain the Guid and name of the kit.</p>
+                    <span class="ueMethod"><span class="context">Server</span> Tot_FindKit(<span class="ueVar string">Name</span>) -> <span class="ueVar struct">Guid</span></span>
+                    <p>Find a kit Guid from a name or partial name.</p>
+                    <span class="ueMethod"><span class="context">Server</span> Tot_CheckKitRules(<span class="ueVar">Character</span>, <span class="ueVar struct">Guid</span>) -> <span class="ueVar boolean">IsSuccess</span>, <span class="ueVar string">ErrorMessage</span></span>
+                    <p>Check if a character pass the target kit rules.</p>
+                    <span class="ueMethod"><span class="context">Server</span> Tot_GiveKit(<span class="ueVar">Character</span>, <span class="ueVar struct">Guid</span>, <span class="ueVar boolean">EnforceRules</span>) -> <span class="ueVar boolean">IsSuccess</span>, <span class="ueVar string">ErrorMessage</span></span>
+                    <p>Attempt to give a Kit to the target character. This can fail if the rules do not pass, if the inventory is too full or if the kit contains items the character cannot spawn (DLC not owned for example)</p>
+                </div>
+            </div>
+            <div class="block">
                 <h3>Cross Mod Event <span class="version">0.2.0+</span></h3>
                 <div class="block">
                     <span class="smalltitle info">How to</span>
