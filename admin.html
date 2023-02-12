@@ -33,6 +33,23 @@
         <div id="main">
             <h2>Tot ! Admin API <span class="version">WIP</span></h2>
             <div class="block">
+                <h3>API Download</h3>
+                <div class="block">
+                    <span class="smalltitle warning">Install instructions</span>
+                    <p>1- Extract this into <span class="path">ConanExilesDevKit\Games\ConanSandbox\Content\ModsShared\</span></p>
+                    <p><span class="strong">2- Do not modify any of the files in there</span></p>
+                    <p><span class="strong">3- Do not put these files in your mod content folder and do not select them in the modfile list</span></p>
+                    <p>If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.</p>
+                </div>
+                <div class="block">
+                    <span class="smalltitle warning">Common pitfall since 3.1</span>
+                    <img src="img/screenshot/UE4Editor_1675034735.png" class="screenshot" /> 
+                    <p>Since a recent update of the Devkit, it is easy to pak by mistake API files in your mod. Please do check your file list and uncheck API files if you do not intend to pak them. Side effect of paking those file range from reintroducing bug if your mod is lower in the modlist, crash and other issues.</p>
+                    <br class="clear"/>
+                </div>
+                <p><a href="https://cdn.discordapp.com/attachments/1054782906251366401/1074363415084154890/TotAdmin.0.1.0.zip" class="button green"><img src="img/download.png" />Download <span class="version">0.1.0</span></a></p>
+            </div>
+            <div class="block">
                 <h3>Move Tool Tags</h3>
                 <p>Adding the following tags to a placeable actor tags will have the given effect on the move tool.</p>
                 <p><span class="ueVar name">disable_move_command</span> Will completely prevent the use of the move tool on this placeable.</p>
