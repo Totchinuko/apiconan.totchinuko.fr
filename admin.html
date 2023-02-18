@@ -116,6 +116,26 @@
                 </div>
             </div>
             <div class="block">
+                <h3>Creating an Interactive Module</h3>
+                <div class="block">
+                    <p>An interactive module is essentially a role for a puppet. This will be something like "Trader", "Script", "Quest", etc... It is what happen when you interact with a puppet or an interactive target. In this section I will explain how to create a module so that it can be recognized by the UI and receive the import bit of information so you can edit the data on the targeted Actor.</p>
+                    <p>For starter, you want to create two file, an <span class="ueVar">ActorComponent</span> and a <span class="ueVar">UserWidget</span>. The ActorComponent should be added on the Puppet Base that you can find in the API folder of Tot!Admin, using your ModController for that. Actor component should implement the following Interface that you'll find in the API folder as well.</p>
+                </div>
+                <div class="block">
+                    <span class="ueClass interface">Tot_I_InteractionModule</span>
+                    <span class="path">ModsShared/SudoExile/TotAdmin/Tot_I_InteractionModule</span>
+
+                    <span class="ueMethod"><span class="context">Server</span> GetModuleMeta() -> <span class="ueVar name">Key</span>, <span class="ueVar string">Name</span>, <span class="ueVar asset">Icon</span>, <span class="ueVar assetClass">WidgetClass</span></span>
+                    <p>This method give to the system the informations it needs to recognize it. The key must be unique between modules, Name and Icon are your flavor, and the WidgetClass must point to the UserWidget you created for your module.</p>
+
+                    <span class="ueMethod"><span class="context">Server</span> Interact(<span class="ueVar">Character</span>) -> None </span>
+                    <p>This method will be called by the system whenever a player character interact with a puppet that have your module on. This is where you feature logic should happen.</p>
+                </div>
+                <div class="block">
+                    <p>Once this interface is implemented, all that remain is to make your feature logic. On the UserWidget side, you'll implement the <span class="ueVar interface">Tot_I_CrossModEvent</span> on it. You can find more detail about CME on the <a href="lib.html">lib</a> page, and lower on this page for the specific events you need. That should cover up all the steps you need to create a module, if you did everything correctly, your module should show up in the list of modules when editing a puppet.</p>
+                </div>
+            </div>
+            <div class="block">
                 <h3>Cross Mod Event <span class="version">0.2.0+</span></h3>
                 <div class="block">
                     <span class="smalltitle info">How to</span>
