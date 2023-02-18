@@ -129,6 +129,12 @@ iframe {
 .ueVar.class {
   border-bottom: 2px solid rgba(104, 73, 175, 0.8);
 }
+.ueVar.asset {
+  border-bottom: 2px solid rgba(119, 223, 255, 0.8);
+}
+.ueVar.assetClass {
+  border-bottom: 2px solid rgba(255, 148, 211, 0.8);
+}
 
 .ueMethod {
   font-family: Consolas, "Courier New";
@@ -349,7 +355,6 @@ a {
 }
 
 #menu {
-  position: -webkit-sticky;
   position: sticky;
   top: 0px;
   background-color: #2f2f2f;
