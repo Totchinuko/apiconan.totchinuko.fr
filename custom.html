@@ -297,6 +297,11 @@
                     <h4>Character profile</h4>
                     <span class="ueMethod"><span class="context">Server/Client</span>GetCurrentCharacterProfileGUID() -> <span class="ueVar struct">Guid</span>, <span class="ueVar string">Name</span> </span>
                     <p>This will only give you result on the BasePlayerChar. On server, it will only return the current profile GUID. If the GUID is invalid, that mean the player is on the default profile that cannot be deleted. On client, this will only give you result on the main character controlled by the player, and will give you the current GUID and the name of the profile as specified by the player in his save.</p>
+                    
+                    <h4>Radial Menu <span class="version">1.1.6</span></h4>
+                    <span class="ueMethod"><span class="context">Client</span>AddRadialMenuCustomization(<span class="ueVar">RadialMenu</span>, <span class="ueVar int">HitIndex</span>) -> <span class="ueVar boolean">IsSuccess</span> </span>
+                    <p>When you need to add the customize button on a radial menu, call this function with the radial menu parameters</p>
+
                 </div>
             </div>
 
