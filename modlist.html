@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="./favicon.ico">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="main.css" rel="stylesheet">
+        <title>Tot ! Mods</title>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <div id="header">
+            <div class="content">
+                <h1>Tot ! Mods</h1>
+            </div>
+        </div>
+        <!-- /HEADER -->
+        
+        <div id="main">
+            <h2>Recommanded Modlist order</h2>
+            <div class="block">
+                <div class="block">
+                    <h3>How to recognize a mod order crash</h3>
+                    <p>Before you go and get the modlist, you might want to know how to recognize one of those. Here is a typical crash log from a load order issue. You would find that at the end of your log file</p>
+                    <span class="path">ConanSandbox\Saved\Logs\ConanSandbox.log</span>
+                    <p class="code"><span>...</span>
+                        <span>Script Stack:</span>
+                        <span>Tot_W_EquipButton_C.ExecuteUbergraph_Tot_W_EquipButton</span>
+                        <span>Tot_W_EquipButton_C.BndEvt__EquipButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature</span>
+                        <span></span>
+                        <span>[2023.02.13-10.20.26:869][ 48]LogMemory: Platform Memory Stats for WindowsNoEditor</span>
+                        <span>[2023.02.13-10.20.26:870][ 48]LogMemory: Process Physical Memory: 2327.51 MB used, 4712.06 MB peak</span>
+                        <span>[2023.02.13-10.20.26:870][ 48]LogMemory: Process Virtual Memory: 8967.48 MB used, 9629.62 MB peak</span>
+                        <span>[2023.02.13-10.20.26:870][ 48]LogMemory: Physical Memory: 11453.00 MB used,  4857.31 MB free, 16310.31 MB total</span>
+                        <span>[2023.02.13-10.20.26:870][ 48]LogMemory: Virtual Memory: 48785.87 MB used,  4857.31 MB free, 134217728.00 MB total</span>
+                        <span>[2023.02.13-10.20.26:870][ 48]LogWindows:Error: === Critical error: ===</span>
+                        <span>[2023.02.13-10.20.26:870][ 48]LogWindows:Error: </span>
+                        <span>[2023.02.13-10.20.26:870][ 48]LogWindows:Error: Fatal error: [File:C:\B\tech_exiles\code\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp] [Line: 1137] </span>
+                        <span>[2023.02.13-10.20.26:870][ 48]LogWindows:Error: Failed to find function OpenContextual in Tot_CommonLibrary_C /Game/ModsShared/SudoExile/TotLib/Tot_CommonLibrary.Default__Tot_CommonLibrary_C</span>
+                        <span>[2023.02.13-10.20.26:870][ 48]LogWindows:Error: </span>
+                        <span>[2023.02.13-10.20.26:870][ 48]LogWindows:Error: </span>
+                        <span>[2023.02.13-10.20.26:870][ 48]LogWindows:Error: !0x0000000000000000</span>
+                        <span>[2023.02.13-10.20.26:870][ 48]LogWindows:Error: </span>
+                        <span>[2023.02.13-10.20.26:900][ 48]LogExit: Executing StaticShutdownAfterError</span>
+                        <span>[2023.02.13-10.20.27:228][ 48]LogWindows: FPlatformMisc::RequestExit(1)</span>
+                        <span>[2023.02.13-10.20.27:228][ 48]Log file closed, 02/13/23 02:20:27</p></span>
+                    <p>Now this might look like gibberish for you, but what is interesting is this specific sentence on line 14:</p>
+                    <p class="code">Failed to find function OpenContextual in Tot_CommonLibrary_C</p>
+                    <p>This says, the code could not find a particular function in a specific file. This is usually a clue that a mod is overriding said file with an older version that does not contain the function. It is usually hard to find which mod is actually causing this without the proper tools, but most of the time this can be fixed by reordering the modlist.</p>                    
+                </div>
+                <div class="block">
+                    <h3>Typical Modlist</h3>
+                    <div class="block">
+                        <span class="smalltitle info">Some explanation</span>
+                        The reason why we now recommand to put our mods on the bottom of the modlist is that a lot of third party mods have started to use our API, while subsequently forgeting to not include said API files in their mod. The result of this is that mods failing to follow our guidelines are responsible for crashing the game or servers whenever we update the API, because their mod put back older file with missing new functions.
+                    </div>
+                    <p class="code">[...]
+                        ..steamapps\workshop\content\440900\880454836\Pippi.pak
+                        [...]
+                        ..\steamapps\workshop\content\440900\1823412793/ModControlPanel.pak
+                        [...]
+                        ..\steamapps\workshop\content\440900\1542041983/RA.pak
+                        [...]
+                        ..\steamapps\workshop\content\440900\2010870025/HighHeels.pak
+                        [...]
+                        ..\steamapps\workshop\content\440900\2300463941/Devious_Desires.pak
+                        [...]
+                        ..\steamapps\workshop\content\440900\2842779736/ModAdmin.pak
+                        ..\steamapps\workshop\content\440900\2323901287\RoleplayRedux.pak
+                        ..\steamapps\workshop\content\440900\2677532697\TotImmersiveHud.pak
+                        ..\steamapps\workshop\content\440900\2671265327\TotWalk.pak
+                        ..\steamapps\workshop\content\440900\2850232250\TotAdmin.pak
+                        ..\steamapps\workshop\content\440900\2847709656\TotChat.pak
+                        ..\steamapps\workshop\content\440900\2886779102\TotCustom.pak
+                    </p>
+                </div>
+            </div>
+        </div> 
+        
+        <!-- SPACER -->
+        <div style="height: 200px"></div>
+        <!-- /SPACER -->
+    </body>
+</html>
