@@ -228,12 +228,11 @@ a {
 }
 
 .version {
+  background-color: rgba(0, 0, 0, 0.2);
   font-size: 12px;
-  border-radius: 2px;
   display: inline-block;
-  border: 1px solid white;
-  border-radius: 10px;
-  padding: 1px 6px;
+  border-radius: 7px;
+  padding: 0px 6px;
 }
 
 .code {
@@ -360,6 +359,9 @@ a {
 }
 #main h3:hover {
   background: linear-gradient(0deg, #121212, #1a1a1a);
+}
+#main h3 .version {
+  background-color: rgba(255, 255, 255, 0.0666666667);
 }
 #main h4 {
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1882352941);
