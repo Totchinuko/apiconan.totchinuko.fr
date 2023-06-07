@@ -47,7 +47,7 @@
                     <p>Since a recent update of the Devkit, it is easy to pak by mistake API files in your mod. Please do check your file list and uncheck API files if you do not intend to pak them. Side effect of paking those file range from reintroducing bug if your mod is lower in the modlist, crash and other issues.</p>
                     <br class="clear"/>
                 </div>
-                <p><a href="https://cdn.discordapp.com/attachments/1054782906251366401/1088458639234306160/TotAdmin.0.2.0.zip" class="button green"><img src="img/download.png" />Download <span class="version">0.2.0</span></a></p>
+                <p><a href="https://cdn.discordapp.com/attachments/1054782906251366401/1116009853052276767/TotAdmin0.4.0.zip" class="button green"><img src="img/download.png" />Download <span class="version">0.4.0</span></a></p>
             </div>
             <div class="block">
                 <h3>Move Tool Tags</h3>
@@ -63,6 +63,11 @@
                     <span class="path">ModsShared/SudoExile/TotAdmin/Tables/Tot_DT_MapMarkerIconTable</span>
                     <p>
                         You can add new map marker icons with this table. Just need a name and a texture.</p>
+                    
+                    <span class="ueClass table">Tot_DT_InteractionModules <span class="version">0.4.0+</span></span>
+                        <span class="path">ModsShared/SudoExile/TotAdmin/Tables/Tot_DT_InteractionModules</span>
+                        <p>
+                            Add new puppet modules</p>
                 </div>
             </div>
             <div class="block">
@@ -116,23 +121,24 @@
                 </div>
             </div>
             <div class="block">
-                <h3>Creating an Interactive Module <span class="version">0.2.0+</span></h3>
+                <h3>Creating an Interactive Module <span class="version">0.4.0+</span></h3>
                 <div class="block">
                     <p>An interactive module is essentially a role for a puppet. This will be something like "Trader", "Script", "Quest", etc... It is what happen when you interact with a puppet or an interactive target. In this section I will explain how to create a module so that it can be recognized by the UI and receive the import bit of information so you can edit the data on the targeted Actor.</p>
-                    <p>For starter, you want to create two file, an <span class="ueVar">ActorComponent</span> and a <span class="ueVar">UserWidget</span>. The ActorComponent should be added on the <span class="ueVar">Tot_A_Puppet_Base</span> that you can find in the API folder of Tot!Admin, using your <span class="ueVar">ModController</span> for that. Actor component should implement the following Interface that you'll find in the API folder as well.</p>
+                    <p>For starter, you want to create two file, an <span class="ueVar">Actor</span> based on the class <span class="ueVar">Tot_A_InteractionModule</span> and a <span class="ueVar">UserWidget</span>. The Actor simply serv as a trigger, calling the function Interact when someone interact with the puppet, what you do from there is up to you. You'll also need to add a module entry into the datatable <span class="ueVar datatable">Tot_DT_InteractionModules</span></p>
                 </div>
                 <div class="block">
-                    <span class="ueClass interface">Tot_I_InteractionModule</span>
-                    <span class="path">ModsShared/SudoExile/TotAdmin/Tot_I_InteractionModule</span>
+                    <span class="ueClass">Tot_A_InteractionModule</span>
+                    <span class="path">ModsShared/SudoExile/TotAdmin/Types/Tot_A_InteractionModule</span>
 
-                    <span class="ueMethod"><span class="context">Server</span> GetModuleMeta() -> <span class="ueVar name">Key</span>, <span class="ueVar string">Name</span>, <span class="ueVar asset">Icon</span>, <span class="ueVar assetClass">WidgetClass</span></span>
-                    <p>This method give to the system the informations it needs to recognize it. The key must be unique between modules, Name and Icon are your flavor, and the WidgetClass must point to the UserWidget you created for your module.</p>
-
-                    <span class="ueMethod"><span class="context">Server</span> Interact(<span class="ueVar">Character</span>) -> None </span>
-                    <p>This method will be called by the system whenever a player character interact with a puppet that have your module on. This is where you feature logic should happen.</p>
+                    <span class="ueMethod"><span class="context">Server</span> Interact(<span class="ueVar">TargetActor</span>, <span class="ueVar name">ModuleRow</span>, <span class="ueVar">Character</span>) -> None</span>
+                    <p>Triggered when a Puppet is interacted with while your module is on.</p>
+      
                 </div>
                 <div class="block">
-                    <p>Once this interface is implemented, all that remain is to make your feature logic. On the UserWidget side, you'll implement the <span class="ueVar interface">Tot_I_CrossModEvent</span> on it. You can find more detail about CME on the <a href="lib.html">lib</a> page, and lower on this page for the specific events you need. That should cover up all the steps you need to create a module, if you did everything correctly, your module should show up in the list of modules when editing a puppet.</p>
+                    <p>On the UserWidget side, you'll implement the <span class="ueVar interface">Tot_I_CrossModEvent</span> on it. You can find more detail about CME on the <a href="lib.html">lib</a> page, and lower on this page for the specific events you need. That should cover up all the steps you need to create a module, if you did everything correctly, your module should show up in the list of modules when editing a puppet.</p>
+                </div>
+                <div class="block">
+                    <p>The old <span class="ueVar interface">Tot_I_InteractionModule</span> is not used anymore</p>
                 </div>
             </div>
             <div class="block">
