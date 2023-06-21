@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../favicon.ico">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="../main.css" rel="stylesheet">
+        <title>Tot ! Patches</title>
+        <script type="text/javascript" src="../index.js"></script>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <div id="header">
+            <div class="content">
+                <h1>Tot ! Patches</h1>
+            </div>
+        </div>
+        <!-- /HEADER -->
+        
+        <div id="main">
+            <h2>Tot ! Admin 0.5.0 (Alpha)</h2>
+            <div class="block">
+                <div class="block">
+                    <h3>New</h3>
+                    <ul>
+                        <li><span class="version">0.5.0</span> Heatmap Reworked
+                        <ul>
+                            <li>UI Rebuilt - The whole Admin/Heat Map has been rebuilt from scratch, offering an improved usability and additional features.</li>
+                            <li>Grid Map - The heatmap is now displayed as a texture, with pixels on the map showing the constructions and the color indicating the concentration. Instead of a group radius, you get a texture resolution. The lower the resolution, the bigger the groups.</li>
+                            <li>Performance - All the server code has been rewritten to be more performant, with big servers in mind. Tests have been performed on some of the biggest server databases, kindly provided by server admins. This apply to the heatmap deletion and owner swap, but also how the heatmap retrieve the data for display and the /select tool</li>
+                            <li>No Owner - The Admin map can now retrieve and display constructions/thralls whit no owner</li>
+                            <li>Admin Tools - The Admin map now have a dedicated tab to display all the admin tools such as puppets, portals and post processes.</li>
+                        </ul>
+                        </li>
+                        <li><span class="version">0.5.0</span> New Action Modules
+                        <ul>
+                            <li>Warp HUB - Add a bunch of warp to the list, and when the player interact with the puppet, it will display the list of warps with a Map. Good for making caravanes for example.</li>
+                            <li>Warp To - Select a single warp to go to when a player interact with the puppet.</li>
+                        </ul></li>                   
+                        <li><span class="version">0.5.0</span> Widget for finding/selecting a player or a clan was reworked from scratch to be more server friendly. The old one required that the whole list of players/clans to be downloaded in one go. The new one only load one page at a time and split players from clans.</li>
+                        <li><span class="version">0.5.0</span> A new "Customize" button in the Player Editor to directly edit a Tot!Custom skin remotely.</li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <h3>Changes/Improvements</h3>
+                    <ul>
+                        <li><span class="version">0.5.0</span> Hide station thrall has been removed for now, as it was causing more problems than solutions. It will return in the futur</li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <h3>Fixes</h3>
+                    <ul>
+                        <li><span class="version">0.5.0</span> Trader item chance was not working</li>
+                        <li><span class="version">0.5.0</span> An exploit allowed to buy a lot of stuff from the trader while giving very little</li>
+                        <li><span class="version">0.5.0</span> Trade with a player was not possible while the player was in walk mode</li>
+                        <li><span class="version">0.5.0</span> Interacting with a basic NPC was opening its window on the first player connected</li>
+                        <li><span class="version">0.5.0</span> Puppet vanilla customization was not working properly with modded hairs</li>
+                        <li><span class="version">0.5.0</span> Some items spawn triggered an unknown error with Kits and Puppet Traders</li>
+                        <li><span class="version">0.5.0</span> Prevent Price overflow with puppet and NPC traders</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div> 
+        
+        <!-- SPACER -->
+        <div style="height: 200px"></div>
+        <!-- /SPACER -->
+    </body>
+</html>
