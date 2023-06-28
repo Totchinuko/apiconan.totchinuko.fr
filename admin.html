@@ -47,7 +47,7 @@
                     <p>Since a recent update of the Devkit, it is easy to pak by mistake API files in your mod. Please do check your file list and uncheck API files if you do not intend to pak them. Side effect of paking those file range from reintroducing bug if your mod is lower in the modlist, crash and other issues.</p>
                     <br class="clear"/>
                 </div>
-                <p><a href="https://cdn.discordapp.com/attachments/1054782906251366401/1116009853052276767/TotAdmin0.4.0.zip" class="button green"><img src="img/download.png" />Download <span class="version">0.4.0</span></a></p>
+                <p><a href="https://cdn.discordapp.com/attachments/1054782906251366401/1123610788242935838/TotAdmin.0.5.1.zip" class="button green"><img src="img/download.png" />Download <span class="version">0.5.1</span></a></p>
             </div>
             <div class="block">
                 <h3>Move Tool Tags</h3>
@@ -121,7 +121,7 @@
                 </div>
             </div>
             <div class="block">
-                <h3>Creating an Action Module <span class="version">0.4.1+</span></h3>
+                <h3>Creating an Action Module <span class="version">0.5.1+</span></h3>
                 <div class="block">
                     <p>An action module is essentially a task for an actor event. This will be something like "Start trading", "Execute a script", "Warp there", etc... It is what happen when you trigger a configured event from an actor, like "Interacting with a puppet" or "Entering a zone". In this section I will explain how to create a module.</p>
                     <p>For starter, you want to create two file, an <span class="ueVar">Actor</span> based on the class <span class="ueVar">Tot_A_InteractionModule</span> and a <span class="ueVar">UserWidget</span> that implement the interface <span class="ueVar interface">Tot_I_ActionModuleGUI</span>. The Actor simply serv as a trigger, calling the function Interact when someone interact with the puppet, what you do from there is up to you. You'll also need to add a module entry into the datatable <span class="ueVar datatable">Tot_DT_InteractionModules</span></p>
