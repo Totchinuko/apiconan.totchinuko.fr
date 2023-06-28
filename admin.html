@@ -121,10 +121,10 @@
                 </div>
             </div>
             <div class="block">
-                <h3>Creating an Interactive Module <span class="version">0.4.0+</span></h3>
+                <h3>Creating an Action Module <span class="version">0.4.1+</span></h3>
                 <div class="block">
-                    <p>An interactive module is essentially a role for a puppet. This will be something like "Trader", "Script", "Quest", etc... It is what happen when you interact with a puppet or an interactive target. In this section I will explain how to create a module so that it can be recognized by the UI and receive the import bit of information so you can edit the data on the targeted Actor.</p>
-                    <p>For starter, you want to create two file, an <span class="ueVar">Actor</span> based on the class <span class="ueVar">Tot_A_InteractionModule</span> and a <span class="ueVar">UserWidget</span>. The Actor simply serv as a trigger, calling the function Interact when someone interact with the puppet, what you do from there is up to you. You'll also need to add a module entry into the datatable <span class="ueVar datatable">Tot_DT_InteractionModules</span></p>
+                    <p>An action module is essentially a task for an actor event. This will be something like "Start trading", "Execute a script", "Warp there", etc... It is what happen when you trigger a configured event from an actor, like "Interacting with a puppet" or "Entering a zone". In this section I will explain how to create a module.</p>
+                    <p>For starter, you want to create two file, an <span class="ueVar">Actor</span> based on the class <span class="ueVar">Tot_A_InteractionModule</span> and a <span class="ueVar">UserWidget</span> that implement the interface <span class="ueVar interface">Tot_I_ActionModuleGUI</span>. The Actor simply serv as a trigger, calling the function Interact when someone interact with the puppet, what you do from there is up to you. You'll also need to add a module entry into the datatable <span class="ueVar datatable">Tot_DT_InteractionModules</span></p>
                 </div>
                 <div class="block">
                     <span class="ueClass">Tot_A_InteractionModule</span>
@@ -135,10 +135,20 @@
       
                 </div>
                 <div class="block">
-                    <p>On the UserWidget side, you'll implement the <span class="ueVar interface">Tot_I_CrossModEvent</span> on it. You can find more detail about CME on the <a href="lib.html">lib</a> page, and lower on this page for the specific events you need. That should cover up all the steps you need to create a module, if you did everything correctly, your module should show up in the list of modules when editing a puppet.</p>
+                    <p>On the UserWidget side, you'll implement the <span class="ueVar interface">Tot_I_ActionModuleGUI</span> on it.</p>
                 </div>
                 <div class="block">
-                    <p>The old <span class="ueVar interface">Tot_I_InteractionModule</span> is not used anymore</p>
+                    <span class="ueClass">Tot_I_ActionModuleGUI</span>
+                    <span class="path">ModsShared/SudoExile/TotAdmin/Tot_I_ActionModuleGUI</span>
+
+                    <span class="ueMethod"><span class="context">Client</span> SetData(<span class="ueVar name">EventAction</span>, <span class="ueVar string">Data</span>) -> None</span>
+                    <p>When the user open the widget, this is called to give you the EventAction type and your stored data. The EventAction is essentially the event id that your module is tied to. Data is serialized, so you'll have to serialize/deserialize yourself.</p>
+                    <span class="ueMethod"><span class="context">Client</span> GetData() -> <span class="ueVar string">Data</span></span>
+                    <p>When the user hit save, this will be called to retrieve the data and save it on the server. Data is serialized, so you'll have to serialize/deserialize yourself.</p>
+      
+                </div>
+                <div class="block">
+                    <p>That should cover up all the steps you need to create a module, if you did everything correctly, your module should show up in the list of modules when editing a puppet.</p>
                 </div>
             </div>
             <div class="block">
@@ -155,14 +165,6 @@
                     <span class="ueMethod"><span class="context">Server</span><span class="ueVar name">TotPuppetDeincarnate</span>, <span class="ueVar string">Data[]</span>, <span class="ueVar">Context[Player(BasePlayerChar)]</span></span>
                     <p>Raised on <span class="ueVar">PuppetActor</span></p>
                     <p>Raised when a player is no longuer a given puppet. Puppet is made visible again and take the previous spot of the player.</p>
-                    
-                    <span class="ueMethod"><span class="context">Client</span><span class="ueVar name">TotModuleStart</span>, <span class="ueVar string">Data[UID]</span>, <span class="ueVar">Context[]</span></span>
-                    <p>Raised on <span class="ueVar">UserWidget</span></p>
-                    <p>Raised after a user widget was created to configure a puppet module. You'll have to recover the module data yourself, the event will give you the UID of the puppet so you can find the Actor on server side and RPC your data back to your piece of UI.</p>
-
-                    <span class="ueMethod"><span class="context">Client</span><span class="ueVar name">TotModuleSave</span>, <span class="ueVar string">Data[UID]</span>, <span class="ueVar">Context[]</span></span>
-                    <p>Raised on <span class="ueVar">UserWidget</span></p>
-                    <p>Raised when the user hit the save button on a puppet editor window. This is to let your module widget save the data to the component on server side.</p>
                 </div>
             </div>
         </div> 
