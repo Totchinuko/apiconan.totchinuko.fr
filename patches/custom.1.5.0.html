@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../favicon.ico">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="../main.css" rel="stylesheet">
+        <title>Tot ! Patches</title>
+        <script type="text/javascript" src="../index.js"></script>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <div id="header">
+            <div class="content">
+                <h1>Tot ! Patches</h1>
+            </div>
+        </div>
+        <!-- /HEADER -->
+        
+        <div id="main">
+            <h2>Tot ! Custom 1.5.0</h2>
+            <div class="block">
+                <div class="block">
+                    <h3>New</h3>
+                    <ul>
+                        <li><span class="version">1.5.0</span> Icon Preview - Custom now benefit from an Icon Generator system, generating preview for various body parameters such as haircut, warpaint, etc.. And is also used for various new features.</li>
+                        <li><span class="version">1.5.0</span> Presets - A new Preset tab has been added to favorites, allowing you save various aspect of your current character, to quickly reaply it later. It can be a simple outfit or a complete character.</li>
+                        <li><span class="version">1.5.0</span> Unlocking overall - When item unlocking is active on the server, a new Unlock panel has been added to the base screen of custom, instead of going in the item list to unlock items.</li>
+                        <li><span class="version">1.5.0</span> Tag Search - In the item selection window, you can now filter items by tags.</li>
+                        <li><span class="version">1.5.0</span> Hairs/Beards as accessories - You can now equip additional haircuts or beards using the accessory system and overlap them</li>
+                        <li><span class="version">1.5.0</span> Accessory Soft Cap - A soft limit has been to the item rules section, regarding max accessory count. The limit is a soft one, as it only happen when the panel is open, and leave you with 60 seconds to remove some to get under the limit. Leaving the panel enforce the limit immediatly. Activating the item ignore rule admin flag allow you to ignore the limitation.</li>
+                        <li><span class="version">1.5.0</span> A new slider allowing to decrease/increase facial details</li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <h3>Changes/Improvements</h3>
+                    <ul>
+                        <li><span class="version">1.5.0</span> The beard configured in the body section is now added to the character using an internal accessory from Custom, instead of using Funcom internal beard management. This avoid issues with modded heads not working well with beards. Keep in mind that modded heads are not necessarly well suited for the beards and clipping may occure. Additionally, the beard section now allow to choose a variation, to find one that fit best the current face.</li>
+                        <li><span class="version">1.5.0</span> Body data has been modified to consume less memory and be easier to replicate on the network. A script has been made to upgrade your character and your saved profiles up to the new format. The script will also make a backup of your saved bodies in case the update would fail for whatever reason. Finally, old exported bodies will still be compatible to reimport, but newly exported skins will use the new format.</li>
+                        <li><span class="version">1.5.0</span> Hide accessories when using the invisibility spell</li>
+                        <li><span class="version">1.5.0</span> Ignore item rules is now an admin flag with a shortcut button on the main screen of Custom panel</li>
+                        <li><span class="version">1.5.0</span> Increasing the zoom distance while in custom panel</li>
+                        <li><span class="version">1.5.0</span> Deincarnating a puppet to be invisible or incarnating another now update the puppet with your current skin for consistency</li>
+                        <li><span class="version">1.5.0</span> Copying a skin now display a selection of parts to copy, so you can copy just the armor for example</li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <h3>Bug Fixes</h3>
+                    <ul>
+                        <li><span class="version">1.5.0</span> Lock the breast and butt physics to the original default min/max slider values, and remove their customization. This was know to provock serious issues if values outside of their boudarie were used.</li>
+                        <li><span class="version">1.5.0</span> It was possible to use DLC Warpaints when the user did not own them</li>
+                        <li><span class="version">1.5.0</span> It was possible to equip locked items in some situations</li>
+                        <li><span class="version">1.5.0</span> More polish on the flag chest</li>
+                        <li><span class="version">1.5.0</span> Unlocking an item should now properly refresh preset lock status</li>
+                        <li><span class="version">1.5.0</span> Male Mannequin and male armor stand had pubes... ...</li>
+                        <li><span class="version">1.5.0</span> Some movable items had missing textures</li>
+                        <li><span class="version">1.5.0</span> Adding item range in item rules was not working for armor pieces and weapons</li>
+                        <li><span class="version">1.5.0</span> While no weapon is equipped hiding rule was not working properly</li>
+                        <li><span class="version">1.5.0</span> Equipping an armor piece sharing the same ID as your transmog in the same slot would break transmog colors</li>
+                        <li><span class="version">1.5.0</span> Mouse was replaced with a skin shader displaying warpaint and hair scalp on teeth</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div> 
+        
+        <!-- SPACER -->
+        <div style="height: 200px"></div>
+        <!-- /SPACER -->
+    </body>
+</html>
