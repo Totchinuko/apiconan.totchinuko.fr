@@ -52,6 +52,15 @@
                     
                     <h4 class="ueClass table">Start Dedicated with log window</h4>
                     <p>Add <span class="ueVar">-log</span> in the arguments</p>
+                    <h4 class="ueClass table">Improve texture loading</h4>
+                    <p>This will consume more GPU memory, but if you have enough, this can improve blured textures in heavily moded game and/or heavily decorated aread.</p>
+                    <p><span class="path">..\Conan Exiles\ConanSandbox\Config\DefaultScalability.ini</span></p>
+                    <p class="code">[TextureQuality@3]
+                        r.Streaming.MipBias=0
+                        r.MaxAnisotropy=16
+                        r.Streaming.PoolSize=2500</p>
+                    <p>Texture Quality 3 refer to Ultra Setting. By default MaxAnisotropy is 8, and PoolSize is 1500, on Ultra. MaxAnisotropy is for texture filtering at angles, but what is mostly interesting is the PoolSize. Increasing pool size, should increase the amount of memory used by the engine to swap textures that are needed at a given time. Early tests did improve texture loading in heavy decorated environment for me, and had a noticeable impact on my Dedicated GPU memory consumption.</p>
+                    <p>I suppose one could increase it even more, but it really depends on how much memory you have to spare. Do keep in mind that GPU accelerated apps like your browser, Discord, or even steam, consume some amount of GPU memory. Most of those apps consumption can be removed by turning off hardware acceleration, but it can be at the expense of performance (If your CPU can take the load, its not always true).</p>
                 </div>
                 <div class="block">
                     <h3>My Mods In General</h3>
