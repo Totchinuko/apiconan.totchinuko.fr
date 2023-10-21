@@ -1,5 +1,5 @@
 # Tot ! Mods - API Resources
-Welcome the my Conan Exile mod resources. You'll find all the documentation regarding the APIs of my mods on Conan Exile. If you need help, I suggest you hop on my [Discord server](https://discord.gg/fTaxD9SNS9) to ask question and explain your problems.
+Welcome to my Conan Exile mod resources. You'll find all the documentation regarding the APIs of my mods on Conan Exile. If you need help, I suggest you hop on my [Discord server](https://discord.gg/fTaxD9SNS9) to ask question and explain your problems.
 
 ## Common pitfall since 3.1
 <img style="float: left;max-width:200px;margin:10px;" src="img/screenshot/UE4Editor_1675034735.png" />
