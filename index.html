@@ -1,52 +1,35 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="icon" href="./favicon.ico">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <meta name="description" content="Conan Exile API for Tot ! Mods">
-        <link href="main.css" rel="stylesheet">
-        <title>API Conan - Totchinuko</title>
-        <script type="text/javascript" src="index.js"></script>
-    </head>
-    <body>
-        <!-- HEADER -->
-        <div id="header">
-            <div class="content">
-                <h1>Tot ! Conan API</h1>
-            </div>
-        </div>
-        <nav id="menu">
-            <a id="mobilemenu" class="button"><img src="img/menu.png" /></a>
-            <div id="mainmenu">
-                <a href="index.html" class="button"><img src="img/blue.png" /><span>Home</span></a>
-                <a href="chat.html" class="button"><img src="img/green.png" /><span>Tot ! Chat</span></a>
-                <a href="custom.html" class="button"><img src="img/yellow.png" /><span>Tot ! Custom</span></a>
-                <a href="ihud.html" class="button"><img src="img/yellow.png" /><span>Tot ! iHud</span></a>
-                <a href="admin.html" class="button"><img src="img/red.png" /><span>Tot ! Admin</span></a>
-                <a href="lib.html" class="button"><img src="img/blue.png" /><span>Tot ! Lib</span></a>
-                <a href="https://discord.gg/fTaxD9SNS9" class="button"><img src="img/discord.png" /><span>Discord</span></a>
-            </div>
-        </nav>
-        <!-- /HEADER -->
-        
-        <div id="main">
-            <h2>API Resources</h2>
-            <div class="block">
-                <p>
-                    Welcome the my Conan Exile mod API resources. You'll find all the documentation regarding the APIs of my mods on Conan Exile. If you need help, I suggest you hop on my <a href="https://discord.gg/fTaxD9SNS9">Discord server</a> to ask question and explain your problems.
-                </p>
-            </div>
-            <div class="block">
-                <span class="smalltitle warning">Common pitfall since 3.1</span>
-                <img src="img/screenshot/UE4Editor_1675034735.png" class="screenshot" /> 
-                <p>Since a recent update of the Devkit, it is easy to pak by mistake API files in your mod. Please do check your file list and uncheck API files if you do not intend to pak them. Side effect of paking those file range from reintroducing bug if your mod is lower in the modlist, crash and other issues.</p>
-                <br class="clear"/>
-            </div>
-        </div> 
-        
-        <!-- SPACER -->
-        <div style="height: 200px"></div>
-        <!-- /SPACER -->
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <style>
+    :root {
+      --theme-color   : #aa4444;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      search: 'auto',
+      loadSidebar: true,
+      coverpage: true,
+      name: 'Tot ! Mods',
+      repo: ''
+  }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+</body>
 </html>
