@@ -58,7 +58,7 @@ You'll need to enable the logger ingame, in your settings window. The URL for th
 ## Roleplay Redux API Download
 
 !> **Install instructions**\
-1- Extract this into `...\ConanExilesDevKit\Games\ConanSandbox\Content\Systems\`, the end result should be `..\ConanExilesDevKit\Games\ConanSandbox\Content\Systems\RoleplayRedux\I_RP_DiceComponent.uasset`
+1- Extract this into `...\ConanExilesDevKit\Games\ConanSandbox\Content\Systems\`, the end result should be `..\ConanExilesDevKit\Games\ConanSandbox\Content\Systems\RoleplayRedux\I_RP_DiceComponent.uasset`  
 2- Do not modify any of the files in there  
 3- Do not put these files in your mod content folder and do not select them in the modfile list  
 If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
@@ -498,7 +498,7 @@ void
 ### Download API
 
 !> **Install instructions**\
-1- Extract this into `...\ConanExilesDevKit\Games\ConanSandbox\Content\Systems\`
+1- Extract this into `...\ConanExilesDevKit\Games\ConanSandbox\Content\Systems\`  
 2- Do not modify any of the files in there  
 3- Do not put these files in your mod content folder and do not select them in the modfile list  
 If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
