@@ -8,12 +8,12 @@
 3- Do not put these files in your mod content folder and do not select them in the modfile list  
 If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
 
-**Download API**: [Tot!Custom 1.4.4](https://cdn.discordapp.com/attachments/1054782906251366401/1121809431324274818/TotCustom.1.4.4.zip) 
+**Download API**: [Tot!Custom 1.4.4](/API/TotCustom.1.4.4.zip ':ignore') 
 
 ## Internal Data Tables<
 ### Tot_DT_CustomFieldTable
 In this file, you'll find all the parameters that exists in Custom for the body editing, so you can better use the body API. It includes names, ranges, default values, etc... A few special ones in there like the eye copy buttons are obvious not tied to any body data.   
-[Download Data](https://cdn.discordapp.com/attachments/1054782906251366401/1094958660729454723/Tot_DT_CustomFieldTable.json)
+[Download Data](/API/Tot_DT_CustomFieldTable.json ':ignore')
 
 ## Data tables
 ### Tot_DT_AttachmentBlueprints

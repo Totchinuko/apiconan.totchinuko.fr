@@ -11,12 +11,12 @@
 3- Do not put these files in your mod content folder and do not select them in the modfile list  
 If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
 
-**Download API**: [Tot!Chat 1.2.0](https://cdn.discordapp.com/attachments/1054782906251366401/1082410577944662197/TotChat1.2.0.zip)
+**Download API**: [Tot!Chat 1.2.0](/API/TotChat1.2.0.zip ':ignore')
 
 ## Internal Data Tables
 ### Tot_DT_ChatCommandTable
 This is the list of commands of Tot ! Chat as they are in its own datatable. One could use that to override some of them.  
-[Download](https://cdn.discordapp.com/attachments/1054782906251366401/1069572429694906408/TotChatCommandTable.json)
+[Download](/API/TotChatCommandTable.json ':ignore')
 
 ### Main Interface Components
 #### Tot_I_ChatCompanion

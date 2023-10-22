@@ -33,7 +33,7 @@ void
 > 1- Extract this into `ConanExilesDevKit\Games\ConanSandbox\Content\ModsShared\`
 > **2- Do not modify any of the files in there**
 
-**Download**: [CrossModEvents](https://cdn.discordapp.com/attachments/1054782906251366401/1069751074690441236/CrossModEvents.zip)
+**Download**: [CrossModEvents](/API/Lib.CrossModEvents.zip ':ignore')
 
 ## Math Solver <small>Not Released</small>
 ### Tot_C_VariableHolder

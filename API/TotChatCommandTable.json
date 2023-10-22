@@ -1,0 +1,244 @@
+[
+	{
+		"RowName": "me",
+		"Command": "me",
+		"SubCommand": "None",
+		"Description": "write an emote starting with your name",
+		"TypingSignal": true,
+		"PermissionKey": "None",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_Me.Tot_C_ChatCommand_Me_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": [
+			"emote"
+		]
+	},
+	{
+		"RowName": "do",
+		"Command": "do",
+		"SubCommand": "None",
+		"Description": "write an amote finishing with your name",
+		"TypingSignal": true,
+		"PermissionKey": "None",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_Do.Tot_C_ChatCommand_Do_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": [
+			"emote"
+		]
+	},
+	{
+		"RowName": "tell",
+		"Command": "tell",
+		"SubCommand": "None",
+		"Description": "write an emote without inserting your name",
+		"TypingSignal": true,
+		"PermissionKey": "TOT_CHAT_TELL",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_Tell.Tot_C_ChatCommand_Tell_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": [
+			"emote"
+		]
+	},
+	{
+		"RowName": "act",
+		"Command": "act",
+		"SubCommand": "None",
+		"Description": "change your name in chat. Leave name empty to get your original name back.",
+		"TypingSignal": false,
+		"PermissionKey": "CHAT_ACT",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_Act.Tot_C_ChatCommand_Act_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": [
+			"name"
+		]
+	},
+	{
+		"RowName": "alert",
+		"Command": "alert",
+		"SubCommand": "None",
+		"Description": "write an alert that will be displayed in the current channel to all players, even in local",
+		"TypingSignal": false,
+		"PermissionKey": "TOT_CHAT_MODERATOR",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_Alert.Tot_C_ChatCommand_Alert_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": [
+			"message"
+		]
+	},
+	{
+		"RowName": "notify",
+		"Command": "notify",
+		"SubCommand": "None",
+		"Description": "write a notification to a specific player in his local channel",
+		"TypingSignal": false,
+		"PermissionKey": "TOT_CHAT_MODERATOR",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_Notify.Tot_C_ChatCommand_Notify_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": [
+			"message"
+		]
+	},
+	{
+		"RowName": "irp",
+		"Command": "irp",
+		"SubCommand": "None",
+		"Description": "Toggle IRP features on a custom or private channel.",
+		"TypingSignal": false,
+		"PermissionKey": "TOT_CHAT_IRP_USE",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_IRP.Tot_C_ChatCommand_IRP_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": []
+	},
+	{
+		"RowName": "channel",
+		"Command": "channel",
+		"SubCommand": "None",
+		"Description": "Create a private channel with another player",
+		"TypingSignal": false,
+		"PermissionKey": "TOT_CHAT_PM",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_Channel.Tot_C_ChatCommand_Channel_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": [
+			"player name"
+		]
+	},
+	{
+		"RowName": "channel_create",
+		"Command": "channel",
+		"SubCommand": "create",
+		"Description": "Create a custom channel where people can join if they have the password (optional)",
+		"TypingSignal": false,
+		"PermissionKey": "TOT_CHAT_CUSTOM",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_ChannelCreate.Tot_C_ChatCommand_ChannelCreate_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": [
+			"name",
+			"password"
+		]
+	},
+	{
+		"RowName": "channel_join",
+		"Command": "channel",
+		"SubCommand": "join",
+		"Description": "Join a custom channel",
+		"TypingSignal": false,
+		"PermissionKey": "None",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_ChannelJoin.Tot_C_ChatCommand_ChannelJoin_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": [
+			"channel name",
+			"password"
+		]
+	},
+	{
+		"RowName": "channel_list",
+		"Command": "channel",
+		"SubCommand": "list",
+		"Description": "List all the existing custom channels",
+		"TypingSignal": false,
+		"PermissionKey": "None",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_ChannelList.Tot_C_ChatCommand_ChannelList_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": []
+	},
+	{
+		"RowName": "channel_delete",
+		"Command": "channel",
+		"SubCommand": "delete",
+		"Description": "Delete a custom channel, kicking every players out of it",
+		"TypingSignal": false,
+		"PermissionKey": "TOT_CHAT_MODERATOR",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_ChannelDelete.Tot_C_ChatCommand_ChannelDelete_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": [
+			"channel name"
+		]
+	},
+	{
+		"RowName": "channel_ban",
+		"Command": "channel",
+		"SubCommand": "ban",
+		"Description": "Ban a player from a custom channel",
+		"TypingSignal": false,
+		"PermissionKey": "TOT_CHAT_MODERATOR",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_ChannelBan.Tot_C_ChatCommand_ChannelBan_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": [
+			"channel name",
+			"player name"
+		]
+	},
+	{
+		"RowName": "help",
+		"Command": "help",
+		"SubCommand": "None",
+		"Description": "list all available commands",
+		"TypingSignal": false,
+		"PermissionKey": "None",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_Help.Tot_C_ChatCommand_Help_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": []
+	},
+	{
+		"RowName": "link",
+		"Command": "link",
+		"SubCommand": "None",
+		"Description": "link to another local chat entity to listen and post through it.",
+		"TypingSignal": false,
+		"PermissionKey": "TOT_CHAT_LINK",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_Link.Tot_C_ChatCommand_Link_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": [
+			"target name"
+		]
+	},
+	{
+		"RowName": "link_thrall",
+		"Command": "link",
+		"SubCommand": "thrall",
+		"Description": "Open a new Local channel in the eyes and ears of a given thrall so you can make it talk.",
+		"TypingSignal": false,
+		"PermissionKey": "TOT_CHAT_LINKTHRALL",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_LinkThrall.Tot_C_ChatCommand_LinkThrall_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": [
+			"Thrall Name"
+		]
+	},
+	{
+		"RowName": "silence",
+		"Command": "silence",
+		"SubCommand": "None",
+		"Description": "Mute server wide the targeted player",
+		"TypingSignal": false,
+		"PermissionKey": "TOT_CHAT_MODERATOR",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_Silence.Tot_C_ChatCommand_Silence_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": [
+			"player name"
+		]
+	},
+	{
+		"RowName": "mute",
+		"Command": "mute",
+		"SubCommand": "None",
+		"Description": "mute a specific character",
+		"TypingSignal": false,
+		"PermissionKey": "None",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_Mute.Tot_C_ChatCommand_Mute_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": [
+			"player name"
+		]
+	},
+	{
+		"RowName": "translator",
+		"Command": "translator",
+		"SubCommand": "None",
+		"Description": "Toggle the ability to translate any language perfectly, even without knowing them.",
+		"TypingSignal": false,
+		"PermissionKey": "TOT_CHAT_TRANSLATOR",
+		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_Translator.Tot_C_ChatCommand_Translator_C'",
+		"ActorComponent": "None",
+		"HelpArgumentNames": []
+	}
+]

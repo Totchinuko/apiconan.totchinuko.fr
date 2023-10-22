@@ -7,7 +7,7 @@
 3- Do not put these files in your mod content folder and do not select them in the modfile list  
 If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
 
-**Download API**: [Tot!Admin 0.5.1](https://cdn.discordapp.com/attachments/1054782906251366401/1123610788242935838/TotAdmin.0.5.1.zip)
+**Download API**: [Tot!Admin 0.5.1](/API/TotAdmin.0.5.1.zip ':ignore')
 
 ## Move Tool Tags
 Adding the following tags to a placeable actor tags will have the given effect on the move tool.

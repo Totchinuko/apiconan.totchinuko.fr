@@ -1,0 +1,6687 @@
+[
+	{
+		"RowName": "Gender",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"5CCE7BE04C03C05BBA535EB147762ACB\", \"Gender\")",
+		"UIGroup": "Character",
+		"ModRequirement": "",
+		"Type": "Toggle",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": true,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "RemoveBracelet",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"6A8695D54374401177F6C4AFA3D6A06B\", \"Remove Bracelet\")",
+		"UIGroup": "Character",
+		"ModRequirement": "",
+		"Type": "Toggle",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "CharacterGod",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"955DE3224F6340C65450ED90F9194803\", \"God\")",
+		"UIGroup": "Character",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_Religion_Enumerable.Tot_C_Religion_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BodySkin",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"D3C71C3B430FB07A2D40F4875BBC82E8\", \"Body Skin\")",
+		"UIGroup": "Body",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_SkinAsset_Enumerable.Tot_C_SkinAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "SkinColor",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"ACAD53504401A15903717B91E87B58A3\", \"Skin Color\")",
+		"UIGroup": "Body",
+		"ModRequirement": "",
+		"Type": "Color",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "WidgetBlueprintGeneratedClass'/Game/Mods/TotCustom/UI/ColorPicker/Tot_W_SampleColorPicker_SkinColors.Tot_W_SampleColorPicker_SkinColors_C'",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0.95999997854232788,
+				"G": 0.59152001142501831,
+				"B": 0.50880002975463867,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "PalmSkinColor",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"F4AA032442DB51311B2AAFA209F3ABEB\", \"Palm Color\")",
+		"UIGroup": "Body",
+		"ModRequirement": "1542041983",
+		"Type": "Color",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "WidgetBlueprintGeneratedClass'/Game/Mods/TotCustom/UI/ColorPicker/Tot_W_SampleColorPicker_SkinColors.Tot_W_SampleColorPicker_SkinColors_C'",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0.95999997854232788,
+				"G": 0.59152001142501831,
+				"B": 0.50880002975463867,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "SkinShine",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"09F54F0B408422CF5C79E7B621B88ADF\", \"Skin Shine\")",
+		"UIGroup": "Body",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BodyHairs",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"396FCDB446583F91A17C12A6E72C1E84\", \"Body Hair\")",
+		"UIGroup": "Body",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_BodyHairAsset_Enumerable.Tot_C_BodyHairAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 1,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BodyHairColor",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"69C4238A4985FCBF31013CB5FAD91B09\", \"Body Hair Color\")",
+		"UIGroup": "Body",
+		"ModRequirement": "",
+		"Type": "Color",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "WidgetBlueprintGeneratedClass'/Game/Mods/TotCustom/UI/ColorPicker/Tot_W_SampleColorPicker_BodyHairColors.Tot_W_SampleColorPicker_BodyHairColors_C'",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "Corruption",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"0641E467461F7543A4541DA2FDE35580\", \"Corruption\")",
+		"UIGroup": "Body",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "CorruptionNormal",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"AE85408243A0AF1E8A10CB8B71A2EEFB\", \"Corruption Wrinkles\")",
+		"UIGroup": "Body",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BodyNormal",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"7B1B993E4BDAB5F7B8E4DAA2905A4A99\", \"Body Muscles\")",
+		"UIGroup": "Body",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_NormalAsset_Enumerable.Tot_C_NormalAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Muscle",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"09316EAB436C881738A884BB3BD6EC0C\", \"Muscle Mass\")",
+		"UIGroup": "Body",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Height",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"18F26F9546B862CFFA51899B8DC7A9D3\", \"Height (cm)\")",
+		"UIGroup": "Body",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 140,
+			"Y": 240
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 180,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BloodColor",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"324992DD4FE8396AD7E7ADAC58DCF6BB\", \"Blood Color\")",
+		"UIGroup": "Body",
+		"ModRequirement": "",
+		"Type": "Color",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0.1550000011920929,
+				"G": 0,
+				"B": 0.0014659999869763851,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "BloodAmount",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"7BCAF9A3444EC3033ECC14B39C117E0C\", \"Blood Spill\")",
+		"UIGroup": "Body",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Head",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"0C45CFDE458E8231575F57B0003E4485\", \"Head\")",
+		"UIGroup": "Head",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_HeadAsset_Enumerable.Tot_C_HeadAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "HeadSize",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"0F19113045425FE410B537ACCA47AA65\", \"Size\")",
+		"UIGroup": "Head",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "HeadShape",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"B64EAA834F35843B540F539EF1C96CAF\", \"Shape (Width/Depth)\")",
+		"UIGroup": "Head",
+		"ModRequirement": "",
+		"Type": "2DAxis",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Neck",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"5FA731F241A67ED18811C6B3C3BF40E7\", \"Neck (Width/Depth)\")",
+		"UIGroup": "Head",
+		"ModRequirement": "",
+		"Type": "2DAxis",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "NeckLength",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"ED62F29C4E20E53A9EFC258A322BE228\", \"Neck Length\")",
+		"UIGroup": "Head",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "AltHairShader",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"25B73CCE480325BC90BC37817D265AA6\", \"Alt Shader\")",
+		"UIGroup": "Hairs",
+		"ModRequirement": "",
+		"Type": "Toggle",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Hairs",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"5975491D4F9C01FA74F675AF9C375E89\", \"Hair cut\")",
+		"UIGroup": "Hairs",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_HairAsset_Enumerable.Tot_C_HairAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "HairShine",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"5323AA5740AD74AC97EF7589F14F3E6B\", \"Shine\")",
+		"UIGroup": "Hairs",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0.69999998807907104,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "HairShineIntensity",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"87A7EFFD47C23F9ECBB9018B6467EFFA\", \"Shine Intensity\")",
+		"UIGroup": "Hairs",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "HairNormalStrength",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"2EDBE17449CE85AFD1A394AEE5C540E4\", \"Details (Alt)\")",
+		"UIGroup": "Hairs",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": true,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 1,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Hairline",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"3ABC8F6348AF4452DE965FA095B03323\", \"Hairline\")",
+		"UIGroup": "Hairs",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_HairlineAsset_Enumerable.Tot_C_HairlineAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "HairColor",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"3918FB33448C635D50AC5486A0F54119\", \"Hair Color\")",
+		"UIGroup": "Hairs",
+		"ModRequirement": "",
+		"Type": "Color",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "WidgetBlueprintGeneratedClass'/Game/Mods/TotCustom/UI/ColorPicker/Tot_W_SampleColorPicker_HairColors.Tot_W_SampleColorPicker_HairColors_C'",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "HairSecondColor",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"EDDF82B94395115DD89C1C98C82007C2\", \"Hair Second Color\")",
+		"UIGroup": "Hairs",
+		"ModRequirement": "",
+		"Type": "Color",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "WidgetBlueprintGeneratedClass'/Game/Mods/TotCustom/UI/ColorPicker/Tot_W_SampleColorPicker_HairColors.Tot_W_SampleColorPicker_HairColors_C'",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "HairGradientTarget",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"88680C3649861445B3494F8825A5599B\", \"Strand Gradient\")",
+		"UIGroup": "Hairs",
+		"ModRequirement": "",
+		"Type": "Toggle",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "HairGradientPos",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"2808FAD44880D1B048E61C82F07AF88E\", \"Hair Gradient Position\")",
+		"UIGroup": "Hairs",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "HairGradientSize",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"5D429AD2499D4341A21CA789CBB1F684\", \"Hair Gradient Size\")",
+		"UIGroup": "Hairs",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 1,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "AccessoryGradientPos",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"740771BC4858D8C988479C862B2FD3C3\", \"Accessory Gradient Pos\")",
+		"UIGroup": "Hairs",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "AccessoryGradientSize",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"EEB85858495424E355AEE8AF6E27A5EA\", \"Accessory Gradient Size\")",
+		"UIGroup": "Hairs",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 1,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "FacialHairs",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"4803D4324A55B865F071B3ACE5AE8EE6\", \"Facial Hair\")",
+		"UIGroup": "Facial Hairs",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_FacialHair_Enumerable.Tot_C_FacialHair_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "FacialHairline",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"5451F9FE4E6D286D8FFE3FA24B67A1B7\", \"Facial Hairline\")",
+		"UIGroup": "Facial Hairs",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_FacialHairline_Enumerable.Tot_C_FacialHairline_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "FacialHairColor",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"6F54969E45F8264351BEE2921966D1B8\", \"Facial Hair Color\")",
+		"UIGroup": "Facial Hairs",
+		"ModRequirement": "",
+		"Type": "Color",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "WidgetBlueprintGeneratedClass'/Game/Mods/TotCustom/UI/ColorPicker/Tot_W_SampleColorPicker_FacialHairsColors.Tot_W_SampleColorPicker_FacialHairsColors_C'",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "CompletionHead",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"C524C52B41F614B937C1CBB3136A0191\", \"Head\")",
+		"UIGroup": "Skin Complexion",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_CompletionHeadAsset_Enumerable.Tot_C_CompletionHeadAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "CompletionHeadOpacity",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"D30A78074F4C559E99A0F981FE503888\", \"Head Opacity\")",
+		"UIGroup": "Skin Complexion",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 1,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "CompletionBody",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"FCB6EF1542571432E94C938C19EE9B1C\", \"Body\")",
+		"UIGroup": "Skin Complexion",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_CompletionBodyAsset_Enumerable.Tot_C_CompletionBodyAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "CompletionBodyOpacity",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"9E751C98445BEEE134D75696ADBE4413\", \"Body Opacity\")",
+		"UIGroup": "Skin Complexion",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 1,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "CompletionHands",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"C5A183CA4BD968A3DAA46A9376F0D74E\", \"Hands\")",
+		"UIGroup": "Skin Complexion",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_CompletionHandsAsset_Enumerable.Tot_C_CompletionHandsAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "CompletionHandsOpacity",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"32EA0E2B4849B017AC5273B78107AE71\", \"Hands Opacity\")",
+		"UIGroup": "Skin Complexion",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 1,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Wrinkles",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"DB17F45D4F106C932AD8389646E0914A\", \"Wrinkles\")",
+		"UIGroup": "Wrinkles",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_WrinklesAsset_Enumerable.Tot_C_WrinklesAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "WrinkleStrength",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"73DF8A5149D65F027E8181854D9323DA\", \"Strength\")",
+		"UIGroup": "Wrinkles",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "HeadScar",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"F201BE374DF6496389542884D84354BB\", \"Face Scar\")",
+		"UIGroup": "Scars",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_HeadScarAsset_Enumerable.Tot_C_HeadScarAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "HeadScarAge",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"5A3179CD48B97623DA7D948208825E4B\", \"Face Scar Age\")",
+		"UIGroup": "Scars",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BodyScar",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"3B97BBCC4BC1253AD00D4393D3E6E995\", \"Body Scar\")",
+		"UIGroup": "Scars",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_BodyScarAsset_Enumerable.Tot_C_BodyScarAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BodyScarAge",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"8F3954B440BF884342EF7683DA72C31B\", \"Body Scar Age\")",
+		"UIGroup": "Scars",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Voice",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"4C5C4BFA4ECBCFE179C151B083962C2F\", \"Voice\")",
+		"UIGroup": "Voice",
+		"ModRequirement": "",
+		"Type": "Custom",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_VoiceAsset_Enumerable.Tot_C_VoiceAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "WidgetBlueprintGeneratedClass'/Game/Mods/TotCustom/UI/BodyCustom/Tot_W_VoiceSelector.Tot_W_VoiceSelector_C'",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "VoicePitch",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"90B4C4BD4B3CD3B912C122AD912E684A\", \"Voice Pitch\")",
+		"UIGroup": "Voice",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "MakeupA",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"33DE422B46A56CE133D425A9ADCB99DB\", \"Makeup A\")",
+		"UIGroup": "Makeup",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_MakeupMasterAsset_Enumerable.Tot_C_MakeupMasterAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "MakeupColorA",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"58CEE0F648F7659584D90B9956C8B37D\", \"Color A\")",
+		"UIGroup": "Makeup",
+		"ModRequirement": "",
+		"Type": "ColorAlpha",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "MakeupAGloss",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"3368A0874C33A34BAD2F6CB79F4BD442\", \"Gloss A\")",
+		"UIGroup": "Makeup",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0.34999999403953552,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "MakeupB",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"41581ACF413F52B10BC4E3944C78B99D\", \"Makeup B\")",
+		"UIGroup": "Makeup",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_MakeupMasterAsset_Enumerable.Tot_C_MakeupMasterAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "MakeupColorB",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"246FB2984489FBFD8D21F3B1910E14D0\", \"Color B\")",
+		"UIGroup": "Makeup",
+		"ModRequirement": "",
+		"Type": "ColorAlpha",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "MakeupBGloss",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"6917B0A04772FDF0115E37894D4713F4\", \"Gloss B\")",
+		"UIGroup": "Makeup",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0.34999999403953552,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "MakeupC",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"DF889A414B87FE1F2422378760CF1974\", \"Makeup C\")",
+		"UIGroup": "Makeup",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_MakeupMasterAsset_Enumerable.Tot_C_MakeupMasterAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "MakeupColorC",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"1CDC967C4E86D0B355526D9AC3C996B8\", \"Color C\")",
+		"UIGroup": "Makeup",
+		"ModRequirement": "",
+		"Type": "ColorAlpha",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "MakeupCGloss",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"3E2599FB49D56341CC128C97076B5680\", \"Gloss C\")",
+		"UIGroup": "Makeup",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0.34999999403953552,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "WarpaintHead",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"0A97916E48AA22D37748DEB6A37C77F1\", \"Head\")",
+		"UIGroup": "Warpaint",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_WarpaintAsset_Head_Enumerable.Tot_C_WarpaintAsset_Head_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "WarpaintBody",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"E3D47F7D4306E85C46D62C94771E8D05\", \"Body\")",
+		"UIGroup": "Warpaint",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_WarpaintAsset_Body_Enumerable2.Tot_C_WarpaintAsset_Body_Enumerable2_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "WarpaintHands",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"66E08C3149FD889878378CAA9A85ABD4\", \"Hands\")",
+		"UIGroup": "Warpaint",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_WarpaintAsset_Hands_Enumerable3.Tot_C_WarpaintAsset_Hands_Enumerable3_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "WarpaintColor",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"559B7532421DB599F386339D58502AB3\", \"Color\")",
+		"UIGroup": "Warpaint",
+		"ModRequirement": "",
+		"Type": "ColorAlpha",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "WarpaintGloss",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"9B82A6824F94A5DB5616C1B3A62FBECF\", \"Gloss\")",
+		"UIGroup": "Warpaint",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0.34999999403953552,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "WarpaintDetailStrength",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"BD330C2B4A052F249398D6817B7048D0\", \"Details\")",
+		"UIGroup": "Warpaint",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 1,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "FaceTatoo",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"12A5C5FC4615D8E385A3CF9D66D40209\", \"Head\")",
+		"UIGroup": "Upper Warpaint",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_WarpaintAsset_Head_Enumerable.Tot_C_WarpaintAsset_Head_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Tatoo",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"4B4561C0443B39D78626C4AC184FC09F\", \"Body\")",
+		"UIGroup": "Upper Warpaint",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_WarpaintAsset_Body_Enumerable2.Tot_C_WarpaintAsset_Body_Enumerable2_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "HandTatoo",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"0254500B419BF97DD601F3BBAD320B06\", \"Hands\")",
+		"UIGroup": "Upper Warpaint",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_WarpaintAsset_Hands_Enumerable3.Tot_C_WarpaintAsset_Hands_Enumerable3_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "TatooColor",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"763C278F46537E524EC889A988EB5584\", \"Color\")",
+		"UIGroup": "Upper Warpaint",
+		"ModRequirement": "",
+		"Type": "ColorAlpha",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "TatooGloss",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"F2A8A95541717B8151DDD8A624D51FAB\", \"Gloss\")",
+		"UIGroup": "Upper Warpaint",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0.34999999403953552,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Eyebrows",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"F8486BAF429EA031D80BE6A4FAF11455\", \"Texture\")",
+		"UIGroup": "Brows",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_Eyebrows_Enumerable.Tot_C_Eyebrows_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "EyebrowTracksRight",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"4DB0399F4D6D55F5F9F628A1973E8DB2\", \"Brows Tracks Right\")",
+		"UIGroup": "Brows",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_EyebrowTracksAsset_Enumerable.Tot_C_EyebrowTracksAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "EyebrowTracksLeft",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"D292664646709AC49E3CD8B3B27E50AF\", \"Brows Tracks Left\")",
+		"UIGroup": "Brows",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_EyebrowTracksAsset_Enumerable.Tot_C_EyebrowTracksAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BrowsColor",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"EC44784B4C1100781FC3B49678122EA1\", \"Color\")",
+		"UIGroup": "Brows",
+		"ModRequirement": "",
+		"Type": "Color",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "WidgetBlueprintGeneratedClass'/Game/Mods/TotCustom/UI/ColorPicker/Tot_W_SampleColorPicker_BrowColors.Tot_W_SampleColorPicker_BrowColors_C'",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "BrowsDepth",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"E149555444AAAC94F30751B475713DF4\", \"Depth\")",
+		"UIGroup": "Brows",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BrowsSeparation",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"2CEF6AC54A65B18790B6AC986F20D643\", \"Separation\")",
+		"UIGroup": "Brows",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BrowsOutHeight",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"702E2DA64A53E35B5A6C0BA3588F7DCC\", \"Outer Height\")",
+		"UIGroup": "Brows",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BrowsMidHeight",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"30AE18AE40B3E6C24ED233A9F3B33BB5\", \"Mid Height\")",
+		"UIGroup": "Brows",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BrowsInHeight",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"193F199B40B03AE06F758CA47CE9DB53\", \"Inner Height\")",
+		"UIGroup": "Brows",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "CopyLeftEye",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"6DD6E302418CE2A08E93009592CFF152\", \"Copy Left Eye\")",
+		"UIGroup": "Right Eye",
+		"ModRequirement": "",
+		"Type": "Custom",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "WidgetBlueprintGeneratedClass'/Game/Mods/TotCustom/UI/BodyCustom/Tot_W_CopyLeftEye.Tot_W_CopyLeftEye_C'",
+		"HideInAdmin": true,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "RightEyeTex",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"EDA269724C9A3FED6906B3939AC1FCBA\", \"Texture\")",
+		"UIGroup": "Right Eye",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_EyeAssets_Enumerable.Tot_C_EyeAssets_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "RightIrisSize",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"DB9296C843E93FF740A2F08B5B006BBA\", \"Iris Size\")",
+		"UIGroup": "Right Eye",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "RightIrisColor",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"384E02E44777AC5F84C510ADB197DD05\", \"Iris Color\")",
+		"UIGroup": "Right Eye",
+		"ModRequirement": "",
+		"Type": "Color",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "WidgetBlueprintGeneratedClass'/Game/Mods/TotCustom/UI/ColorPicker/Tot_W_SampleColorPicker_EyeColors.Tot_W_SampleColorPicker_EyeColors_C'",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0.41999998688697815,
+				"G": 0.63841497898101807,
+				"B": 1,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "RightIrisSectoral",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"6994579D45DAC2D46AF871A3F473B2DF\", \"Sectoral Shape\")",
+		"UIGroup": "Right Eye",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_IrisMaskAsset_Enumerable.Tot_C_IrisMaskAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "RightIrisColorB",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"27C3D62246B5417F31B5E3A6B8E7BC60\", \"Sectoral Color\")",
+		"UIGroup": "Right Eye",
+		"ModRequirement": "",
+		"Type": "Color",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "WidgetBlueprintGeneratedClass'/Game/Mods/TotCustom/UI/ColorPicker/Tot_W_SampleColorPicker_EyeColors.Tot_W_SampleColorPicker_EyeColors_C'",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "RightIrisGlow",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"4CA7F2704F2CCE925E372C9EB54FCF6A\", \"Glow\")",
+		"UIGroup": "Right Eye",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "RightIrisOpen",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"5CB9D8D7442A6CBD5E4BD7B4D8749940\", \"Pupil Size\")",
+		"UIGroup": "Right Eye",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "RightPupilColor",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"109FD40441FE9238F5C78B925A422528\", \"Pupil Color\")",
+		"UIGroup": "Right Eye",
+		"ModRequirement": "",
+		"Type": "Color",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "RightPupilGlow",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"F3DCECF64ED59C2133C991A2946B5BF1\", \"Pupil Glow\")",
+		"UIGroup": "Right Eye",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "RightScleraColor",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"076DA99B42E43B92C9B91888720088BC\", \"Sclera Color\")",
+		"UIGroup": "Right Eye",
+		"ModRequirement": "",
+		"Type": "Color",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 1,
+				"G": 0.84200000762939453,
+				"B": 0.60500001907348633,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "RightScleraGlow",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"1BFA29D449E085D36A513A94339FE1B5\", \"Sclera Glow\")",
+		"UIGroup": "Right Eye",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "RightScleraVeins",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"AF1E02A4497557D51A316F94A1A7016B\", \"Veins\")",
+		"UIGroup": "Right Eye",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0.5,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "CopyRightEye",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"DC0860994B654C67220EED88F281FAEC\", \"Copy Right Eye\")",
+		"UIGroup": "Left Eye",
+		"ModRequirement": "",
+		"Type": "Custom",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "WidgetBlueprintGeneratedClass'/Game/Mods/TotCustom/UI/BodyCustom/Tot_W_CopyRightEye.Tot_W_CopyRightEye_C'",
+		"HideInAdmin": true,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "LeftEyeTex",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"EDA269724C9A3FED6906B3939AC1FCBA\", \"Texture\")",
+		"UIGroup": "Left Eye",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_EyeAssets_Enumerable.Tot_C_EyeAssets_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "LeftIrisSize",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"A9129C4147A6A40AB234A18B6AB582F4\", \"Iris Size\")",
+		"UIGroup": "Left Eye",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "LeftIrisColor",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"384E02E44777AC5F84C510ADB197DD05\", \"Iris Color\")",
+		"UIGroup": "Left Eye",
+		"ModRequirement": "",
+		"Type": "Color",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "WidgetBlueprintGeneratedClass'/Game/Mods/TotCustom/UI/ColorPicker/Tot_W_SampleColorPicker_EyeColors.Tot_W_SampleColorPicker_EyeColors_C'",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0.41999998688697815,
+				"G": 0.63841497898101807,
+				"B": 1,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "LeftIrisSectoral",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"6994579D45DAC2D46AF871A3F473B2DF\", \"Sectoral Shape\")",
+		"UIGroup": "Left Eye",
+		"ModRequirement": "",
+		"Type": "List",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "BlueprintGeneratedClass'/Game/Mods/TotCustom/Types/Tot_C_IrisMaskAsset_Enumerable.Tot_C_IrisMaskAsset_Enumerable_C'",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "LeftIrisColorB",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"27C3D62246B5417F31B5E3A6B8E7BC60\", \"Sectoral Color\")",
+		"UIGroup": "Left Eye",
+		"ModRequirement": "",
+		"Type": "Color",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "WidgetBlueprintGeneratedClass'/Game/Mods/TotCustom/UI/ColorPicker/Tot_W_SampleColorPicker_EyeColors.Tot_W_SampleColorPicker_EyeColors_C'",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "LeftIrisGlow",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"4CA7F2704F2CCE925E372C9EB54FCF6A\", \"Glow\")",
+		"UIGroup": "Left Eye",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "LeftIrisOpen",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"5CB9D8D7442A6CBD5E4BD7B4D8749940\", \"Pupil Size\")",
+		"UIGroup": "Left Eye",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "LeftPupilColor",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"109FD40441FE9238F5C78B925A422528\", \"Pupil Color\")",
+		"UIGroup": "Left Eye",
+		"ModRequirement": "",
+		"Type": "Color",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "LeftPupilGlow",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"F3DCECF64ED59C2133C991A2946B5BF1\", \"Pupil Glow\")",
+		"UIGroup": "Left Eye",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "LeftScleraColor",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"076DA99B42E43B92C9B91888720088BC\", \"Sclera Color\")",
+		"UIGroup": "Left Eye",
+		"ModRequirement": "",
+		"Type": "Color",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 1,
+				"G": 0.84200000762939453,
+				"B": 0.60500001907348633,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "LeftScleraGlow",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"1BFA29D449E085D36A513A94339FE1B5\", \"Sclera Glow\")",
+		"UIGroup": "Left Eye",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "LeftScleraVeins",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"AF1E02A4497557D51A316F94A1A7016B\", \"Veins\")",
+		"UIGroup": "Left Eye",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0.5,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "EyelashDensity",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"6CBEE9AD4FC78E113E99A2965AC9BFE4\", \"Eyelash Density\")",
+		"UIGroup": "Eyes",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0.33300000429153442,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "EyelashThickness",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"E56E59C7435643F9BEBBD19A037B9845\", \"Eyelash Thickness\")",
+		"UIGroup": "Eyes",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0.30000001192092896,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "EyelashLength",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"A3E37A46415A73E7083F7796262A068D\", \"Eyelash Length\")",
+		"UIGroup": "Eyes",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "EyelashColor",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"A1DF9BA0415219E9268F79832CC88829\", \"Eyelash Color\")",
+		"UIGroup": "Eyes",
+		"ModRequirement": "",
+		"Type": "Color",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 1
+			}
+		}
+	},
+	{
+		"RowName": "EyeSize",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"9775A39A4650A9007848E68F48ECC578\", \"Size\")",
+		"UIGroup": "Eyes",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "EyeAngle",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"38AB581E4BB54820872CFBA8EFB02E2F\", \"Angle\")",
+		"UIGroup": "Eyes",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "EyeDistance",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"0B26972146395397FDE03AACAEBD7DC5\", \"Distance\")",
+		"UIGroup": "Eyes",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "EyeHeight",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"571942714B2C7E9822C279BF2752CB1F\", \"Height\")",
+		"UIGroup": "Eyes",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "EyeDepth",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"1336F2A14579BA1460952389403C837C\", \"Depth\")",
+		"UIGroup": "Eyes",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "UpperEyelid",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"F08018A042741DD69D35A6A9048094B1\", \"Upper Eyelid\")",
+		"UIGroup": "Eyes",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "LowerEyelid",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"68C4A46B49D258AD8BBFF08ECFA2E558\", \"Lower Eyelid\")",
+		"UIGroup": "Eyes",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "UpperEyelidShapeA",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"E0A286DA403C80A4FF0DD8BB68AC19D4\", \"Upper Eyelid Shape A\")",
+		"UIGroup": "Eyes",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "UpperEyelidShapeB",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"EE2CD4EF403146D922947A8BBC205E14\", \"Upper Eyelid Shape B\")",
+		"UIGroup": "Eyes",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "LowerEyelitShapeA",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"169A113B4CDF9B687169299D727573AF\", \"Lower Eyelid Shape A\")",
+		"UIGroup": "Eyes",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "LowerEyelitShapeB",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"6F5132AA4A8015A54B578792604F2040\", \"Lower Eyelid Shape B\")",
+		"UIGroup": "Eyes",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "EarSize",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"41BFE8A540BC8771E22B3BBFE665F19C\", \"Size\")",
+		"UIGroup": "Ears",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "EarAngle",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"87CA2B1744524B551747D587F6E072FB\", \"Angle\")",
+		"UIGroup": "Ears",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "EarTwist",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"A48194E74B51C3CCA92D9CA31E4DC013\", \"Twist\")",
+		"UIGroup": "Ears",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "EarRoll",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"06FDF04F4A86FBD98B289DBA01D9B8B4\", \"Roll\")",
+		"UIGroup": "Ears",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "CheekHeight",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"034477944012DAA350379CB52A6228A2\", \"Height\")",
+		"UIGroup": "Cheeks",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "CheekWidth",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"E77E39554CA2A543C60367B7D5C6BAB0\", \"Width\")",
+		"UIGroup": "Cheeks",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "CheekFill",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"3D5B65CF4102A77684CA7BB61397C43D\", \"Fill\")",
+		"UIGroup": "Cheeks",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "ChinWidth",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"27B5BF5246902D0D35C858BDEAABC7E2\", \"Chin Length\")",
+		"UIGroup": "Jaw",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "ChinWidth2",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"E9D7153142AABF5E261CBABE7EE07A1D\", \"Chin Width\")",
+		"UIGroup": "Jaw",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "JawWidth",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"AC95106D419E60F35D7792BA06DBCB82\", \"Width\")",
+		"UIGroup": "Jaw",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "JawJutting",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"90E974864158601DB975A79B19466273\", \"Jutting\")",
+		"UIGroup": "Jaw",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "NoseTipSize",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"BD4594924765062B1FD0888AD44D1755\", \"Tip Size\")",
+		"UIGroup": "Nose",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "NoseLength",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"A8FE0AE4413884EB11323A89BDBD7892\", \"Length\")",
+		"UIGroup": "Nose",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "NoseHeight",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"57B05430462D33AE3326D39A9BC8E2B8\", \"Nose Height\")",
+		"UIGroup": "Nose",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "NoseCurve",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"12BE5A3144143F5C948CCE840BC7E1D0\", \"Nose Curve\")",
+		"UIGroup": "Nose",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "NosetrilWidth",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"C76B9E684BF894F9240A96B8636B3EE9\", \"Nostril Width\")",
+		"UIGroup": "Nose",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "MouthWidth",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"1862EC074A0136C9364F8791565BC324\", \"Width\")",
+		"UIGroup": "Mouth",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "MouthProtusion",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"3233B5E04A69E82C779A98A01466D006\", \"Protrusion\")",
+		"UIGroup": "Mouth",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "LipFullness",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"42D2E75A442BCC9D51E4B99927722297\", \"Lip Fullness\")",
+		"UIGroup": "Mouth",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "UpperLipSize",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"584E6F9C44F6920EFCC1F395C4A9E9BA\", \"Upper Lip Size\")",
+		"UIGroup": "Mouth",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "LowerLipSize",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"5274303946C4BEA413609F807A3FCE0C\", \"Lower Lip Size\")",
+		"UIGroup": "Mouth",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "UpperLipShape",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"BC4FE52C4C8DB1126B6C5E9010A52BA1\", \"Upper Lip Shape\")",
+		"UIGroup": "Mouth",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "LowerLipShape",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"FBAA005D4EAE442A39D0B78DCA3229D5\", \"Lower Lip Shape\")",
+		"UIGroup": "Mouth",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Smile",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"2CFFA66D41111862C07AEA86D87B73F7\", \"Smile\")",
+		"UIGroup": "Mouth",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Chest",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"1F7641914DA396654AE6A893A3A437CD\", \"Chest (Width/Depth)\")",
+		"UIGroup": "Torso",
+		"ModRequirement": "",
+		"Type": "2DAxis",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "ChestLength",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"9D6CACF948663C8798EFBBAFCD4E7EFD\", \"Chest Length\")",
+		"UIGroup": "Torso",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Belly",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"10C63E3D4DDFBFF9C38E4593C4C88420\", \"Belly (Width/Depth)\")",
+		"UIGroup": "Torso",
+		"ModRequirement": "",
+		"Type": "2DAxis",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BellyLength",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"E4A474D3452EA7B5698DB2B12B191645\", \"Belly Length\")",
+		"UIGroup": "Torso",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "LowerBelly",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"89C77F4543960B799F399F91926A7B95\", \"Lower Belly (Width/Depth)\")",
+		"UIGroup": "Torso",
+		"ModRequirement": "",
+		"Type": "2DAxis",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "LowerBellyLength",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"AB2278BA49883A72D300D5B07305CFB7\", \"Lower Belly length\")",
+		"UIGroup": "Torso",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "ShoulderWidth",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"1007CD054B4B0E83D3579EADAD74D6D3\", \"Shoulder Width\")",
+		"UIGroup": "Arms",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "ShoulderHeight",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"B990435748A8D070E4BEC596295CDAB2\", \"Shoulder Height\")",
+		"UIGroup": "Arms",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Arms",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"F0F0F7324E0D4E1ACAD3928B3A822B17\", \"Arms (Width/Depth)\")",
+		"UIGroup": "Arms",
+		"ModRequirement": "",
+		"Type": "2DAxis",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Forearms",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"6F35EDE043A266567A9F4AB6BBC1A4DA\", \"Forearms (Width/Depth)\")",
+		"UIGroup": "Arms",
+		"ModRequirement": "",
+		"Type": "2DAxis",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Hands",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"9E2928A94070DCF9B941D19156D635F0\", \"Hands (Width/Depth)\")",
+		"UIGroup": "Arms",
+		"ModRequirement": "",
+		"Type": "2DAxis",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "HandsLength",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"DB4D2BC547FA4046FECDF5997F06D02E\", \"Hands Length\")",
+		"UIGroup": "Arms",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Pelvis",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"3ADCA1BD4AC50C8F029865A8B987C3B4\", \"Pelvis (Width/Depth)\")",
+		"UIGroup": "Legs",
+		"ModRequirement": "",
+		"Type": "2DAxis",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "PelvisLength",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"F9CD7FB24280DB78D32A94A18F6FF42A\", \"Pelvis Length\")",
+		"UIGroup": "Legs",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "LegSeparation",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"EA83E5BB4448A540176DDDBC56F9142C\", \"Leg separation\")",
+		"UIGroup": "Legs",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "ButtSeparation",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"FEB721F84FF47BCEF84D319295A1E99A\", \"Butt Separation\")",
+		"UIGroup": "Legs",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "ButtHeight",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"FEFF37C44B8AE3ED171817A63D87C788\", \"Butt Height\")",
+		"UIGroup": "Legs",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Thighs",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"FFC40DBA4BD8A77B0752A88D66EB22FE\", \"Thighs (Width/Depth)\")",
+		"UIGroup": "Legs",
+		"ModRequirement": "",
+		"Type": "2DAxis",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "Calfs",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"71DA28F1472702DDE0FE2C84FB3D64D4\", \"Calfs (Width/Depth)\")",
+		"UIGroup": "Legs",
+		"ModRequirement": "",
+		"Type": "2DAxis",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "FeetSize",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"EA146B02469E8264C47466ADEC395CBF\", \"Feet Size\")",
+		"UIGroup": "Legs",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "FeetLength",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"6554B7514B91E0A3C17B8EAFFD37A076\", \"Feet Length\")",
+		"UIGroup": "Legs",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "FeetWidth",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"85BD58C14CF58CBAE5352F91CC02DCDE\", \"Feet Width\")",
+		"UIGroup": "Legs",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "RemovePenis",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"1D4B9F514BC614D5F4AD3EBE84144772\", \"Hide\")",
+		"UIGroup": "Penis",
+		"ModRequirement": "",
+		"Type": "Toggle",
+		"GenderDisplay": "OnlyMale",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "RemovePubes",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"054862494182DB9B770AE0991FFC5B81\", \"Hide Pubes\")",
+		"UIGroup": "Penis",
+		"ModRequirement": "",
+		"Type": "Toggle",
+		"GenderDisplay": "OnlyMale",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "PenisSize",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"D65D863144F7E8B0710A9597203A1F01\", \"Size\")",
+		"UIGroup": "Penis",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "OnlyMale",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "PenisGirth",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"D34780994F0A9FE6A5C97FB49A35362E\", \"Girth\")",
+		"UIGroup": "Penis",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "OnlyMale",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "GlansSize",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"AB00CB454EE97DC2639176A0FB197FC3\", \"Glans\")",
+		"UIGroup": "Penis",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "OnlyMale",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "GlansGirth",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"5A0095F84336ECF3B98FAD809FDED078\", \"Glans Size\")",
+		"UIGroup": "Penis",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "OnlyMale",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "TesticleSize",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"2D966CD641BDD197D6801E84D109AD23\", \"Testicle Size\")",
+		"UIGroup": "Penis",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "OnlyMale",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "TesticleSag",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"AB1D6ED7458A1A480D99AC9356C29517\", \"Testicle Sag\")",
+		"UIGroup": "Penis",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "OnlyMale",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BreastSize",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"2212050C4D89CDD177AE2CA134592DBF\", \"Size\")",
+		"UIGroup": "Breasts",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BreastHeight",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"26E560AA4D90C513BD2CEEB93CD4E64A\", \"Height\")",
+		"UIGroup": "Breasts",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BreastSeparation",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"44E4ED2F4DA3FBAC5A3670B3CA0A68F3\", \"Separation\")",
+		"UIGroup": "Breasts",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BreastProtusion",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"045DBA6D48350662B2192FAC50BCE7F2\", \"Protrusion\")",
+		"UIGroup": "Breasts",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BreastRotation",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"B77FA206419A0865E44A25A2F1EA8736\", \"Rotation\")",
+		"UIGroup": "Breasts",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BreastPerk",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"9E4DAE7544F230A9C99F4DB25DDB73D3\", \"Perk\")",
+		"UIGroup": "Breasts",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": -1,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BreastPhysicsAlpha",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"0B242D9245E4380068A97CAF354D0CF3\", \"Alpha\")",
+		"UIGroup": "Breasts Physics",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 1,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BreastPhysicsLinearSpring",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"3639E3C4454331CA15FD2EADE77A7C13\", \"Linear Spring\")",
+		"UIGroup": "Breasts Physics",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1000
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 250,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BreastPhysicsLinearDamping",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"33F843AE49342371ABAA5F9492744B57\", \"Linear Damping\")",
+		"UIGroup": "Breasts Physics",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0.99998998641967773,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BreastPhysicsAngularSpring",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"2D20B2A4419AC40BD82EB8A48F71B33D\", \"Angular Spring\")",
+		"UIGroup": "Breasts Physics",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1000
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "BreastPhysicsAngularDamping",
+		"Label": "NSLOCTEXT(\"[C2FBC5D646FDBEB797E109A0FD2900E7]\", \"823B0B7A4BDA409F3D9F26A9878343C4\", \"Angular Damping\")",
+		"UIGroup": "Breasts Physics",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0.99998998641967773,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "ButtPhysicsAlpha",
+		"Label": "NSLOCTEXT(\"\", \"444D1F584EC03BA00C09E28C0C4F1BE5\", \"Alpha\")",
+		"UIGroup": "Butt Physics",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "ButtPhysicsLinearSpring",
+		"Label": "NSLOCTEXT(\"\", \"7DAA458140BA2985858AA385CA794EF2\", \"Linear Spring\")",
+		"UIGroup": "Butt Physics",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1000
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 250,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "ButtPhysicsLinearDamping",
+		"Label": "NSLOCTEXT(\"\", \"2A2B21F847F5E13A647357A4C9D118CB\", \"Linear Damping\")",
+		"UIGroup": "Butt Physics",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0.99998998641967773,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "ButtPhysicsAngularSpring",
+		"Label": "NSLOCTEXT(\"\", \"3409D37640750E20E35724AA038C9951\", \"Angular Spring\")",
+		"UIGroup": "Butt Physics",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1000
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	},
+	{
+		"RowName": "ButtPhysicsAngularDamping",
+		"Label": "NSLOCTEXT(\"\", \"3E234F0A45861D5F92555C938858A121\", \"Angular Damping\")",
+		"UIGroup": "Butt Physics",
+		"ModRequirement": "",
+		"Type": "Slider",
+		"GenderDisplay": "Both",
+		"SliderMinMax":
+		{
+			"X": 0,
+			"Y": 1
+		},
+		"ListEnumerable": "None",
+		"ColorPicker": "None",
+		"CustomField": "None",
+		"HideInAdmin": false,
+		"Defaults":
+		{
+			"Toggle": false,
+			"List": 0,
+			"Slider": 0.99998998641967773,
+			"2DAxis":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"Color":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0,
+				"A": 0
+			}
+		}
+	}
+]

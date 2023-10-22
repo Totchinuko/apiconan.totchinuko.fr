@@ -6,7 +6,7 @@
 3- Do not put these files in your mod content folder and do not select them in the modfile list  
 If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
 
-Download: [iHUD 2.0.0](https://cdn.discordapp.com/attachments/1054782906251366401/1069749812565647440/iHud2.0.0.zip)
+Download: [iHUD 2.0.0](/API/iHud2.0.0.zip ':ignore')
 
 ## Tot_S_iHUDWidgetRow
 `ModsShared/SudoExile/TotIHUD/Types/Tot_S_iHUDWidgetRow`
