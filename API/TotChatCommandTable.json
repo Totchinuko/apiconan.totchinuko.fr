@@ -16,7 +16,7 @@
 		"RowName": "do",
 		"Command": "do",
 		"SubCommand": "None",
-		"Description": "write an amote finishing with your name",
+		"Description": "write an emote finishing with your name",
 		"TypingSignal": true,
 		"PermissionKey": "None",
 		"Class": "BlueprintGeneratedClass'/Game/Mods/TotChat/Types/Commands/Tot_C_ChatCommand_Do.Tot_C_ChatCommand_Do_C'",
