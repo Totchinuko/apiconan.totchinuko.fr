@@ -4,6 +4,7 @@
 
 ### Assets
 If you'd like to override the Redux Runes with your own server mod, here are all the images and IDs used by the mod.
+
 [Download Runes](/API/RoleplayRedux.Runes.7z ':ignore')
 
 [Download Potions](/API/RoleplayRedux.Potions.7z ':ignore')
@@ -256,6 +257,7 @@ void
 |int|Delay Minutes|The delay of the buff in minutes.|
 
 **Buff Types**:  
+
 0. Modify Attribute/Skill
 1. Modify Stat
 2. Grant Perk
