@@ -18,7 +18,7 @@ If you do not follow those guidelines, whenever we update the API files, your mo
 This is the list of commands of Tot ! Chat as they are in its own datatable. One could use that to override some of them.  
 [Download](/API/TotChatCommandTable.json ':ignore')
 
-### Main Interface Components
+## Main Interface Components
 #### Tot_I_ChatCompanion
 `ModsShared/SudoExile/TotChat/Tot_I_ChatCompanion`
 
@@ -68,7 +68,7 @@ This is a helper library, containing a few functions that will simplify the use 
 |bool|Notifications|Does the channel display connections and disconnections from the channel.|
 |int|OwnerUID|This is a tricky part. On server side this is used to ID the creator of the channel. On Client its a bit more complicated, it is used to know if a channel is from your character point of view, or if it is a link channel.|
 
-### Message Tags
+## Message Tags
 These following tags can be used in the `Tot_S_ChatMessage` struct in the `Type` field to add various effect on your messages.
 
 |Name|Description|
@@ -83,5 +83,5 @@ These following tags can be used in the `Tot_S_ChatMessage` struct in the `Type`
 |AutoSwitch|When receiving a message with the AutoSwitch tag, the chat window will automatically switch to the channel that received the message.|
 |Visual|This is used by Tot ! Admin. Any message received on client that contain that tag will pop a notification window with the content of your message. Does not support formating.|
 
-### Force Chat Nameplate
+## Force Chat Nameplate
 Usually, when the user disable Tot!Chat nameplates, every compatible actors hides their nameplate. Using the tag `ForceNameplate` on the actor allow to ignore the user setting.
