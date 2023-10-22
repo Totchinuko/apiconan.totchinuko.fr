@@ -9,6 +9,7 @@
     - [Credits](credits)
 - Tot ! API
 
+    - [Sudo API](sudo)
     - [Admin API](admin)
     - [Chat API](chat)
     - [IHUD API](ihud)
