@@ -495,9 +495,20 @@ void
 
 ## Codex API
 
-![Codex Screenshot](/img/screenshot/CodexScreen.png ':size=50%')
+### Download API
+
+!> **Install instructions**\
+1- Extract this into `...\ConanExilesDevKit\Games\ConanSandbox\Content\Systems\`
+2- Do not modify any of the files in there  
+3- Do not put these files in your mod content folder and do not select them in the modfile list  
+If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
+
+**Download API**: [Roleplay Redux Codex 1.0.0](/API/RoleplayRedux.Codex.1.0.0.7z ':ignore')
 
 ### The Codex
+
+![Codex Screenshot](/img/screenshot/CodexScreen.png ':size=50%')
+
 This is an API that allows you to write all your server lore and rules in an easily accessible and searchable place ingame.  
 It can also double as a storage space for Perk/Ability/etc descriptions, so they are not bloating your dice config.
 
@@ -559,10 +570,3 @@ That's it, now you can populate your own tables with data.
 You can (and should) have more than one table for organization purposes.  
 For example, a table for Races, another table for Classes, etc. Just don't forget to merge them all.
 
-!> **Install instructions**\
-1- Extract this into `...\ConanExilesDevKit\Games\ConanSandbox\Content\Systems\`
-2- Do not modify any of the files in there  
-3- Do not put these files in your mod content folder and do not select them in the modfile list  
-If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
-
-**Download API**: [Roleplay Redux Codex 1.0.0](/API/RoleplayRedux.Codex.1.0.0.7z ':ignore')
