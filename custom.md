@@ -10,7 +10,7 @@ If you do not follow those guidelines, whenever we update the API files, your mo
 
 **Download API**: [Tot!Custom 1.4.4](/API/TotCustom.1.4.4.zip ':ignore') 
 
-## Internal Data Tables<
+## Internal Data Tables
 ### Tot_DT_CustomFieldTable
 In this file, you'll find all the parameters that exists in Custom for the body editing, so you can better use the body API. It includes names, ranges, default values, etc... A few special ones in there like the eye copy buttons are obvious not tied to any body data.   
 [Download Data](/API/Tot_DT_CustomFieldTable.json ':ignore')
