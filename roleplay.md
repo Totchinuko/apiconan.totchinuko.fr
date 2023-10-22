@@ -503,7 +503,7 @@ It can also double as a storage space for Perk/Ability/etc descriptions, so they
 
 The API consists of two Data Tables that you need to extend.
 
-**RP_DT_Codex_Index**  
+#### RP_DT_Codex_Index
 This table represents the list of articles on the left.   
 When first opening up the Codex UI, it will automatically open the first link.
 
@@ -513,7 +513,7 @@ Each row in this table has 4 fields:
 **Parent** - The ID of the parent index row. This is how it knows to nest the links within each other.  
 **Is Admin** - If enabled, the link on the left will be displayed only for admins. This is just to hide specific entries from the list. They will still be  accessible by other means (such as direct links, and tooltip descriptions)
 
-**RP_DT_Codex_Entry**  
+#### RP_DT_Codex_Entry
 These are the actual articles on the right.   
 Their IDs must match the `RP_DT_Codex_Index` IDs, but you don't have to create an Entry for every Index.  
 If an Index has nested children, and no Entry, it will simply list its children. 
@@ -533,14 +533,14 @@ There cannot be anything else in there.
 
 ### How to add this API to your own mod
 
-**Step 1:**  
+#### Step 1:
 Download the zip file below and extract it into:  
 `...\ConanExilesDevKit\Games\ConanSandbox\Content\Systems`
 
 The final result should look like this:  
 `..\ConanExilesDevKit\Games\ConanSandbox\Content\Systems\RoleplayRedux\Codex\... `
 
-**Step 2:**  
+#### Step 2: 
 Create two data tables. Right click in the content browser and select `Miscellaneous` -> `Data Table`
 
 ![Create Data Table](/img/screenshot/CreateDataTable.png ':size=50%')
@@ -549,7 +549,7 @@ Select `RP_S_Codex_Index` and `RP_S_Codex_Entry`
 
 ![Select Struct](/img/screenshot/CreateDataTableStructSelection.png ':size=50%')
 
-**Step 3:**   
+#### Step 3:  
 In your Mon Controller merge the two tables you created with the API's tables.
 
 ![Merge Data Table](/img/screenshot/MergeDataTable.png ':size=50%')
