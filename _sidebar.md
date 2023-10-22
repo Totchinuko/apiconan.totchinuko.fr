@@ -12,9 +12,10 @@
     - [Sudo API](sudo)
     - [Admin API](admin)
     - [Chat API](chat)
-    - [IHUD API](ihud)
+    - [Roleplay Redux API](roleplay)
     - [Custom API](custom)
     - [Custom Modeling](modeling)
+    - [IHUD API](ihud)
     - [Library](lib)
 - Patches
 
