@@ -48,6 +48,11 @@
 - Item list in the trader definition panel can now be reordered
 - Unavailable item at a trader are now displayed as greyed out
 
+`0.5.9`
+- Added discriminator to coins item names
+- Display the amount of members in a clan using /list clans (Only with the right permission)
+- Improved the item requirement rule to allow multiple items. Only one is required per list. The old version is still present for backward compatibility.
+
 ## Fixes
 
 `0.5.0`
@@ -83,3 +88,6 @@
 - Move tool level 1 was not allowing negative height
 - Role based pricing reduction was applied to everyone
 - Reseting trader definition was breaking trader reset cooldown in some cases
+
+`0.5.9`
+- Some rules were preventing the listing of kits
