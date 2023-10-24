@@ -7,6 +7,9 @@
 `1.0.13`
 - Improved performance for Setting, Getting, and Removing Float Char/Global vars and String Char/Global vars
 
+`1.0.15`
+- Add filter fields to global and character variables editors
+
 ## Fixes
 `1.0.14`
 - API file was missing from the archive
