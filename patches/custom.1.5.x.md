@@ -41,6 +41,9 @@
 `1.5.4`
 - Custom is now compatible with vanilla armor illusions and dyes.
 
+`1.5.8`
+- Locked profile now display the reason (Missing Item, Missing paid DLC, Server rules)
+
 ## Bug Fixes
 `1.5.0`
 - Lock the breast and butt physics to the original default min/max slider values, and remove their customization. This was know to provock serious issues if values outside of their boudarie were used.
