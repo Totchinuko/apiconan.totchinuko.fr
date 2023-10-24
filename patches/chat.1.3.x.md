@@ -9,6 +9,9 @@
     - In the local channel, people that received the original message will receive the edit regardless of their current position.
     - You cannot edit the Language or the Range and you cannot use a Command or a Macro during an edit.
 
+`1.3.5`
+- Adding /clear command to clear the current channel log and cache
+
 ## Changes/Improvements
 `1.3.2`
 - Implementing new notification internal API for better handling of cross mod notifications
