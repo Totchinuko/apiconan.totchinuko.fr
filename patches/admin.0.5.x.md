@@ -52,6 +52,7 @@
 - Added discriminator to coins item names
 - Display the amount of members in a clan using /list clans (Only with the right permission)
 - Improved the item requirement rule to allow multiple items. Only one is required per list. The old version is still present for backward compatibility.
+- Inventory editor in Player Editor or Admin map now support Thrall item icon and name display
 
 ## Fixes
 
