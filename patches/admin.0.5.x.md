@@ -54,6 +54,7 @@
 - Improved the item requirement rule to allow multiple items. Only one is required per list. The old version is still present for backward compatibility.
 - Inventory editor in Player Editor or Admin map now support Thrall item icon and name display
 - Kits are now compatible with Thrall items
+- Puppet trader and NPC trader are now compatible with thrall items
 
 ## Fixes
 
