@@ -9,6 +9,7 @@
 
 `1.0.15`
 - Add filter fields to global and character variables editors
+- Basic compatibility with chat command using the vanilla console. To use them, use `DataCMD sudocmd <command> <subcommand> <arguments>`. Ex: `DataCMD sudocmd home`. 
 
 ## Fixes
 `1.0.14`
