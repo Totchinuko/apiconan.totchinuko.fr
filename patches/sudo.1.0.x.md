@@ -13,3 +13,6 @@
 ## Fixes
 `1.0.14`
 - API file was missing from the archive
+
+`1.0.15`
+- The color picker now display color preview in sRGB. Meaning it should match more closely things like chat text/role colors.
