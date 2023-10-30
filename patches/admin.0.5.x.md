@@ -23,6 +23,10 @@
 - Due to some internal changes regarding action modules, all the puppet action modules have been reset. This is to unsure proper compatibility with the future scripting system.
 - New Stack field in trader price definition for both puppets and trader npc. By specifing a stack, you can define the price for a give stack size. For example 10 coins for 100 iron bar. If the player buy 50, it will cost him 5. Price is always rounded to the superior, so buying 51 in this example, would ask for 6 coins.
 
+`0.5.9`
+- Add a death count to the player editor. This death count is stored in string char var and can be accessed using the sudo API
+- Add `/math`, `/math solve`, `/math variable` commands to test the future math solver (for !Admin and !Redux). Use `/math` to get some details on how to use it. 
+
 ## Changes/Improvements
 `0.5.0`
 - Hide station thrall has been removed for now, as it was causing more problems than solutions. It will return in the futur
