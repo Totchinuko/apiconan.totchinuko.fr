@@ -1,6 +1,17 @@
 # Tips n' Tricks
 ## Vanilla game
 
+### Game sound when the game is in the background
+
+`ConanSandbox\Saved\Config\WindowsNoEditor\Engine.ini`
+
+Open the file and change this line. Add it if it's not already there.
+
+```
+[Audio]
+UnfocusedVolumeMultiplier=1.0
+```
+
 ### Solution to Log Spam on client and server
 The game log a lot of details about its actions, constantly. Some messages are actually quite spammy, and are not actual errors, but more informative material that can be safely disgarded. In the example bellow, you can see one line of a notoriously spammy message, that makes log file grow large in size.
 
