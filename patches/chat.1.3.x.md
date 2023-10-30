@@ -11,10 +11,14 @@
 
 `1.3.5`
 - Adding /clear command to clear the current channel log and cache
+- Add an option to have sound notification on the current channel
 
 ## Changes/Improvements
 `1.3.2`
 - Implementing new notification internal API for better handling of cross mod notifications
+
+`1.3.5`
+- Mention background color is now a separated parameter with alpha support.
 
 ## Fixes
 `1.3.0`
