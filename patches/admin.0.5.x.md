@@ -59,6 +59,8 @@
 - Inventory editor in Player Editor or Admin map now support Thrall item icon and name display
 - Kits are now compatible with Thrall items
 - Puppet trader and NPC trader are now compatible with thrall items
+- Missing items that can be sold by the player are now displayed on the player side of the trading UI
+- Missing items that can be bought or sold now display the price
 
 ## Fixes
 
