@@ -104,7 +104,7 @@ Take an expression in form of a string and a Tot_C_VariableHolder and give a res
 - Parenthesis with as many sub parenthesis as desired
 - Discrete multiplication against parenthesis (example: 10(x - 3) would be solved as 10 * (x - 3) or (3-4)(4*5) would be (3-4)*(4*5))
 - Boolean operators: and or xor not == != < <= > >=
-- Boolean operators give a result of 1.0 for true and 0.0 for false. They condider any result that is not 0.0 to be true (10.0 and 1.0 = 1.0).
+- Boolean operators give a result of 1.0 for true and 0.0 for false. They concider any result that is not 0.0 to be true (10.0 and 1.0 = 1.0).
 - Functions (number of arguments in parenthesis): abs(1) acos(1) asin(1) atan(1) atan2(2) ceil(1) clamp(3) cos(1) cosh(1) degrees(1) exp(1) floor(1) frac(1) lerp(3) log(1) log10(1) log2(1) max(2) min(2) pow(2) radians(1) round(1) rsqrt(1) saturate(1) sign(1) sin(1) sinh(1) sqrt(1) tan(1) tanh(1) trunc(1) ilerp(3)
 - Variables starting with a $ sign supporting letters and underscore, not case sensitive
 - Proper operator precedence: parenthesis, then multiplication and division in order, then addition and subtraction in order, then functions, then booleans.
