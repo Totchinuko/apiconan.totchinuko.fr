@@ -102,3 +102,6 @@
 
 `0.5.9`
 - Some rules were preventing the listing of kits
+
+`0.5.10`
+- Fixing spawned items in corpse getting removed by mistake.
