@@ -7,7 +7,7 @@
 3- Do not put these files in your mod content folder and do not select them in the modfile list  
 If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
 
-**Download API**: [Tot!Admin 0.5.1](/API/TotAdmin.0.5.1.zip ':ignore')
+**Download API**: [Tot!Admin 0.5.9](/API/TotAdmin.0.5.9.zip ':ignore')
 
 ## Move Tool Tags
 Adding the following tags to a placeable actor tags will have the given effect on the move tool.
@@ -342,6 +342,12 @@ void
 <!-- tabs:end -->
 
 That should cover up all the steps you need to create a module, if you did everything correctly, your module should show up in the list of modules when editing a puppet.
+
+## Quest Category Icon Table <small>0.5.9+</small>
+
+`ModsShared/SudoExile/TotAdmin/Tables/Tot_DT_Icons`
+
+Use this table to add new icons that can be used for quests categories. Those icons might be used in the future for other things.
 
 ## Cross Mod Event <small>0.2.0+</small>
 
