@@ -61,6 +61,8 @@
 - Puppet trader and NPC trader are now compatible with thrall items
 - Missing items that can be sold by the player are now displayed on the player side of the trading UI
 - Missing items that can be bought or sold now display the price
+- Rework of the !Admin HUD notification for the futur needs of 0.6.0 update.
+- Removed the !Admin HUD notification client settings.
 
 ## Fixes
 
