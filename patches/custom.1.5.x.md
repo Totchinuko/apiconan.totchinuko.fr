@@ -45,6 +45,9 @@
 - Locked profile now display the reason (Missing Item, Missing paid DLC, Server rules)
 - Presets with missing or forbiden items can now be partialy applied (without the missing or forbidden stuff)
 - Presets can now be updated using the current character design
+- **Removing Mod Compatibility**: As per my agreement with Funcom, I'm removing the compatibility layer with two mods:
+    - RA: Character Customisation
+    - Aquilonian Passion Body
 
 ## Bug Fixes
 `1.5.0`
