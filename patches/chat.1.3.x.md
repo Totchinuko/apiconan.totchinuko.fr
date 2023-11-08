@@ -13,6 +13,10 @@
 - Adding /clear command to clear the current channel log and cache
 - Add an option to have sound notification on the current channel
 
+`1.3.6`
+- Tot ! Chat is now compatible with Pippi and the vanilla chat.
+- In the game escape menu, you can access a small documentation on the top right corner of the screen that will explain how to use both on just one.
+
 ## Changes/Improvements
 `1.3.2`
 - Implementing new notification internal API for better handling of cross mod notifications
