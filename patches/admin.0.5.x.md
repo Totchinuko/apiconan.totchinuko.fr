@@ -105,3 +105,6 @@
 
 `0.5.10`
 - Fixing spawned items in corpse getting removed by mistake.
+
+`0.5.11`
+- The server would crash when a user crash while the trading window is open.

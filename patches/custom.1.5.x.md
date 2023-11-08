@@ -99,3 +99,6 @@
 `1.5.8`
 - Installing the mod or placing new thrall was reseting their vanilla body
 - Duplicating the flat chest to a different item ID and avoid a game bug
+
+`1.5.9`
+- Color status for accessories used the wrong color, showing red when the item was valid
