@@ -8,7 +8,7 @@
 3- Do not put these files in your mod content folder and do not select them in the modfile list  
 If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
 
-**Download API**: [Tot!Sudo 1.0.13](/API/SudoExile.1.0.13.zip ':ignore')
+**Download API**: [Tot!Sudo 1.0.16](/API/SudoExile.1.0.16.zip ':ignore')
 
 ## I_EA_Server_Settings
 
@@ -314,3 +314,9 @@ They all work only on the server, pretty much.
 **CharVars vs GlobVars observers**  
 To listen to CharVars, you need to find `I_EA_Vars_Observable` as an AC on `BasePlayerChar`.  
 To listen to GlobVars, you need to find an Actor that implements `I_EA_Vars_Observable` - that will be the mod controller.
+
+## Game Escape Menu Navigation <small>1.0.16+</small>
+
+Sudo now add a small menu on the game escape menu on the top right corner.  
+You can use the datatable `EA_DT_App_Nav_Buttons` to add new buttons to id.  
+The `TableRow` field represent either an Admin Nav panel row, a Client Nav panel row or a Conan UI Module row. Those 3 tables are checked in that order to find the panel you wish to open on click.
