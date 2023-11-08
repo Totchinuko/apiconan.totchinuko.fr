@@ -11,6 +11,9 @@
 - Add filter fields to global and character variables editors
 - Basic compatibility with chat command using the vanilla console. To use them, use `DataCMD sudocmd <command> <subcommand> <arguments>`. Ex: `DataCMD sudocmd home`. 
 
+`1.0.16`
+- Adding a small navigation menu on the game escape menu
+
 ## Fixes
 `1.0.14`
 - API file was missing from the archive
