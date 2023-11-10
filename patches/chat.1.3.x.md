@@ -33,3 +33,6 @@
 
 `1.3.4`
 - Chat overlay corner button was not working after the main character death
+
+`1.3.7`
+- Fix special language being available to everyone
