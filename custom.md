@@ -102,13 +102,17 @@ If your body mod use a custom base material, but you still wish the one from Cus
 ## Accessory Guide
 
 ### Simple Movable Accessory
-Add a new item in the vanilla `ItemTable` as a standard `BPGameItem` with a visual object as skeletal or static. It does not need to be a weapon. 
+Add a new item in the vanilla `ItemTable` as a standard `BPGameItem` with a visual object as skeletal or static. It does not need to be a weapon. This is barebone movable accessory. It has a fixed look and it can be attached anywhere.
 
-### Simple Skeletal Accessory
-Add a new item in the vanilla `ItemTable` as a standard `BPGameItem`, and an entry in the vanilla EquipmentVariation Table with the same id.
+### Simple Armor Accessory
+Add a new item in the vanilla `ItemTable` as a standard `BPGameItem`, and an entry in the vanilla EquipmentVariation Table with the same id. This is to make your accessory behave just like a vanilla piece of armor. You'd rig it to the human skeleton.
 
 ### Complex Movable Accessory
-By adding a row of the same ID as your simple movable accessory GameItem in the `Tot_DT_MovableData` Table, you can add extra data: Default positions on the body for both gender, a gender separated mesh fields and an Anim Instance class for more complexe Skeletal Mesh, like a tail with physics for example.
+By adding a row of the same ID as your simple movable accessory GameItem in the `Tot_DT_MovableData` Table, you can add extra data: 
+- Default positions on the body for both gender
+- A gender separated mesh fields
+- An Anim Instance class for more complexe Skeletal Mesh, like a tail with physics for example.
+- Add an Actor automatically to your accessory. It gives you the unique ability to add unique stuff to it, for example: Light sources, particles, etc... You can also use this to script your accessory. The actor will receive a reference of the accessory it is attached to, so you can influence it. For example, I use this technique to modify the light color of my lamps based on the dye of the accessory. One could also use this to script the character when the accessory is equipped, if they so desired.
 
 ### Attached Actor
 On any accessory, you can attach an actor of your own making. This can be used for anything, from making a special scripted accessory, to simply adding light or particules to it. Just drop an row into `Tot_DT_AttachmentBlueprints` data tables, with the item ID is key, specify the actor class and where to attach the actor, and you are good to go. Do not make it replicable, as the Actor is only created on client side. Accessories are only client side too.
