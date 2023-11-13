@@ -22,6 +22,14 @@
     - 4 new Hairlines
     - 5 new scars
 
+`1.5.10`
+> Everyone knows that the blood of your enemies makes the BEST foundation. Try Tot !Skin Care today to smooth away those awful lines.   
+> <small>Not guaranteed to work on corruption. if burning, itching, or impalement occurs please contact your witch doctor immediately</small>
+
+- New Tot ! Skin Care. Remove your wrinkles in 3 key area: Forehead, eyes, mouth.
+- Adding a new item rule, Force Ban to ban everything using the global rules.
+- New item selector for body items, armor, accessories, and weapons. Not all mods are present as it is up to the modders to add their mod using the API or ask me to add it for them.
+
 ## Changes/Improvements
 `1.5.0`
 - The beard configured in the body section is now added to the character using an internal accessory from Custom, instead of using Funcom internal beard management. This avoid issues with modded heads not working well with beards. Keep in mind that modded heads are not necessarly well suited for the beards and clipping may occure. Additionally, the beard section now allow to choose a variation, to find one that fit best the current face.
