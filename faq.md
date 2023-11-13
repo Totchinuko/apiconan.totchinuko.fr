@@ -36,3 +36,6 @@ Open the Sudo Client config (FAQ 4), then in the chat settings, you should find 
 
 ## 12. Can I import IQOL saves into Custom ? Can I apply an IQOL save on my character and then save it with Custom ?
 No to both questions. Their is no way, how ever convuluted that could be, to do that. Trust me, I'm an engineer.
+
+## 13. How can I change/reset my Sudo Super Admin Password (SSAP)
+Head in the tips, [Here](tips?id=reset-super-admin-password)

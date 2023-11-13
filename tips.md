@@ -105,3 +105,14 @@ In this file, add those lines:
 [/Game/Mods/ModAdmin/Auth/EA_MC_Auth.EA_MC_Auth_C]
 +SuperAdminSteamIDs=[YOUR_STEAM_ID]
 ```
+
+### Reset Super Admin Password
+
+You can use a software like this one to edit your save file (`game.db`). First get you server down, download the save, and open it with the program.  
+[https://sqlitebrowser.org/](https://sqlitebrowser.org/)
+
+In the browse data tab, go for the `properties` table and filter the data by typing just under the name table `EA_MC_Auth_C.Super Admin Password`  
+Right click on the row number like in the screenshot and hit delete record.  
+Save and reupload your db on you server, and restart. This will reset your password to nothing, so don't forget to change it.
+
+![Permission example](/img/screenshot/SudoPasswordReset.png ':size=50%')
