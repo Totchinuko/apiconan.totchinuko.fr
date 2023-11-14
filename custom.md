@@ -8,7 +8,7 @@
 3- Do not put these files in your mod content folder and do not select them in the modfile list  
 If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
 
-**Download API**: [Tot!Custom 1.4.4](/API/TotCustom.1.4.4.zip ':ignore') 
+**Download API**: [Tot!Custom 1.5.10](/API/TotCustom.1.5.10.zip ':ignore') 
 
 ## Internal Data Tables
 ### Tot_DT_CustomFieldTable
@@ -92,12 +92,35 @@ Skin textures including diffuse and mask (roughness) for hands and body.
 
 If your haircut mod use a custom base material, but you still wish the one from Custom take over when it is installed, simple inject your base material to this table so custom can recognize it as hairs.
 
-
-
 ### Tot_DT_BaseMaterialRef_Skins <small>1.3.0+</small>
 `ModsShared/SudoExile/TotCustom/Tables/Tot_DT_BaseMaterialRef_Skins`
 
 If your body mod use a custom base material, but you still wish the one from Custom take over when it is installed, simple inject your base material to this table so Custom can recognize it as skin.
+
+### Tot_DT_ModCreators <small>1.5.10+</small>
+`ModsShared/SudoExile/TotCustom/Tables/Tot_DT_ModCreators`
+
+Using this table, you can insert your mod logo/name in the mod filter of !Custom. You can specify a name, a logo, and a URL that point to a page of your choice.  
+In order to link this actual items and body settings, you need to reference your item ID ranges associated with content tags. You can add multiple content tags per ranges. For example, in !Custom, item IDs are usually from 128000 to 129999.   
+Here is a list of the content tags:
+- `TotCustom.GameItem` <small>(Game items for armor/weapons/accessories)</small>
+- `TotCustom.Warpaints`
+- `TotCustom.BodySkins` <small>(Diffuse/Specular skin replacement)</small>
+- `TotCustom.BodyNormals` <small>(Body normal/muscle replacements)</small>
+- `TotCustom.BodyHairs` 
+- `TotCustom.Hairlines`
+- `TotCustom.Complexion`
+- `TotCustom.Eyebrows`
+- `TotCustom.EyebrowTracks`
+- `TotCustom.Iris` <small>(Eye iris texture)</small>
+- `TotCustom.IrisMasks` <small>(Sectoral iris bi color)</small>
+- `TotCustom.Head`
+- `TotCustom.Hairs`
+- `TotCustom.FacialHairs`
+- `TotCustom.FacialHairlines`
+- `TotCustom.FaceWrinkles`
+- `TotCustom.Scars`
+- `TotCustom.Makeups`
 
 ## Accessory Guide
 
