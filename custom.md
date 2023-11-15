@@ -102,6 +102,12 @@ If your body mod use a custom base material, but you still wish the one from Cus
 
 Using this table, you can insert your mod logo/name in the mod filter of !Custom. You can specify a name, a logo, and a URL that point to a page of your choice.  
 In order to link this actual items and body settings, you need to reference your item ID ranges associated with content tags. You can add multiple content tags per ranges. For example, in !Custom, item IDs are usually from 128000 to 129999.   
+
+> In order to avoid having a dependancy on Sudo, you may want to include the following files in your mod, when trying to add your mod to the list. 
+> `/Game/ModsShared/SudoExile/TotCustom/Tables/Tot_DT_ModCreators.Tot_DT_ModCreators`  
+> `/Game/ModsShared/SudoExile/TotCustom/Types/Tot_S_ModRange.Tot_S_ModRange`  
+> `/Game/ModsShared/SudoExile/TotCustom/Types/Tot_S_ModCreator.Tot_S_ModCreator`  
+
 Here is a list of the content tags:
 - `TotCustom.GameItem` <small>(Game items for armor/weapons/accessories)</small>
 - `TotCustom.Warpaints`
