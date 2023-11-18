@@ -6,6 +6,9 @@
 `1.0.16`
 - Adding a new datatable `EA_DT_App_Nav_Buttons`. This table add new button to the new navigation menu on the top right corner of the game escape menu. A small section have been added to the documentation.
 
+`1.0.17`
+- New nameplate integration from Tot!Chat. This is off by default as I have not moved Redux to this new system yet.
+
 ## Changes/Improvements
 `1.0.13`
 - Improved performance for Setting, Getting, and Removing Float Char/Global vars and String Char/Global vars
