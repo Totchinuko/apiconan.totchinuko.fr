@@ -29,6 +29,7 @@
 - New Tot ! Skin Care. Remove your wrinkles in 3 key area: Forehead, eyes, mouth.
 - Adding a new item rule, Force Ban to ban everything using the global rules.
 - New item selector for body items, armor, accessories, and weapons. Not all mods are present as it is up to the modders to add their mod using the API or ask me to add it for them.
+- Added the customize button to the sudo button list of the escape menu.
 
 ## Changes/Improvements
 `1.5.0`
