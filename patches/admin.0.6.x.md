@@ -17,10 +17,13 @@
 - New visibility schedule for puppets
 
 # Improvements
+`0.6.0`
 - Improve lighting of portals as they scale
 - Tool search filters is now session persistent
+- Added the quest log and admin flags window to the sudo button list of the escape menu.
 
 # Fixes
+`0.6.0`
 - Fixed PostProcess Vignette effect by adding a custom one
 - Fixed PostProcess FilmGrain effect by adding a custom one
 - Fixed Pets not being able to be sold at a trader.
