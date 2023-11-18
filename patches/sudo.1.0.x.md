@@ -26,3 +26,6 @@
 
 `1.0.15`
 - The color picker now display color preview in sRGB. Meaning it should match more closely things like chat text/role colors.
+
+`1.0.17`
+- Fixed API call Has Glob Tag on character I_Vars interface always returning false.
