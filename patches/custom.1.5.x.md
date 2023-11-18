@@ -112,3 +112,6 @@
 `1.5.9`
 - Color status for accessories used the wrong color, showing red when the item was valid
 - Fixing item rules panel not working properly
+
+`1.5.10`
+- The weather simulation is now frozen while editing a character, to avoid the rain bug.
