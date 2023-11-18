@@ -21,6 +21,7 @@
 - Improve lighting of portals as they scale
 - Tool search filters is now session persistent
 - Added the quest log and admin flags window to the sudo button list of the escape menu.
+- Added Global mode for Cooldown, Counter and Has Tag rules.
 
 # Fixes
 `0.6.0`
