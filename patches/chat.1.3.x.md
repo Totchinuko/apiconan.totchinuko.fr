@@ -24,6 +24,9 @@
 `1.3.5`
 - Mention background color is now a separated parameter with alpha support.
 
+`1.3.7`
+- Removal of nameplate settings, as it has been moved to sudo.
+
 ## Fixes
 `1.3.0`
 - Fixing some unintended behavior with the RR and Devious Desire window
