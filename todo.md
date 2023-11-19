@@ -9,16 +9,26 @@
 - [ ] Custom Accessory panel rework
 
 ## Tot ! Admin
-- [ ] Invisible Walls that work like box zones `Next 0.6.x` `1/4`
+- [ ] Item lookup window should not be a fullscreen type `0.6.1` `bug` `0`
+- [ ] More decimals on trader item tooltip for armor penetration `0.6.1` `0`
+- [ ] Add new mods from creators `0.6.1` `0`
+- [ ] NPC Search by row ID `0.6.1` `1/8`
+- [ ] Has RPR Perk Rule `0.6.x` `1/4`
+- [ ] Toggle to add loot to a corpse rather than replacing `0.6.x` `1/8`
+- [ ] Random Spawn Roll for spawners `0.6.x` `1/4`
+- [ ] Invisible Walls that work like box zones `0.6.x` `1/4`
 - [ ] Scripted chest to spawn kits in `0.6.x` `1/2`
 - [ ] /trigger command to trigger a tool at a distance `0.6.x` `1/4`
 - [ ] More tools from "Soleil Couchant"
     - [ ] Soundboard `0.6.x` `1`
-    - [ ] Warper Wand `0.6.x` 1/4
+    - [ ] Warper Wand `0.6.x` `1/4`
     - [ ] Wallhack using Universal nameplate `0.6.x` `Waiting RPR`
     - [ ] Model Picker/Placer `0.6.x` `1/2`
     - [ ] Hunting Horn (Linked to soundboard API) `0.6.x` `Waiting soundboard`
     - [ ] Extended Range on horn instruments (linked to soundboard API) `0.6.x` `Waiting soundboard`
+- [ ] Projectile Launchers `0.6.x` `1`
+- [ ] Kit use for NPC equipment swap `0.6.x` `1/2`
+- [ ] Scripted Resource Spawn `0.6.x` `1`
 - [ ] Map markers on warp HUB `1.0.x`
 - [ ] Manipulte weather and time of day (IGS) `1.0.x`
 - [ ] Integrate RR Dice Sheet on Puppets `0.6.x`
