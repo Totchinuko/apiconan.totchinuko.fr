@@ -4,6 +4,7 @@
     - [Home](/)
     - [F.A.Q](faq)
     - [Various Tips](tips)
+    - [Todo List](todo)
     - [Mod Orders](modlist)
     - [Tot ! Custom Help](custom-help)
     - [Credits](credits)
