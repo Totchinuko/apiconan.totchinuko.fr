@@ -1,25 +1,33 @@
 # Todo List
 
+## Current Roadmap
+- [ ] Admin 0.6.x stuff
+- [ ] Roleplay Redux Nameplate integration
+- [ ] Puppet Dice Sheet Integration
+- [ ] Immersive Hud Map
+- [ ] Admin 1.0.0
+- [ ] Custom Accessory panel rework
+
 ## Tot ! Admin
-- [ ] Invisible Walls that work like box zones
-- [ ] Scripted chest to spawn kits in
-- [ ] /trigger command to trigger a tool at a distance
+- [ ] Invisible Walls that work like box zones `Next 0.6.x` `1/4`
+- [ ] Scripted chest to spawn kits in `0.6.x` `1/2`
+- [ ] /trigger command to trigger a tool at a distance `0.6.x` `1/4`
 - [ ] More tools from "Soleil Couchant"
-    - [ ] Soundboard
-    - [ ] Warper Wand
-    - [ ] Wallhack using Universal nameplate
-    - [ ] Model Picker/Placer
-    - [ ] Hunting Horn (Linked to soundboard API)
-    - [ ] Extended Range on horn instruments (linked to soundboard API)
-- [ ] Map markers on warp HUB
-- [ ] Manipulte weather and time of day (IGS)
-- [ ] Integrate RR Dice Sheet on Puppets
-- [ ] Admin Clan List
-- [ ] In Game Scripting (IGS)
-- [ ] Events Collector Area
-- [ ] Kits in kits
-- [ ] Feat in kits
-- [ ] /summon multiple character separated by a comma
+    - [ ] Soundboard `0.6.x` `1`
+    - [ ] Warper Wand `0.6.x` 1/4
+    - [ ] Wallhack using Universal nameplate `0.6.x` `Waiting RPR`
+    - [ ] Model Picker/Placer `0.6.x` `1/2`
+    - [ ] Hunting Horn (Linked to soundboard API) `0.6.x` `Waiting soundboard`
+    - [ ] Extended Range on horn instruments (linked to soundboard API) `0.6.x` `Waiting soundboard`
+- [ ] Map markers on warp HUB `1.0.x`
+- [ ] Manipulte weather and time of day (IGS) `1.0.x`
+- [ ] Integrate RR Dice Sheet on Puppets `0.6.x`
+- [ ] Admin Clan List `0.6.x`
+- [ ] In Game Scripting (IGS) `1.0.x`
+- [ ] Events Collector Area `1.0.x`
+- [ ] Kits in kits `1.0.x`
+- [ ] Feat in kits `1.0.x`
+- [ ] /summon multiple character separated by a comma `1.0.x`
 - [ ] Selector: Copy/Cut/Paste Buildings
 
 ## Tot ! Chat
@@ -50,6 +58,13 @@
     - [ ] Second Range for speech ranges, post an emote about being too far to hear something
 
 ## Tot ! Custom
+- [ ] Accessory panel rework `1.6.x`
+    - [ ] Groupe accessories icons, with a single editor. 
+    - [ ] Ability to select multiple of them and edit all their parameters in common (Shift + Click)
+    - [ ] Better 3D bone selection
+    - [ ] Piece Mirror `Experimental`
+    - [ ] Piece Flip Axis `Experimental`
+    - [ ] Swaping a bone without moving the accessory in world space
 - [ ] Voice Selector
 - [ ] Profile Quick Deletion Mode
 - [ ] Teeth Coloring
