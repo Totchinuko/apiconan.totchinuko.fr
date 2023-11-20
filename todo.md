@@ -9,13 +9,14 @@
 - [ ] Custom Accessory panel rework
 
 ## Tot ! Admin
-- [ ] Item lookup window should not be a fullscreen type `0.6.1` `bug` `0`
-- [ ] More decimals on trader item tooltip for armor penetration `0.6.1` `0`
-- [ ] Add new mods from creators `0.6.1` `0`
-- [ ] NPC Search by row ID `0.6.1` `1/8`
-- [ ] Has RPR Perk Rule `0.6.x` `1/4`
-- [ ] Toggle to add loot to a corpse rather than replacing `0.6.x` `1/8`
-- [ ] Random Spawn Roll for spawners `0.6.x` `1/4`
+- [X] Sphere Interaction Not Saving Rules on Server Restart `0.6.1` `bug`
+- [X] No building in admin map `0.6.1` `bug`
+- [X] More decimals on trader item tooltip for armor penetration `0.6.1`
+- [X] NPC Search by row ID `0.6.1`
+- [X] Has RPR Perk Rule `0.6.1`
+- [X] Has RPR Stat Above/Under/Equal `0.6.1`
+- [X] Toggle to add loot to a corpse rather than replacing `0.6.1`
+- [X] Random Spawn Roll for spawners `0.6.1`
 - [ ] Invisible Walls that work like box zones `0.6.x` `1/4`
 - [ ] Scripted chest to spawn kits in `0.6.x` `1/2`
 - [ ] /trigger command to trigger a tool at a distance `0.6.x` `1/4`
@@ -68,6 +69,7 @@
     - [ ] Second Range for speech ranges, post an emote about being too far to hear something
 
 ## Tot ! Custom
+- [ ] Add new mods from creators `1.5.11` `0`
 - [ ] Accessory panel rework `1.6.x`
     - [ ] Groupe accessories icons, with a single editor. 
     - [ ] Ability to select multiple of them and edit all their parameters in common (Shift + Click)
@@ -111,6 +113,7 @@
 - [ ] Store backup as a .sav rather than downloading/uploading a Json text
 
 ## Tot ! Sudo
+- [X] Item lookup window should not be a fullscreen type `1.0.18` `bug` `0`
 - [ ] Quick Search (CTRL + K) on panels
 - [ ] Alphabetical order for menus
 - [ ] Store backup as a .sav rather than downloading/uploading a Json text
