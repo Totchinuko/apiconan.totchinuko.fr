@@ -20,8 +20,9 @@
 - [X] Puppet name is still visible after reload of the server using visibility schedule `0.6.1` `bug`
 - [X] Invisible Walls that work like box zones `0.6.1`
 - [X] Typo in quest editor: Categories are in "General Settings", not "Server Settings". `0.6.1` `bug`
-- [X] Scripted chest to spawn kits in `0.6.x` `1/2`
+- [X] Scripted chest to spawn kits in `0.6.1`
 - [ ] Scripted door and chest do not work on admin map `0.6.x` `bug`
+- [ ] Improve Scripted door with scripted chest technique `0.6.x`
 - [ ] /trigger command to trigger a tool at a distance `0.6.x` `1/4`
 - [ ] More tools from "Soleil Couchant"
     - [ ] Soundboard `0.6.x` `1`
