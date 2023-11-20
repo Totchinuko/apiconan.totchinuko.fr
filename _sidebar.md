@@ -7,7 +7,6 @@
     - [Todo List](todo)
     - [Mod Orders](modlist)
     - [Tot ! Custom Help](custom-help)
-    - [Credits](credits)
 - Tot ! API
 
     - [Sudo API](sudo)
