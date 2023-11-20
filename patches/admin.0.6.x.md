@@ -15,6 +15,11 @@
 - Scripted doors. Using the action on wheel on any door, you can transform a normal door into a scripted door.
 - Admin Lights. Simple configurable lights that can receive script events.
 - New visibility schedule for puppets
+- Random Spawn chances for spawners, working just like kits
+
+`0.6.1`
+- Has RPR Perk Rule
+- Has RPR Skill/Stat Above/Under/Equal Rule
 
 # Improvements
 `0.6.0`
@@ -23,8 +28,18 @@
 - Added the quest log and admin flags window to the sudo button list of the escape menu.
 - Added Global mode for Cooldown, Counter and Has Tag rules.
 
+`0.6.1`
+- Rename rally point to point to avoid confusion
+- More decimals on trader item tooltip for armor penetration
+- NPC Search and Display row ID
+- Toggle to add loot to a corpse rather than replacing
+
 # Fixes
 `0.6.0`
 - Fixed PostProcess Vignette effect by adding a custom one
 - Fixed PostProcess FilmGrain effect by adding a custom one
 - Fixed Pets not being able to be sold at a trader.
+
+`0.6.1`
+- Sphere Interaction Not Saving Rules on Server Restart
+- No building in admin map
