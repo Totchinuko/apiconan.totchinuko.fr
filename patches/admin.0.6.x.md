@@ -20,8 +20,9 @@
 `0.6.1`
 - Has RPR Perk Rule
 - Has RPR Skill/Stat Above/Under/Equal Rule
+- Invisible Walls that work like box zones
 
-# Improvements
+# Changes
 `0.6.0`
 - Improve lighting of portals as they scale
 - Tool search filters is now session persistent
@@ -43,3 +44,4 @@
 `0.6.1`
 - Sphere Interaction Not Saving Rules on Server Restart
 - No building in admin map
+- Puppet name is still visible after reload of the server using visibility schedule
