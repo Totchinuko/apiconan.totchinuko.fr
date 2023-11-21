@@ -21,9 +21,18 @@
 - [X] Invisible Walls that work like box zones `0.6.1`
 - [X] Typo in quest editor: Categories are in "General Settings", not "Server Settings". `0.6.1` `bug`
 - [X] Scripted chest to spawn kits in `0.6.1`
-- [ ] Scripted door and chest do not work on admin map `0.6.x` `bug`
-- [ ] Improve Scripted door with scripted chest technique `0.6.x`
-- [ ] /trigger command to trigger a tool at a distance `0.6.x` `1/4`
+- [X] Scripted door and chest do not work on admin map `0.6.x` `bug`
+- [X] Improve Scripted door with scripted chest technique `0.6.1`
+- [X] /trigger command to trigger a tool at a distance `0.6.x`
+- [ ] Add/Remove/Toggle Global tag
+- [ ] Toggle CharTag
+- [ ] Add fail objective mode to quest
+- [ ] Add Global Tag Objective to quest
+- [ ] Add Global/Char Increment action
+- [ ] Add Number Condition to quest obj
+- [ ] Improve complete quest button clarity
+- [ ] Remaining cooldown for quest
+- [ ] Improve chat talk action to be more compliant with system `Experimental`
 - [ ] More tools from "Soleil Couchant"
     - [ ] Soundboard `0.6.x` `1`
     - [ ] Warper Wand `0.6.x` `1/4`
