@@ -119,15 +119,12 @@
 - [ ] Minimap Z Order issue with chat box
 
 ## Tot ! Roleplay Redux
-- [ ] Custom Status text is displayed as \<span color="#hex"\> instead of the actual colored text
+- [ ] Custom Status text is displayed as \<span color="#hex"\> instead of the actual colored text `bug`
 - [ ] Integrate the Universal Nameplate to replace the original
 - [ ] Integrate the math library to replace the original
-- [ ] Quick Search (CTRL + K) on panels
-- [ ] Alphabetical order for menus
-- [ ] Store backup as a .sav rather than downloading/uploading a Json text
 
 ## Tot ! Sudo
-- [X] Item lookup window should not be a fullscreen type `1.0.18` `bug` `0`
+- [X] Item lookup window should not be a fullscreen type `1.0.18` `bug`
 - [ ] Quick Search (CTRL + K) on panels
 - [ ] Alphabetical order for menus
 - [ ] Store backup as a .sav rather than downloading/uploading a Json text
