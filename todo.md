@@ -34,6 +34,8 @@
 - [X] Remaining cooldown for quest `0.6.1`
 - [X] Kill Count in char var `0.6.1`
 - [X] Add char float rule above/under/equal `0.6.1`
+- [X] Fix give quest checking for replayability of a quest when enforce rules is off `0.6.1`
+- [ ] Deprecate Give Role, Give Tag, Give Kit, Warp To, Notify, Give Quests, Remove Quests
 - [ ] More tools from "Soleil Couchant"
     - [ ] Soundboard `0.6.x` `1`
     - [ ] Warper Wand `0.6.x` `1/4`
@@ -44,16 +46,16 @@
 - [ ] Projectile Launchers `0.6.x` `1`
 - [ ] Kit use for NPC equipment swap `0.6.x` `1/2`
 - [ ] Scripted Resource Spawn `0.6.x` `1`
-- [ ] Map markers on warp HUB `1.0.x`
-- [ ] Manipulte weather and time of day (IGS) `1.0.x`
 - [ ] Integrate RR Dice Sheet on Puppets `0.6.x`
 - [ ] Admin Clan List `0.6.x`
 - [ ] In Game Scripting (IGS) `1.0.x`
+- [ ] Map markers on warp HUB `1.0.x`
+- [ ] Manipulte weather and time of day (IGS) `1.0.x`
 - [ ] Events Collector Area `1.0.x`
 - [ ] Kits in kits `1.0.x`
 - [ ] Feat in kits `1.0.x`
 - [ ] /summon multiple character separated by a comma `1.0.x`
-- [ ] Selector: Copy/Cut/Paste Buildings
+- [ ] Selector: Copy/Cut/Paste Buildings `Experimental`
 
 ## Tot ! Chat
 - [ ] Death Announcements
