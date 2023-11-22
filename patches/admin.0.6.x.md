@@ -21,6 +21,17 @@
 - Has RPR Perk Rule
 - Has RPR Skill/Stat Above/Under/Equal Rule
 - Invisible Walls that work like box zones
+- Scripted chest to spawn kits in
+- /trigger command to trigger a tool at a distance
+- Action Add/Remove/Toggle Global tag
+- Action Toggle Char Tag
+- Add fail mode to quest objectives
+- Add Global mode to Tag Objectives
+- Add Global/Char Increment action
+- Add Number Objective to quests
+- Puppet now have a rule set for their own interaction
+- Player kill count automatically stored in float char var and accessible in the player editor.
+- New Add Var Float action to increment/decrement char/global float variables
 
 # Changes
 `0.6.0`
@@ -34,6 +45,9 @@
 - More decimals on trader item tooltip for armor penetration
 - NPC Search and Display row ID
 - Toggle to add loot to a corpse rather than replacing
+- Improved scripted door compatibility with game doors
+- Improve complete quest button clarity
+- Added Remaining cooldown for repeatable quests
 
 # Fixes
 `0.6.0`
@@ -45,3 +59,6 @@
 - Sphere Interaction Not Saving Rules on Server Restart
 - No building in admin map
 - Puppet name is still visible after reload of the server using visibility schedule
+- Typo in quest editor: Categories are in "General Settings", not "Server Settings".
+- Fixed Multi Action Talk sending message in current channel rather than local
+- Fix Give Quest Action checking for replayability of a quest while enforce rules is off
