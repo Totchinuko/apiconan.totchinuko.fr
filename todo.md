@@ -35,7 +35,9 @@
 - [X] Kill Count in char var `0.6.1`
 - [X] Add char float rule above/under/equal `0.6.1`
 - [X] Fix give quest checking for replayability of a quest when enforce rules is off `0.6.1`
-- [ ] Deprecate Give Role, Give Tag, Give Kit, Warp To, Notify, Give Quests, Remove Quests
+- [X] Deprecate Give Role, Give Tag, Give Kit, Warp To, Notify, Give Quests, Remove Quests `0.6.1`
+- [ ] Improve Spawn/Point Emote naming somehow ?
+- [ ] Multiple quest points display the same (RPC need a filter)
 - [ ] More tools from "Soleil Couchant"
     - [ ] Soundboard `0.6.x` `1`
     - [ ] Warper Wand `0.6.x` `1/4`
@@ -121,7 +123,7 @@
 - [ ] Minimap Z Order issue with chat box
 
 ## Tot ! Roleplay Redux
-- [ ] Custom Status text is displayed as \<span color="#hex"\> instead of the actual colored text `bug`
+- [X] Custom Status text is displayed as \<span color="#hex"\> instead of the actual colored text `bug`
 - [ ] Integrate the Universal Nameplate to replace the original
 - [ ] Integrate the math library to replace the original
 
