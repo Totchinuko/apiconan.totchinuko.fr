@@ -125,6 +125,7 @@
 ## Tot ! Roleplay Redux
 - [X] Custom Status text is displayed as \<span color="#hex"\> instead of the actual colored text `bug`
 - [ ] Integrate the Universal Nameplate to replace the original
+- [ ] Selected distance in Tot ! Chat does not affect roll distance as it should
 - [ ] Integrate the math library to replace the original
 
 ## Tot ! Sudo
