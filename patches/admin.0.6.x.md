@@ -18,21 +18,20 @@
 - Random Spawn chances for spawners, working just like kits
 
 `0.6.1`
-- Has RPR Perk Rule
-- Has RPR Skill/Stat Above/Under/Equal Rule
+- New Rule: Has RPR Perk
+- New Rule: Has RPR Skill/Stat Above/Under/Equal
 - Invisible Walls that work like box zones
-- Scripted chest to spawn kits in
+- Scripted chest to spawn kits in and trigger on opening
 - /trigger command to trigger a tool at a distance
-- Action Add/Remove/Toggle Global tag
-- Action Toggle Char Tag
+- New Multi Action: Add/Remove/Toggle Global tag
+- New Multi Action: Toggle Char Tag
 - Add fail mode to quest objectives
 - Add Global mode to Tag Objectives
-- Add Global/Char Increment action
-- Add Number Objective to quests
+- New Objective Type: Number, tracking float vars either global or on characters
 - Puppet now have a rule set for their own interaction
 - Player kill count automatically stored in float char var and accessible in the player editor.
-- New Add Var Float action to increment/decrement char/global float variables
-- Add Char/Global Float Var rule for comparison
+- New Multi Action: Add Var Float to increment/decrement char/global float variables
+- New Rule: Char/Global Float Var for comparison
 - Add Identiry Rule to check the identity of one or more players/clans
 
 
