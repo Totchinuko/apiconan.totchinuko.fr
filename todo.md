@@ -34,10 +34,11 @@
 - [X] Remaining cooldown for quest `0.6.1`
 - [X] Kill Count in char var `0.6.1`
 - [X] Add char float rule above/under/equal `0.6.1`
-- [X] Fix give quest checking for replayability of a quest when enforce rules is off `0.6.1`
+- [X] Fix give quest checking for replayability of a quest when  enforce rules is off `0.6.1`
 - [X] Deprecate Give Role, Give Tag, Give Kit, Warp To, Notify, Give Quests, Remove Quests `0.6.1`
-- [ ] Improve Spawn/Point Emote naming somehow ?
-- [ ] Multiple quest points display the same (RPC need a filter)
+- [X] Rule: Player/Clan id
+- [X] Improve Spawn/Point Emote naming somehow ?    
+- [X] Multiple quest points display the same (RPC need a filter)
 - [ ] More tools from "Soleil Couchant"
     - [ ] Soundboard `0.6.x` `1`
     - [ ] Warper Wand `0.6.x` `1/4`
@@ -46,6 +47,7 @@
     - [ ] Hunting Horn (Linked to soundboard API) `0.6.x` `Waiting soundboard`
     - [ ] Extended Range on horn instruments (linked to soundboard API) `0.6.x` `Waiting soundboard`
 - [ ] Projectile Launchers `0.6.x` `1`
+- [ ] Player wallpaper
 - [ ] Kit use for NPC equipment swap `0.6.x` `1/2`
 - [ ] Scripted Resource Spawn `0.6.x` `1`
 - [ ] Integrate RR Dice Sheet on Puppets `0.6.x`
@@ -124,7 +126,7 @@
 
 ## Tot ! Roleplay Redux
 - [X] Custom Status text is displayed as \<span color="#hex"\> instead of the actual colored text `bug`
-- [ ] Integrate the Universal Nameplate to replace the original
+- [X] Integrate the Universal Nameplate to replace the original
 - [ ] Selected distance in Tot ! Chat does not affect roll distance as it should
 - [ ] Integrate the math library to replace the original
 
