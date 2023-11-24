@@ -32,6 +32,9 @@
 - Puppet now have a rule set for their own interaction
 - Player kill count automatically stored in float char var and accessible in the player editor.
 - New Add Var Float action to increment/decrement char/global float variables
+- Add Char/Global Float Var rule for comparison
+- Add Identiry Rule to check the identity of one or more players/clans
+
 
 # Changes
 `0.6.0`
@@ -48,6 +51,8 @@
 - Improved scripted door compatibility with game doors
 - Improve complete quest button clarity
 - Added Remaining cooldown for repeatable quests
+- Deprecate Give Role, Give Tag, Give Kit, Warp To, Notify, Give Quests, Remove Quests
+- Improved spawned emote list naming
 
 # Fixes
 `0.6.0`
@@ -62,3 +67,4 @@
 - Typo in quest editor: Categories are in "General Settings", not "Server Settings".
 - Fixed Multi Action Talk sending message in current channel rather than local
 - Fix Give Quest Action checking for replayability of a quest while enforce rules is off
+- Objective location were always showing the location of the first objective
