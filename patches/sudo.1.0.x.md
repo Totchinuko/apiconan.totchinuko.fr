@@ -20,6 +20,10 @@
 `1.0.16`
 - Adding a small navigation menu on the game escape menu
 
+`1.0.19`
+- Added a parameter to control the background opacity of nameplates
+- Added a parameter to hide the name of thralls separatly from players
+
 ## Fixes
 `1.0.14`
 - API file was missing from the archive

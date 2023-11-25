@@ -27,6 +27,11 @@
 `1.3.7`
 - Removal of nameplate settings, as it has been moved to sudo.
 
+`1.3.9`
+- Rework the bubble look and feel to match more the style of RPR
+- Improved reactivity of the typing signal
+- Added a parameter to control the background opacity of bubbles
+
 ## Fixes
 `1.3.0`
 - Fixing some unintended behavior with the RR and Devious Desire window
@@ -39,3 +44,6 @@
 
 `1.3.7`
 - Fix special language being available to everyone
+
+`1.3.9`
+- Fixed distance based display of the nameplate and bubbles

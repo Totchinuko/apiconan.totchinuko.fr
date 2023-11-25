@@ -6,3 +6,9 @@
 ## Fixes
 `2.1.15`
 - Fixing various color formating issues
+
+`2.1.16`
+- Fix empty nameplate bio displaying empty content
+- Fix missing spacing between widgets
+- Improved the font size of status
+- Increase the vision angle to display nameplate bio

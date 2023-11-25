@@ -2,7 +2,7 @@
 
 ## Current Roadmap
 - [ ] Admin 0.6.x stuff
-- [ ] Roleplay Redux Nameplate integration
+- [X] Roleplay Redux Nameplate integration
 - [ ] Puppet Dice Sheet Integration
 - [ ] Immersive Hud Map
 - [ ] Admin 1.0.0
@@ -39,6 +39,12 @@
 - [X] Rule: Player/Clan id
 - [X] Improve Spawn/Point Emote naming somehow ?    
 - [X] Multiple quest points display the same (RPC need a filter)
+- [ ] Add a gateway to the warp code, and avoid a stack overflow
+- [ ] Completed quest in log display abandon button
+- [ ] Try to edit tools "live"
+- [ ] Display rule messages on interaction sphere
+- [ ] Enforce warp rules on interaction sphere seems to be stuck by the "Allow using command" checkbox when off
+- [ ] Better velocity transition for short warps (Manual exit vector ?)
 - [ ] More tools from "Soleil Couchant"
     - [ ] Soundboard `0.6.x` `1`
     - [ ] Warper Wand `0.6.x` `1/4`
@@ -52,6 +58,7 @@
 - [ ] Scripted Resource Spawn `0.6.x` `1`
 - [ ] Integrate RR Dice Sheet on Puppets `0.6.x`
 - [ ] Admin Clan List `0.6.x`
+- [ ] Configurable duration for notifications
 - [ ] In Game Scripting (IGS) `1.0.x`
 - [ ] Map markers on warp HUB `1.0.x`
 - [ ] Manipulte weather and time of day (IGS) `1.0.x`
@@ -62,6 +69,8 @@
 - [ ] Selector: Copy/Cut/Paste Buildings `Experimental`
 
 ## Tot ! Chat
+- [X] Improve look and feel of bubbles
+- [ ] Bubbles are only displayed when setting own bubble is ticked (X to doubt)
 - [ ] Death Announcements
 - [ ] Link in messages
 - [ ] Separate emote formating
@@ -127,11 +136,13 @@
 ## Tot ! Roleplay Redux
 - [X] Custom Status text is displayed as \<span color="#hex"\> instead of the actual colored text `bug`
 - [X] Integrate the Universal Nameplate to replace the original
+- [X] Bio pops up even when empty
 - [ ] Selected distance in Tot ! Chat does not affect roll distance as it should
 - [ ] Integrate the math library to replace the original
 
 ## Tot ! Sudo
 - [X] Item lookup window should not be a fullscreen type `1.0.18` `bug`
+- [X] Add a separated thrall hide all names param
 - [ ] Quick Search (CTRL + K) on panels
 - [ ] Alphabetical order for menus
 - [ ] Store backup as a .sav rather than downloading/uploading a Json text
