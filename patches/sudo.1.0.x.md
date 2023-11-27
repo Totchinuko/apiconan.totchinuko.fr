@@ -33,3 +33,6 @@
 
 `1.0.17`
 - Fixed API call Has Glob Tag on character I_Vars interface always returning false.
+
+`1.0.20`
+- Changed the anchor of the nameplate for better compatibility

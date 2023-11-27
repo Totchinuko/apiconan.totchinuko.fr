@@ -47,3 +47,6 @@
 
 `1.3.9`
 - Fixed distance based display of the nameplate and bubbles
+
+`1.3.10`
+- Hide you own bubble parameter was disabling everyones bubbles

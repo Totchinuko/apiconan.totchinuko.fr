@@ -12,3 +12,7 @@
 - Fix missing spacing between widgets
 - Improved the font size of status
 - Increase the vision angle to display nameplate bio
+
+`2.1.17`
+- Remove export game data button as it was crashing the client
+- Your own nameplate bio was displayed in some camera angles

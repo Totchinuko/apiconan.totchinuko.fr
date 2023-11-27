@@ -34,6 +34,10 @@
 - New Rule: Char/Global Float Var for comparison
 - Add Identiry Rule to check the identity of one or more players/clans
 
+`0.6.2`
+- A way to disable the character night lights
+- Added Scripted Game Light
+
 
 # Changes
 `0.6.0`
@@ -53,6 +57,9 @@
 - Deprecate Give Role, Give Tag, Give Kit, Warp To, Notify, Give Quests, Remove Quests
 - Improved spawned emote list naming
 
+`0.6.2`
+- Display rule messages on interaction sphere
+
 # Fixes
 `0.6.0`
 - Fixed PostProcess Vignette effect by adding a custom one
@@ -67,3 +74,14 @@
 - Fixed Multi Action Talk sending message in current channel rather than local
 - Fix Give Quest Action checking for replayability of a quest while enforce rules is off
 - Objective location were always showing the location of the first objective
+
+`0.6.2`
+- Fix identity rule missing a forbidden field
+- Typo in some rule "requiered"
+- Radial menu for scripted chest indicated scripted doors
+- Invisible walls is not appearing in the tool master list
+- Rename invisible wall window
+- Remove events from invisible wall
+- Add a gateway to the warp code, and avoid a stack overflow
+- Completed quest in log display abandon button
+- Enforce warp rules on action trigger seems to be stuck by the "Allow using command" checkbox when off

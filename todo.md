@@ -39,12 +39,18 @@
 - [X] Rule: Player/Clan id
 - [X] Improve Spawn/Point Emote naming somehow ?    
 - [X] Multiple quest points display the same (RPC need a filter)
-- [ ] Add a gateway to the warp code, and avoid a stack overflow
-- [ ] Completed quest in log display abandon button
-- [ ] Try to edit tools "live"
-- [ ] Display rule messages on interaction sphere
-- [ ] Enforce warp rules on interaction sphere seems to be stuck by the "Allow using command" checkbox when off
-- [ ] Better velocity transition for short warps (Manual exit vector ?)
+
+- [X] Fix identity rule missing a not field
+- [X] Typo in some rule "requiered"
+- [X] Radial menu for scripted chest indicated scripted doors
+- [X] Invisible walls is not appearing in the tool master list
+- [X] Rename invisible wall window
+- [X] Remove events from invisible wall
+- [X] Add a gateway to the warp code, and avoid a stack overflow
+- [X] Completed quest in log display abandon button
+- [X] Display rule messages on interaction sphere
+- [X] Enforce warp rules on action trigger seems to be stuck by the "Allow using command" checkbox when off
+- [X] A way to disable the character night lights
 - [ ] More tools from "Soleil Couchant"
     - [ ] Soundboard `0.6.x` `1`
     - [ ] Warper Wand `0.6.x` `1/4`
@@ -52,6 +58,8 @@
     - [ ] Model Picker/Placer `0.6.x` `1/2`
     - [ ] Hunting Horn (Linked to soundboard API) `0.6.x` `Waiting soundboard`
     - [ ] Extended Range on horn instruments (linked to soundboard API) `0.6.x` `Waiting soundboard`
+- [ ] Better velocity transition for short warps (Manual exit vector ?)
+- [ ] Try to edit tools "live"
 - [ ] Projectile Launchers `0.6.x` `1`
 - [ ] Player wallpaper
 - [ ] Kit use for NPC equipment swap `0.6.x` `1/2`
@@ -67,10 +75,11 @@
 - [ ] Feat in kits `1.0.x`
 - [ ] /summon multiple character separated by a comma `1.0.x`
 - [ ] Selector: Copy/Cut/Paste Buildings `Experimental`
+- [ ] Babies do not seems to be tradable
 
 ## Tot ! Chat
 - [X] Improve look and feel of bubbles
-- [ ] Bubbles are only displayed when setting own bubble is ticked (X to doubt)
+- [X] Bubbles are only displayed when setting own bubble is ticked
 - [ ] Death Announcements
 - [ ] Link in messages
 - [ ] Separate emote formating
