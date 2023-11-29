@@ -9,33 +9,33 @@
 - [ ] Custom Accessory panel rework
 
 ## Tot ! Admin
-- [X] Sphere Interaction Not Saving Rules on Server Restart `0.6.1` `bug`
-- [X] No building in admin map `0.6.1` `bug`
-- [X] More decimals on trader item tooltip for armor penetration `0.6.1`
-- [X] NPC Search by row ID `0.6.1`
-- [X] Has RPR Perk Rule `0.6.1`
-- [X] Has RPR Stat Above/Under/Equal `0.6.1`
-- [X] Toggle to add loot to a corpse rather than replacing `0.6.1`
-- [X] Random Spawn Roll for spawners `0.6.1`
-- [X] Puppet name is still visible after reload of the server using visibility schedule `0.6.1` `bug`
-- [X] Invisible Walls that work like box zones `0.6.1`
-- [X] Typo in quest editor: Categories are in "General Settings", not "Server Settings". `0.6.1` `bug`
-- [X] Scripted chest to spawn kits in `0.6.1`
-- [X] Scripted door and chest do not work on admin map `0.6.x` `bug`
-- [X] Improve Scripted door with scripted chest technique `0.6.1`
-- [X] /trigger command to trigger a tool at a distance `0.6.1`
-- [X] Add/Remove/Toggle Global tag `0.6.1`
-- [X] Toggle CharTag `0.6.1`
-- [X] Add fail objective mode to quest `0.6.1`
-- [X] Add Global Tag Objective to quest `0.6.1`
-- [X] Add Global/Char Increment action `0.6.1`
-- [X] Add Number Condition to quest obj `0.6.1`
-- [X] Improve complete quest button clarity `0.6.1`
-- [X] Remaining cooldown for quest `0.6.1`
-- [X] Kill Count in char var `0.6.1`
-- [X] Add char float rule above/under/equal `0.6.1`
-- [X] Fix give quest checking for replayability of a quest when  enforce rules is off `0.6.1`
-- [X] Deprecate Give Role, Give Tag, Give Kit, Warp To, Notify, Give Quests, Remove Quests `0.6.1`
+- [X] Sphere Interaction Not Saving Rules on Server Restart
+- [X] No building in admin map
+- [X] More decimals on trader item tooltip for armor penetration
+- [X] NPC Search by row ID
+- [X] Has RPR Perk Rule
+- [X] Has RPR Stat Above/Under/Equal
+- [X] Toggle to add loot to a corpse rather than replacing
+- [X] Random Spawn Roll for spawners
+- [X] Puppet name is still visible after reload of the server using visibility schedule
+- [X] Invisible Walls that work like box zones
+- [X] Typo in quest editor: Categories are in "General Settings", not "Server Settings".
+- [X] Scripted chest to spawn kits in
+- [X] Scripted door and chest do not work on admin map
+- [X] Improve Scripted door with scripted chest technique
+- [X] /trigger command to trigger a tool at a distance
+- [X] Add/Remove/Toggle Global tag
+- [X] Toggle CharTag
+- [X] Add fail objective mode to quest
+- [X] Add Global Tag Objective to quest
+- [X] Add Global/Char Increment action
+- [X] Add Number Condition to quest obj
+- [X] Improve complete quest button clarity
+- [X] Remaining cooldown for quest
+- [X] Kill Count in char var
+- [X] Add char float rule above/under/equal
+- [X] Fix give quest checking for replayability of a quest when  enforce rules is off 
+- [X] Deprecate Give Role, Give Tag, Give Kit, Warp To, Notify, Give Quests, Remove Quests
 - [X] Rule: Player/Clan id
 - [X] Improve Spawn/Point Emote naming somehow ?    
 - [X] Multiple quest points display the same (RPC need a filter)
@@ -52,28 +52,40 @@
 - [X] Enforce warp rules on action trigger seems to be stuck by the "Allow using command" checkbox when off
 - [X] A way to disable the character night lights
 - [ ] More tools from "Soleil Couchant"
-    - [ ] Soundboard `0.6.x` `1`
-    - [ ] Warper Wand `0.6.x` `1/4`
-    - [ ] Wallhack using Universal nameplate `0.6.x` `Waiting RPR`
-    - [ ] Model Picker/Placer `0.6.x` `1/2`
-    - [ ] Hunting Horn (Linked to soundboard API) `0.6.x` `Waiting soundboard`
-    - [ ] Extended Range on horn instruments (linked to soundboard API) `0.6.x` `Waiting soundboard`
+    - [ ] Soundboard
+        - [ ] Preview toggle is broken
+        - [ ] Sometime preset duplicated ?
+        - [ ] Preview on right click ?
+        - [ ] Set default icon when droping sound
+        - [ ] Test LPF
+        - [ ] 300ms ish of delay between sound cast for performance
+        - [ ] Being able to change the sound of a preset
+        - [ ] Random Pitch/Volume range
+    - [ ] Warper Wand
+    - [ ] Wallhack using Universal nameplate
+    - [ ] Model Picker/Placer
+    - [ ] Hunting Horn (Linked to soundboard API)
+    - [ ] Extended Range on horn instruments (linked to soundboard API)
+- [ ] Action: Deal Damage
+- [ ] Action: Edit Player Int Stat
+- [ ] Action: Edit Player Float Stat
+- [ ] Copy Admin Tools somehow ?
 - [ ] Better velocity transition for short warps (Manual exit vector ?)
 - [ ] Try to edit tools "live"
-- [ ] Projectile Launchers `0.6.x` `1`
+- [ ] Projectile Launchers
 - [ ] Player wallpaper
-- [ ] Kit use for NPC equipment swap `0.6.x` `1/2`
-- [ ] Scripted Resource Spawn `0.6.x` `1`
-- [ ] Integrate RR Dice Sheet on Puppets `0.6.x`
-- [ ] Admin Clan List `0.6.x`
+- [ ] Kit use for NPC equipment swap
+- [ ] Scripted Resource Spawn
+- [ ] Integrate RR Dice Sheet on Puppets
+- [ ] Admin Clan List
 - [ ] Configurable duration for notifications
 - [ ] In Game Scripting (IGS) `1.0.x`
-- [ ] Map markers on warp HUB `1.0.x`
-- [ ] Manipulte weather and time of day (IGS) `1.0.x`
-- [ ] Events Collector Area `1.0.x`
-- [ ] Kits in kits `1.0.x`
-- [ ] Feat in kits `1.0.x`
-- [ ] /summon multiple character separated by a comma `1.0.x`
+- [ ] Map markers on warp HUB
+- [ ] Manipulte weather and time of day (IGS)
+- [ ] Events Collector Area
+- [ ] Kits in kits
+- [ ] Feat in kits
+- [ ] /summon multiple character separated by a comma
 - [ ] Selector: Copy/Cut/Paste Buildings `Experimental`
 - [ ] Babies do not seems to be tradable
 
