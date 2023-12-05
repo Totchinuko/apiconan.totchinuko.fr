@@ -58,6 +58,12 @@
     - RA: Character Customisation
     - Aquilonian Passion Body
 
+`1.5.11`
+- Added a toggle to prevent the generation of preset thumbnails
+- Added a button to randomize the identity of accessories. This can be useful after duplicating an accessory profile, so custom does not concider them identical.
+- When changing the bone of an accessory, the accessory will remain in its position
+- Added an accessory menu button to snap back on the bone origin.
+
 ## Bug Fixes
 `1.5.0`
 - Lock the breast and butt physics to the original default min/max slider values, and remove their customization. This was know to provock serious issues if values outside of their boudarie were used.
@@ -115,3 +121,6 @@
 
 `1.5.10`
 - The weather simulation is now frozen while editing a character, to avoid the rain bug.
+
+`1.5.11`
+- In rare cases, accessories would trigger an endless cycle of refresh on Custom panel, leading to intense slow downs and eventualy to a crash
