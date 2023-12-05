@@ -66,6 +66,7 @@
     - [ ] Model Picker/Placer
     - [ ] Hunting Horn (Linked to soundboard API)
     - [ ] Extended Range on horn instruments (linked to soundboard API)
+- [ ] Rule: Has quest in category
 - [ ] Action: Deal Damage
 - [ ] Action: Edit Player Int Stat
 - [ ] Action: Edit Player Float Stat
@@ -119,7 +120,9 @@
     - [ ] Second Range for speech ranges, post an emote about being too far to hear something
 
 ## Tot ! Custom
-- [ ] Add new mods from creators `1.5.11` `0`
+- [ ] Fix Coffee Bean bug
+- [ ] Add new mods from creators `1.5.11`
+- [ ] Update Edrein textures
 - [ ] Accessory panel rework `1.6.x`
     - [ ] Groupe accessories icons, with a single editor. 
     - [ ] Ability to select multiple of them and edit all their parameters in common (Shift + Click)
@@ -159,6 +162,7 @@
 - [X] Integrate the Universal Nameplate to replace the original
 - [X] Bio pops up even when empty
 - [ ] Selected distance in Tot ! Chat does not affect roll distance as it should
+- [ ] Ability to set/increment float/tag/string
 - [ ] Integrate the math library to replace the original
 
 ## Tot ! Sudo
