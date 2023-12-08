@@ -85,3 +85,9 @@
 - Add a gateway to the warp code, and avoid a stack overflow
 - Completed quest in log display abandon button
 - Enforce warp rules on action trigger seems to be stuck by the "Allow using command" checkbox when off
+
+`0.6.4`
+- Custom Spawned NPC did not use their custom name properly
+- Interaction rules did not prevent their use
+- Fix a typo in edit resource permission
+- Selector item was not usable

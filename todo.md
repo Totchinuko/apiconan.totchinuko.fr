@@ -50,10 +50,10 @@
 - [X] Display rule messages on interaction sphere
 - [X] Enforce warp rules on action trigger seems to be stuck by the "Allow using command" checkbox when off
 - [X] A way to disable the character night lights
-- [ ] Somehow custom NPC don't have a name
-- [ ] Sphere interaction do not stop execution with rules
-- [ ] Selector item not usable
-- [ ] Typo on role edit
+- [X] Somehow custom NPC don't have a name or their base name
+- [X] Sphere interaction do not stop execution with rules
+- [X] Selector item not usable
+- [X] Typo on role edit
 - [ ] More tools from "Soleil Couchant"
     - [ ] Soundboard
         - [ ] Preview toggle is broken
@@ -173,8 +173,7 @@
 ## Tot ! Sudo
 - [X] Item lookup window should not be a fullscreen type `1.0.18` `bug`
 - [X] Add a separated thrall hide all names param
-- [ ] Thrall name nameplate does not update properly
-- [ ] Clan display on offline page is not refreshed properly
+- [X] Clan display on offline page is not refreshed properly `Can't fix`
 - [ ] Quick Search (CTRL + K) on panels
 - [ ] Alphabetical order for menus
 - [ ] Store backup as a .sav rather than downloading/uploading a Json text
