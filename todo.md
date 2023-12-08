@@ -39,7 +39,6 @@
 - [X] Rule: Player/Clan id
 - [X] Improve Spawn/Point Emote naming somehow ?    
 - [X] Multiple quest points display the same (RPC need a filter)
-
 - [X] Fix identity rule missing a not field
 - [X] Typo in some rule "requiered"
 - [X] Radial menu for scripted chest indicated scripted doors
@@ -51,6 +50,10 @@
 - [X] Display rule messages on interaction sphere
 - [X] Enforce warp rules on action trigger seems to be stuck by the "Allow using command" checkbox when off
 - [X] A way to disable the character night lights
+- [ ] Somehow custom NPC don't have a name
+- [ ] Sphere interaction do not stop execution with rules
+- [ ] Selector item not usable
+- [ ] Typo on role edit
 - [ ] More tools from "Soleil Couchant"
     - [ ] Soundboard
         - [ ] Preview toggle is broken
@@ -120,7 +123,9 @@
     - [ ] Second Range for speech ranges, post an emote about being too far to hear something
 
 ## Tot ! Custom
-- [ ] Fix Coffee Bean bug
+- [X] Fix Coffee Bean bug
+- [ ] Add a close button on the panel
+- [ ] Deactivate vanilla customization
 - [ ] Add new mods from creators `1.5.11`
 - [ ] Update Edrein textures
 - [ ] Accessory panel rework `1.6.x`
@@ -129,7 +134,7 @@
     - [ ] Better 3D bone selection
     - [ ] Piece Mirror `Experimental`
     - [ ] Piece Flip Axis `Experimental`
-    - [ ] Swaping a bone without moving the accessory in world space
+    - [X] Swaping a bone without moving the accessory in world space
 - [ ] Voice Selector
 - [ ] Profile Quick Deletion Mode
 - [ ] Teeth Coloring
@@ -168,13 +173,19 @@
 ## Tot ! Sudo
 - [X] Item lookup window should not be a fullscreen type `1.0.18` `bug`
 - [X] Add a separated thrall hide all names param
+- [ ] Thrall name nameplate does not update properly
+- [ ] Clan display on offline page is not refreshed properly
 - [ ] Quick Search (CTRL + K) on panels
 - [ ] Alphabetical order for menus
 - [ ] Store backup as a .sav rather than downloading/uploading a Json text
 - [ ] Make the command fallback display notification and error in the vanilla console
 
 ## Tot ! Trebuchet
-- [ ] Allow navigating the workshop mods while on testlive
+- [X] Allow navigating the workshop mods while on testlive
+- [ ] Individual update button on mods
+- [ ] Log Filter to event
+- [ ] Shutdown event sequence
+- [ ] Mod update/Server update auto reboot
 - [ ] Separate UI text for later translation system
 
 ## Tot ! Walk
