@@ -64,6 +64,11 @@
 - When changing the bone of an accessory, the accessory will remain in its position
 - Added an accessory menu button to snap back on the bone origin.
 
+`1.5.13`
+- Added a close button to the panel main menu
+- Added new creator filters
+- Updated some warpaints from Edrein
+
 ## Bug Fixes
 `1.5.0`
 - Lock the breast and butt physics to the original default min/max slider values, and remove their customization. This was know to provock serious issues if values outside of their boudarie were used.
