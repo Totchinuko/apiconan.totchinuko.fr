@@ -55,15 +55,15 @@
 - [X] Selector item not usable
 - [X] Typo on role edit
 - [ ] More tools from "Soleil Couchant"
-    - [ ] Soundboard
-        - [ ] Preview toggle is broken
-        - [ ] Sometime preset duplicated ?
-        - [ ] Preview on right click ?
-        - [ ] Set default icon when droping sound
-        - [ ] Test LPF
-        - [ ] 300ms ish of delay between sound cast for performance
-        - [ ] Being able to change the sound of a preset
-        - [ ] Random Pitch/Volume range
+    - [X] Soundboard
+        - [X] Preview toggle is broken
+        - [X] Sometime preset duplicated ?
+        - [X] Preview on right click ?
+        - [X] Set default icon when droping sound
+        - [X] Test LPF
+        - [X] 300ms ish of delay between sound cast for performance
+        - [X] Being able to change the sound of a preset
+        - [X] Random Pitch/Volume range
     - [ ] Warper Wand
     - [ ] Wallhack using Universal nameplate
     - [ ] Model Picker/Placer
@@ -124,10 +124,10 @@
 
 ## Tot ! Custom
 - [X] Fix Coffee Bean bug
-- [ ] Add a close button on the panel
-- [ ] Deactivate vanilla customization
-- [ ] Add new mods from creators `1.5.11`
-- [ ] Update Edrein textures
+- [X] Add a close button on the panel
+- [X] Deactivate vanilla customization
+- [X] Add new mods from creators
+- [X] Update Edrein textures
 - [ ] Accessory panel rework `1.6.x`
     - [ ] Groupe accessories icons, with a single editor. 
     - [ ] Ability to select multiple of them and edit all their parameters in common (Shift + Click)
