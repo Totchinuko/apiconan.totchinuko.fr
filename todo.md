@@ -69,6 +69,7 @@
     - [ ] Model Picker/Placer
     - [ ] Hunting Horn (Linked to soundboard API)
     - [ ] Extended Range on horn instruments (linked to soundboard API)
+- [ ] API for quest, Spawners and Navigation
 - [ ] Rule: Has quest in category
 - [ ] Action: Deal Damage
 - [ ] Action: Edit Player Int Stat
@@ -153,14 +154,16 @@
 - [ ] Emote/Pose designer `Experimental`
 
 ## Tot ! Hud
-- [ ] Toggle Cursor with special input
-- [ ] Realtime Clock with server reboot warning
-- [ ] Allow to separate stat small bars to another location
-- [ ] Alternative World Map
-- [ ] Optional Simpler Sun/Moon game clock
+- [X] Allow to separate stat small bars to another location
 - [ ] Interactable widget HUD integration
-- [ ] Simple Damage Display
+- [X] Simple Damage Display
+- [ ] Alternative World Map
+- [ ] Active Quest Integration to map, minimap and additional objective panel
+- [ ] Follower HP
+- [ ] Realtime Clock with server reboot warning
+- [ ] Optional Simpler Sun/Moon game clock
 - [ ] Minimap Z Order issue with chat box
+- [ ] Toggle Cursor with special input
 
 ## Tot ! Roleplay Redux
 - [X] Custom Status text is displayed as \<span color="#hex"\> instead of the actual colored text `bug`
