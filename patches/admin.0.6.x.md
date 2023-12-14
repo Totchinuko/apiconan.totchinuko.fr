@@ -38,6 +38,8 @@
 - A way to disable the character night lights
 - Added Scripted Game Light
 
+`0.6.4`
+- Added the soundboard with most vanilla sounds in library. Some might not work, but since their is 2000+ of them, I'm not going to filter that.
 
 # Changes
 `0.6.0`

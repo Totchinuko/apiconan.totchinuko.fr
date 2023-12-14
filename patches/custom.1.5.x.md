@@ -129,3 +129,6 @@
 
 `1.5.11`
 - In rare cases, accessories would trigger an endless cycle of refresh on Custom panel, leading to intense slow downs and eventualy to a crash
+
+`1.5.13`
+- Moved reset position of accessories button higher in the menu
