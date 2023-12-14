@@ -129,6 +129,9 @@
 - [X] Deactivate vanilla customization
 - [X] Add new mods from creators
 - [X] Update Edrein textures
+- [X] Change body hairs shader variable
+- [X] Move reset position button
+- [ ] Override bracelet and mouth material
 - [ ] Accessory panel rework `1.6.x`
     - [ ] Groupe accessories icons, with a single editor. 
     - [ ] Ability to select multiple of them and edit all their parameters in common (Shift + Click)
