@@ -3,9 +3,9 @@
 ## Current Roadmap
 - [ ] Admin 0.6.x stuff
 - [X] Roleplay Redux Nameplate integration
-- [ ] Puppet Dice Sheet Integration
 - [ ] Immersive Hud Map
 - [ ] Admin 1.0.0
+- [ ] Puppet Dice Sheet Integration
 - [ ] Custom Accessory panel rework
 
 ## Tot ! Admin
@@ -54,6 +54,9 @@
 - [X] Sphere interaction do not stop execution with rules
 - [X] Selector item not usable
 - [X] Typo on role edit
+- [X] Fix interaction missing events.
+- [ ] Update !Admin API on website
+- [ ] Add quest module on quest start
 - [ ] More tools from "Soleil Couchant"
     - [X] Soundboard
         - [X] Preview toggle is broken
@@ -65,7 +68,7 @@
         - [X] Being able to change the sound of a preset
         - [X] Random Pitch/Volume range
     - [ ] Warper Wand
-    - [ ] Wallhack using Universal nameplate
+    - [ ] Wallhack using Universal nameplate (Admin Flag)
     - [ ] Model Picker/Placer
     - [ ] Hunting Horn (Linked to soundboard API)
     - [ ] Extended Range on horn instruments (linked to soundboard API)
@@ -131,7 +134,7 @@
 - [X] Update Edrein textures
 - [X] Change body hairs shader variable
 - [X] Move reset position button
-- [ ] Override bracelet and mouth material
+- [X] Override bracelet and mouth material
 - [ ] Accessory panel rework `1.6.x`
     - [ ] Groupe accessories icons, with a single editor. 
     - [ ] Ability to select multiple of them and edit all their parameters in common (Shift + Click)
@@ -158,7 +161,7 @@
 
 ## Tot ! Hud
 - [X] Allow to separate stat small bars to another location
-- [ ] Interactable widget HUD integration
+- [X] Interactable widget HUD integration
 - [X] Simple Damage Display
 - [ ] Alternative World Map
 - [ ] Active Quest Integration to map, minimap and additional objective panel
@@ -172,6 +175,7 @@
 - [X] Custom Status text is displayed as \<span color="#hex"\> instead of the actual colored text `bug`
 - [X] Integrate the Universal Nameplate to replace the original
 - [X] Bio pops up even when empty
+- [ ] Make a server settings to make runes undropable
 - [ ] Selected distance in Tot ! Chat does not affect roll distance as it should
 - [ ] Ability to set/increment float/tag/string
 - [ ] Integrate the math library to replace the original
