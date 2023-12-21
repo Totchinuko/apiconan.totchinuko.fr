@@ -9,6 +9,9 @@
 `1.0.17`
 - New nameplate integration from Tot!Chat. This is off by default as I have not moved Redux to this new system yet.
 
+`1.0.23`
+- Add settings for players to hide player and thrall names.
+
 ## Changes/Improvements
 `1.0.13`
 - Improved performance for Setting, Getting, and Removing Float Char/Global vars and String Char/Global vars

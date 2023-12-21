@@ -41,6 +41,9 @@
 `0.6.4`
 - Added the soundboard with most vanilla sounds in library. Some might not work, but since their is 2000+ of them, I'm not going to filter that.
 
+`0.6.5`
+- Add a start action module to quests
+
 # Changes
 `0.6.0`
 - Improve lighting of portals as they scale
@@ -61,6 +64,9 @@
 
 `0.6.2`
 - Display rule messages on interaction sphere
+
+`0.6.5`
+- Added a system name to puppets
 
 # Fixes
 `0.6.0`
@@ -93,3 +99,7 @@
 - Interaction rules did not prevent their use
 - Fix a typo in edit resource permission
 - Selector item was not usable
+
+`0.6.5`
+- Interaction Sphere had no event to receive when triggering actions on them
+- Fixed the interaction text staying on the screen after a warp

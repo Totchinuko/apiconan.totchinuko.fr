@@ -32,6 +32,12 @@
 - Improved reactivity of the typing signal
 - Added a parameter to control the background opacity of bubbles
 
+`1.3.12`
+- You can now customize the previous/next message sent key bindings (Default is Shift + Up/Down)
+- Added a keybind to edit the last message posted in the current channel. (Default is Up)
+- Improved message editing keyboard focus
+- Escape now cancel a message edition while focused on the chat input
+
 ## Fixes
 `1.3.0`
 - Fixing some unintended behavior with the RR and Devious Desire window

@@ -55,8 +55,7 @@
 - [X] Selector item not usable
 - [X] Typo on role edit
 - [X] Fix interaction missing events.
-- [ ] Update !Admin API on website
-- [ ] Add quest module on quest start
+- [X] Add quest module on quest start
 - [ ] More tools from "Soleil Couchant"
     - [X] Soundboard
         - [X] Preview toggle is broken
@@ -73,6 +72,7 @@
     - [ ] Hunting Horn (Linked to soundboard API)
     - [ ] Extended Range on horn instruments (linked to soundboard API)
 - [ ] API for quest, Spawners and Navigation
+- [ ] Update !Admin API on website
 - [ ] Rule: Has quest in category
 - [ ] Action: Deal Damage
 - [ ] Action: Edit Player Int Stat
@@ -163,6 +163,7 @@
 - [X] Allow to separate stat small bars to another location
 - [X] Interactable widget HUD integration
 - [X] Simple Damage Display
+- [X] Permission for damage display/combat log
 - [ ] Alternative World Map
 - [ ] Active Quest Integration to map, minimap and additional objective panel
 - [ ] Follower HP
@@ -184,6 +185,7 @@
 - [X] Item lookup window should not be a fullscreen type `1.0.18` `bug`
 - [X] Add a separated thrall hide all names param
 - [X] Clan display on offline page is not refreshed properly `Can't fix`
+- [X] Option to hide everyone else name
 - [ ] Quick Search (CTRL + K) on panels
 - [ ] Alphabetical order for menus
 - [ ] Store backup as a .sav rather than downloading/uploading a Json text
@@ -198,7 +200,7 @@
 - [ ] Separate UI text for later translation system
 
 ## Tot ! Walk
-- [ ] Prevent attacks under a target speed (selectable)
+- [X] Prevent attacks under a target speed (selectable)
 - [ ] Counter act the agility bonus under a selectable speed
 - [ ] Animation: Improve horse blending
 
