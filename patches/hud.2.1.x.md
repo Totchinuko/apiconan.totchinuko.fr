@@ -20,7 +20,7 @@
 `2.1.2`
 - Disabled auto hide HUD for default widgets configuration
 - Added background opacity sliders to Decoration info, quick loot panel and damage log
-- Improved the Quick Loot Panel for more containers.
+- Improved the Quick Loot Panel compatibility with more containers.
 
 ## Fixes
 
