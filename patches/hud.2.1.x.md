@@ -17,7 +17,17 @@
 `2.1.1`
 - Lock Combat Log behind permission
 
+`2.1.2`
+- Disabled auto hide HUD for default widgets configuration
+- Added background opacity sliders to Decoration info, quick loot panel and damage log
+- Improved the Quick Loot Panel for more containers.
+
 ## Fixes
 
 `2.1.1`
 - Damage log was not displaying the proper damage type in some cases (fall damage)
+
+`2.1.2`
+- Fixed Decoration info not restoring the vanilla equivalent when deactivated
+- Improved hud replacement code to reduce contextual flickering
+- Fixed the decayed indicator displayed on non decayed objects

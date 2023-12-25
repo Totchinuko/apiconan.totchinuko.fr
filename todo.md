@@ -135,6 +135,7 @@
 - [X] Change body hairs shader variable
 - [X] Move reset position button
 - [X] Override bracelet and mouth material
+- [ ] Extend forehead smoothing region for brow line
 - [ ] Accessory panel rework `1.6.x`
     - [ ] Groupe accessories icons, with a single editor. 
     - [ ] Ability to select multiple of them and edit all their parameters in common (Shift + Click)
