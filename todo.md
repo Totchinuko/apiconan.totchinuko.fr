@@ -1,11 +1,11 @@
 # Todo List
 
 ## Current Roadmap
-- [ ] Admin 0.6.x stuff
-- [X] Roleplay Redux Nameplate integration
+- [ ] More Trebuchet work - 1/3 -> 1/5
+- [ ] Admin 0.6.x stuff - 1/8 -> 1/12
+- [ ] Puppet Dice Sheet Integration - 1/8 -> 1/12
+- [ ] Admin 1.0.0 - 1/15 -> 1/31
 - [ ] Immersive Hud Map
-- [ ] Admin 1.0.0
-- [ ] Puppet Dice Sheet Integration
 - [ ] Custom Accessory panel rework
 
 ## Tot ! Admin
@@ -56,6 +56,9 @@
 - [X] Typo on role edit
 - [X] Fix interaction missing events.
 - [X] Add quest module on quest start
+- [ ] Puppet rules do not apply
+- [ ] Improve move tool to avoid Gimbal Lock issues
+- [ ] Scripted chest are not editable from the tool master list
 - [ ] More tools from "Soleil Couchant"
     - [X] Soundboard
         - [X] Preview toggle is broken
@@ -80,7 +83,6 @@
 - [ ] Copy Admin Tools somehow ?
 - [ ] Better velocity transition for short warps (Manual exit vector ?)
 - [ ] Try to edit tools "live"
-- [ ] Projectile Launchers
 - [ ] Player wallpaper
 - [ ] Kit use for NPC equipment swap
 - [ ] Scripted Resource Spawn
@@ -88,6 +90,7 @@
 - [ ] Admin Clan List
 - [ ] Configurable duration for notifications
 - [ ] In Game Scripting (IGS) `1.0.x`
+- [ ] Projectile Launchers
 - [ ] Map markers on warp HUB
 - [ ] Manipulte weather and time of day (IGS)
 - [ ] Events Collector Area
@@ -125,6 +128,12 @@
     - [ ] Admin channel panel: List all existing channel and allow to delete them
     - [ ] RCON Support
     - [ ] Second Range for speech ranges, post an emote about being too far to hear something
+    - [ ] A simple look at feature, where you can select who your character look at, in a list of people directly around.
+    - [ ] Add special quotes as exluding emote system
+    - [ ] Add messages shortcut to focus on protagonist
+    - [ ] Replace @ with a selector
+    - [ ] Add message shortcut to @ people
+    - [ ] Make the character look at someone with a simple click
 
 ## Tot ! Custom
 - [X] Fix Coffee Bean bug
@@ -194,6 +203,7 @@
 
 ## Tot ! Trebuchet
 - [X] Allow navigating the workshop mods while on testlive
+- [ ] Fix update status refresh during an update (probably file detection that is broken)
 - [ ] Individual update button on mods
 - [ ] Log Filter to event
 - [ ] Shutdown event sequence
@@ -206,6 +216,7 @@
 - [ ] Animation: Improve horse blending
 
 ## Library
+- [ ] Make a range visualizer (Visual 3D circle)
 - [ ] Rework the placeable editor
 - [ ] New Item Lookup supporting multiple selection
 - [ ] Improve 3D editor use cases
