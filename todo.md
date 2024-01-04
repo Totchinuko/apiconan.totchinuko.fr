@@ -59,6 +59,7 @@
 - [ ] Puppet rules do not apply
 - [ ] Improve move tool to avoid Gimbal Lock issues
 - [ ] Scripted chest are not editable from the tool master list
+- [ ] Deactivate name cache persistency
 - [ ] More tools from "Soleil Couchant"
     - [X] Soundboard
         - [X] Preview toggle is broken
@@ -145,6 +146,8 @@
 - [X] Move reset position button
 - [X] Override bracelet and mouth material
 - [ ] Extend forehead smoothing region for brow line
+- [ ] Fix premade positions of movable accessories
+- [ ] Crabby mod that has wrong item range
 - [ ] Accessory panel rework `1.6.x`
     - [ ] Groupe accessories icons, with a single editor. 
     - [ ] Ability to select multiple of them and edit all their parameters in common (Shift + Click)
@@ -203,12 +206,17 @@
 
 ## Tot ! Trebuchet
 - [X] Allow navigating the workshop mods while on testlive
-- [ ] Fix update status refresh during an update (probably file detection that is broken)
-- [ ] Individual update button on mods
+- [X] Fix update status refresh during an update (probably file detection that is broken)
+- [X] Individual update button on mods
+- [X] Prevent selecting installation folder inside the conan saved folder
 - [ ] Log Filter to event
 - [ ] Shutdown event sequence
 - [ ] Mod update/Server update auto reboot
 - [ ] Separate UI text for later translation system
+- [X] Steam connexion auto reconnect
+- [ ] Improve workshop search
+- [X] Fix conan installation folder detection
+- [X] Find solution for program files folder restriction
 
 ## Tot ! Walk
 - [X] Prevent attacks under a target speed (selectable)
