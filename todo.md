@@ -56,10 +56,10 @@
 - [X] Typo on role edit
 - [X] Fix interaction missing events.
 - [X] Add quest module on quest start
-- [ ] Puppet rules do not apply
-- [ ] Improve move tool to avoid Gimbal Lock issues
-- [ ] Scripted chest are not editable from the tool master list
-- [ ] Deactivate name cache persistency
+- [X] Puppet rules do not apply
+- [X] Improve move tool to avoid Gimbal Lock issues
+- [X] Scripted chest are not editable from the tool master list
+- [X] Deactivate name cache persistency
 - [ ] More tools from "Soleil Couchant"
     - [X] Soundboard
         - [X] Preview toggle is broken
@@ -145,9 +145,8 @@
 - [X] Change body hairs shader variable
 - [X] Move reset position button
 - [X] Override bracelet and mouth material
-- [ ] Extend forehead smoothing region for brow line
-- [ ] Fix premade positions of movable accessories
-- [ ] Crabby mod that has wrong item range
+- [X] Fix premade positions of movable accessories
+- [X] Switch vanilla weapon visibility to off automatically
 - [ ] Accessory panel rework `1.6.x`
     - [ ] Groupe accessories icons, with a single editor. 
     - [ ] Ability to select multiple of them and edit all their parameters in common (Shift + Click)
