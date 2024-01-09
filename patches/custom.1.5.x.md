@@ -69,6 +69,11 @@
 - Added new creator filters
 - Updated some warpaints from Edrein
 
+`1.5.14`
+- Custom will now deactivate automatically the vanilla sheathed weapons to avoid confusion and weapon transmog not working. This behavior can be deactivated in the player panel.
+- You can now use right click to display the quick access menu when possible.
+- Opening the panel will not unequip the weapon anymore.
+
 ## Bug Fixes
 `1.5.0`
 - Lock the breast and butt physics to the original default min/max slider values, and remove their customization. This was know to provock serious issues if values outside of their boudarie were used.
@@ -132,3 +137,7 @@
 
 `1.5.13`
 - Moved reset position of accessories button higher in the menu
+
+`1.5.14`
+- Fixed accessories position presets not functionning
+- Fixed the incorrect Juvilia's Crabby Accessories item range filter

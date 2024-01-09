@@ -56,3 +56,6 @@
 
 `1.3.10`
 - Hide you own bubble parameter was disabling everyones bubbles
+
+`1.3.13`
+- Fix message historic navigation being inverted

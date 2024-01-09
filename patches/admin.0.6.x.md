@@ -68,6 +68,9 @@
 `0.6.5`
 - Added a system name to puppets
 
+`0.6.6`
+- Improved Move tools handling
+
 # Fixes
 `0.6.0`
 - Fixed PostProcess Vignette effect by adding a custom one
@@ -103,3 +106,10 @@
 `0.6.5`
 - Interaction Sphere had no event to receive when triggering actions on them
 - Fixed the interaction text staying on the screen after a warp
+
+`0.6.6`
+- Fixed puppet rules not applying
+- Fixed scripted chests not editable on the tool master list
+- Player name cache will now reset between each reboot
+- `/link puppet` should now properly use the internal name rather than nameplate name
+- `/trigger` should now properly find puppets with their internal name
