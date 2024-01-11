@@ -75,8 +75,9 @@
     - [ ] Model Picker/Placer
     - [ ] Hunting Horn (Linked to soundboard API)
     - [ ] Extended Range on horn instruments (linked to soundboard API)
-- [ ] API for quest, Spawners and Navigation
-- [ ] Update !Admin API on website
+- [X] API for quest, Spawners and Navigation
+- [X] Update !Admin API on website
+- [ ] Copy/Paste Rules
 - [ ] Rule: Has quest in category
 - [ ] Action: Deal Damage
 - [ ] Action: Edit Player Int Stat
