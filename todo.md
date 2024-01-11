@@ -77,13 +77,13 @@
     - [ ] Extended Range on horn instruments (linked to soundboard API)
 - [X] API for quest, Spawners and Navigation
 - [X] Update !Admin API on website
-- [ ] Copy/Paste Rules
-- [ ] Rule: Has quest in category
-- [ ] Action: Deal Damage
+- [X] Copy/Paste Rules
+- [X] Rule: Has quest in category
+- [X] Action: Deal Damage
+- [ ] Variable Setter Target UI Widget
 - [ ] Action: Edit Player Int Stat
 - [ ] Action: Edit Player Float Stat
 - [ ] Copy Admin Tools somehow ?
-- [ ] Better velocity transition for short warps (Manual exit vector ?)
 - [ ] Try to edit tools "live"
 - [ ] Player wallpaper
 - [ ] Kit use for NPC equipment swap
@@ -91,8 +91,11 @@
 - [ ] Integrate RR Dice Sheet on Puppets
 - [ ] Admin Clan List
 - [ ] Configurable duration for notifications
+- [ ] Has RR Buff/Status Rule
+- [ ] Add RR Buff/Status Action
 - [ ] In Game Scripting (IGS) `1.0.x`
 - [ ] Projectile Launchers
+- [ ] Better velocity transition for short warps (Manual exit vector ?)
 - [ ] Map markers on warp HUB
 - [ ] Manipulte weather and time of day (IGS)
 - [ ] Events Collector Area
