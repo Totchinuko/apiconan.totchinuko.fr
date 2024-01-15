@@ -84,6 +84,8 @@
 
 `0.6.7`
 - Added the possibility to copy/paste rule sets.
+
+`0.6.8`
 - Added spiciness to updates, so potato can cry about it.
 
 # Fixes
@@ -128,4 +130,7 @@
 - Player name cache will now reset between each reboot
 - `/link puppet` should now properly use the internal name rather than nameplate name
 - `/trigger` should now properly find puppets with their internal name
+
+`0.6.7`
 - `/select` should now correctly select armor stands from !Custom
+- Fixed an exploit to get infinit loot from customized NPC

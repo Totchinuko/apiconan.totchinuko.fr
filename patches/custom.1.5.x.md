@@ -144,3 +144,4 @@
 
 `1.5.15`
 - `/select` from !Admin should now correctle select armor stands
+- Shoulder translation was influenced by pelvis sliders
