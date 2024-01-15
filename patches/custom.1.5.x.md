@@ -141,3 +141,6 @@
 `1.5.14`
 - Fixed accessories position presets not functionning
 - Fixed the incorrect Juvilia's Crabby Accessories item range filter
+
+`1.5.15`
+- `/select` from !Admin should now correctle select armor stands

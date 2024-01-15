@@ -1,5 +1,12 @@
 # Tot ! Admin 0.6.x (Alpha)
 
+## API
+`0.6.7`
+- Quest API
+- Spawn API
+- Navigation API
+- Admin Tools API
+
 ## New
 `0.6.0`
 - Admin Wallpaper, a placeable image from a given URL with various parameters
@@ -44,6 +51,10 @@
 `0.6.5`
 - Add a start action module to quests
 
+`0.6.7`
+- New Rule: Has Quest in Category
+- New Action: Inflict Damage
+
 # Changes
 `0.6.0`
 - Improve lighting of portals as they scale
@@ -70,6 +81,10 @@
 
 `0.6.6`
 - Improved Move tools handling
+
+`0.6.7`
+- Added the possibility to copy/paste rule sets.
+- Added spiciness to updates, so potato can cry about it.
 
 # Fixes
 `0.6.0`
@@ -113,3 +128,4 @@
 - Player name cache will now reset between each reboot
 - `/link puppet` should now properly use the internal name rather than nameplate name
 - `/trigger` should now properly find puppets with their internal name
+- `/select` should now correctly select armor stands from !Custom

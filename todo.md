@@ -1,10 +1,10 @@
 # Todo List
 
 ## Current Roadmap
-- [ ] More Trebuchet work - 1/3 -> 1/5
-- [ ] Admin 0.6.x stuff - 1/8 -> 1/12
-- [ ] Puppet Dice Sheet Integration - 1/8 -> 1/12
-- [ ] Admin 1.0.0 - 1/15 -> 1/31
+- [X] More Trebuchet work
+- [ ] Admin 0.6.x stuff - 1/15 -> 1/19
+- [ ] Puppet Dice Sheet Integration
+- [ ] Admin 1.0.0 - 1/22 -> tbd
 - [ ] Immersive Hud Map
 - [ ] Custom Accessory panel rework
 
@@ -83,6 +83,7 @@
 - [ ] Variable Setter Target UI Widget
 - [ ] Action: Edit Player Int Stat
 - [ ] Action: Edit Player Float Stat
+- [ ] Puppet: Hide nameplate toggle
 - [ ] Copy Admin Tools somehow ?
 - [ ] Try to edit tools "live"
 - [ ] Player wallpaper
@@ -108,6 +109,7 @@
 ## Tot ! Chat
 - [X] Improve look and feel of bubbles
 - [X] Bubbles are only displayed when setting own bubble is ticked
+- [ ] Auto-close channel list when chat loose focus
 - [ ] Death Announcements
 - [ ] Link in messages
 - [ ] Separate emote formating
@@ -151,6 +153,8 @@
 - [X] Override bracelet and mouth material
 - [X] Fix premade positions of movable accessories
 - [X] Switch vanilla weapon visibility to off automatically
+- [X] Fix shoulder translation influenced by pelvis scale.
+- [X] Armor stand cannot be selected with /select
 - [ ] Accessory panel rework `1.6.x`
     - [ ] Groupe accessories icons, with a single editor. 
     - [ ] Ability to select multiple of them and edit all their parameters in common (Shift + Click)
