@@ -80,20 +80,25 @@
 - [X] Copy/Paste Rules
 - [X] Rule: Has quest in category
 - [X] Action: Deal Damage
-- [ ] Variable Setter Target UI Widget
-- [ ] Action: Edit Player Int Stat
-- [ ] Action: Edit Player Float Stat
-- [ ] Puppet: Hide nameplate toggle
-- [ ] Copy Admin Tools somehow ?
-- [ ] Try to edit tools "live"
+- [X] Action: Math to Int Stat
+- [X] Action: Math to Float Stat
+- [X] Action: Math to Damage
+- [X] Action: Math to Float Char Var
+- [X] Action: Math to Float Glob Var
+- [X] Puppet: Hide nameplate toggle
+- [X] Edit admin tools "live" for those that could benefit from it
+- [X] Copy Admin Tools somehow ?
+- [ ] Make !Custom compatible with the puppet copy
 - [ ] Player wallpaper
 - [ ] Kit use for NPC equipment swap
 - [ ] Scripted Resource Spawn
 - [ ] Integrate RR Dice Sheet on Puppets
 - [ ] Admin Clan List
 - [ ] Configurable duration for notifications
-- [ ] Has RR Buff/Status Rule
-- [ ] Add RR Buff/Status Action
+- [ ] Rule: Has RR Buff/Status
+- [ ] Action: Add RR Buff/Status
+- [ ] Action: Add Recipe
+- [ ] Action: Add Feat
 - [ ] In Game Scripting (IGS) `1.0.x`
 - [ ] Projectile Launchers
 - [ ] Better velocity transition for short warps (Manual exit vector ?)
@@ -155,6 +160,7 @@
 - [X] Switch vanilla weapon visibility to off automatically
 - [X] Fix shoulder translation influenced by pelvis scale.
 - [X] Armor stand cannot be selected with /select
+- [X] Test invisibility code performance
 - [ ] Accessory panel rework `1.6.x`
     - [ ] Groupe accessories icons, with a single editor. 
     - [ ] Ability to select multiple of them and edit all their parameters in common (Shift + Click)
@@ -196,6 +202,7 @@
 - [X] Custom Status text is displayed as \<span color="#hex"\> instead of the actual colored text `bug`
 - [X] Integrate the Universal Nameplate to replace the original
 - [X] Bio pops up even when empty
+- [ ] Improve bio opening on only happen when the center of screen over the plate
 - [ ] Make a server settings to make runes undropable
 - [ ] Selected distance in Tot ! Chat does not affect roll distance as it should
 - [ ] Ability to set/increment float/tag/string
@@ -206,6 +213,8 @@
 - [X] Add a separated thrall hide all names param
 - [X] Clan display on offline page is not refreshed properly `Can't fix`
 - [X] Option to hide everyone else name
+- [ ] Add API to detect center of screen on the nameplate
+- [ ] Improve nameplate fade
 - [ ] Quick Search (CTRL + K) on panels
 - [ ] Alphabetical order for menus
 - [ ] Store backup as a .sav rather than downloading/uploading a Json text
