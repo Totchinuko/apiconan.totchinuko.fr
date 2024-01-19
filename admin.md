@@ -260,7 +260,7 @@ Check if a character pass the target kit rules.
 <!-- tabs:end -->
 
 #### Tot_GiveKit <small>Server</small>
-Attempt to give a Kit to the target character. This can fail if the rules do not pass, if the inventory is too full or if the kit contains items the character cannot spawn (DLC not owned for example)
+Attempt to give a Kit to the target character. This can fail if the rules do not pass (When enforced), if the inventory is too full or if the kit contains items the character cannot spawn (DLC not owned for example)
 <!-- tabs:start -->
 #### **Input**
 
@@ -268,6 +268,28 @@ Attempt to give a Kit to the target character. This can fail if the rules do not
 |-|-|----|
 |BasePlayerChar|Character||
 |Guid|Guid||
+|Boolean|EnforceRules||
+
+#### **Output**
+
+|type|name|description|
+|-|-|----|
+|bool|IsSuccess||
+|string|ErrorMessage||
+
+<!-- tabs:end -->
+
+#### Tot_GiveKit_QM <small>0.6.8+ | Server</small>
+Attempt to give a Kit to the target character. This can fail if the rules do not pass (When enforced), if the inventory is too full or if the kit contains items the character cannot spawn (DLC not owned for example). It also provide a quantity multiplier to increase or decrease final item quantities.
+<!-- tabs:start -->
+#### **Input**
+
+|type|name|description|
+|-|-|----|
+|BasePlayerChar|Character||
+|Guid|Guid||
+|Boolean|EnforceRules||
+|Float|QuantityMultiplier||
 
 #### **Output**
 
