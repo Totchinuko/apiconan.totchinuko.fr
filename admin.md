@@ -23,7 +23,11 @@ You can add new map marker icons with this table. Just need a name and a texture
 
 ### Tot_DT_InteractionModules <small>0.4.0+</small>
 `ModsShared/SudoExile/TotAdmin/Tables/Tot_DT_InteractionModules`  
-Add new puppet modules
+Add new action modules
+
+### Tot_DT_ResourceSpawnerTable <small>0.6.8+</small>
+`ModsShared/SudoExile/TotAdmin/Tables/Tot_DT_ResourceSpawnerTable`  
+Add new resources available with the resource spawner
 
 ## Warp API <small>0.1.0+</small>
 
