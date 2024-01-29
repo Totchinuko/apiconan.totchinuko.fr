@@ -952,6 +952,26 @@ List all the tools of a given type.
 
 <!-- tabs:end -->
 
+### Tot_I_MoveDuplicable <small>0.6.7+</small>
+`ModsShared/SudoExile/TotAdmin/Tot_I_MoveDuplicable`
+
+Implement on a placeable that is movable to make it compatible with the duplication call of the move tool.
+
+#### OnMoveDuplicate <small>Server</small>
+Called by the move tool when a duplication need to occure. You are responsible on how the duplication happen.
+<!-- tabs:start -->
+#### **Input**
+
+|type|name|description|
+|-|-|----|
+|Transform|Transform|Location of the copy|
+
+#### **Output**
+
+void
+
+<!-- tabs:end -->
+
 ## Quest Category Icon Table <small>0.5.9+</small>
 
 `ModsShared/SudoExile/TotAdmin/Tables/Tot_DT_Icons`
