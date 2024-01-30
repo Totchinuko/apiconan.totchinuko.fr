@@ -55,6 +55,15 @@
 - New Rule: Has Quest in Category
 - New Action: Inflict Damage
 
+`0.6.8`
+- Added spiciness to updates, so potato can cry about it.
+- Added `Shift + Left Click` on the Move Tool to place a copy of the current object. This is only compatible with admin tools, or any mods that would implement the API for it.
+- Action: New actions based on math expression to apply the result to a wide range of variables.
+- Rule: New rule based on math expression where the result is tested.
+- Added a toggle to hide the nameplate of puppets
+- Added Radishes
+- Admin Tool: Resource Spawn. Add optimized fields of harvestable resources.
+
 # Changes
 `0.6.0`
 - Improve lighting of portals as they scale
@@ -86,7 +95,11 @@
 - Added the possibility to copy/paste rule sets.
 
 `0.6.8`
-- Added spiciness to updates, so potato can cry about it.
+- Improved some admin tool editing to be refresh live as you change some visual parameters.
+- Added visual for Post Process Anchor radius
+- Improved performance and reactivity for the puppet auto visibility feature
+- Added a quantity multiplier to the kit spawn action
+
 
 # Fixes
 `0.6.0`
@@ -134,3 +147,7 @@
 `0.6.7`
 - `/select` should now correctly select armor stands from !Custom
 - Fixed an exploit to get infinit loot from customized NPC
+
+`0.6.8`
+- Quest editor would sometime fail to load the OnCompletion module
+- Quest editor would not properly refresh the quest list in some cases

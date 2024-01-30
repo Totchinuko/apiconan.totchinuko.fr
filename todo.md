@@ -2,9 +2,9 @@
 
 ## Current Roadmap
 - [X] More Trebuchet work
-- [ ] Admin 0.6.x stuff - 1/15 -> 1/19
+- [ ] Admin 0.6.x stuff
 - [ ] Puppet Dice Sheet Integration
-- [ ] Admin 1.0.0 - 1/22 -> tbd
+- [ ] Admin 1.0.0
 - [ ] Immersive Hud Map
 - [ ] Custom Accessory panel rework
 
@@ -88,17 +88,22 @@
 - [X] Puppet: Hide nameplate toggle
 - [X] Edit admin tools "live" for those that could benefit from it
 - [X] Copy Admin Tools somehow ?
-- [ ] Make !Custom compatible with the puppet copy
-- [ ] Player wallpaper
-- [ ] Kit use for NPC equipment swap
-- [ ] Scripted Resource Spawn
-- [ ] Integrate RR Dice Sheet on Puppets
-- [ ] Admin Clan List
+- [X] Make !Custom compatible with the puppet copy
+- [X] Player wallpaper
+- [X] Add Gametime variation of the even timer
+- [X] Change ignore armor damage to fall damage
+- [X] Resource Spawner
+- [X] Update API zip file
 - [ ] Configurable duration for notifications
 - [ ] Rule: Has RR Buff/Status
+- [ ] Rule: Has Language
 - [ ] Action: Add RR Buff/Status
 - [ ] Action: Add Recipe
 - [ ] Action: Add Feat
+- [ ] Update zone tools to use the new interactable setup with Visual Clues
+- [ ] Kit use for NPC equipment swap
+- [ ] Admin Clan List
+- [ ] Integrate RR Dice Sheet on Puppets
 - [ ] In Game Scripting (IGS) `1.0.x`
 - [ ] Projectile Launchers
 - [ ] Better velocity transition for short warps (Manual exit vector ?)
@@ -114,7 +119,6 @@
 ## Tot ! Chat
 - [X] Improve look and feel of bubbles
 - [X] Bubbles are only displayed when setting own bubble is ticked
-- [ ] Auto-close channel list when chat loose focus
 - [ ] Death Announcements
 - [ ] Link in messages
 - [ ] Separate emote formating

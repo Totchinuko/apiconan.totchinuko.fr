@@ -59,3 +59,6 @@
 
 `1.3.13`
 - Fix message historic navigation being inverted
+
+`1.3.14`
+- Fixed channel list unfolding in rare situations when it should not.

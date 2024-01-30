@@ -31,6 +31,9 @@
 - New item selector for body items, armor, accessories, and weapons. Not all mods are present as it is up to the modders to add their mod using the API or ask me to add it for them.
 - Added the customize button to the sudo button list of the escape menu.
 
+`1.5.16`
+- Added compatibility with !Admin new Move Duplicate feature for puppet duplication
+
 ## Changes/Improvements
 `1.5.0`
 - The beard configured in the body section is now added to the character using an internal accessory from Custom, instead of using Funcom internal beard management. This avoid issues with modded heads not working well with beards. Keep in mind that modded heads are not necessarly well suited for the beards and clipping may occure. Additionally, the beard section now allow to choose a variation, to find one that fit best the current face.

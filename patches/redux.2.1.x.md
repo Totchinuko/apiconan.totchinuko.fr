@@ -16,3 +16,6 @@
 `2.1.17`
 - Remove export game data button as it was crashing the client
 - Your own nameplate bio was displayed in some camera angles
+
+`2.1.19`
+- Fixed API call `GetStats` returning the maximum of a stat instead of current when the stat was not player editable
