@@ -4,6 +4,7 @@
 - [X] More Trebuchet work
 - [ ] Admin 0.6.x stuff
 - [ ] Puppet Dice Sheet Integration
+- [ ] Sudo nameplate adjustments
 - [ ] Admin 1.0.0
 - [ ] Immersive Hud Map
 - [ ] Custom Accessory panel rework
@@ -94,27 +95,44 @@
 - [X] Change ignore armor damage to fall damage
 - [X] Resource Spawner
 - [X] Update API zip file
-- [ ] Configurable duration for notifications
-- [ ] Rule: Has RR Buff/Status
-- [ ] Rule: Has Language
-- [ ] Action: Add RR Buff/Status
-- [ ] Action: Add Recipe
-- [ ] Action: Add Feat
-- [ ] Update zone tools to use the new interactable setup with Visual Clues
-- [ ] Kit use for NPC equipment swap
-- [ ] Admin Clan List
-- [ ] Integrate RR Dice Sheet on Puppets
+- [X] Add missing resources
+- [X] Same variable insertion as math, but for text
+- [X] Configurable duration for notifications
+- [X] Rule: Has RR Buff Category
+- [X] Rule: Has Language
+- [X] Resource Spawner: Debug event trigger before meteor arrival
+- [X] Resource Spawner: Pickup kit
+- [X] Action: Add/Remove RR Buff
+- [X] Formula Editor
+- [X] Fix negative constant in math solver
+- [X] Action: Add Feat
+- [X] Rule: Has Feat
+- [X] Fix basic NPC interaction
+- [X] RPR Variables in variable tracker
+- [X] Add rand function to the formula help
+- [X] Kit use for NPC equipment swap
+- [X] Admin Clan List
+- [X] Make a duplicate of the cheat panel behind permission
+    - [X] Level Stats
+    - [X] Health Stats
+    - [X] Cheat Panel with each cheat locked behind their respective permissions
+    - [X] Teleport panel using the warp system
+    - [X] Time/Weather cheat panel
+    - [X] NPC Spawn/Thrall spawn system + Custom NPC
+    - [X] Item Spawn
+- [ ] Do not clear the content of a scripted chest as long as no kit is configured. Allow clearing of the kit.
 - [ ] In Game Scripting (IGS) `1.0.x`
+    - [ ] Dialogue
+    - [ ] Manipulte weather and time of day (IGS)
+- [ ] Integrate RR Dice Sheet on Puppets
 - [ ] Projectile Launchers
 - [ ] Better velocity transition for short warps (Manual exit vector ?)
 - [ ] Map markers on warp HUB
-- [ ] Manipulte weather and time of day (IGS)
 - [ ] Events Collector Area
 - [ ] Kits in kits
 - [ ] Feat in kits
 - [ ] /summon multiple character separated by a comma
 - [ ] Selector: Copy/Cut/Paste Buildings `Experimental`
-- [ ] Babies do not seems to be tradable
 
 ## Tot ! Chat
 - [X] Improve look and feel of bubbles
@@ -136,13 +154,13 @@
     - [ ] Local channels will remained cached on client side.
     - [ ] Language ID → GUID
     - [ ] Range ID → GUID
-    - [ ] Improve Add/Remove listener API with returns
+    - [ ] Improve Add/Remove listener API with direct interface calls on neighbors
     - [ ] Improve Focus mode to be retro active on messages
-    - [ ] Add a folding message for focus mode
-    - [ ] Range physical visualization (Circle Shader)
+    - [ ] Range physical visualization (Circle Shader - Tot!Lib)
     - [ ] Splitting channels in multiple windows
     - [ ] Admin channel panel: List all existing channel and allow to delete them
     - [ ] RCON Support
+    - [ ] Log Support (Formated for Trebuchet)
     - [ ] Second Range for speech ranges, post an emote about being too far to hear something
     - [ ] A simple look at feature, where you can select who your character look at, in a list of people directly around.
     - [ ] Add special quotes as exluding emote system
@@ -150,6 +168,9 @@
     - [ ] Replace @ with a selector
     - [ ] Add message shortcut to @ people
     - [ ] Make the character look at someone with a simple click
+    - [ ] Reorderable chat tabs
+    - [ ] Sort of omni channels with modular configurable behaviors ?
+    - [ ] Customized channel name and color
 
 ## Tot ! Custom
 - [X] Fix Coffee Bean bug
@@ -165,7 +186,10 @@
 - [X] Fix shoulder translation influenced by pelvis scale.
 - [X] Armor stand cannot be selected with /select
 - [X] Test invisibility code performance
+- [ ] Add refresh accessory event on attached actors
+- [ ] Check: https://discord.com/channels/917916583064662076/1202830393347407953/1203184757706334258
 - [ ] Accessory panel rework `1.6.x`
+    - [ ] Color code location fields with the same as arrows
     - [ ] Groupe accessories icons, with a single editor. 
     - [ ] Ability to select multiple of them and edit all their parameters in common (Shift + Click)
     - [ ] Better 3D bone selection

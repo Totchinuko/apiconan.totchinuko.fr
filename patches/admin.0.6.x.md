@@ -64,6 +64,26 @@
 - Added Radishes
 - Admin Tool: Resource Spawn. Add optimized fields of harvestable resources.
 
+`0.6.9`
+- Rule: Has Buff Category
+- Rule: Has Chat Language
+- Action: Give RR Buff
+- Action: Remvove RR Buff Category
+- Rule: Has Knowledge
+- Action: Learn Knowledge
+- Action: Forget Knowledge
+- Added an admin clan panel to display every existing clan, their members and construction counts.
+- Cheat Command: /cheat creative - Fake creative mode, toggle god, cloak, all recipes and no cost cheat.
+- Cheat Command: /cheat nostamina - Toggle the no stamina cost cheat
+- Cheat Command: /cheat nostability - Toggle the cheat to build without stability
+- Cheat Command: /cheat allrecipes - Allow access to all recipes
+- New Cheat Panel
+    - Accessible in the menu on the top right corner of the escape menu or in the sudo Admin Panel
+    - Add accessibility to almost the same tools as the vanilla cheat panel, minus the admin mode requirement, replaced with sudo permissions
+    - Took the opportunity to provide a less bugged freeze time that can resist to server reboot (optional)
+    - Fixed the login weather bug by not fixing Funcom code. Yes, dark rituals were involved.
+
+
 # Changes
 `0.6.0`
 - Improve lighting of portals as they scale
@@ -100,6 +120,17 @@
 - Improved performance and reactivity for the puppet auto visibility feature
 - Added a quantity multiplier to the kit spawn action
 
+`0.6.9`
+- Adding missing resources on the resource spawner
+- Improved text variable for notify and talk to include a whole bag of variables, from stats to var chars, and many others...
+- Improve math formula editor and text parsing editor
+- Scripted chest will no longer clear their content when no kit is configured on them.
+- Rework of the Feat Ban feature: 
+    - This will not use the feat ban feature funcom anymore, instead it will manually prevent the teaching of the feat
+    - A notification will pop informing that the feat is banned
+    - Banned feat now appear in the knowledge panel
+    - Banned feat will be automatically unlearn at the next login of the player
+    - Banned feat can still be teached through the knowledge button in the player editor, events or the future scripting system
 
 # Fixes
 `0.6.0`
@@ -151,3 +182,8 @@
 `0.6.8`
 - Quest editor would sometime fail to load the OnCompletion module
 - Quest editor would not properly refresh the quest list in some cases
+
+`0.6.9`
+- Fixed event not firing on resource spawner
+- Fixed basic NPC and Trader NPC interaction area (No need to look at their underwear anymore)
+- Fixed Kit not spawning thralls
