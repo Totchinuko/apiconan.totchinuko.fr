@@ -83,6 +83,10 @@
     - Took the opportunity to provide a less bugged freeze time that can resist to server reboot (optional)
     - Fixed the login weather bug by not fixing Funcom code. Yes, dark rituals were involved.
 
+`0.6.10`
+- Added new weather settings to configure weather chances and wind strength
+- Added a new option to scripted chest to only check rules once every new kit spawn
+
 
 # Changes
 `0.6.0`
@@ -125,12 +129,17 @@
 - Improved text variable for notify and talk to include a whole bag of variables, from stats to var chars, and many others...
 - Improve math formula editor and text parsing editor
 - Scripted chest will no longer clear their content when no kit is configured on them.
-- Rework of the Feat Ban feature: 
-    - This will not use the feat ban feature funcom anymore, instead it will manually prevent the teaching of the feat
-    - A notification will pop informing that the feat is banned
-    - Banned feat now appear in the knowledge panel
-    - Banned feat will be automatically unlearn at the next login of the player
-    - Banned feat can still be teached through the knowledge button in the player editor, events or the future scripting system
+- ~Rework of the Feat Ban feature:~
+    - ~This will not use the feat ban feature funcom anymore, instead it will manually prevent the teaching of the feat~
+    - ~A notification will pop informing that the feat is banned~
+    - ~Banned feat now appear in the knowledge panel~
+    - ~Banned feat will be automatically unlearn at the next login of the player~
+    - ~Banned feat can still be teached through the knowledge button in the player editor, events or the future scripting system~
+
+`0.6.10`
+- Walked back on the Feat ban system improvements in the previous patch. It will work like before, at the exception that the player editor will now be able to teach knowledge that are banned in the feat ban list.
+- Improved feat selector filtering to filter by ID as well
+- Improved the cheat panel item spawner filtering to filter by ID as well
 
 # Fixes
 `0.6.0`
@@ -187,3 +196,8 @@
 - Fixed event not firing on resource spawner
 - Fixed basic NPC and Trader NPC interaction area (No need to look at their underwear anymore)
 - Fixed Kit not spawning thralls
+
+`0.6.10`
+- Fixed talk action that had 0 max length in character
+- Fixed text/math sometimes not recognizing float/string char var. 
+- Fixed the Feat selector missing a scroll bar

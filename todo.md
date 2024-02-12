@@ -120,7 +120,9 @@
     - [X] Time/Weather cheat panel
     - [X] NPC Spawn/Thrall spawn system + Custom NPC
     - [X] Item Spawn
-- [ ] Do not clear the content of a scripted chest as long as no kit is configured. Allow clearing of the kit.
+- [X] Do not clear the content of a scripted chest as long as no kit is configured. Allow clearing of the kit.
+- [X] Option to only run the rules on chest loot spawn
+- [X] Changing weather chances in admin settings.
 - [ ] In Game Scripting (IGS) `1.0.x`
     - [ ] Dialogue
     - [ ] Manipulte weather and time of day (IGS)
@@ -186,6 +188,7 @@
 - [X] Fix shoulder translation influenced by pelvis scale.
 - [X] Armor stand cannot be selected with /select
 - [X] Test invisibility code performance
+- [ ] Prevent Custom from opening when the escape menu is open
 - [ ] Add refresh accessory event on attached actors
 - [ ] Check: https://discord.com/channels/917916583064662076/1202830393347407953/1203184757706334258
 - [ ] Accessory panel rework `1.6.x`
@@ -241,6 +244,7 @@
 - [X] Add a separated thrall hide all names param
 - [X] Clan display on offline page is not refreshed properly `Can't fix`
 - [X] Option to hide everyone else name
+- [ ] Improve opacity slider for sudo windows
 - [ ] Add API to detect center of screen on the nameplate
 - [ ] Improve nameplate fade
 - [ ] Quick Search (CTRL + K) on panels
