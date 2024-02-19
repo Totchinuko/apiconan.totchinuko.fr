@@ -141,6 +141,10 @@
 - Improved feat selector filtering to filter by ID as well
 - Improved the cheat panel item spawner filtering to filter by ID as well
 
+`0.6.11`
+- Changed max quest categories from 20 to 50
+- Improve non climbable zone for invisible walls
+
 # Fixes
 `0.6.0`
 - Fixed PostProcess Vignette effect by adding a custom one
@@ -201,3 +205,8 @@
 - Fixed talk action that had 0 max length in character
 - Fixed text/math sometimes not recognizing float/string char var. 
 - Fixed the Feat selector missing a scroll bar
+
+`0.6.11`
+- Fixed talk text field not saving its content
+- Fixed quest duplication not copying the start module
+- Fixed NPC not respawning after being captured

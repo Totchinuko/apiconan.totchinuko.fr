@@ -38,6 +38,9 @@
 - Improved message editing keyboard focus
 - Escape now cancel a message edition while focused on the chat input
 
+`1.3.15`
+- Allow to change the emote formating separately for /me, /tell and /do
+
 ## Fixes
 `1.3.0`
 - Fixing some unintended behavior with the RR and Devious Desire window
@@ -62,3 +65,6 @@
 
 `1.3.14`
 - Fixed channel list unfolding in rare situations when it should not.
+
+`1.3.15`
+- Fixed ooc message getting hidden by language

@@ -2,10 +2,11 @@
 
 ## Current Roadmap
 - [X] More Trebuchet work
-- [ ] Admin 0.6.x stuff
-- [ ] Puppet Dice Sheet Integration
-- [ ] Sudo nameplate adjustments
+- [X] Admin 0.6.x stuff
+- [X] RPR Notice board edit button
 - [ ] Admin 1.0.0
+- [ ] Sudo nameplate adjustments
+- [ ] Puppet Dice Sheet Integration
 - [ ] Immersive Hud Map
 - [ ] Custom Accessory panel rework
 
@@ -123,8 +124,9 @@
 - [X] Do not clear the content of a scripted chest as long as no kit is configured. Allow clearing of the kit.
 - [X] Option to only run the rules on chest loot spawn
 - [X] Changing weather chances in admin settings.
+- [X] Quest duplicate does not copy on start
 - [ ] In Game Scripting (IGS) `1.0.x`
-    - [ ] Dialogue
+    - [ ] Dialogue  
     - [ ] Manipulte weather and time of day (IGS)
 - [ ] Integrate RR Dice Sheet on Puppets
 - [ ] Projectile Launchers
@@ -141,7 +143,7 @@
 - [X] Bubbles are only displayed when setting own bubble is ticked
 - [ ] Death Announcements
 - [ ] Link in messages
-- [ ] Separate emote formating
+- [X] Separate emote formating
 - [ ] Chat 2.0
     - [X] Adding Guid to message struct so we can allow past edition
     - [ ] No struct in API functions
@@ -233,6 +235,7 @@
 - [X] Custom Status text is displayed as \<span color="#hex"\> instead of the actual colored text `bug`
 - [X] Integrate the Universal Nameplate to replace the original
 - [X] Bio pops up even when empty
+- [ ] Edit button on notice board
 - [ ] Improve bio opening on only happen when the center of screen over the plate
 - [ ] Make a server settings to make runes undropable
 - [ ] Selected distance in Tot ! Chat does not affect roll distance as it should
