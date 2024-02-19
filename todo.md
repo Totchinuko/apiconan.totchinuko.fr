@@ -235,7 +235,7 @@
 - [X] Custom Status text is displayed as \<span color="#hex"\> instead of the actual colored text `bug`
 - [X] Integrate the Universal Nameplate to replace the original
 - [X] Bio pops up even when empty
-- [ ] Edit button on notice board
+- [X] Edit button on notice board
 - [ ] Improve bio opening on only happen when the center of screen over the plate
 - [ ] Make a server settings to make runes undropable
 - [ ] Selected distance in Tot ! Chat does not affect roll distance as it should
