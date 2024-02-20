@@ -22,3 +22,6 @@
 
 `2.1.19`
 - Fixed the waypoint having 1 hp
+
+`2.1.20`
+- Fixed an exploit related to the repost function of notice boards
