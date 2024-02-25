@@ -25,9 +25,17 @@ You can add new map marker icons with this table. Just need a name and a texture
 `ModsShared/SudoExile/TotAdmin/Tables/Tot_DT_InteractionModules`  
 Add new action modules
 
+### Tot_DT_Icons <small>0.6.0+</small>
+`ModsShared/SudoExile/TotAdmin/Tables/Tot_DT_Icons`  
+Add new icons to !Admin. Those are used only for quest categories for now.
+
 ### Tot_DT_ResourceSpawnerTable <small>0.6.8+</small>
 `ModsShared/SudoExile/TotAdmin/Tables/Tot_DT_ResourceSpawnerTable`  
 Add new resources available with the resource spawner
+
+### Tot_DT_SoundLibrary <small>0.6.4+</small>
+`ModsShared/SudoExile/TotAdmin/Tables/Tot_DT_SoundLibrary`  
+Add new sound to the sound library, used for the soundboard and future sound played through scripting.
 
 ## Warp API <small>0.1.0+</small>
 
