@@ -219,3 +219,4 @@
 - Fixed Math Formula editor and text editor cropping their content at 32 characters.
 - Fixed copy pasting action module in various scenarios
 - Fixed the thrallify button not working
+- Fix custom NPC size not applying to humans
