@@ -145,6 +145,10 @@
 - Changed max quest categories from 20 to 50
 - Improve non climbable zone for invisible walls
 
+`0.6.12`
+- Changed !DeathCount automatic Char Var to CharDeathCount
+- Changed !KillCount automatic Char Var to CharKillCount
+
 # Fixes
 `0.6.0`
 - Fixed PostProcess Vignette effect by adding a custom one
@@ -210,3 +214,8 @@
 - Fixed talk text field not saving its content
 - Fixed quest duplication not copying the start module
 - Fixed NPC not respawning after being captured
+
+`0.6.12`
+- Fixed Math Formula editor and text editor cropping their content at 32 characters.
+- Fixed copy pasting action module in various scenarios
+- Fixed the thrallify button not working
