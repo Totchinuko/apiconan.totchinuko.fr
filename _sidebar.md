@@ -16,6 +16,7 @@
     - [Custom API](custom)
     - [Custom Modeling](modeling)
     - [IHUD API](ihud)
+    - [Decoration Handler V2](phv2)
     - [Library](lib)
 - Patches
 
