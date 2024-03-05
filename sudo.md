@@ -8,7 +8,7 @@
 3- Do not put these files in your mod content folder and do not select them in the modfile list  
 If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
 
-**Download API**: [Tot!Sudo 1.0.17](/API/SudoExile.1.0.17.zip ':ignore')
+**Download API**: [Tot!Sudo 1.0.27](/API/SudoExile.1.0.27.zip ':ignore')
 
 ## I_EA_Server_Settings
 
