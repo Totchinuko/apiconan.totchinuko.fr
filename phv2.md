@@ -4,7 +4,7 @@
 !> **Install instructions**\
 1- Install Sudo API, you'll need it: [Here](sudo)   
 2- Extract this into `ConanExilesDevKit\Games\ConanSandbox\Content\ModsShared\`  
-3- Do not modify any of the files in there
+3- Do not modify any of the files in there  
 4- If you do not want to have a dependancy on Sudo, include the files in you modcook BUT, always inform your user that Sudo should always be under your mod.
 
 **Download API**: [Decoration Handler 2.0](/API/TotPH.2.0.0.zip ':ignore')
