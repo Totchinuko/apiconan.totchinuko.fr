@@ -1,14 +1,60 @@
 # Todo List
 
-## Current Roadmap
+## Broad General Roadmap
 - [X] More Trebuchet work
 - [X] Admin 0.6.x stuff
 - [X] RPR Notice board edit button
-- [ ] Admin 1.0.0
+- [ ] Admin 0.7.0
 - [ ] Sudo nameplate adjustments
 - [ ] Puppet Dice Sheet Integration
 - [ ] Immersive Hud Map
 - [ ] Custom Accessory panel rework
+
+## Currently Worked On
+- [X] Increase quest giver limite from 25 to 50
+- [X] Prevent double click to edit if no widget
+- [X] Duplicating nodes (RPC: Send original Guids and New Guids only)
+- [X] Selection with click/shift+click
+- [X] Selection with rectancle shift+click on grid
+- [X] Fix Scale that only work for non humans
+- [X] Fix Visual grid getting bigger than the rest at zoomz
+- [X] Add color and type to plugs
+- [X] Snap mode for snapping nodes on a grid
+- [X] Improve tool bar look
+- [X] Fix math solver limit bein too short
+- [X] Spawner - On Spawned Paste Module not works
+- [X] Cheat Panel -> Thrallify not working
+- [X] Change DeathCount and KillCount variable names to not include special character.
+- [X] Variable array
+- [X] Making serialized fields and upgrading existing fields to serialized interface
+- [X] Finishing node inspector
+- [X] Make one or two actual nodes with form
+- [X] Add a toggle to resource nodes to ignore server multiplier
+- [X] Check scripted chess access with container ignore ownership off
+- [X] No Sell toggle on trader pricing.
+- [X] Build script object tree based on data
+- [X] Handle Parameter transfere
+- [X] Build error handling
+- [X] Run Flow Chart Action need to expose parameters of the called script
+- [X] Math Solver and Text parser integrated in the stack
+- [X] Make math expression node function to test returns
+- [X] Call Subscript Node
+- [X] Create applicative code for example nodes
+- [X] Improve inspector when selecting node, to auto switch to the inspector
+- [X] Improve inspector tabs look and feel 
+- [X] Improve snap to grid to be done before saving
+- [X] Check add parameter default not working
+- [X] Padding bottom category new node is missing
+- [X] Sort scripts by name at register, reorder when renaming
+- [X] Add Wrong password event on scripted chest and scripted door
+- [X] Finish Timer with server timers
+- [X] Basic Dialogue System
+- [X] Decoration handler improvements
+- [X] RPR investigation
+- [X] Clean variable reference when deleting one
+- [X] Add StatNasedDamageMultiplier1 and 2 to saved stats
+- [ ] Over the shoulder auto camera and free cam, controlable by scripting
+- [ ] Depth of Field to go with over the shoulder camera
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
@@ -125,14 +171,22 @@
 - [X] Option to only run the rules on chest loot spawn
 - [X] Changing weather chances in admin settings.
 - [X] Quest duplicate does not copy on start
-- [ ] In Game Scripting (IGS) `1.0.x`
+- [ ] In Game Scripting (IGS) `0.7.x`
     - [ ] Dialogue  
     - [ ] Manipulte weather and time of day (IGS)
+- [ ] Improve arrival distance of navigation and home distance
+    - [ ] Seen arrival tolerance is located in BTDecorator_isAtHome
+    - [ ] Maybe do a custom tree for spawned NPCs with spawners
+- [ ] Try to find a way to replace the shift + insert of the cheat panel to the !Admin cheat panel.
 - [ ] Integrate RR Dice Sheet on Puppets
+- [ ] Add light customization to scripted lights
+- [ ] Turn placeable in interactable
+- [ ] Secret wall as door, transform a building wall into a door with no text
 - [ ] Projectile Launchers
 - [ ] Better velocity transition for short warps (Manual exit vector ?)
 - [ ] Map markers on warp HUB
 - [ ] Events Collector Area
+- [ ] Add a server setting to force to hide the player fake night lights
 - [ ] Kits in kits
 - [ ] Feat in kits
 - [ ] /summon multiple character separated by a comma
@@ -175,6 +229,7 @@
     - [ ] Reorderable chat tabs
     - [ ] Sort of omni channels with modular configurable behaviors ?
     - [ ] Customized channel name and color
+    - [ ] Writable note/book
 
 ## Tot ! Custom
 - [X] Fix Coffee Bean bug
@@ -190,6 +245,9 @@
 - [X] Fix shoulder translation influenced by pelvis scale.
 - [X] Armor stand cannot be selected with /select
 - [X] Test invisibility code performance
+- [ ] Creating a new profile (or duplicating) should scroll to the bottom
+- [ ] Restore dong and Bust stat for RPR
+- [ ] Add specific totcustom tags to the accessory components
 - [ ] Prevent Custom from opening when the escape menu is open
 - [ ] Add refresh accessory event on attached actors
 - [ ] Check: https://discord.com/channels/917916583064662076/1202830393347407953/1203184757706334258
@@ -247,6 +305,7 @@
 - [X] Add a separated thrall hide all names param
 - [X] Clan display on offline page is not refreshed properly `Can't fix`
 - [X] Option to hide everyone else name
+- [ ] Make image download documentation
 - [ ] Improve opacity slider for sudo windows
 - [ ] Add API to detect center of screen on the nameplate
 - [ ] Improve nameplate fade
