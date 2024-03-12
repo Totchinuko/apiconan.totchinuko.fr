@@ -7,8 +7,8 @@
 - [ ] Admin 0.7.0
 - [ ] Sudo nameplate adjustments
 - [ ] Puppet Dice Sheet Integration
+- [ ] Custom Accessory panel rework and other improvements
 - [ ] Immersive Hud Map
-- [ ] Custom Accessory panel rework
 
 ## Currently Worked On
 - [X] Increase quest giver limite from 25 to 50
@@ -53,8 +53,46 @@
 - [X] RPR investigation
 - [X] Clean variable reference when deleting one
 - [X] Add StatNasedDamageMultiplier1 and 2 to saved stats
-- [ ] Over the shoulder auto camera and free cam, controlable by scripting
+- [X] Over the shoulder auto camera and free cam, controlable by scripting
+- [X] Pan Camera node
+- [X] Free look camera node
+- [ ] Node to turn NPC/Player toward each other but no camera work
+- [ ] Export dialogue past log
+- [ ] Hide past dialogue log by default
 - [ ] Depth of Field to go with over the shoulder camera
+- [ ] Add item node
+- [ ] Remove item node
+- [ ] Set Language node with knowledge slider
+- [ ] Remove language node
+- [ ] Add Tag Char/Global
+- [ ] Remove Tag
+- [ ] Add Role
+- [ ] Remove Role
+- [ ] Add RR Perk
+- [ ] Remove RR Perk
+- [ ] Set Float Var Char/Global
+- [ ] Remove Float Var Char/Global
+- [ ] Set String Var Char/Global
+- [ ] Remove String Var Char/Global
+- [ ] Lean Feat
+- [ ] Forget Feat
+- [ ] Set Attribute Points
+- [ ] Set Feat Points
+- [ ] Set Level
+- [ ] Give Quest
+- [ ] Give RR Buff
+- [ ] Dispel RR Buff
+- [ ] Set RR Stat
+- [ ] Give XP
+- [ ] Inflict Damage
+- [ ] Remove Quest
+- [ ] Send Chat Message (Multi option, with global/local, name, colors...)
+- [ ] Find easy solution for flipping a boolean
+- [ ] Tool Event Node
+- [ ] Tool Event Node by Name and Type (Name must be exact to avoid catastrophies)
+- [ ] Open Puppet trading node
+- [ ] Open Warp HUB Node
+- [ ] Open NPC Quest Panel node
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
@@ -172,8 +210,6 @@
 - [X] Changing weather chances in admin settings.
 - [X] Quest duplicate does not copy on start
 - [ ] In Game Scripting (IGS) `0.7.x`
-    - [ ] Dialogue  
-    - [ ] Manipulte weather and time of day (IGS)
 - [ ] Improve arrival distance of navigation and home distance
     - [ ] Seen arrival tolerance is located in BTDecorator_isAtHome
     - [ ] Maybe do a custom tree for spawned NPCs with spawners
@@ -245,6 +281,8 @@
 - [X] Fix shoulder translation influenced by pelvis scale.
 - [X] Armor stand cannot be selected with /select
 - [X] Test invisibility code performance
+- [ ] Small lantern
+- [ ] Fix iron torch textures (again)
 - [ ] Creating a new profile (or duplicating) should scroll to the bottom
 - [ ] Restore dong and Bust stat for RPR
 - [ ] Add specific totcustom tags to the accessory components
@@ -294,6 +332,7 @@
 - [X] Integrate the Universal Nameplate to replace the original
 - [X] Bio pops up even when empty
 - [X] Edit button on notice board
+- [ ] Notice board sometimes don't load their content.
 - [ ] Improve bio opening on only happen when the center of screen over the plate
 - [ ] Make a server settings to make runes undropable
 - [ ] Selected distance in Tot ! Chat does not affect roll distance as it should
