@@ -10,7 +10,7 @@
 - [ ] Custom Accessory panel rework and other improvements
 - [ ] Immersive Hud Map
 
-## Currently Worked On
+## Currently Worked On `Admin 0.7.0`
 - [X] Increase quest giver limite from 25 to 50
 - [X] Prevent double click to edit if no widget
 - [X] Duplicating nodes (RPC: Send original Guids and New Guids only)
@@ -56,34 +56,38 @@
 - [X] Over the shoulder auto camera and free cam, controlable by scripting
 - [X] Pan Camera node
 - [X] Free look camera node
-- [ ] Node to turn NPC/Player toward each other but no camera work
-- [ ] Export dialogue past log
-- [ ] Hide past dialogue log by default
-- [ ] Depth of Field to go with over the shoulder camera
-- [ ] Add item node
-- [ ] Remove item node
-- [ ] Set Language node with knowledge slider
-- [ ] Remove language node
-- [ ] Add Tag Char/Global
-- [ ] Remove Tag
-- [ ] Add Role
-- [ ] Remove Role
-- [ ] Add RR Perk
-- [ ] Remove RR Perk
-- [ ] Set Float Var Char/Global
-- [ ] Remove Float Var Char/Global
-- [ ] Set String Var Char/Global
-- [ ] Remove String Var Char/Global
-- [ ] Lean Feat
-- [ ] Forget Feat
-- [ ] Set Attribute Points
-- [ ] Set Feat Points
-- [ ] Set Level
+- [X] Find a fix to delay logged in player ending up in Box/Sphere zones, quest npc panel crash server on login because of it.
+- [X] Node to turn NPC/Player toward each other but no camera work
+- [X] Export dialogue past log
+- [X] Hide past dialogue log by default
+- [X] Depth of Field to go with over the shoulder camera
+- [X] Add item node
+- [X] Remove item node
+- [T] Set Language node with knowledge slider
+- [T] Remove language node
+- [T] Add Tag Char/Global
+- [T] Remove Tag
+- [T] Add Role
+- [T] Remove Role
+- [T] Add RR Perk
+- [T] Remove RR Perk
+- [T] Set Float Var Char/Global
+- [T] Remove Float Var Char/Global
+- [T] Set String Var Char/Global
+- [T] Remove String Var Char/Global
+- [T] Lean Feat
+- [T] Forget Feat
+- [ ] Fix default values for node creation (Preselect and presave)
+- [X] Set Attribute Points
+- [X] Set Feat Points
+- [X] Set Level
 - [ ] Give Quest
 - [ ] Give RR Buff
 - [ ] Dispel RR Buff
 - [ ] Set RR Stat
 - [ ] Give XP
+- [ ] Set Int/Float Stats
+- [ ] Get Int/Float Stats
 - [ ] Inflict Damage
 - [ ] Remove Quest
 - [ ] Send Chat Message (Multi option, with global/local, name, colors...)
@@ -93,6 +97,19 @@
 - [ ] Open Puppet trading node
 - [ ] Open Warp HUB Node
 - [ ] Open NPC Quest Panel node
+- [ ] Music player using the sound library, pause, play, stop using a tag
+- [ ] Sound play with sound library
+- [ ] Parse String > Numbers
+- [ ] Float > Int (Round, Ceil, Floor, Truncate)(Dropdown)
+- [ ] Int > Float
+- [ ] Set Variable
+- [ ] Format Text
+- [ ] Force Kill player
+- [ ] Join, Parse, Replace, Append, Split, Substring, Crop, etc.. String manipulation
+- [ ] Event acceptable quests that display a notification and can be started directly from the quest log
+- [ ] Temporary emotes for puppets node
+- [ ] Merge Server Settings and general settings into one panel
+- [ ] Check: https://discord.com/channels/917916583064662076/1217078661036118106/1217078661036118106
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
@@ -209,7 +226,7 @@
 - [X] Option to only run the rules on chest loot spawn
 - [X] Changing weather chances in admin settings.
 - [X] Quest duplicate does not copy on start
-- [ ] In Game Scripting (IGS) `0.7.x`
+- [ ] In Game Scripting `0.7.x`
 - [ ] Improve arrival distance of navigation and home distance
     - [ ] Seen arrival tolerance is located in BTDecorator_isAtHome
     - [ ] Maybe do a custom tree for spawned NPCs with spawners
