@@ -9,6 +9,9 @@
 - [ ] Puppet Dice Sheet Integration
 - [ ] Custom Accessory panel rework and other improvements
 - [ ] Immersive Hud Map
+- [ ] Admin 1.0.0
+- [ ] Custom various body improvements
+- [ ] Tot ! Fishing
 
 ## Currently Worked On `Admin 0.7.0`
 - [X] Increase quest giver limite from 25 to 50
@@ -63,52 +66,90 @@
 - [X] Depth of Field to go with over the shoulder camera
 - [X] Add item node
 - [X] Remove item node
-- [T] Set Language node with knowledge slider
-- [T] Remove language node
-- [T] Add Tag Char/Global
-- [T] Remove Tag
-- [T] Add Role
-- [T] Remove Role
-- [T] Add RR Perk
-- [T] Remove RR Perk
-- [T] Set Float Var Char/Global
-- [T] Remove Float Var Char/Global
-- [T] Set String Var Char/Global
-- [T] Remove String Var Char/Global
-- [T] Lean Feat
-- [T] Forget Feat
-- [ ] Fix default values for node creation (Preselect and presave)
+- [X] Set Language node with knowledge slider
+- [X] Remove language node
+- [X] Add Tag Char/Global
+- [X] Remove Tag
+- [X] Add Role
+- [X] Remove Role
+- [X] Add RR Perk
+- [X] Remove RR Perk
+- [X] Set Float Var Char/Global
+- [X] Remove Float Var Char/Global
+- [X] Set String Var Char/Global
+- [X] Remove String Var Char/Global
+- [X] Learn Feat
+- [X] Forget Feat
 - [X] Set Attribute Points
 - [X] Set Feat Points
 - [X] Set Level
-- [ ] Give Quest
-- [ ] Give RR Buff
-- [ ] Dispel RR Buff
-- [ ] Set RR Stat
-- [ ] Give XP
-- [ ] Set Int/Float Stats
-- [ ] Get Int/Float Stats
-- [ ] Inflict Damage
-- [ ] Remove Quest
-- [ ] Send Chat Message (Multi option, with global/local, name, colors...)
-- [ ] Find easy solution for flipping a boolean
-- [ ] Tool Event Node
-- [ ] Tool Event Node by Name and Type (Name must be exact to avoid catastrophies)
-- [ ] Open Puppet trading node
-- [ ] Open Warp HUB Node
-- [ ] Open NPC Quest Panel node
-- [ ] Music player using the sound library, pause, play, stop using a tag
-- [ ] Sound play with sound library
-- [ ] Parse String > Numbers
-- [ ] Float > Int (Round, Ceil, Floor, Truncate)(Dropdown)
-- [ ] Int > Float
-- [ ] Set Variable
-- [ ] Format Text
-- [ ] Force Kill player
-- [ ] Join, Parse, Replace, Append, Split, Substring, Crop, etc.. String manipulation
-- [ ] Event acceptable quests that display a notification and can be started directly from the quest log
-- [ ] Temporary emotes for puppets node
+- [X] Fix default values for node creation (Preselect and presave)
+- [X] Give Quest
+- [X] Give RR Buff
+- [X] Dispel RR Buff
+- [X] Set RR Stat
+- [X] Give XP
+- [X] Set Int/Float Stats
+- [X] Get Int/Float Stats
+- [X] Inflict Damage
+- [X] Remove Quest
+- [X] Send Chat Message (Multi option, with global/local, name, colors...)
+- [X] Find easy solution for flipping a boolean
+- [X] Tool Event Node
+- [X] Tool Event Node by Name and Type (Name must be exact to avoid catastrophies)
+- [X] Revert add data inspector API
+- [X] Improve above by making an adaptive type field
+- [X] Open Puppet trading node
+- [X] Open Warp HUB Node
+- [X] Open NPC Quest Panel node
+- [X] Int > Float
+- [X] Float > Int (Round, Ceil, Floor, Truncate)(Dropdown)
+- [X] Set Variable
+- [X] Format Text
+- [X] Force Kill player
+- [X] Parse String > Numbers
+- [X] Join, Parse, Replace, Substring, Crop, etc.. String manipulation
+- [X] Music player using the sound library, pause, play, stop to control a new AdminTool
+- [X] Look for music pause when the music volume is set to 0
+- [X] Format plug text to camel case
+- [X] Sound play with sound library     
+- [X] Get Players in Radius (With sphere box variation)
+- [X] Get Players in Box (With Box Zone Variation)
+- [X] Admin Event System
+    - [X] On Loging Event
+    - [X] Date Unique Event
+    - [X] Recuring Event (Start date + duration)
+    - [X] On Global Tag Add/Remove
+- [X] Weather and time control nodes
+- [X] Temporary emotes for puppets node
+- [X] Rework nodes colors
+- [X] Do not display tooltip description when their is no description
+- [X] Align start node with 0x0
+- [X] Jump Node
+- [X] Item Add/Remove/Has/Clear to scripted chests
+- [X] Scripting export
+- [X] Event acceptable quests that display a notification and can be started directly from the quest log
+- [ ] Improve Decoration handler (See api help section and increase URL size)
+- [X] Break down data fields in single variable elements
+- [X] Easing > Integer
+- [X] Node to get the amount of npc on a spawner
+- [X] Node to spawn enemies anywhere but tied to a spawner.
+- [X] Improve Set Node
+- [X] Node to despawn spawner enemies
+- [X] Node to kill spawner enemies
+- [X] Change spawned enemy speed
+- [X] Spawned enemy order to go to player
+- [X] Spawned enemy order to go to point
+- [X] Change Idle Enemy emote
+- [X] Random vector in circle
+- [X] Warp to Vector
+- [X] To string node
+- [X] Branch for each type of rule in rule sets
+- [X] Blackness for cinematic camera system
+- [X] Add Spawner single kill event
+- [X] Puppet Movements
 - [ ] Merge Server Settings and general settings into one panel
+- [ ] See how knockback works and improve its configuration
 - [ ] Check: https://discord.com/channels/917916583064662076/1217078661036118106/1217078661036118106
 
 ## Tot ! Admin
@@ -163,7 +204,7 @@
 - [X] Improve move tool to avoid Gimbal Lock issues
 - [X] Scripted chest are not editable from the tool master list
 - [X] Deactivate name cache persistency
-- [ ] More tools from "Soleil Couchant"
+- [X] More tools from "Soleil Couchant"
     - [X] Soundboard
         - [X] Preview toggle is broken
         - [X] Sometime preset duplicated ?
@@ -173,11 +214,6 @@
         - [X] 300ms ish of delay between sound cast for performance
         - [X] Being able to change the sound of a preset
         - [X] Random Pitch/Volume range
-    - [ ] Warper Wand
-    - [ ] Wallhack using Universal nameplate (Admin Flag)
-    - [ ] Model Picker/Placer
-    - [ ] Hunting Horn (Linked to soundboard API)
-    - [ ] Extended Range on horn instruments (linked to soundboard API)
 - [X] API for quest, Spawners and Navigation
 - [X] Update !Admin API on website
 - [X] Copy/Paste Rules
@@ -227,22 +263,33 @@
 - [X] Changing weather chances in admin settings.
 - [X] Quest duplicate does not copy on start
 - [ ] In Game Scripting `0.7.x`
-- [ ] Improve arrival distance of navigation and home distance
-    - [ ] Seen arrival tolerance is located in BTDecorator_isAtHome
-    - [ ] Maybe do a custom tree for spawned NPCs with spawners
-- [ ] Try to find a way to replace the shift + insert of the cheat panel to the !Admin cheat panel.
-- [ ] Integrate RR Dice Sheet on Puppets
-- [ ] Add light customization to scripted lights
-- [ ] Turn placeable in interactable
-- [ ] Secret wall as door, transform a building wall into a door with no text
-- [ ] Projectile Launchers
-- [ ] Better velocity transition for short warps (Manual exit vector ?)
-- [ ] Map markers on warp HUB
-- [ ] Events Collector Area
-- [ ] Add a server setting to force to hide the player fake night lights
-- [ ] Kits in kits
-- [ ] Feat in kits
-- [ ] /summon multiple character separated by a comma
+- [ ] Beta `1.0.0`
+    - [ ] Placeable invulnerability function (Toggle with selector)
+    - [ ] Placeable group tool - Use the selector to add/remove placeables to it. Can make the placeable disapear on script interaction
+    - [ ] Comments as an anchor on the grid. Display the text on click or hover
+    - [ ] Music Box using the mod sound library
+    - [ ] Vector3 Calculation Nodes
+    - [ ] System to whitelist script for normal user to execute using a command
+    - [ ] Improve arrival distance of navigation and home distance
+        - [ ] Seem arrival tolerance is located in BTDecorator_isAtHome
+        - [ ] Maybe do a custom tree for spawned NPCs with spawners
+    - [ ] Try to find a way to replace the shift + insert of the cheat panel to the !Admin cheat panel.
+    - [ ] Integrate RR Dice Sheet on Puppets
+    - [ ] Add light customization to scripted lights
+    - [ ] Turn a placeable into a scripted interactable (Like door and chests)
+    - [ ] Secret wall as door, transform a building wall into a door with no text
+    - [ ] Puppet voice selection
+    - [ ] Projectile Launchers
+    - [ ] Better velocity transition for short warps (Manual exit vector ?)
+    - [ ] Map markers on warp HUB
+    - [ ] Events Collector Area
+    - [ ] Add a server setting to force to hide the player fake night lights
+    - [ ] Create an item that can execute scripts on usage and be stored in traders/kits + Consume triggering item node
+    - [ ] /summon multiple character separated by a comma
+    - [ ] Warper Wand
+    - [ ] Wallhack using Universal nameplate (Admin Flag)
+    - [ ] Model Picker/Placer
+    - [ ] Hunting Horn (Linked to soundboard API)
 - [ ] Selector: Copy/Cut/Paste Buildings `Experimental`
 
 ## Tot ! Chat
@@ -298,6 +345,7 @@
 - [X] Fix shoulder translation influenced by pelvis scale.
 - [X] Armor stand cannot be selected with /select
 - [X] Test invisibility code performance
+- [ ] Add Euna and Sean creator entry.
 - [ ] Small lantern
 - [ ] Fix iron torch textures (again)
 - [ ] Creating a new profile (or duplicating) should scroll to the bottom
@@ -327,6 +375,7 @@
 - [ ] Partial Body application
 - [ ] Alternative sweat specular
 - [ ] Warpaint Glow
+- [ ] Warpaint Metalic slider
 - [ ] Shoe/Hat Stand
 - [ ] Saddle Tinting
 - [ ] Emote/Pose designer `Experimental`
@@ -349,6 +398,7 @@
 - [X] Integrate the Universal Nameplate to replace the original
 - [X] Bio pops up even when empty
 - [X] Edit button on notice board
+- [ ] Game raid doors are not locked when keys are enable for doors (https://discord.com/channels/917916583064662076/1219343615130730667/1219787387085783150)
 - [ ] Notice board sometimes don't load their content.
 - [ ] Improve bio opening on only happen when the center of screen over the plate
 - [ ] Make a server settings to make runes undropable
