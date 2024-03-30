@@ -4,153 +4,20 @@
 - [X] More Trebuchet work
 - [X] Admin 0.6.x stuff
 - [X] RPR Notice board edit button
-- [ ] Admin 0.7.0
+- [X] Admin 0.7.0
 - [ ] Sudo nameplate adjustments
+- [ ] Sudo backup API rewrite
+- [ ] Sudo Webhook API
 - [ ] Puppet Dice Sheet Integration
 - [ ] Custom Accessory panel rework and other improvements
 - [ ] Immersive Hud Map
-- [ ] Admin 1.0.0
+- [ ] Admin 0.8.0
 - [ ] Custom various body improvements
 - [ ] Tot ! Fishing
 
-## Currently Worked On `Admin 0.7.0`
-- [X] Increase quest giver limite from 25 to 50
-- [X] Prevent double click to edit if no widget
-- [X] Duplicating nodes (RPC: Send original Guids and New Guids only)
-- [X] Selection with click/shift+click
-- [X] Selection with rectancle shift+click on grid
-- [X] Fix Scale that only work for non humans
-- [X] Fix Visual grid getting bigger than the rest at zoomz
-- [X] Add color and type to plugs
-- [X] Snap mode for snapping nodes on a grid
-- [X] Improve tool bar look
-- [X] Fix math solver limit bein too short
-- [X] Spawner - On Spawned Paste Module not works
-- [X] Cheat Panel -> Thrallify not working
-- [X] Change DeathCount and KillCount variable names to not include special character.
-- [X] Variable array
-- [X] Making serialized fields and upgrading existing fields to serialized interface
-- [X] Finishing node inspector
-- [X] Make one or two actual nodes with form
-- [X] Add a toggle to resource nodes to ignore server multiplier
-- [X] Check scripted chess access with container ignore ownership off
-- [X] No Sell toggle on trader pricing.
-- [X] Build script object tree based on data
-- [X] Handle Parameter transfere
-- [X] Build error handling
-- [X] Run Flow Chart Action need to expose parameters of the called script
-- [X] Math Solver and Text parser integrated in the stack
-- [X] Make math expression node function to test returns
-- [X] Call Subscript Node
-- [X] Create applicative code for example nodes
-- [X] Improve inspector when selecting node, to auto switch to the inspector
-- [X] Improve inspector tabs look and feel 
-- [X] Improve snap to grid to be done before saving
-- [X] Check add parameter default not working
-- [X] Padding bottom category new node is missing
-- [X] Sort scripts by name at register, reorder when renaming
-- [X] Add Wrong password event on scripted chest and scripted door
-- [X] Finish Timer with server timers
-- [X] Basic Dialogue System
-- [X] Decoration handler improvements
-- [X] RPR investigation
-- [X] Clean variable reference when deleting one
-- [X] Add StatNasedDamageMultiplier1 and 2 to saved stats
-- [X] Over the shoulder auto camera and free cam, controlable by scripting
-- [X] Pan Camera node
-- [X] Free look camera node
-- [X] Find a fix to delay logged in player ending up in Box/Sphere zones, quest npc panel crash server on login because of it.
-- [X] Node to turn NPC/Player toward each other but no camera work
-- [X] Export dialogue past log
-- [X] Hide past dialogue log by default
-- [X] Depth of Field to go with over the shoulder camera
-- [X] Add item node
-- [X] Remove item node
-- [X] Set Language node with knowledge slider
-- [X] Remove language node
-- [X] Add Tag Char/Global
-- [X] Remove Tag
-- [X] Add Role
-- [X] Remove Role
-- [X] Add RR Perk
-- [X] Remove RR Perk
-- [X] Set Float Var Char/Global
-- [X] Remove Float Var Char/Global
-- [X] Set String Var Char/Global
-- [X] Remove String Var Char/Global
-- [X] Learn Feat
-- [X] Forget Feat
-- [X] Set Attribute Points
-- [X] Set Feat Points
-- [X] Set Level
-- [X] Fix default values for node creation (Preselect and presave)
-- [X] Give Quest
-- [X] Give RR Buff
-- [X] Dispel RR Buff
-- [X] Set RR Stat
-- [X] Give XP
-- [X] Set Int/Float Stats
-- [X] Get Int/Float Stats
-- [X] Inflict Damage
-- [X] Remove Quest
-- [X] Send Chat Message (Multi option, with global/local, name, colors...)
-- [X] Find easy solution for flipping a boolean
-- [X] Tool Event Node
-- [X] Tool Event Node by Name and Type (Name must be exact to avoid catastrophies)
-- [X] Revert add data inspector API
-- [X] Improve above by making an adaptive type field
-- [X] Open Puppet trading node
-- [X] Open Warp HUB Node
-- [X] Open NPC Quest Panel node
-- [X] Int > Float
-- [X] Float > Int (Round, Ceil, Floor, Truncate)(Dropdown)
-- [X] Set Variable
-- [X] Format Text
-- [X] Force Kill player
-- [X] Parse String > Numbers
-- [X] Join, Parse, Replace, Substring, Crop, etc.. String manipulation
-- [X] Music player using the sound library, pause, play, stop to control a new AdminTool
-- [X] Look for music pause when the music volume is set to 0
-- [X] Format plug text to camel case
-- [X] Sound play with sound library     
-- [X] Get Players in Radius (With sphere box variation)
-- [X] Get Players in Box (With Box Zone Variation)
-- [X] Admin Event System
-    - [X] On Loging Event
-    - [X] Date Unique Event
-    - [X] Recuring Event (Start date + duration)
-    - [X] On Global Tag Add/Remove
-- [X] Weather and time control nodes
-- [X] Temporary emotes for puppets node
-- [X] Rework nodes colors
-- [X] Do not display tooltip description when their is no description
-- [X] Align start node with 0x0
-- [X] Jump Node
-- [X] Item Add/Remove/Has/Clear to scripted chests
-- [X] Scripting export
-- [X] Event acceptable quests that display a notification and can be started directly from the quest log
-- [ ] Improve Decoration handler (See api help section and increase URL size)
-- [X] Break down data fields in single variable elements
-- [X] Easing > Integer
-- [X] Node to get the amount of npc on a spawner
-- [X] Node to spawn enemies anywhere but tied to a spawner.
-- [X] Improve Set Node
-- [X] Node to despawn spawner enemies
-- [X] Node to kill spawner enemies
-- [X] Change spawned enemy speed
-- [X] Spawned enemy order to go to player
-- [X] Spawned enemy order to go to point
-- [X] Change Idle Enemy emote
-- [X] Random vector in circle
-- [X] Warp to Vector
-- [X] To string node
-- [X] Branch for each type of rule in rule sets
-- [X] Blackness for cinematic camera system
-- [X] Add Spawner single kill event
-- [X] Puppet Movements
-- [ ] Merge Server Settings and general settings into one panel
-- [ ] See how knockback works and improve its configuration
+## Currently Worked On `Various things`
 - [ ] Check: https://discord.com/channels/917916583064662076/1217078661036118106/1217078661036118106
+- [ ] Merge Server Settings and general settings into one panel
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
@@ -263,16 +130,23 @@
 - [X] Changing weather chances in admin settings.
 - [X] Quest duplicate does not copy on start
 - [ ] In Game Scripting `0.7.x`
-- [ ] Beta `1.0.0`
+    - [X] Improve arrival distance of navigation and home distance
+        - [X] Seem arrival tolerance is located in BTDecorator_isAtHome
+        - [X] Maybe do a custom tree for spawned NPCs with spawners
+- [ ] Alpha `0.8.0`
+    - [ ] List weight does not refresh on opening
+    - [ ] On Player Killed - Admin Event
+    - [ ] Clean corpses in a radius (Command and node)
+    - [ ] Voiced dialogue lines
+    - [ ] Tot!Hud Gage with scripting
+    - [ ] Improve contextual box for small screens
+    - [ ] Puppet post message node (Auto connect to chat somehow)
     - [ ] Placeable invulnerability function (Toggle with selector)
     - [ ] Placeable group tool - Use the selector to add/remove placeables to it. Can make the placeable disapear on script interaction
     - [ ] Comments as an anchor on the grid. Display the text on click or hover
     - [ ] Music Box using the mod sound library
     - [ ] Vector3 Calculation Nodes
     - [ ] System to whitelist script for normal user to execute using a command
-    - [ ] Improve arrival distance of navigation and home distance
-        - [ ] Seem arrival tolerance is located in BTDecorator_isAtHome
-        - [ ] Maybe do a custom tree for spawned NPCs with spawners
     - [ ] Try to find a way to replace the shift + insert of the cheat panel to the !Admin cheat panel.
     - [ ] Integrate RR Dice Sheet on Puppets
     - [ ] Add light customization to scripted lights
@@ -345,6 +219,7 @@
 - [X] Fix shoulder translation influenced by pelvis scale.
 - [X] Armor stand cannot be selected with /select
 - [X] Test invisibility code performance
+- [ ] Fix adding hair cut replacing first accessory in list rather than adding at the end
 - [ ] Add Euna and Sean creator entry.
 - [ ] Small lantern
 - [ ] Fix iron torch textures (again)
@@ -411,6 +286,7 @@
 - [X] Add a separated thrall hide all names param
 - [X] Clan display on offline page is not refreshed properly `Can't fix`
 - [X] Option to hide everyone else name
+- [ ] Make an option to not display nameplate based on chat distance.
 - [ ] Make image download documentation
 - [ ] Improve opacity slider for sudo windows
 - [ ] Add API to detect center of screen on the nameplate
