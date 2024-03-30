@@ -129,7 +129,7 @@
 - [X] Option to only run the rules on chest loot spawn
 - [X] Changing weather chances in admin settings.
 - [X] Quest duplicate does not copy on start
-- [ ] In Game Scripting `0.7.x`
+- [X] In Game Scripting `0.7.x`
     - [X] Improve arrival distance of navigation and home distance
         - [X] Seem arrival tolerance is located in BTDecorator_isAtHome
         - [X] Maybe do a custom tree for spawned NPCs with spawners
