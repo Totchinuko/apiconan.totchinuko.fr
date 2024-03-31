@@ -5,19 +5,42 @@
 - [X] Admin 0.6.x stuff
 - [X] RPR Notice board edit button
 - [X] Admin 0.7.0
+- [ ] Funcom Update/Admin 0.7.0 fixes
 - [ ] Sudo nameplate adjustments
 - [ ] Sudo backup API rewrite
 - [ ] Sudo Webhook API
-- [ ] Puppet Dice Sheet Integration
+- [ ] Puppet Dice Sheet Integration for incarnate
 - [ ] Custom Accessory panel rework and other improvements
 - [ ] Immersive Hud Map
 - [ ] Admin 0.8.0
 - [ ] Custom various body improvements
 - [ ] Tot ! Fishing
 
-## Currently Worked On `Various things`
-- [ ] Check: https://discord.com/channels/917916583064662076/1217078661036118106/1217078661036118106
-- [ ] Merge Server Settings and general settings into one panel
+## Currently Worked On `Admin 0.7.1`
+- [X] Add arrow to point placer and resize interaction placer
+- [X] When no look at is provided but the position is a point, use forward vector
+- [X] Sudo nodes variable need failed plug
+- [X] Button for creating variable does not work
+- [X] Reorder variables
+- [X] Sometimes the snapping does not work
+- [X] Delete nodes leaves ghost lines
+- [X] Background menu has not his position scaled
+- [X] Script that only execute one node for some reason. (https://discord.com/channels/917916583064662076/1223776405746352279/1223794799522484286)
+- [X] Default thinking time should be 0
+- [X] Dialog answers should have number keys tied to them as shortcut
+- [X] Dialog window block inputs
+- [X] Inventories nodes player ref should default to context
+- [ ] Move export/import outside of the script editor and include metadata
+- [ ] Get Default field should be recovering the field of a variable
+- [ ] Formula editor don't validate variables (Find a way to feet the default values at least client side)
+- [ ] Some form of indication that a text is to be or not formated. (Different name ?)
+- [ ] Inspector API to auto rename node (Subscript and jump as example)
+- [ ] Arrow key to move selected nodes
+- [ ] Ctrl + W to duplicate
+- [ ] Add Ctrl shortcuts to the help sheet
+- [ ] Check for freshly copied node that don't respond to delete key
+- [ ] Admin event on server start (First player to login?)
+- [ ] Some custom tool fail to harvest  : https://discord.com/channels/917916583064662076/1217078661036118106/1217078661036118106
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
@@ -134,6 +157,12 @@
         - [X] Seem arrival tolerance is located in BTDecorator_isAtHome
         - [X] Maybe do a custom tree for spawned NPCs with spawners
 - [ ] Alpha `0.8.0`
+    - [ ] Auto focus camera (Colision raycast)
+    - [ ] Merge Server Settings and general settings into one panel
+    - [ ] Better color/bold/italic parsing.
+    - [ ] Get Clan ID
+    - [ ] Get players in clan
+    - [ ] Dynamic puppet inventory
     - [ ] List weight does not refresh on opening
     - [ ] On Player Killed - Admin Event
     - [ ] Clean corpses in a radius (Command and node)
@@ -165,6 +194,7 @@
     - [ ] Model Picker/Placer
     - [ ] Hunting Horn (Linked to soundboard API)
 - [ ] Selector: Copy/Cut/Paste Buildings `Experimental`
+- [ ] Selector: Improve building ownership change ?
 
 ## Tot ! Chat
 - [X] Improve look and feel of bubbles
@@ -219,6 +249,7 @@
 - [X] Fix shoulder translation influenced by pelvis scale.
 - [X] Armor stand cannot be selected with /select
 - [X] Test invisibility code performance
+- [ ] Clan Emblem
 - [ ] Fix adding hair cut replacing first accessory in list rather than adding at the end
 - [ ] Add Euna and Sean creator entry.
 - [ ] Small lantern
