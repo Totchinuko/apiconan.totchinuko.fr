@@ -28,3 +28,5 @@
 
 `2.1.21`
 - Fixing a performance issue, cause the client to stutter every seconds. This fix is not magical, heavy dice systems are expensive, but this will cut the constant refresh of the dice sheet to only refresh when needed instead of every seconds.
+`2.1.22`
+- Fixed `GetStat` API implementation returning the wrong current stat in some situation
