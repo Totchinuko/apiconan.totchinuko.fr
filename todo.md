@@ -5,18 +5,19 @@
 - [X] Admin 0.6.x stuff
 - [X] RPR Notice board edit button
 - [X] Admin 0.7.0
-- [ ] Funcom Update/Admin 0.7.0 fixes
+- [X] Funcom Update/Admin 0.7.0 fixes
 - [ ] Sudo nameplate adjustments
 - [ ] Sudo backup API rewrite
 - [ ] Sudo Webhook API
 - [ ] Puppet Dice Sheet Integration for incarnate
 - [ ] Custom Accessory panel rework and other improvements
+- [ ] Tot ! Fishing
 - [ ] Immersive Hud Map
 - [ ] Admin 0.8.0
 - [ ] Custom various body improvements
-- [ ] Tot ! Fishing
 
 ## Currently Worked On `Various things`
+- [ ] Display placeable variation name on deco handler
 - [ ] Some custom tool fail to harvest  : https://discord.com/channels/917916583064662076/1217078661036118106/1217078661036118106
 
 ## Tot ! Admin
