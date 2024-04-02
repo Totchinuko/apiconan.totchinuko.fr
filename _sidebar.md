@@ -6,6 +6,7 @@
     - [Various Tips](tips)
     - [Todo List](todo)
     - [Mod Orders](modlist)
+    - [Streams VOD](stream)
     - [Tot ! Custom Help](custom-help)
 - Tot ! API
 
