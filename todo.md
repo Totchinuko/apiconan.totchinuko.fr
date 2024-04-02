@@ -324,7 +324,7 @@
 
 ## Tot ! Walk
 - [X] Prevent attacks under a target speed (selectable)
-- [ ] Counter act the agility bonus under a selectable speed
+- [X] Counter act the agility bonus under a selectable speed
 - [ ] Animation: Improve horse blending
 
 ## Library
