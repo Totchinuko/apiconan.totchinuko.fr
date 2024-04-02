@@ -135,6 +135,7 @@
         - [X] Seem arrival tolerance is located in BTDecorator_isAtHome
         - [X] Maybe do a custom tree for spawned NPCs with spawners
 - [ ] Alpha `0.8.0`
+    - [ ] Rework event logs
     - [ ] Community made script library
     - [ ] Auto focus camera (Colision raycast)
     - [ ] Merge Server Settings and general settings into one panel
@@ -229,9 +230,9 @@
 - [X] Fix shoulder translation influenced by pelvis scale.
 - [X] Armor stand cannot be selected with /select
 - [X] Test invisibility code performance
+- [X] Add Euna and Sean creator entry.
 - [ ] Clan Emblem
 - [ ] Fix adding hair cut replacing first accessory in list rather than adding at the end
-- [ ] Add Euna and Sean creator entry.
 - [ ] Small lantern
 - [ ] Fix iron torch textures (again)
 - [ ] Creating a new profile (or duplicating) should scroll to the bottom
