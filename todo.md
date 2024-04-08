@@ -6,6 +6,7 @@
 - [X] RPR Notice board edit button
 - [X] Admin 0.7.0
 - [X] Funcom Update/Admin 0.7.0 fixes
+- [ ] Sudo Menu Improvements
 - [ ] Sudo nameplate adjustments
 - [ ] Sudo backup API rewrite
 - [ ] Sudo Webhook API
@@ -16,9 +17,21 @@
 - [ ] Admin 0.8.0
 - [ ] Custom various body improvements
 
-## Currently Worked On `Various things`
-- [ ] Display placeable variation name on deco handler
-- [ ] Some custom tool fail to harvest  : https://discord.com/channels/917916583064662076/1217078661036118106/1217078661036118106
+## Currently Worked On `Various Things`
+- [ ] Node to check if a user completed a quest objective.
+- [ ] Categories for script
+- [ ] Add node to display image in dialogue window
+- [ ] Nameplate improvements
+    - [ ] Make an option to not display nameplate based on chat distance.
+    - [ ] Add API to detect center of screen on the nameplate
+    - [ ] Improve nameplate fade (Minimum opacity)
+- [ ] Menu improvements
+    - [ ] Alphabetical order for menus
+    - [ ] Quick Search (CTRL + K) on panels
+    - [ ] Favorit system that add new menu in escape menu 
+- [ ] Backup update
+    - [ ] Store backup as a .sav rather than downloading/uploading a Json text
+- [ ] Puppet Dice Sheet Integration for incarnate
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
@@ -142,7 +155,7 @@
     - [ ] Better color/bold/italic parsing.
     - [ ] Get Clan ID
     - [ ] Get players in clan
-    - [ ] Dynamic puppet inventory
+    - [ ] Dynamic puppet inventory linked to scripted chests
     - [ ] List weight does not refresh on opening
     - [ ] On Player Killed - Admin Event
     - [ ] Clean corpses in a radius (Command and node)
@@ -150,6 +163,7 @@
     - [ ] Tot!Hud Gage with scripting
     - [ ] Improve contextual box for small screens
     - [ ] Puppet post message node (Auto connect to chat somehow)
+    - [ ] Puppet display bubble only
     - [ ] Placeable invulnerability function (Toggle with selector)
     - [ ] Placeable group tool - Use the selector to add/remove placeables to it. Can make the placeable disapear on script interaction
     - [ ] Comments as an anchor on the grid. Display the text on click or hover
@@ -174,6 +188,7 @@
     - [ ] Model Picker/Placer
     - [ ] Hunting Horn (Linked to soundboard API)
     - [ ] Player scripted movement ?
+    - [ ] Some custom tool fail to harvest  : https://discord.com/channels/917916583064662076/1217078661036118106/1217078661036118106
 - [ ] Selector: Copy/Cut/Paste Buildings `Experimental`
 - [ ] Selector: Improve building ownership change ?
 
@@ -232,9 +247,7 @@
 - [X] Test invisibility code performance
 - [X] Add Euna and Sean creator entry.
 - [ ] Clan Emblem
-- [ ] Fix adding hair cut replacing first accessory in list rather than adding at the end
 - [ ] Small lantern
-- [ ] Fix iron torch textures (again)
 - [ ] Creating a new profile (or duplicating) should scroll to the bottom
 - [ ] Restore dong and Bust stat for RPR
 - [ ] Add specific totcustom tags to the accessory components
@@ -298,15 +311,20 @@
 - [X] Add a separated thrall hide all names param
 - [X] Clan display on offline page is not refreshed properly `Can't fix`
 - [X] Option to hide everyone else name
-- [ ] Make an option to not display nameplate based on chat distance.
-- [ ] Make image download documentation
-- [ ] Improve opacity slider for sudo windows
-- [ ] Add API to detect center of screen on the nameplate
-- [ ] Improve nameplate fade
-- [ ] Quick Search (CTRL + K) on panels
-- [ ] Alphabetical order for menus
-- [ ] Store backup as a .sav rather than downloading/uploading a Json text
+- [X] Improve opacity slider for sudo windows
+- [ ] Nameplate improvements
+    - [ ] Make an option to not display nameplate based on chat distance.
+    - [ ] Add API to detect center of screen on the nameplate
+    - [ ] Improve nameplate fade (Minimum opacity)
+- [ ] Menu improvements
+    - [ ] Alphabetical order for menus
+    - [ ] Quick Search (CTRL + K) on panels
+    - [ ] Favorit system that add new menu in escape menu 
+- [ ] Backup update
+    - [ ] Store backup as a .sav rather than downloading/uploading a Json text
+- [ ] Sudo Webhook API
 - [ ] Make the command fallback display notification and error in the vanilla console
+- [ ] Make image download documentation
 
 ## Tot ! Trebuchet
 - [X] Allow navigating the workshop mods while on testlive
