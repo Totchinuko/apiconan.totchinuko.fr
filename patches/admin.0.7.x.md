@@ -17,6 +17,11 @@
     - Added a server start admin event
     - New clan nodes: `Get Player Clan`, `Set Player Clan`, `Get Clan Name`, `Get Clan Players`, `Clan Equals`
     - Nodes can now be copy/pasted between scripts
+`0.7.2`
+- Scripting:
+    - New Nodes in Redux Tools: `Has Perk Category`
+    - New Nodes in operations: `Bit Flag Add`, `Bit Flag Remove`, `Bit Flag Toggle`, `Has Bit Flag`
+    - Added a duplicate button to make new copies of a script with a different ID
 ## Changes
 `0.7.0`
 - Reworked the price definition widget for trading
@@ -39,6 +44,17 @@
     - Math formula now accept variables between brackets (${variable}) or without, to solve issues when using and/or/xor operators
     - Renamed player login admin event to player spawn as it is triggered every time a player spawn
     - Node `Start Camera Pan` now have a `Skip` output plug for when the user skip a cinematic
+`0.7.2`
+- Added a toggle on scripted door to prevent their manual operation (Open and close by hand)
+- Added `On Interact` scripted door event emiter
+- Scripting:
+    - Node `Warp To Position` now have a Snap to Ground parameter to force or not the character on the ground at arrival, and remove the failed output plug that was never used
+    - Improved plug vertical size to precisely take one grid row, making node align perfectly on the grid
+    - Improved initial placement of created nodes using a droped plug so the linked plug is aligned with the drop position
+    - Added control for the character limit of the request input node
+    - Log Sudo now take a text value, but will be truncated at 100 characters max.
+    - Renamed Visual Clues into Staff Vision:tm:
+    - Improved some admin tools to only be interactable when the Staff Vision is active
 ## Fixes
 `0.7.0`
 - Fixed the rule Is Math Not Zero using the old formula editor
@@ -61,3 +77,16 @@
     - Fixed Formula variables not supporting variable with space
     - `Character is Online` was not functioning properly
     - `Get Time` was not functioning properly
+`0.7.2`
+- Scripting:
+    - Those nodes did not function: `Has RR Key`, `Has Quest Category`
+    - Chained dialogue could sometime replace each other if send in a chain
+    - Export Serializer was eating up return lines and pipe characters uppon deserialization. Old script export will stiff suffer from this fate and have to be re exported if your script contain a new line or a pipe (|)
+    - Moving nodes with arrow keys should now work properly
+    - Selecting nodes with a box selection after moving the nodes with arrow keys should now behave as expected.
+    - Spawner spawn event was not working with a spawn delay of 0 second.
+    - Desync error was reported when pressing delete while no node were selected
+    - New nodes where not aligned properly to the grid uppon creation
+    - Node created using the right click menu where not selected automaticly uppon creation.
+    - Sudo Log was not functionning
+    - Text variable insertion preview was not taking into account the edited script variables. This does not execute your script, and will only display default values

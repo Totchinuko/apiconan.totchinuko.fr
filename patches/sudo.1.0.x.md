@@ -48,3 +48,6 @@
 
 `1.0.28`
 - Improved the window opacity slider
+
+`1.0.30`
+- Fixed sprint being stuck after opening sudo panels
