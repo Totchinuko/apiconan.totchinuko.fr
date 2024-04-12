@@ -6,32 +6,37 @@
 - [X] RPR Notice board edit button
 - [X] Admin 0.7.0
 - [X] Funcom Update/Admin 0.7.0 fixes
-- [ ] Sudo Menu Improvements
-- [ ] Sudo nameplate adjustments
-- [ ] Sudo backup API rewrite
-- [ ] Sudo Webhook API
+- [X] Sudo Menu Improvements
+- [X] Sudo nameplate adjustments
+- [X] Sudo backup API rewrite
 - [ ] Puppet Dice Sheet Integration for incarnate
 - [ ] Custom Accessory panel rework and other improvements
 - [ ] Tot ! Fishing
-- [ ] Immersive Hud Map
+- [ ] Sudo Webhook API
 - [ ] Admin 0.8.0
+- [ ] Immersive Hud Map
 - [ ] Custom various body improvements
 
 ## Currently Worked On `Various Things`
-- [ ] Node to check if a user completed a quest objective.
-- [ ] Categories for script
-- [ ] Add node to display image in dialogue window
-- [ ] Nameplate improvements
-    - [ ] Make an option to not display nameplate based on chat distance.
-    - [ ] Add API to detect center of screen on the nameplate
-    - [ ] Improve nameplate fade (Minimum opacity)
-- [ ] Menu improvements
-    - [ ] Alphabetical order for menus
-    - [ ] Quick Search (CTRL + K) on panels
-    - [ ] Favorit system that add new menu in escape menu 
-- [ ] Backup update
-    - [ ] Store backup as a .sav rather than downloading/uploading a Json text
+- [ ] Update Sudo API with new Backup interface
 - [ ] Puppet Dice Sheet Integration for incarnate
+- [ ] Custom `1.6.0`
+    - [ ] Crouch hidding condition
+    - [ ] Clan Emblem
+    - [ ] Small lantern
+    - [ ] Creating a new profile (or duplicating) should scroll to the bottom
+    - [ ] Restore dong and Bust stat for RPR
+    - [ ] Add specific totcustom tags to the accessory mesh components
+    - [ ] Prevent Custom from opening when the escape menu is open
+    - [ ] Add refresh accessory event on attached actors
+    - [ ] Accessory panel rework
+        - [ ] Color code location fields with the same as arrows
+        - [ ] Groupe accessories icons, with a single editor. 
+        - [ ] Ability to select multiple of them and edit all their parameters in common (Shift + Click)
+        - [ ] Better 3D bone selection
+        - [ ] Piece Mirror `Experimental`
+        - [ ] Piece Flip Axis `Experimental`
+        - [X] Swaping a bone without moving the accessory in world space
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
@@ -151,7 +156,6 @@
     - [ ] Rework event logs
     - [ ] Community made script library
     - [ ] Auto focus camera (Colision raycast)
-    - [ ] Merge Server Settings and general settings into one panel
     - [ ] Better color/bold/italic parsing.
     - [ ] Get Clan ID
     - [ ] Get players in clan
@@ -246,23 +250,24 @@
 - [X] Armor stand cannot be selected with /select
 - [X] Test invisibility code performance
 - [X] Add Euna and Sean creator entry.
-- [ ] Clan Emblem
-- [ ] Small lantern
-- [ ] Creating a new profile (or duplicating) should scroll to the bottom
-- [ ] Restore dong and Bust stat for RPR
-- [ ] Add specific totcustom tags to the accessory components
-- [ ] Prevent Custom from opening when the escape menu is open
-- [ ] Add refresh accessory event on attached actors
+- [ ] `1.6.0`
+    - [ ] Crouch hidding condition
+    - [ ] Clan Emblem
+    - [ ] Small lantern
+    - [ ] Creating a new profile (or duplicating) should scroll to the bottom
+    - [ ] Restore dong and Bust stat for RPR
+    - [ ] Add specific totcustom tags to the accessory mesh components
+    - [ ] Prevent Custom from opening when the escape menu is open
+    - [ ] Add refresh accessory event on attached actors
+    - [ ] Accessory panel rework
+        - [ ] Color code location fields with the same as arrows
+        - [ ] Groupe accessories icons, with a single editor. 
+        - [ ] Ability to select multiple of them and edit all their parameters in common (Shift + Click)
+        - [ ] Better 3D bone selection
+        - [ ] Piece Mirror `Experimental`
+        - [ ] Piece Flip Axis `Experimental`
+        - [X] Swaping a bone without moving the accessory in world space
 - [ ] Check: https://discord.com/channels/917916583064662076/1202830393347407953/1203184757706334258
-- [ ] Accessory panel rework `1.6.x`
-    - [ ] Color code location fields with the same as arrows
-    - [ ] Groupe accessories icons, with a single editor. 
-    - [ ] Ability to select multiple of them and edit all their parameters in common (Shift + Click)
-    - [ ] Better 3D bone selection
-    - [ ] Piece Mirror `Experimental`
-    - [ ] Piece Flip Axis `Experimental`
-    - [X] Swaping a bone without moving the accessory in world space
-- [ ] Voice Selector
 - [ ] Profile Quick Deletion Mode
 - [ ] Teeth Coloring
 - [ ] Investigate faction voice line for NPC
@@ -312,16 +317,16 @@
 - [X] Clan display on offline page is not refreshed properly `Can't fix`
 - [X] Option to hide everyone else name
 - [X] Improve opacity slider for sudo windows
-- [ ] Nameplate improvements
-    - [ ] Make an option to not display nameplate based on chat distance.
-    - [ ] Add API to detect center of screen on the nameplate
-    - [ ] Improve nameplate fade (Minimum opacity)
-- [ ] Menu improvements
-    - [ ] Alphabetical order for menus
-    - [ ] Quick Search (CTRL + K) on panels
-    - [ ] Favorit system that add new menu in escape menu 
-- [ ] Backup update
-    - [ ] Store backup as a .sav rather than downloading/uploading a Json text
+- [X] Nameplate improvements
+    - [X] Make an option to not display nameplate based on chat distance.
+    - [X] Add API to detect center of screen on the nameplate
+    - [X] Improve nameplate fade (Minimum opacity)
+- [X] Menu improvements
+    - [X] Alphabetical order for menus
+    - [X] Quick Search (CTRL + K) on panels
+    - [X] Favorit system that add new menu in escape menu 
+- [X] Backup update
+    - [X] Store backup as a .sav rather than downloading/uploading a Json text
 - [ ] Sudo Webhook API
 - [ ] Make the command fallback display notification and error in the vanilla console
 - [ ] Make image download documentation
