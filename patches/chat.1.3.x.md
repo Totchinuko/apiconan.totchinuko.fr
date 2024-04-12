@@ -16,6 +16,8 @@
 `1.3.6`
 - Tot ! Chat is now compatible with Pippi and the vanilla chat.
 - In the game escape menu, you can access a small documentation on the top right corner of the screen that will explain how to use both on just one.
+`1.3.16`
+- Integration of Sudo Backup system
 
 ## Changes/Improvements
 `1.3.2`
@@ -40,6 +42,8 @@
 
 `1.3.15`
 - Allow to change the emote formating separately for /me, /tell and /do
+`1.3.16`
+- Added a setting to deactivate server wide the nameplate visibility based on selected chat range.
 
 ## Fixes
 `1.3.0`

@@ -1,11 +1,12 @@
 # Tot ! Roleplay Redux 2.1.x
+`2.1.23`
+- Integration of Sudo Backup system.
 ## Changes
 `2.1.15`
 - Integrating Sudo Nameplate System. Several settings got removed now controlled by Sudo. Sudo nameplate system MUST be activated for players in order to use RR nameplate features.
 
 `2.1.19`
 - Added a repost button on the notice board to make a copy of an existing message. Only available if you are the author of the message or the manager of the board.
-
 ## Fixes
 `2.1.15`
 - Fixing various color formating issues

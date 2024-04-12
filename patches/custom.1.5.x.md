@@ -34,6 +34,9 @@
 `1.5.16`
 - Added compatibility with !Admin new Move Duplicate feature for puppet duplication
 
+`1.5.18`
+- Integration of Sudo Backup system
+
 ## Changes/Improvements
 `1.5.0`
 - The beard configured in the body section is now added to the character using an internal accessory from Custom, instead of using Funcom internal beard management. This avoid issues with modded heads not working well with beards. Keep in mind that modded heads are not necessarly well suited for the beards and clipping may occure. Additionally, the beard section now allow to choose a variation, to find one that fit best the current face.
@@ -152,3 +155,5 @@
 `1.5.17`
 - Fixed hair/beard accessories replacing other accessories or the list when adding them
 - Attempt at fixing wrong visible accessories on thrall when using DD emote system
+`1.5.18`
+- Fixed a potential exploit allowing to equip more accessories than the server allow

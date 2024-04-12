@@ -32,7 +32,13 @@
 `1.0.19`
 - Added a parameter to control the background opacity of nameplates
 - Added a parameter to hide the name of thralls separatly from players
-
+`1.0.32`
+- Improved nameplate visibility curve
+- Improved nameplate "Aimed At" detection to be less intrusive
+- Quick Search - Use Ctrl + K in Admin or player panel to quickly go to a specific sudo menu
+- Favorites - You can now add to favorites a sudo menu to pin it at the top and display it ont the main menu.
+- Sudo menus are now ordered alphabetically
+- Sudo Backup Rework: Backups will now be stored in the form of save files in your Conan server folders. You can use an FTP client to access these and move them from one server to another.
 ## Fixes
 `1.0.14`
 - API file was missing from the archive

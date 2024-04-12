@@ -22,6 +22,11 @@
     - New Nodes in Redux Tools: `Has Perk Category`
     - New Nodes in operations: `Bit Flag Add`, `Bit Flag Remove`, `Bit Flag Toggle`, `Has Bit Flag`
     - Added a duplicate button to make new copies of a script with a different ID
+`0.7.3`
+- Scripting:
+    - New Node: `Has Completed Quest Objective`
+    - Added a category system: Add the category name in your script name by using a pipe as separator (Example: Category|My Script Name). Also increased max script name length from 32 to 128.
+    - Using a URL in the text of a `Send Dialogue` node allow you to display an image
 ## Changes
 `0.7.0`
 - Reworked the price definition widget for trading
@@ -90,3 +95,15 @@
     - Node created using the right click menu where not selected automaticly uppon creation.
     - Sudo Log was not functionning
     - Text variable insertion preview was not taking into account the edited script variables. This does not execute your script, and will only display default values
+`0.7.3`
+- Scripting:
+    - Variable assigned to returned lists would be cleared when selecting back a node
+    - Returned list allowed to add elements to the list when it does not make sense
+    - Fix Math and Text variable not accepting variable of 1 character
+    - RMB menu was not positioned right in certain windowed modes
+    - Date comparison `Under` did not work properly 
+    - `Is Quest in Cooldown` was inverted
+    - `Manual Spawn` only ever spawned one NPC
+    - Export window close button was non functional
+    - `Fire Many Event` and `Try Fire Event` were not working on Scripted Doors, Chests and Game Lights
+    - Fixed Asura's Glory and Midnight Flower not harvestable in resource spawner
