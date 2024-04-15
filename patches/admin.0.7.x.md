@@ -107,3 +107,7 @@
     - Export window close button was non functional
     - `Fire Many Event` and `Try Fire Event` were not working on Scripted Doors, Chests and Game Lights
     - Fixed Asura's Glory and Midnight Flower not harvestable in resource spawner
+`0.7.4`
+- Scripting:
+    - Subsequent call to `Set Camera for conversation` were broken
+    - `Set Player Clan` was not working

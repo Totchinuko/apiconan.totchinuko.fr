@@ -57,3 +57,5 @@
 
 `1.0.30`
 - Fixed sprint being stuck after opening sudo panels
+`1.0.33`
+- Fix the role attribution UI allowing role escalation from lower roles

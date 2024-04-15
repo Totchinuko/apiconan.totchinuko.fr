@@ -18,7 +18,8 @@
 - In the game escape menu, you can access a small documentation on the top right corner of the screen that will explain how to use both on just one.
 `1.3.16`
 - Integration of Sudo Backup system
-
+`1.3.17`
+- Experiemental Feature: Alternate Horse Auto Run. Added in player settings.
 ## Changes/Improvements
 `1.3.2`
 - Implementing new notification internal API for better handling of cross mod notifications
