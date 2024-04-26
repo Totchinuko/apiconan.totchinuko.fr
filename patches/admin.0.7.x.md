@@ -111,3 +111,14 @@
 - Scripting:
     - Subsequent call to `Set Camera for conversation` were broken
     - `Set Player Clan` was not working
+`0.7.5`
+- Reverting an auto save feature for the action modules, suspected to introduce saving issues
+- Patrol Point emote was continuing after leaving the point, sometimes as the NPC traveled
+- Patrol Point radius was applying for the next point instead of the current point
+- Editing a portal with the option hide with time restriction enabled was making the portal visible for yourself until reload
+- One type of sand rock in the resource spawner had no character collisions. I hate sand.
+- Improved how kill detection is made for the quest system to avoid a bug related to fatalities
+- Scripting:
+    - Add item node with no item or a non existing item was freezing the server
+    - It was possible to remove a negative amount of item, doing so would add items. Minimum will now be 0, and do nothing in this case.
+    - `Sudo Log` node will now remove breaking lines from its text before saving, to avoid formating issues in the log panel
