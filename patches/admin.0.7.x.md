@@ -27,7 +27,16 @@
     - New Node: `Has Completed Quest Objective`
     - Added a category system: Add the category name in your script name by using a pipe as separator (Example: Category|My Script Name). Also increased max script name length from 32 to 128.
     - Using a URL in the text of a `Send Dialogue` node allow you to display an image
-## Changes
+`0.7.6`
+- Scripting:
+    - New node: Text to Character List
+    - New node: Is Text Numeric
+    - New node: Spawn kit in chest
+    - New node: Clear Scripted Chest Content
+    - New nodes: Save/Load variable/List - Will save globaly the content of a variable or list on the server drive, without restriction. This will survive a reboot.
+    - New node: Delete saved Variable/List
+- Added two commands /position and /lookat to report in chat your current camera location and look at location respectively
+## Changes  
 `0.7.0`
 - Reworked the price definition widget for trading
 - Added the possibility to prevent a trader from selling a particular good
@@ -60,6 +69,10 @@
     - Log Sudo now take a text value, but will be truncated at 100 characters max.
     - Renamed Visual Clues into Staff Vision:tm:
     - Improved some admin tools to only be interactable when the Staff Vision is active
+`0.7.6`
+- You can now shift click on an item stack in the trader UI to move the entire stack to the trading area
+- Remove UTC to Local conversion for date/time fields. Now the field will display the current server UTC time for you to make the conversion, when UTC time is expected.
+- Added alpha channel to color variables
 ## Fixes
 `0.7.0`
 - Fixed the rule Is Math Not Zero using the old formula editor
@@ -122,3 +135,11 @@
     - Add item node with no item or a non existing item was freezing the server
     - It was possible to remove a negative amount of item, doing so would add items. Minimum will now be 0, and do nothing in this case.
     - `Sudo Log` node will now remove breaking lines from its text before saving, to avoid formating issues in the log panel
+
+`0.7.6`
+- Renamed a bunch of buttons to be more concistend with naming
+- Trader definition price multiplier were not working properly
+- Pricing multiplier will now ceil resulting prices instead of rounding, avoiding small prices (1) to be 0 when the multiplier is inferior ot 0.5.
+- Duration field was using number grouping format, making it impossible to select values beyond 999.
+- Admin event Global Tag had the On Added/On Removed toggle inverted
+- Improved positioning of node right click menu

@@ -59,3 +59,6 @@
 - Fixed sprint being stuck after opening sudo panels
 `1.0.33`
 - Fix the role attribution UI allowing role escalation from lower roles
+`1.0.34`
+- Fixed a few wonky behavior with vars API, potentially corrupting vars list
+- Improved the Hexadecimal conversion for color picker
