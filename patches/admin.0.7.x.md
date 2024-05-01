@@ -36,6 +36,13 @@
     - New nodes: Save/Load variable/List - Will save globaly the content of a variable or list on the server drive, without restriction. This will survive a reboot.
     - New node: Delete saved Variable/List
 - Added two commands /position and /lookat to report in chat your current camera location and look at location respectively
+`0.7.7`
+- New node: `Set Energy`, `Get Energy` (Mostly used for corruption management)
+- You can now store a dice sheet on a puppet to swap when incarnating the puppet
+- Your character will now remember what was the last puppet you incarnated before leaving the game
+- You can now import/export the following elements: Quest, Quest categories, Kits, Custom NPC, Trader Definitions, Warps and Post Processes. Guid will be exported to maintain links between export elements.
+- You can now create custom chat command using scripts. For that, open the newly added setting tab in a script, to specify a command name. Those commands do not have permissions, it is up to you to do the necessary checks at the beginning of the script.
+- Added a new quest objective: Hunt Multiple. Allowing you to set multiple valid hunt target for a single objective.
 ## Changes  
 `0.7.0`
 - Reworked the price definition widget for trading
@@ -73,6 +80,10 @@
 - You can now shift click on an item stack in the trader UI to move the entire stack to the trading area
 - Remove UTC to Local conversion for date/time fields. Now the field will display the current server UTC time for you to make the conversion, when UTC time is expected.
 - Added alpha channel to color variables
+`0.7.7`
+- Added thrall trigger filter on sphere and box zones
+- Added a head tracking toggle for puppet conversation nodes
+- Display the original name of a node in the node inspector
 ## Fixes
 `0.7.0`
 - Fixed the rule Is Math Not Zero using the old formula editor
@@ -143,3 +154,10 @@
 - Duration field was using number grouping format, making it impossible to select values beyond 999.
 - Admin event Global Tag had the On Added/On Removed toggle inverted
 - Improved positioning of node right click menu
+
+`0.7.7`
+- Improved interaction text to not be right in the middle of the screen
+- Improved variable list reliability and performance
+- Puppet languages were not duplicated when using a move tool duplication function
+- Space where getting trimmed in texts fields when it should not
+- Get clan players did not return a list player as it should
