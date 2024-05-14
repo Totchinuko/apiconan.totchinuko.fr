@@ -9,34 +9,38 @@
 - [X] Sudo Menu Improvements
 - [X] Sudo nameplate adjustments
 - [X] Sudo backup API rewrite
-- [ ] Puppet Dice Sheet Integration for incarnate
+- [X] Puppet Dice Sheet Integration for incarnate
 - [ ] Custom Accessory panel rework and other improvements
 - [ ] Tot ! Fishing
 - [ ] Sudo Webhook API
 - [ ] Admin 0.8.0
-- [ ] Immersive Hud Map
+- [ ] !Hud Map
 - [ ] Custom various body improvements
 
 ## Currently Worked On `Various Things`
-- [ ] Update Sudo API with new Backup interface
-- [ ] Puppet Dice Sheet Integration for incarnate
-- [ ] Custom `1.6.0`
-    - [ ] Crouch hidding condition
-    - [ ] Clan Emblem
-    - [ ] Small lantern
-    - [ ] Creating a new profile (or duplicating) should scroll to the bottom
+- [ ] Make a mod module for added Amunet Server Transfer compatibility
+    - [ ] RPR dice sheet
+    - [ ] /act
+    - [ ] Tot!Admin Quests status
+- [ ] Server Light Manager
+- [ ] Clear dialogue node
+- [ ] Custom `1.7.0`
+    - [ ] Role based cap addition
     - [ ] Restore dong and Bust stat for RPR
-    - [ ] Add specific totcustom tags to the accessory mesh components
-    - [ ] Prevent Custom from opening when the escape menu is open
-    - [ ] Add refresh accessory event on attached actors
-    - [ ] Accessory panel rework
-        - [ ] Color code location fields with the same as arrows
-        - [ ] Groupe accessories icons, with a single editor. 
-        - [ ] Ability to select multiple of them and edit all their parameters in common (Shift + Click)
-        - [ ] Better 3D bone selection
-        - [ ] Piece Mirror `Experimental`
-        - [ ] Piece Flip Axis `Experimental`
-        - [X] Swaping a bone without moving the accessory in world space
+    - [ ] Pose system
+    - [ ] Photo Mode ?
+- [X] Chat tag should scale with font
+- [X] Copy sudo favorites instead of moving them.
+- [X] POI placer and clan information accessible though permissions
+- [X] For Loop
+- [X] Stack moving for trade UI should be done on button up
+- [X] Find a way to prevent people from login in a box zone or delay it by 1 frame.
+- [X] Increase pause scrap to an hour
+- [X] Remove serializer optimization for 0
+- [X] Improve /position /lookat and the vector field to be able to copy past directly
+- [X] Hide killer widget when respawning
+- [ ] Cinematic Video
+- [ ] Variable storage video
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
@@ -153,16 +157,23 @@
         - [X] Seem arrival tolerance is located in BTDecorator_isAtHome
         - [X] Maybe do a custom tree for spawned NPCs with spawners
 - [ ] Alpha `0.8.0`
+    - [ ] Trader lock to a single player
+    - [ ] Free Editor Mode
+    - [ ] Display banned feat in separate list
+    - [ ] Add Thrall to inventory node
     - [ ] Rework event logs
     - [ ] Community made script library
     - [ ] Auto focus camera (Colision raycast)
-    - [ ] Better color/bold/italic parsing.
     - [ ] Get Clan ID
     - [ ] Get players in clan
+    - [ ] Get Current Admin tool
+    - [ ] Converter Admin Tool -> Specific tool
+    - [ ] Converter Specific Tool -> Admin Tool
     - [ ] Dynamic puppet inventory linked to scripted chests
     - [ ] List weight does not refresh on opening
     - [ ] On Player Killed - Admin Event
     - [ ] Clean corpses in a radius (Command and node)
+    - [ ] A check to hide quest objectives as long as higher objectives are not complete.
     - [ ] Voiced dialogue lines
     - [ ] Tot!Hud Gage with scripting
     - [ ] Improve contextual box for small screens
@@ -173,7 +184,6 @@
     - [ ] Comments as an anchor on the grid. Display the text on click or hover
     - [ ] Music Box using the mod sound library
     - [ ] Vector3 Calculation Nodes
-    - [ ] System to whitelist script for normal user to execute using a command
     - [ ] Try to find a way to replace the shift + insert of the cheat panel to the !Admin cheat panel.
     - [ ] Integrate RR Dice Sheet on Puppets
     - [ ] Add light customization to scripted lights
@@ -250,24 +260,34 @@
 - [X] Armor stand cannot be selected with /select
 - [X] Test invisibility code performance
 - [X] Add Euna and Sean creator entry.
-- [ ] `1.6.0`
+- [ ] Custom `1.6.0`
+    - [X] Slider instead of button for light
+    - [X] Mannequin have no HP
+    - [X] Clan Emblem
+    - [ ] Accessory panel rework
+        - [X] World axis should be player aligned
+        - [X] Color code location fields with the same as arrows
+        - [X] Better 3D bone selection + Twist bones + facial bones
+        - [X] Change bone selection to be a simple orange socket
+        - [X] Ability to select multiple of thems
+        - [X] Reset position does not refresh coordinate display
+        - [X] Swaping a bone without moving the accessory in world space
+        - [X] Groupe accessories icons, with a single editor, organized by bone
+        - [ ] Temporary hide accessory button
+        - [ ] Piece Mirror `Experimental`
+        - [ ] Piece Flip Axis `Experimental`
+    - [ ] Finish to make the character offset system
+    - [ ] Role based cap addition
     - [ ] Crouch hidding condition
-    - [ ] Clan Emblem
-    - [ ] Small lantern
+    - [ ] Fly hidding condition
     - [ ] Creating a new profile (or duplicating) should scroll to the bottom
     - [ ] Restore dong and Bust stat for RPR
     - [ ] Add specific totcustom tags to the accessory mesh components
     - [ ] Prevent Custom from opening when the escape menu is open
     - [ ] Add refresh accessory event on attached actors
-    - [ ] Accessory panel rework
-        - [ ] Color code location fields with the same as arrows
-        - [ ] Groupe accessories icons, with a single editor. 
-        - [ ] Ability to select multiple of them and edit all their parameters in common (Shift + Click)
-        - [ ] Better 3D bone selection
-        - [ ] Piece Mirror `Experimental`
-        - [ ] Piece Flip Axis `Experimental`
-        - [X] Swaping a bone without moving the accessory in world space
+    - [ ] Pose system
 - [ ] Check: https://discord.com/channels/917916583064662076/1202830393347407953/1203184757706334258
+- [ ] Small lantern
 - [ ] Profile Quick Deletion Mode
 - [ ] Teeth Coloring
 - [ ] Investigate faction voice line for NPC
