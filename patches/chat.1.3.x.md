@@ -73,3 +73,6 @@
 
 `1.3.15`
 - Fixed ooc message getting hidden by language
+`1.3.20`
+- Chat bubbles did not scale language tag properly with selected font size
+- Improved the active chat notification setting to not ring when posting message or receiving notifications.

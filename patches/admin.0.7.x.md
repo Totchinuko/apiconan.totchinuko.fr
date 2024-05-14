@@ -43,6 +43,9 @@
 - You can now import/export the following elements: Quest, Quest categories, Kits, Custom NPC, Trader Definitions, Warps and Post Processes. Guid will be exported to maintain links between export elements.
 - You can now create custom chat command using scripts. For that, open the newly added setting tab in a script, to specify a command name. Those commands do not have permissions, it is up to you to do the necessary checks at the beginning of the script.
 - Added a new quest objective: Hunt Multiple. Allowing you to set multiple valid hunt target for a single objective.
+`0.7.8`
+- New Node: `For Loop`, `While Loop`
+- New Nodes: `Insert into List`, `Set List Element`.
 ## Changes  
 `0.7.0`
 - Reworked the price definition widget for trading
@@ -84,6 +87,8 @@
 - Added thrall trigger filter on sphere and box zones
 - Added a head tracking toggle for puppet conversation nodes
 - Display the original name of a node in the node inspector
+`0.7.8`
+- Increased the duration for paused script to get automaticly scrapted for inactivity from 5 minutes to an hour.
 ## Fixes
 `0.7.0`
 - Fixed the rule Is Math Not Zero using the old formula editor
@@ -161,3 +166,12 @@
 - Puppet languages were not duplicated when using a move tool duplication function
 - Space where getting trimmed in texts fields when it should not
 - Get clan players did not return a list player as it should
+
+`0.7.8`
+- Script import was not functioning properly
+- Fixed various typos
+- Improved trader shift click to move stack to not prevent drag and droping with shift down.
+- Thrall Trigger toggle was displayed off when opening the box/sphere zone editor
+- Improved /cheat creative command deactivation
+- Added a safety to Box/Sphere zone to delay their action on freshly logged in players, avoiding a server crash in some cases.
+- Trader NPC will now drop or give back the item in storage when its dismantled or picked up respectively.

@@ -7,6 +7,8 @@
 
 `2.1.19`
 - Added a repost button on the notice board to make a copy of an existing message. Only available if you are the author of the message or the manager of the board.
+`2.1.25`
+- Added an admin section in POI editor to display the name of the players the previously edited and saved the POI. Old POI will not have any named saved, but after the patch, POI will start to collect that data for admin usage.
 ## Fixes
 `2.1.15`
 - Fixing various color formating issues
