@@ -168,6 +168,19 @@ By implementing this interface method to your actor, Custom will be able to give
 |bool|IsSuccess||
 <!-- tabs:end -->
 
+#### RefreshedAccessory <small>Client</small>
+This function is called every time the accessory colors or model is refreshed.
+<!-- tabs:start -->
+#### **Input**
+
+void
+
+#### **Output**
+
+void
+
+<!-- tabs:end -->
+
 ### Enabling customization on third party hoomans <small>1.1.0+</small>
 
 ### Adding the Actor Component
