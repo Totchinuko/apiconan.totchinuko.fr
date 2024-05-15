@@ -168,7 +168,7 @@ By implementing this interface method to your actor, Custom will be able to give
 |bool|IsSuccess||
 <!-- tabs:end -->
 
-#### RefreshedAccessory <small>Client</small>
+#### RefreshedAccessory <small>Client (1.6.0+)</small>
 This function is called every time the accessory colors or model is refreshed.
 <!-- tabs:start -->
 #### **Input**
