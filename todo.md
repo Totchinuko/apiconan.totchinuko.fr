@@ -10,7 +10,8 @@
 - [X] Sudo nameplate adjustments
 - [X] Sudo backup API rewrite
 - [X] Puppet Dice Sheet Integration for incarnate
-- [ ] Custom Accessory panel rework and other improvements
+- [X] Custom Accessory panel rework and other improvements
+- [ ] Custom post release support
 - [ ] Tot ! Fishing
 - [ ] Sudo Webhook API
 - [ ] Admin 0.8.0
