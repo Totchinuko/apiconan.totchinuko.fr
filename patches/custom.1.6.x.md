@@ -25,8 +25,24 @@
 - Improved accessory rotation tool look for better 3D visualization
 - Added a light multiplier slider next to the light button
 - Creating/Duplicating a new profile will now scroll you down the list
+`1.6.1`
+- Added button for copy, paste and delete in the accessory panel
+- Added a button to reset your character offset, replacing the IK disable button
+- IK will now always be disabled for every characters. It's a buggy mess, and a good bug is a dead bug. 
+- Added WASD keys to move the Custom camera forward, backward, left and right when holding the left click for rotating. These can be changed in the editor settings.
 ## Fixed
 `1.6.0`
 - Fixed hair/beard accessory not displaying their ID on hover of their icon
 - Mannequin could not be deleted using Shift + Delete
 - Opening custom was possible while another fullscreen UI was opened, bricking the escape button
+`1.6.1`
+- Editing a character offset after reopening the Custom panel did not behave as expected
+- Editing the character offset would trigger a rapid flicker on the first frame of movement
+- Skeleton visualization was not scaling with the body
+- Swaping an accessory with effects to another with effects did not update the effects properly
+- It is no longer possible to use the move offset while the character is running
+- It was not possible to paste a color copied from the accessory section, into the armor sections
+- Reset of the camera and character offset on movement is more accurate and reliable
+- Character offset cannot exceed a foundation of distance
+- Custom camera cannot go further than 2 foundations of distance and will not go through walls. You've had too much democracy.
+- Change item button in accessory editor is now greyed out on hairs and beards. 
