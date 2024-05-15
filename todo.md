@@ -12,6 +12,9 @@
 - [X] Puppet Dice Sheet Integration for incarnate
 - [X] Custom Accessory panel rework and other improvements
 - [ ] Custom post release support
+- [ ] Amunet Server Transfer Module
+- [ ] Nameplate visibility optional improvements
+- [ ] Custom 1.7 `Pose Update`
 - [ ] Tot ! Fishing
 - [ ] Sudo Webhook API
 - [ ] Admin 0.8.0
