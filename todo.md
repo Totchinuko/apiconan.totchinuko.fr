@@ -17,13 +17,28 @@
 - [ ] !Hud Map
 - [ ] Custom various body improvements
 
-## Currently Worked On `Various Things`
+## Short Term Roadmap
+
+### Today
+- [ ] Update API for custom and sudo on website
+- [ ] Add alternative to delete shortcut
+- [ ] Closing and reopening the !Custom panel, the offset editor seem not at the right spot
+- [ ] Skeleton does not scale with body ?
+- [ ] Their is an issue with the attached actor, it does not swap when swaping the accessory id
+- [ ] Disable offseting when character is currently running
+- [ ] Editor WASD camera movement
+- [ ] Improve armor color paste to take into account the color picked in accessories
+- [ ] Max radius for camera and character offset + camera inverted arm raycast to properly position the anchor
+- [ ] Reset posture button
+
+### The next days
 - [ ] Make a mod module for added Amunet Server Transfer compatibility
     - [ ] RPR dice sheet
     - [ ] /act
     - [ ] Tot!Admin Quests status
 - [ ] Server Light Manager
 - [ ] Clear dialogue node
+- [ ] Add sphere cast test to nameplate feature, that can be toggled on and ignored with admin flag.
 - [ ] Custom `1.7.0`
     - [ ] Role based cap addition
     - [ ] Restore dong and Bust stat for RPR
