@@ -40,8 +40,6 @@ This says, the code could not find a particular function in a specific file. Thi
 [...]
 ..\steamapps\workshop\content\440900\880454836\Pippi.pak
 [...]
-..\steamapps\workshop\content\440900\1823412793\ModControlPanel.pak
-[...]
 ..\steamapps\workshop\content\440900\1542041983\RA.pak
 [...]
 [Body mods]
@@ -50,7 +48,7 @@ This says, the code could not find a particular function in a specific file. Thi
 [...]
 ..\steamapps\workshop\content\440900\2300463941\Devious_Desires.pak
 [...]
-..\steamapps\workshop\content\440900\3036057084\ModAdmin.pak
+..\steamapps\workshop\content\440900\3036057084\ModAdmin.pak (Sudo)
 ..\steamapps\workshop\content\440900\3036058836\RoleplayRedux.pak
 ..\steamapps\workshop\content\440900\2677532697\TotImmersiveHud.pak
 ..\steamapps\workshop\content\440900\2671265327\TotWalk.pak
