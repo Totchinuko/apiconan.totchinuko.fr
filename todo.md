@@ -24,16 +24,17 @@
 ## Short Term Roadmap
 
 ### Today
-- [ ] Update API for custom and sudo on website
-- [ ] Add alternative to delete shortcut
-- [ ] Closing and reopening the !Custom panel, the offset editor seem not at the right spot
-- [ ] Skeleton does not scale with body ?
-- [ ] Their is an issue with the attached actor, it does not swap when swaping the accessory id
-- [ ] Disable offseting when character is currently running
-- [ ] Editor WASD camera movement
-- [ ] Improve armor color paste to take into account the color picked in accessories
-- [ ] Max radius for camera and character offset + camera inverted arm raycast to properly position the anchor
-- [ ] Reset posture button
+- [X] Update API for custom and sudo on website
+- [X] Add alternative to delete shortcut
+- [X] Closing and reopening the !Custom panel, the offset editor seem not at the right spot
+- [X] Skeleton does not scale with body ?
+- [X] Their is an issue with the attached actor, it does not swap when swaping the accessory id
+- [X] Disable offseting when character is currently running
+- [X] Improve armor color paste to take into account the color picked in accessories
+- [X] Max radius for camera and character offset + camera inverted arm raycast to properly position the anchor
+- [X] Reset posture button 
+- [X] Grey out change accessory button on non item accessories
+- [X] Editor WASD camera movement
 
 ### The next days
 - [ ] Make a mod module for added Amunet Server Transfer compatibility
@@ -176,6 +177,7 @@
         - [X] Seem arrival tolerance is located in BTDecorator_isAtHome
         - [X] Maybe do a custom tree for spawned NPCs with spawners
 - [ ] Alpha `0.8.0`
+    - [ ] Nodes to handle /act
     - [ ] Trader lock to a single player
     - [ ] Free Editor Mode
     - [ ] Display banned feat in separate list
