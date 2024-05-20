@@ -52,13 +52,13 @@
     - [ ] RPR dice sheet
     - [ ] /act
     - [ ] Tot!Admin Quests status
-`TotAdmin`
+`TotAdmin`  
 - [ ] Server Light Manager
 - [ ] Clear dialogue node
 - [ ] Add sphere cast test to nameplate feature, that can be toggled on and ignored with admin flag.
 - [ ] Cinematic Video
 - [ ] Variable storage video
-`TotCustom`
+`TotCustom`  
 - [ ] Custom `1.7.0`
     - [ ] Multi dye accessories
     - [ ] Color picker right click menu
