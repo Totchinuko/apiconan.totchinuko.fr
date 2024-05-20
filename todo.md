@@ -11,9 +11,9 @@
 - [X] Sudo backup API rewrite
 - [X] Puppet Dice Sheet Integration for incarnate
 - [X] Custom Accessory panel rework and other improvements
-- [ ] Custom post release support
+- [X] Custom post release support
 - [ ] Amunet Server Transfer Module
-- [ ] Nameplate visibility optional improvements
+- [ ] Nameplate visibility optional improvements + fix death nameplate issue
 - [ ] Custom 1.7 `Pose Update`
 - [ ] Tot ! Fishing
 - [ ] Sudo Webhook API
@@ -24,43 +24,51 @@
 ## Short Term Roadmap
 
 ### Today
-- [X] Update API for custom and sudo on website
-- [X] Add alternative to delete shortcut
-- [X] Closing and reopening the !Custom panel, the offset editor seem not at the right spot
-- [X] Skeleton does not scale with body ?
-- [X] Their is an issue with the attached actor, it does not swap when swaping the accessory id
-- [X] Disable offseting when character is currently running
-- [X] Improve armor color paste to take into account the color picked in accessories
-- [X] Max radius for camera and character offset + camera inverted arm raycast to properly position the anchor
-- [X] Reset posture button 
-- [X] Grey out change accessory button on non item accessories
-- [X] Editor WASD camera movement
+`TotAdmin`
+- [X] Increase radish stack size
+`ModAdmin`
+- [X] Sudo multi tab issue
+`TotImmersiveHud`
+- [X] Hud corruption issue
+`TotCustom`
+- [X] Any player movement reset the camera. Forgot locally control check
+- [X] Manual scale is broken ?
+- [X] Prevent vanity camera while in !Custom camera
+- [X] Search bar in profiles
+- [X] Changing accessory model break movement until clicking again
+- [X] Hidding in editor will not hide if the accessory is equiped
+- [X] Add shortcuts to character profile to create body, weapon, armor and accessory profile, pre-favorited
+- [X] Add duplicate/delete buttons in favorites that prefavorite
+- [X] Make the camera remember the last position/rotation/zoom
+- [X] Add a shortcup to toggle camera
+
+### Under Investigation
+`TotCustom`
+- [ ] Sometimes accessories are not created properly on character client initialization ? (Levex fix it by refresh her body set)
 
 ### The next days
+`TotModuleAST`
 - [ ] Make a mod module for added Amunet Server Transfer compatibility
     - [ ] RPR dice sheet
     - [ ] /act
     - [ ] Tot!Admin Quests status
+`TotAdmin`
 - [ ] Server Light Manager
 - [ ] Clear dialogue node
 - [ ] Add sphere cast test to nameplate feature, that can be toggled on and ignored with admin flag.
-- [ ] Custom `1.7.0`
-    - [ ] Role based cap addition
-    - [ ] Restore dong and Bust stat for RPR
-    - [ ] Pose system
-    - [ ] Photo Mode ?
-- [X] Chat tag should scale with font
-- [X] Copy sudo favorites instead of moving them.
-- [X] POI placer and clan information accessible though permissions
-- [X] For Loop
-- [X] Stack moving for trade UI should be done on button up
-- [X] Find a way to prevent people from login in a box zone or delay it by 1 frame.
-- [X] Increase pause scrap to an hour
-- [X] Remove serializer optimization for 0
-- [X] Improve /position /lookat and the vector field to be able to copy past directly
-- [X] Hide killer widget when respawning
 - [ ] Cinematic Video
 - [ ] Variable storage video
+`TotCustom`
+- [ ] Custom `1.7.0`
+    - [ ] Color picker right click menu
+    - [ ] Role based cap addition
+    - [ ] Footstep system.
+    - [ ] Restore dong and Bust stat for RPR
+    - [ ] Body merge system
+    - [ ] Pose system
+        - [ ] Cancel limb animation with T-pose blending
+        - [ ] Auto swap a pose in some sub-state like fly, sit, etc..
+    - [ ] Photo Mode ?
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
@@ -177,6 +185,8 @@
         - [X] Seem arrival tolerance is located in BTDecorator_isAtHome
         - [X] Maybe do a custom tree for spawned NPCs with spawners
 - [ ] Alpha `0.8.0`
+    - [ ] Node to display friend durations/date
+    - [ ] Invisible block navigation
     - [ ] Nodes to handle /act
     - [ ] Trader lock to a single player
     - [ ] Free Editor Mode
