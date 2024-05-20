@@ -60,6 +60,7 @@
 - [ ] Variable storage video
 `TotCustom`
 - [ ] Custom `1.7.0`
+    - [ ] Multi dye accessories
     - [ ] Color picker right click menu
     - [ ] Role based cap addition
     - [ ] Footstep system.
