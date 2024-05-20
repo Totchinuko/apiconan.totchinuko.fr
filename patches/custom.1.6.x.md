@@ -20,6 +20,8 @@
     - Copy/Paste multiple accessories across profiles
     - Hide button to hide an accessory in editor
     - You can now hold shift while rotating to snap the rotation in 1/16 of a rotation increment
+`1.6.2`
+- You can now create, duplicate and delete body, weapon, armor and accessory profiles directly from the favorite area
 ## Changed
 `1.6.0`
 - Improved accessory rotation tool look for better 3D visualization
@@ -30,6 +32,10 @@
 - Added a button to reset your character offset, replacing the IK disable button
 - IK will now always be disabled for every characters. It's a buggy mess, and a good bug is a dead bug. 
 - Added WASD keys to move the Custom camera forward, backward, left and right when holding the left click for rotating. These can be changed in the editor settings.
+`1.6.2`
+- Custom camera will now remember its last relative position, rotation and zoom
+- Camera can now be toggled outside of the custom panel with an input (Unassigned by default)
+- Added a filter field in the favorite profile dropdown menu
 ## Fixed
 `1.6.0`
 - Fixed hair/beard accessory not displaying their ID on hover of their icon
@@ -46,3 +52,10 @@
 - Character offset cannot exceed a foundation of distance
 - Custom camera cannot go further than 2 foundations of distance and will not go through walls. You've had too much democracy.
 - Change item button in accessory editor is now greyed out on hairs and beards. 
+`1.6.2`
+- Hide in editor was not working properly
+- Custom Camera was reset when any player around was moving
+- Manual accessory coordinate edition should be more reliable
+- Pushing the vanity camera input while using the custom camera would break the custom panel once reopened
+- Changing an accessory would sometime break the movement tool
+- Tools were absent from the weapon tab since a recent funcom patch

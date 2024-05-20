@@ -62,3 +62,5 @@
 `1.0.34`
 - Fixed a few wonky behavior with vars API, potentially corrupting vars list
 - Improved the Hexadecimal conversion for color picker
+`1.0.36`
+- Sudo tabs where showing duplicates and displayed empty groups

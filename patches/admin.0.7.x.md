@@ -89,6 +89,8 @@
 - Display the original name of a node in the node inspector
 `0.7.8`
 - Increased the duration for paused script to get automaticly scrapted for inactivity from 5 minutes to an hour.
+`0.7.9`
+- Increase the stack size of Radishes. I'd rather have more radishes.
 ## Fixes
 `0.7.0`
 - Fixed the rule Is Math Not Zero using the old formula editor
