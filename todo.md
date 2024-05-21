@@ -24,41 +24,26 @@
 ## Short Term Roadmap
 
 ### Today
-`TotAdmin`
-- [X] Increase radish stack size
-`ModAdmin`
-- [X] Sudo multi tab issue
-`TotImmersiveHud`
-- [X] Hud corruption issue
-`TotCustom`
-- [X] Any player movement reset the camera. Forgot locally control check
-- [X] Manual scale is broken ?
-- [X] Prevent vanity camera while in !Custom camera
-- [X] Search bar in profiles
-- [X] Changing accessory model break movement until clicking again
-- [X] Hidding in editor will not hide if the accessory is equiped
-- [X] Add shortcuts to character profile to create body, weapon, armor and accessory profile, pre-favorited
-- [X] Add duplicate/delete buttons in favorites that prefavorite
-- [X] Make the camera remember the last position/rotation/zoom
-- [X] Add a shortcup to toggle camera
-
-### Under Investigation
-`TotCustom`
-- [ ] Sometimes accessories are not created properly on character client initialization ? (Levex fix it by refresh her body set)
-
-### The next days
-`TotModuleAST`
+#### TotModuleAST
 - [ ] Make a mod module for added Amunet Server Transfer compatibility
     - [ ] RPR dice sheet
     - [ ] /act
     - [ ] Tot!Admin Quests status
-`TotAdmin`  
+    - [ ] RPR customs status
+    - [ ] RPR Bio
+
+### Under Investigation
+#### TotCustom
+- [ ] Sometimes accessories are not created properly on character client initialization ? (Levex fix it by refresh her body set)
+
+### The next days
+#### TotAdmin  
 - [ ] Server Light Manager
 - [ ] Clear dialogue node
 - [ ] Add sphere cast test to nameplate feature, that can be toggled on and ignored with admin flag.
 - [ ] Cinematic Video
 - [ ] Variable storage video
-`TotCustom`  
+#### TotCustom 
 - [ ] Custom `1.7.0`
     - [ ] Multi dye accessories
     - [ ] Color picker right click menu
