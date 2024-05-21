@@ -25,12 +25,11 @@
 
 ### Today
 #### TotModuleAST
-- [ ] Make a mod module for added Amunet Server Transfer compatibility
-    - [ ] RPR dice sheet
-    - [ ] /act
-    - [ ] Tot!Admin Quests status
-    - [ ] RPR customs status
-    - [ ] RPR Bio
+- [X] Make a mod module for added Amunet Server Transfer compatibility
+    - [X] RPR dice sheet
+    - [X] /act
+    - [X] Tot!Admin Quests status
+    - [ ] RPR identity
 
 ### Under Investigation
 #### TotCustom
