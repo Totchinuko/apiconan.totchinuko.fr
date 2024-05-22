@@ -25,11 +25,13 @@
 
 ### Today
 #### TotModuleAST
-- [X] Make a mod module for added Amunet Server Transfer compatibility
+- [ ] Moving the camera outside custom should not be reset by the saved position
+- [ ] Make a mod module for added Amunet Server Transfer compatibility
     - [X] RPR dice sheet
     - [X] /act
     - [X] Tot!Admin Quests status
-    - [ ] RPR identity
+    - [X] RPR identity
+    - [ ] Chat languages
 
 ### Under Investigation
 #### TotCustom
@@ -44,6 +46,9 @@
 - [ ] Variable storage video
 #### TotCustom 
 - [ ] Custom `1.7.0`
+    - [ ] Add new Agony mod creator entry
+    - [ ] Add Sean's lantern
+    - [ ] Replace the profile dropdown selector into a full fledge profile selector with reordering
     - [ ] Multi dye accessories
     - [ ] Color picker right click menu
     - [ ] Role based cap addition
