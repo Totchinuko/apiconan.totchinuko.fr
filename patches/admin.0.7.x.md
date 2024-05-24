@@ -91,6 +91,8 @@
 - Increased the duration for paused script to get automaticly scrapted for inactivity from 5 minutes to an hour.
 `0.7.9`
 - Increase the stack size of Radishes. I'd rather have more radishes.
+`0.7.10`
+- Internal changes
 ## Fixes
 `0.7.0`
 - Fixed the rule Is Math Not Zero using the old formula editor
@@ -177,3 +179,5 @@
 - Improved /cheat creative command deactivation
 - Added a safety to Box/Sphere zone to delay their action on freshly logged in players, avoiding a server crash in some cases.
 - Trader NPC will now drop or give back the item in storage when its dismantled or picked up respectively.
+`0.7.10`
+- It was previously possible to edit a script without the script edition permission

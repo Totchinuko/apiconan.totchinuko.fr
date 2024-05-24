@@ -45,6 +45,8 @@
 - Allow to change the emote formating separately for /me, /tell and /do
 `1.3.16`
 - Added a setting to deactivate server wide the nameplate visibility based on selected chat range.
+`1.3.21`
+- Internal changes
 
 ## Fixes
 `1.3.0`

@@ -39,6 +39,8 @@
 - Favorites - You can now add to favorites a sudo menu to pin it at the top and display it ont the main menu.
 - Sudo menus are now ordered alphabetically
 - Sudo Backup Rework: Backups will now be stored in the form of save files in your Conan server folders. You can use an FTP client to access these and move them from one server to another.
+`1.0.37`
+- Internal Changes
 ## Fixes
 `1.0.14`
 - API file was missing from the archive

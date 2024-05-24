@@ -59,3 +59,5 @@
 - Pushing the vanity camera input while using the custom camera would break the custom panel once reopened
 - Changing an accessory would sometime break the movement tool
 - Tools were absent from the weapon tab since a recent funcom patch
+`1.6.3`
+- Camera was reseting its position after using it outside of the custom panel
