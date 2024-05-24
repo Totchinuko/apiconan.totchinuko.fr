@@ -12,7 +12,7 @@
 - [X] Puppet Dice Sheet Integration for incarnate
 - [X] Custom Accessory panel rework and other improvements
 - [X] Custom post release support
-- [ ] Amunet Server Transfer Module
+- [X] Amunet Server Transfer Module
 - [ ] Nameplate visibility optional improvements + fix death nameplate issue
 - [ ] Custom 1.7 `Pose Update`
 - [ ] Tot ! Fishing
@@ -24,29 +24,22 @@
 ## Short Term Roadmap
 
 ### Today
-#### TotModuleAST
-- [ ] Moving the camera outside custom should not be reset by the saved position
-- [ ] Make a mod module for added Amunet Server Transfer compatibility
-    - [X] RPR dice sheet
-    - [X] /act
-    - [X] Tot!Admin Quests status
-    - [X] RPR identity
-    - [ ] Chat languages
+#### TotAdmin  
+- [ ] Server Light Manager
+- [ ] Secret wall as door, transform a building wall into a door with no text
+- [ ] Increase puppet trader limit
+- [ ] Clear dialogue node
+- [ ] Add sphere cast test to nameplate feature, that can be toggled on and ignored with admin flag.
+- [ ] Cinematic Video
+- [ ] Variable storage video
 
 ### Under Investigation
 #### TotCustom
 - [ ] Sometimes accessories are not created properly on character client initialization ? (Levex fix it by refresh her body set)
 
 ### The next days
-#### TotAdmin  
-- [ ] Server Light Manager
-- [ ] Clear dialogue node
-- [ ] Add sphere cast test to nameplate feature, that can be toggled on and ignored with admin flag.
-- [ ] Cinematic Video
-- [ ] Variable storage video
 #### TotCustom 
 - [ ] Custom `1.7.0`
-    - [ ] Add new Agony mod creator entry
     - [ ] Add Sean's lantern
     - [ ] Replace the profile dropdown selector into a full fledge profile selector with reordering
     - [ ] Multi dye accessories
@@ -58,7 +51,6 @@
     - [ ] Pose system
         - [ ] Cancel limb animation with T-pose blending
         - [ ] Auto swap a pose in some sub-state like fly, sit, etc..
-    - [ ] Photo Mode ?
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
@@ -209,7 +201,6 @@
     - [ ] Integrate RR Dice Sheet on Puppets
     - [ ] Add light customization to scripted lights
     - [ ] Turn a placeable into a scripted interactable (Like door and chests)
-    - [ ] Secret wall as door, transform a building wall into a door with no text
     - [ ] Puppet voice selection
     - [ ] Projectile Launchers
     - [ ] Better velocity transition for short warps (Manual exit vector ?)
@@ -294,37 +285,39 @@
         - [X] Reset position does not refresh coordinate display
         - [X] Swaping a bone without moving the accessory in world space
         - [X] Groupe accessories icons, with a single editor, organized by bone
-        - [ ] Temporary hide accessory button
-        - [ ] Piece Mirror `Experimental`
-        - [ ] Piece Flip Axis `Experimental`
-    - [ ] Finish to make the character offset system
+        - [X] Temporary hide accessory button
+    - [X] Finish to make the character offset system
+    - [X] Role based cap addition
+    - [X] Crouch hidding condition
+    - [X] Fly hidding condition
+    - [X] Creating a new profile (or duplicating) should scroll to the bottom
+    - [X] Restore dong and Bust stat for RPR
+    - [X] Add specific totcustom tags to the accessory mesh components
+    - [X] Prevent Custom from opening when the escape menu is open
+    - [X] Add refresh accessory event on attached actors
+- [ ] Custom `1.7.0` `Pose System`
+    - [ ] Add Sean's lantern
+    - [ ] Replace the profile dropdown selector into a full fledge profile selector with reordering
+    - [ ] Multi dye accessories
+    - [ ] Color picker right click menu
     - [ ] Role based cap addition
-    - [ ] Crouch hidding condition
-    - [ ] Fly hidding condition
-    - [ ] Creating a new profile (or duplicating) should scroll to the bottom
+    - [ ] Footstep system.
     - [ ] Restore dong and Bust stat for RPR
-    - [ ] Add specific totcustom tags to the accessory mesh components
-    - [ ] Prevent Custom from opening when the escape menu is open
-    - [ ] Add refresh accessory event on attached actors
+    - [ ] Body merge system
     - [ ] Pose system
+        - [ ] Cancel limb animation with T-pose blending
+        - [ ] Auto swap a pose in some sub-state like fly, sit, etc..
 - [ ] Check: https://discord.com/channels/917916583064662076/1202830393347407953/1203184757706334258
-- [ ] Small lantern
-- [ ] Profile Quick Deletion Mode
-- [ ] Teeth Coloring
-- [ ] Investigate faction voice line for NPC
-- [ ] Add a new item ban rule: Unlock or Item in bag/equiped
-- [ ] Texture Merger `Experimental`
-- [ ] Accessory Mirror Toggle `Experimental`
-- [ ] Material overlay `Experimental`
-- [ ] Hide Editor Button
-- [ ] Foot steps sound selection
-- [ ] Partial Body application
-- [ ] Alternative sweat specular
-- [ ] Warpaint Glow
-- [ ] Warpaint Metalic slider
-- [ ] Shoe/Hat Stand
-- [ ] Saddle Tinting
-- [ ] Emote/Pose designer `Experimental`
+- [ ] Custom `1.8.0` `Body Improvements`
+    - [ ] Teeth Coloring
+    - [ ] Investigate faction voice line for NPC ?
+    - [ ] Add a new item ban rule: Unlock or Item in bag/equiped
+    - [ ] Texture Merger `Experimental`
+    - [ ] Partial Body application
+    - [ ] Alternative sweat specular
+    - [ ] Warpaint Glow
+    - [ ] Warpaint Metalic slider
+- [ ] Horse Edition (Separate Mod ?)
 
 ## Tot ! Hud
 - [X] Allow to separate stat small bars to another location
