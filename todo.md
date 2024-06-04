@@ -24,9 +24,14 @@
 ## Short Term Roadmap
 
 ### Today
+#### TotCustom
+- [X] Offset is not correctly initialized on character loadout ?
+#### TotChat
+- [X] Option to only use user color for names in chat
+- [X] Display active role in message info tooltip
 #### TotAdmin  
-- [ ] Server Light Manager
 - [ ] Secret wall as door, transform a building wall into a door with no text
+- [ ] Server Light Manager
 - [ ] Increase puppet trader limit
 - [ ] Clear dialogue node
 - [ ] Add sphere cast test to nameplate feature, that can be toggled on and ignored with admin flag.
@@ -337,6 +342,7 @@
 - [X] Integrate the Universal Nameplate to replace the original
 - [X] Bio pops up even when empty
 - [X] Edit button on notice board
+- [ ] Dismantle lock for staff POI
 - [ ] Game raid doors are not locked when keys are enable for doors (https://discord.com/channels/917916583064662076/1219343615130730667/1219787387085783150)
 - [ ] Notice board sometimes don't load their content.
 - [ ] Improve bio opening on only happen when the center of screen over the plate
