@@ -47,7 +47,9 @@
 - Added a setting to deactivate server wide the nameplate visibility based on selected chat range.
 `1.3.21`
 - Internal changes
-
+`1.3.22`
+- Display the role name of character in the tooltip of a message
+- Allow users to disable Role colors for character names in message, using instead the user defined color.
 ## Fixes
 `1.3.0`
 - Fixing some unintended behavior with the RR and Devious Desire window

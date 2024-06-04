@@ -61,3 +61,6 @@
 - Tools were absent from the weapon tab since a recent funcom patch
 `1.6.3`
 - Camera was reseting its position after using it outside of the custom panel
+`1.6.4`
+- Fixed character offset not applying correct for character loaded after they edited their offset
+- Attempt at fixing accessory not equiping correctly in rare situations.
