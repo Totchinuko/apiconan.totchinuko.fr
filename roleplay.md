@@ -258,12 +258,12 @@ void
 
 **Buff Types**:  
 
-0. Modify Attribute/Skill
-1. Modify Stat
-2. Grant Perk
-3. Grant Ability
-4. Grant Status
-5. Unlock Status
+0 - Modify Attribute/Skill  
+1 - Modify Stat  
+2 - Grant Perk  
+3 - Grant Ability  
+4 - Grant Status  
+5 - Unlock Status  
 
 #### **Output**
 
