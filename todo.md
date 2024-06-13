@@ -172,6 +172,8 @@
         - [X] Seem arrival tolerance is located in BTDecorator_isAtHome
         - [X] Maybe do a custom tree for spawned NPCs with spawners
 - [ ] Alpha `0.8.0`
+    - [ ] Stop Script node
+    - [ ] Invisible wall to block navigation
     - [ ] Node to display friend durations/date
     - [ ] Invisible block navigation
     - [ ] Nodes to handle /act
@@ -367,6 +369,7 @@
     - [X] Favorit system that add new menu in escape menu 
 - [X] Backup update
     - [X] Store backup as a .sav rather than downloading/uploading a Json text
+- [ ] Admin Flags API
 - [ ] Sudo Webhook API
 - [ ] Make the command fallback display notification and error in the vanilla console
 - [ ] Make image download documentation
