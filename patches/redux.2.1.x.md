@@ -37,3 +37,5 @@
 - Fixed `GetStat` API implementation returning the wrong current stat in some situation
 `2.1.27`
 - Fixed identity serialization for Tot ! Module AST identity transfer. 
+`2.1.28`
+- Fixed line breaks in identities preventing the Amunet server transfer to be performed properly.

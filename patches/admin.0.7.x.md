@@ -46,6 +46,8 @@
 `0.7.8`
 - New Node: `For Loop`, `While Loop`
 - New Nodes: `Insert into List`, `Set List Element`.
+`0.7.12`
+- New Secret Door/Hatch system. Craft the component, open the wheel on any compatible wall or ceiling piece, and use the Secret Door/Hatch menu element to consume the component and turn a piece of building into a door or hatch. A word of warning: This effectively destroy the original building piece, so you want to be sure about your building stability first. Those doors/hatches work like regular ones regarding RPR keys and scripted doors.
 ## Changes  
 `0.7.0`
 - Reworked the price definition widget for trading
@@ -93,6 +95,8 @@
 - Increase the stack size of Radishes. I'd rather have more radishes.
 `0.7.10`
 - Internal changes
+`0.7.12`
+- Increased the trader definition capacity for items from 60 to 100.
 ## Fixes
 `0.7.0`
 - Fixed the rule Is Math Not Zero using the old formula editor
@@ -181,3 +185,5 @@
 - Trader NPC will now drop or give back the item in storage when its dismantled or picked up respectively.
 `0.7.10`
 - It was previously possible to edit a script without the script edition permission
+`0.7.12`
+- Pasting a ruleset into a script parameter was not saved properly

@@ -24,16 +24,19 @@
 ## Short Term Roadmap
 
 ### Today
+#### Module AST
+- [X] No Act name can sometimes reactivate the previous act name (Make special API ?)
+- [X] Break lines in RPR bio are breaking AST.
 #### TotCustom
 - [X] Offset is not correctly initialized on character loadout ?
 #### TotChat
 - [X] Option to only use user color for names in chat
 - [X] Display active role in message info tooltip
 #### TotAdmin  
-- [ ] Secret wall as door, transform a building wall into a door with no text
+- [X] Secret wall as door, transform a building wall into a door with no text
 - [ ] Server Light Manager
-- [ ] Increase puppet trader limit
-- [ ] Clear dialogue node
+- [X] Increase puppet trader limit
+- [ ] Archive dialogue node
 - [ ] Add sphere cast test to nameplate feature, that can be toggled on and ignored with admin flag.
 - [ ] Cinematic Video
 - [ ] Variable storage video
@@ -222,6 +225,7 @@
     - [ ] Hunting Horn (Linked to soundboard API)
     - [ ] Player scripted movement ?
     - [ ] Some custom tool fail to harvest  : https://discord.com/channels/917916583064662076/1217078661036118106/1217078661036118106
+- [ ] Decoration group (A placeable that has a 3D editor for placing meshes around in a performant manner)
 - [ ] Selector: Copy/Cut/Paste Buildings `Experimental`
 - [ ] Selector: Improve building ownership change ?
 
@@ -231,6 +235,7 @@
 - [ ] Death Announcements
 - [ ] Link in messages
 - [X] Separate emote formating
+- [ ] Word detector. Highlight message when a word in it is detected based on a list the player has locally. 
 - [ ] Chat 2.0
     - [X] Adding Guid to message struct so we can allow past edition
     - [ ] No struct in API functions
