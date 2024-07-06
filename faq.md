@@ -30,3 +30,7 @@ No to both questions. Their is no way, how ever convuluted that could be, to do 
 
 ## 10. How can I change/reset my Sudo Super Admin Password (SSAP)
 Head in the tips, [Here](tips?id=reset-super-admin-password)
+
+## 11. Where to find my !Custom character/armor/accessory data ?
+Here: `Steam\steamapps\common\Conan Exiles\ConanSandbox\Saved\SaveGames\TotCustom`
+If you are doing a copy for a windows reinstall or similar, you might want to copy the whole `Saved` folder while you're at it.
