@@ -48,6 +48,12 @@
 - New Nodes: `Insert into List`, `Set List Element`.
 `0.7.12`
 - New Secret Door/Hatch system. Craft the component, open the wheel on any compatible wall or ceiling piece, and use the Secret Door/Hatch menu element to consume the component and turn a piece of building into a door or hatch. A word of warning: This effectively destroy the original building piece, so you want to be sure about your building stability first. Those doors/hatches work like regular ones regarding RPR keys and scripted doors.
+`0.7.13`
+- New Nodes: `Return Script` and `Break` to respectively return to a parent script and break the current loop from going any further
+- Added a button to the player editor page to edit the player quests
+- New Nodes: `Get Quest Title`, `Get Kit Name`, `Get Warp Name`
+- New Node: `Archive Dialogues`, clean the current dialogue window and archive the dialogues that were displayed.
+- Adding the `One Stack` settings on items of a trader definition, forcing items to only generate one stack, regardless of their max stack size. When bought, those items will be unstacked in the player inventory.
 ## Changes  
 `0.7.0`
 - Reworked the price definition widget for trading
@@ -57,6 +63,7 @@
 - Armors in kit for customized NPC will now be a simple skin and not actual armor. This is to allow NPC to wear DLC armors.
 - Armors for customized NPC can now be dyed.
 - Loot objectives will now only consume items uppon quest validation instead of immediatly. Loosing the items will uncomplete the quest and prevent validation.
+
 `0.7.1`
 - Improved initial placement of Interaction sphere and points
 - Points are now slightly smaller
@@ -97,6 +104,11 @@
 - Internal changes
 `0.7.12`
 - Increased the trader definition capacity for items from 60 to 100.
+`0.7.13`
+- Shift clicking item in the cheat panel now give the full stack of the item, just like the vanilla cheat panel
+- Improved the item spawn of the cheat panel to create multiple items if the requested stack size goes beyond the item maximum stack size
+- Renamed Exit Script to Kill Script
+- Improved quest log tab look to be less confusing
 ## Fixes
 `0.7.0`
 - Fixed the rule Is Math Not Zero using the old formula editor
@@ -187,3 +199,10 @@
 - It was previously possible to edit a script without the script edition permission
 `0.7.12`
 - Pasting a ruleset into a script parameter was not saved properly
+`0.7.13`
+- OnValidate Events did not import properly for quests
+- Warp created using `/warp create <warp name>` were corrupted
+- Completed quests could not be abandoned
+- Quest objectives sometimes did not work after editing the type of objective, even after a server restart.
+- Player were able to turn walls and ceilings into secret passages on construction they didn't own
+- Improve secret doors/hatch stability
