@@ -13,10 +13,10 @@
 - [X] Custom Accessory panel rework and other improvements
 - [X] Custom post release support
 - [X] Amunet Server Transfer Module
-- [ ] Nameplate visibility optional improvements + fix death nameplate issue
-- [ ] Custom 1.7 `Pose Update`
+- [ ] Custom 1.7 `Pose Update` + Body merge
 - [ ] Tot ! Fishing
 - [ ] Sudo Webhook API
+- [ ] Nameplate visibility optional improvements + fix death nameplate issue
 - [ ] Admin 0.8.0
 - [ ] !Hud Map
 - [ ] Custom various body improvements
@@ -24,34 +24,35 @@
 ## Short Term Roadmap
 
 ### Today
-#### Module AST
-- [X] No Act name can sometimes reactivate the previous act name (Make special API ?)
-- [X] Break lines in RPR bio are breaking AST.
-#### TotCustom
-- [X] Offset is not correctly initialized on character loadout ?
-#### TotChat
-- [X] Option to only use user color for names in chat
-- [X] Display active role in message info tooltip
 #### TotAdmin  
-- [X] Secret wall as door, transform a building wall into a door with no text
-- [ ] Server Light Manager
-- [X] Increase puppet trader limit
-- [ ] Archive dialogue node
-- [ ] Add sphere cast test to nameplate feature, that can be toggled on and ignored with admin flag.
-- [ ] Cinematic Video
-- [ ] Variable storage video
+- [X] Cheat panel item spawn should give the amount regardless of max stack
+- [X] Importing quest does not import event stacks
+- [X] Newly created warp can't seen to be selectable as script parameters (Only with command.. ?)
+- [X] Exit Current Script node: Clear the stack all the way to the previous script
+- [X] Rename Exit Script: Terminate Script Stack
+- [X] Break Node: Exit the current scope
+- [X] Improve quest log UI to display tabs
+- [X] Add an edit quest button on the edit player panel
+- [X] Sometimes loot obj don't work ?
+- [X] Secret passage do not check for ownership
+- [X] Improve secret door placement collision for stability
+- [X] Get Quest/Warp/Kit name
+- [X] Archive dialogue node
+- [X] Improve admin trade stack for small stacks
+- [ ] Some sort of quest group ?
+- [ ] Investigate barbarian barber hair as accessory showing up as invalid
 
-### Under Investigation
-#### TotCustom
-- [ ] Sometimes accessories are not created properly on character client initialization ? (Levex fix it by refresh her body set)
 
 ### The next days
+#### TotAdmin
+- [ ] Cinematic Video
+- [ ] Variable storage video
 #### TotCustom 
 - [ ] Custom `1.7.0`
     - [ ] Add Sean's lantern
     - [ ] Replace the profile dropdown selector into a full fledge profile selector with reordering
     - [ ] Multi dye accessories
-    - [ ] Color picker right click menu
+    - [ ] Color picker right cli ck menu
     - [ ] Role based cap addition
     - [ ] Footstep system.
     - [ ] Restore dong and Bust stat for RPR
@@ -175,6 +176,8 @@
         - [X] Seem arrival tolerance is located in BTDecorator_isAtHome
         - [X] Maybe do a custom tree for spawned NPCs with spawners
 - [ ] Alpha `0.8.0`
+    - [ ] Reset RPR Sheet node
+    - [ ] Server Light Manager
     - [ ] Stop Script node
     - [ ] Invisible wall to block navigation
     - [ ] Node to display friend durations/date
