@@ -39,8 +39,11 @@
 - [X] Get Quest/Warp/Kit name
 - [X] Archive dialogue node
 - [X] Improve admin trade stack for small stacks
-- [ ] Some sort of quest group ?
-- [ ] Investigate barbarian barber hair as accessory showing up as invalid
+- [X] Add nodes to handle multiple quests more easily
+#### TotCustom
+- [X] Investigate barbarian barber hair as accessory showing up as invalid
+#### Redux
+- [X] Fix auto sorting for RPR keymaker UI
 
 
 ### The next days
@@ -60,6 +63,9 @@
     - [ ] Pose system
         - [ ] Cancel limb animation with T-pose blending
         - [ ] Auto swap a pose in some sub-state like fly, sit, etc..
+#### Redux
+- [ ] Dismantle lock for staff POI
+- [ ] Server restart auto cleanup duration for POI
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
@@ -183,7 +189,7 @@
     - [ ] Node to display friend durations/date
     - [ ] Invisible block navigation
     - [ ] Nodes to handle /act
-    - [ ] Trader lock to a single player
+    - [ ] Player Trader Edition locked to a single player
     - [ ] Free Editor Mode
     - [ ] Display banned feat in separate list
     - [ ] Add Thrall to inventory node
