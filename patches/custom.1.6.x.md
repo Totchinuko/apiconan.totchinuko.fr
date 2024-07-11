@@ -64,3 +64,5 @@
 `1.6.4`
 - Fixed character offset not applying correct for character loaded after they edited their offset
 - Attempt at fixing accessory not equiping correctly in rare situations.
+`1.6.5`
+- Some male hair were concidered invalid in accessories.

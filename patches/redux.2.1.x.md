@@ -39,3 +39,5 @@
 - Fixed identity serialization for Tot ! Module AST identity transfer. 
 `2.1.28`
 - Fixed line breaks in identities preventing the Amunet server transfer to be performed properly.
+`2.1.29`
+- Somehow fixed the keymaker toolbox sorting inventory every times its opened ? I don't know. It's broken as fuck.

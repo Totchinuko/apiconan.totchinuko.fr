@@ -54,6 +54,9 @@
 - New Nodes: `Get Quest Title`, `Get Kit Name`, `Get Warp Name`
 - New Node: `Archive Dialogues`, clean the current dialogue window and archive the dialogues that were displayed.
 - Adding the `One Stack` settings on items of a trader definition, forcing items to only generate one stack, regardless of their max stack size. When bought, those items will be unstacked in the player inventory.
+`0.7.14`
+- New Nodes: `Remove All Quest`, `Is Any Quest in Cooldown`, `Try Validate Any Quest`, `Has Any Quest`. These improve management of a quest list, and make procedural quest selection less of a pain. 
+- New Node: `Get Quest Objective Text` to get the text of one the quest objectives.
 ## Changes  
 `0.7.0`
 - Reworked the price definition widget for trading
