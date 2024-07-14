@@ -45,8 +45,6 @@
 - [ ] Nodes/Spawner for exploiting treasure mechanic
 - [ ] Map Mechanic node to display a cloud based location of a player to another. Position of cloud need to be procedural based on current location (Grid based). This could be used to locate things other than player
 - [ ] Add nodes for search and listing players and clans base on name
-- [ ] Cinematic Video
-- [ ] Variable storage video
 - [ ] Display chances for kit lootboxes
 - [ ] Screen shake node
 - [ ] Sometimes the GUI selector don't load its content from the server
@@ -55,6 +53,8 @@
 - [ ] Pre-Run Feature for scripts to increase speed
 - [ ] Is Equal Node
 - [ ] Node to reset Feats
+- [ ] Cinematic Video
+- [ ] Variable storage video
 #### Redux
 - [ ] Add a toggle to waystone to prevent people carrying treasures to warp
 - [ ] Dismantle lock for staff POI
