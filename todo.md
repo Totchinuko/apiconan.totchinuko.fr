@@ -23,47 +23,40 @@
 
 ## Short Term Roadmap
 
-### Today
-#### TotAdmin  
-- [X] Cheat panel item spawn should give the amount regardless of max stack
-- [X] Importing quest does not import event stacks
-- [X] Newly created warp can't seen to be selectable as script parameters (Only with command.. ?)
-- [X] Exit Current Script node: Clear the stack all the way to the previous script
-- [X] Rename Exit Script: Terminate Script Stack
-- [X] Break Node: Exit the current scope
-- [X] Improve quest log UI to display tabs
-- [X] Add an edit quest button on the edit player panel
-- [X] Sometimes loot obj don't work ?
-- [X] Secret passage do not check for ownership
-- [X] Improve secret door placement collision for stability
-- [X] Get Quest/Warp/Kit name
-- [X] Archive dialogue node
-- [X] Improve admin trade stack for small stacks
-- [X] Add nodes to handle multiple quests more easily
-#### TotCustom
-- [X] Investigate barbarian barber hair as accessory showing up as invalid
-#### Redux
-- [X] Fix auto sorting for RPR keymaker UI
-
-
-### The next days
-#### TotAdmin
-- [ ] Cinematic Video
-- [ ] Variable storage video
+### Current
 #### TotCustom 
 - [ ] Custom `1.7.0`
+    - [ ] Reset Unlocked Item Button and Node (Through API)
     - [ ] Add Sean's lantern
     - [ ] Replace the profile dropdown selector into a full fledge profile selector with reordering
     - [ ] Multi dye accessories
-    - [ ] Color picker right cli ck menu
+    - [ ] Color picker right click menu
     - [ ] Role based cap addition
     - [ ] Footstep system.
     - [ ] Restore dong and Bust stat for RPR
     - [ ] Body merge system
+    - [ ] Separate hairline color
     - [ ] Pose system
         - [ ] Cancel limb animation with T-pose blending
         - [ ] Auto swap a pose in some sub-state like fly, sit, etc..
+
+### Next
+#### TotAdmin
+- [ ] Nodes/Spawner for exploiting treasure mechanic
+- [ ] Map Mechanic node to display a cloud based location of a player to another. Position of cloud need to be procedural based on current location (Grid based). This could be used to locate things other than player
+- [ ] Add nodes for search and listing players and clans base on name
+- [ ] Cinematic Video
+- [ ] Variable storage video
+- [ ] Display chances for kit lootboxes
+- [ ] Screen shake node
+- [ ] Sometimes the GUI selector don't load its content from the server
+- [ ] Get Quest Description Node
+- [ ] Get Quest Objective Amount
+- [ ] Pre-Run Feature for scripts to increase speed
+- [ ] Is Equal Node
+- [ ] Node to reset Feats
 #### Redux
+- [ ] Add a toggle to waystone to prevent people carrying treasures to warp
 - [ ] Dismantle lock for staff POI
 - [ ] Server restart auto cleanup duration for POI
 
@@ -265,6 +258,7 @@
     - [ ] Splitting channels in multiple windows
     - [ ] Admin channel panel: List all existing channel and allow to delete them
     - [ ] RCON Support
+    - [ ] Learning mechanic with Language XP
     - [ ] Log Support (Formated for Trebuchet)
     - [ ] Second Range for speech ranges, post an emote about being too far to hear something
     - [ ] A simple look at feature, where you can select who your character look at, in a list of people directly around.
