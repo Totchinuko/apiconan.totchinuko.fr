@@ -22,26 +22,9 @@
 - [ ] Custom various body improvements
 
 ## Short Term Roadmap
-
 ### Current
-#### TotCustom 
-- [ ] Custom `1.7.0`
-    - [ ] Reset Unlocked Item Button and Node (Through API)
-    - [ ] Add Sean's lantern
-    - [ ] Replace the profile dropdown selector into a full fledge profile selector with reordering
-    - [ ] Multi dye accessories
-    - [ ] Color picker right click menu
-    - [ ] Role based cap addition
-    - [ ] Footstep system.
-    - [ ] Restore dong and Bust stat for RPR
-    - [ ] Body merge system
-    - [ ] Separate hairline color
-    - [ ] Pose system
-        - [ ] Cancel limb animation with T-pose blending
-        - [ ] Auto swap a pose in some sub-state like fly, sit, etc..
-
-### Next
 #### TotAdmin
+- [ ] Pseudo Random Number Generator node with seed/Stream
 - [ ] Nodes/Spawner for exploiting treasure mechanic
 - [ ] Map Mechanic node to display a cloud based location of a player to another. Position of cloud need to be procedural based on current location (Grid based). This could be used to locate things other than player
 - [ ] Add nodes for search and listing players and clans base on name
@@ -55,6 +38,23 @@
 - [ ] Node to reset Feats
 - [ ] Cinematic Video
 - [ ] Variable storage video
+
+### Next
+#### TotCustom 
+- [ ] Custom `1.7.0`
+    - [X] Reset Unlocked Item Button and Node (Through API)
+    - [X] Refresh unlocker when unlocked items list change
+    - [X] Replace the profile dropdown selector into a full fledge profile selector with reordering
+    - [X] Color picker right click menu
+    - [T] Restore dong and Bust stat for RPR
+    - [ ] Fix deformed weapons
+    - [ ] Body merge system
+    - [ ] Separate hairline color
+    - [ ] Footstep system.
+    - [ ] Pose system
+        - [ ] Cancel limb animation with T-pose blending
+        - [ ] Auto swap a pose in some sub-state like fly, sit, etc..
+    - [ ] Add Sean's lantern
 #### Redux
 - [ ] Add a toggle to waystone to prevent people carrying treasures to warp
 - [ ] Dismantle lock for staff POI
@@ -333,6 +333,7 @@
     - [ ] Warpaint Glow
     - [ ] Warpaint Metalic slider
 - [ ] Horse Edition (Separate Mod ?)
+- [ ] Role based cap addition modifier
 
 ## Tot ! Hud
 - [X] Allow to separate stat small bars to another location
