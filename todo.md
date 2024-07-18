@@ -24,18 +24,37 @@
 ## Short Term Roadmap
 ### Current
 #### TotAdmin
-- [ ] Pseudo Random Number Generator node with seed/Stream
-- [ ] Nodes/Spawner for exploiting treasure mechanic
-- [ ] Map Mechanic node to display a cloud based location of a player to another. Position of cloud need to be procedural based on current location (Grid based). This could be used to locate things other than player
-- [ ] Add nodes for search and listing players and clans base on name
-- [ ] Display chances for kit lootboxes
-- [ ] Screen shake node
+- [X] Pseudo Random Number Generator node with seed/Stream
+- [X] Nodes/Spawner for exploiting treasure mechanic
+- [X] Clean corpses in a radius (Command and node)
+- [X] Placeable group tool - Use the selector to add/remove placeables to it. Can make the placeable disapear on script interaction
+- [X] Internal injection of argument into scripts. Usage: Command args, details about respawn admin event, 
+- [X] Fix Map animation by allowing to cancel with drag
+- [X] Add non spawnable treasures
+- [X] Add simple crate treasure
+- [X] Add nodes for search and listing players and clans base on name
+- [X] Display chances for kit lootboxes
+- [X] New events that trigger for each killer of an npc
+- [X] Screen shake node
+- [ ] Toggle all lights (Outside of admin ones) on/off with a node in a radius
+- [X] Have any quest with particular status node
 - [ ] Sometimes the GUI selector don't load its content from the server
-- [ ] Get Quest Description Node
+- [ ] Get Quest Objective Type
+- [ ] Get Quest Objective Details
 - [ ] Get Quest Objective Amount
+- [ ] Create an SpawnedNPC type that concist of a Spawner UID and GUID for the NPC
+- [ ] Get/Set Int/Float stat for NPC
+- [ ] Get SpawnedNPC list of a spawner
+- [ ] Get SpawnedNPC name
+- [ ] Get SpawnedNPC key from NPC
 - [ ] Pre-Run Feature for scripts to increase speed
 - [ ] Is Equal Node
+- [ ] Get Custom NPC Name node
 - [ ] Node to reset Feats
+- [ ] Node to Reset RPR sheet
+- [ ] More opening animations for secret walls
+- [ ] Map Mechanic node to display a cloud based location of a player to another. Position of cloud need to be procedural based on current location (Grid based). This could be used to locate things other than player
+- [ ] Patch Video
 - [ ] Cinematic Video
 - [ ] Variable storage video
 
@@ -47,6 +66,7 @@
     - [X] Replace the profile dropdown selector into a full fledge profile selector with reordering
     - [X] Color picker right click menu
     - [T] Restore dong and Bust stat for RPR
+    - [ ] Check escape button not closing color picker on accessories
     - [ ] Fix deformed weapons
     - [ ] Body merge system
     - [ ] Separate hairline color
@@ -197,7 +217,6 @@
     - [ ] Dynamic puppet inventory linked to scripted chests
     - [ ] List weight does not refresh on opening
     - [ ] On Player Killed - Admin Event
-    - [ ] Clean corpses in a radius (Command and node)
     - [ ] A check to hide quest objectives as long as higher objectives are not complete.
     - [ ] Voiced dialogue lines
     - [ ] Tot!Hud Gage with scripting
@@ -205,7 +224,6 @@
     - [ ] Puppet post message node (Auto connect to chat somehow)
     - [ ] Puppet display bubble only
     - [ ] Placeable invulnerability function (Toggle with selector)
-    - [ ] Placeable group tool - Use the selector to add/remove placeables to it. Can make the placeable disapear on script interaction
     - [ ] Comments as an anchor on the grid. Display the text on click or hover
     - [ ] Music Box using the mod sound library
     - [ ] Vector3 Calculation Nodes
