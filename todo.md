@@ -13,11 +13,12 @@
 - [X] Custom Accessory panel rework and other improvements
 - [X] Custom post release support
 - [X] Amunet Server Transfer Module
+- [ ] Admin 0.8.0
 - [ ] Custom 1.7 `Pose Update` + Body merge
 - [ ] Tot ! Fishing
 - [ ] Sudo Webhook API
 - [ ] Nameplate visibility optional improvements + fix death nameplate issue
-- [ ] Admin 0.8.0
+- [ ] Admin 0.9.0
 - [ ] !Hud Map
 - [ ] Custom various body improvements
 
@@ -36,19 +37,20 @@
 - [X] Display chances for kit lootboxes
 - [X] New events that trigger for each killer of an npc
 - [X] Screen shake node
-- [ ] Toggle all lights (Outside of admin ones) on/off with a node in a radius
+- [X] Toggle all lights (Outside of admin ones) on/off with a node in a radius
 - [X] Have any quest with particular status node
-- [ ] Sometimes the GUI selector don't load its content from the server
-- [ ] Get Quest Objective Type
-- [ ] Get Quest Objective Details
-- [ ] Get Quest Objective Amount
-- [ ] Create an SpawnedNPC type that concist of a Spawner UID and GUID for the NPC
-- [ ] Get/Set Int/Float stat for NPC
-- [ ] Get SpawnedNPC list of a spawner
-- [ ] Get SpawnedNPC name
-- [ ] Get SpawnedNPC key from NPC
+- [X] Sometimes the GUI selector don't load its content from the server
+- [X] Get Quest Objective Type
+- [X] Get Quest Objective Details
+- [X] Get Quest Objective Amount
+- [X] Create an SpawnedNPC type that concist of a Spawner UID and GUID for the NPC
+- [X] Get/Set Int/Float stat for NPC
+- [X] Get SpawnedNPC list of a spawner
+- [X] Get SpawnedNPC name
+- [X] Get SpawnedNPC key from NPC
 - [ ] Pre-Run Feature for scripts to increase speed
 - [ ] Is Equal Node
+- [ ] Alternative cooldown method for quest: Recuring. 
 - [ ] Get Custom NPC Name node
 - [ ] Node to reset Feats
 - [ ] Node to Reset RPR sheet
@@ -66,6 +68,7 @@
     - [X] Replace the profile dropdown selector into a full fledge profile selector with reordering
     - [X] Color picker right click menu
     - [T] Restore dong and Bust stat for RPR
+    - [ ] Remove the 50cm offset on the camera
     - [ ] Check escape button not closing color picker on accessories
     - [ ] Fix deformed weapons
     - [ ] Body merge system
@@ -194,7 +197,7 @@
     - [X] Improve arrival distance of navigation and home distance
         - [X] Seem arrival tolerance is located in BTDecorator_isAtHome
         - [X] Maybe do a custom tree for spawned NPCs with spawners
-- [ ] Alpha `0.8.0`
+- [ ] Alpha `0.9.0`
     - [ ] Reset RPR Sheet node
     - [ ] Server Light Manager
     - [ ] Stop Script node
