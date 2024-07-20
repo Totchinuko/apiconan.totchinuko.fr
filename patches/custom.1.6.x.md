@@ -42,6 +42,7 @@
 `1.6.6`
 - Improved the Favorites profile selector to be more usable
 - Right click on an accessory color will now pop open a menu to copy/paste/reset a color. Color reset shortcut was moved on Shift + Middle Click
+- Small improvements to camera behavior
 ## Fixed
 `1.6.0`
 - Fixed hair/beard accessory not displaying their ID on hover of their icon
@@ -72,3 +73,6 @@
 - Attempt at fixing accessory not equiping correctly in rare situations.
 `1.6.5`
 - Some male hair were concidered invalid in accessories.
+`1.6.6`
+- Color picker opened from an accessory was not responsive to the escape button
+- Weapons/Shield were sometimes influenced by your limbs scales. It will only be influenced by your character overall size now.
