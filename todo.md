@@ -48,29 +48,33 @@
 - [X] Get SpawnedNPC list of a spawner
 - [X] Get SpawnedNPC name
 - [X] Get SpawnedNPC key from NPC
-- [ ] Pre-Run Feature for scripts to increase speed
-- [ ] Is Equal Node
-- [ ] Alternative cooldown method for quest: Recuring. 
-- [ ] Get Custom NPC Name node
-- [ ] Node to reset Feats
-- [ ] Node to Reset RPR sheet
+- [X] Get SpawnedNPC Spawner
+- [X] Pre-Run Feature for scripts to increase speed
+- [X] Is Equal Node
+- [X] Alternative cooldown method for quest: Recuring. 
+- [X] Get Custom NPC Name node
+- [X] Node to reset Feats
+- [X] Node to Reset RPR sheet
 - [ ] More opening animations for secret walls
 - [ ] Map Mechanic node to display a cloud based location of a player to another. Position of cloud need to be procedural based on current location (Grid based). This could be used to locate things other than player
 - [ ] Patch Video
-- [ ] Cinematic Video
-- [ ] Variable storage video
+#### TotCustom 
+- [X] Reset Unlocked Item Button and Node (Through API)
+- [X] Refresh unlocker when unlocked items list change
+- [X] Replace the profile dropdown selector into a full fledge profile selector with reordering
+- [X] Color picker right click menu
+- [T] Restore dong and Bust stat for RPR
+- [ ] Remove the 50cm offset on the camera
+- [ ] Check escape button not closing color picker on accessories
+- [ ] Fix deformed weapons
+#### Redux
+- [ ] Add a toggle to waystone to prevent people carrying treasures to warp
+- [ ] Dismantle lock for staff POI
+- [ ] Server restart auto cleanup duration for POI
 
 ### Next
 #### TotCustom 
 - [ ] Custom `1.7.0`
-    - [X] Reset Unlocked Item Button and Node (Through API)
-    - [X] Refresh unlocker when unlocked items list change
-    - [X] Replace the profile dropdown selector into a full fledge profile selector with reordering
-    - [X] Color picker right click menu
-    - [T] Restore dong and Bust stat for RPR
-    - [ ] Remove the 50cm offset on the camera
-    - [ ] Check escape button not closing color picker on accessories
-    - [ ] Fix deformed weapons
     - [ ] Body merge system
     - [ ] Separate hairline color
     - [ ] Footstep system.
@@ -78,10 +82,6 @@
         - [ ] Cancel limb animation with T-pose blending
         - [ ] Auto swap a pose in some sub-state like fly, sit, etc..
     - [ ] Add Sean's lantern
-#### Redux
-- [ ] Add a toggle to waystone to prevent people carrying treasures to warp
-- [ ] Dismantle lock for staff POI
-- [ ] Server restart auto cleanup duration for POI
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
@@ -197,6 +197,8 @@
     - [X] Improve arrival distance of navigation and home distance
         - [X] Seem arrival tolerance is located in BTDecorator_isAtHome
         - [X] Maybe do a custom tree for spawned NPCs with spawners
+- [ ] Cinematic Video
+- [ ] Variable storage video
 - [ ] Alpha `0.9.0`
     - [ ] Reset RPR Sheet node
     - [ ] Server Light Manager
