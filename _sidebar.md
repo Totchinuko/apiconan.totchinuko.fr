@@ -28,6 +28,7 @@
     - [Admin.0.5.x](patches/admin.0.5.x.md)
     - [Admin.0.6.x](patches/admin.0.6.x.md)
     - [Admin.0.7.x](patches/admin.0.7.x.md)
+    - [Admin.0.8.x](patches/admin.0.8.x.md)
     - [Chat.1.2.x](patches/chat.1.2.x.md)
     - [Chat.1.3.x](patches/chat.1.3.x.md)
     - [Custom.1.1.x](patches/custom.1.1.x.md)
