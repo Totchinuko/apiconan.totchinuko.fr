@@ -22,6 +22,9 @@
     - You can now hold shift while rotating to snap the rotation in 1/16 of a rotation increment
 `1.6.2`
 - You can now create, duplicate and delete body, weapon, armor and accessory profiles directly from the favorite area
+`1.6.6`
+- Added the command `/reset unlocked <character name>` to reset the unlocked items of a character.
+- Added compatibility in Tot!Module AST for Unlocked Items
 ## Changed
 `1.6.0`
 - Improved accessory rotation tool look for better 3D visualization
@@ -36,6 +39,9 @@
 - Custom camera will now remember its last relative position, rotation and zoom
 - Camera can now be toggled outside of the custom panel with an input (Unassigned by default)
 - Added a filter field in the favorite profile dropdown menu
+`1.6.6`
+- Improved the Favorites profile selector to be more usable
+- Right click on an accessory color will now pop open a menu to copy/paste/reset a color. Color reset shortcut was moved on Shift + Middle Click
 ## Fixed
 `1.6.0`
 - Fixed hair/beard accessory not displaying their ID on hover of their icon
