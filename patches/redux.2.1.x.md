@@ -1,6 +1,11 @@
 # Tot ! Roleplay Redux 2.1.x
+
+## New
 `2.1.23`
 - Integration of Sudo Backup system.
+`2.1.30`
+- Auto Remove for POI. If you select a duration, POI will be removed from the server on the next server restart after the selected duration from the placement of the POI
+- New option for waypoints to prevent carryable treasures to be taken through a waypoint.
 ## Changes
 `2.1.15`
 - Integrating Sudo Nameplate System. Several settings got removed now controlled by Sudo. Sudo nameplate system MUST be activated for players in order to use RR nameplate features.
