@@ -25,52 +25,7 @@
 ## Short Term Roadmap
 ### Current
 #### TotAdmin
-- [X] Pseudo Random Number Generator node with seed/Stream
-- [X] Nodes/Spawner for exploiting treasure mechanic
-- [X] Clean corpses in a radius (Command and node)
-- [X] Placeable group tool - Use the selector to add/remove placeables to it. Can make the placeable disapear on script interaction
-- [X] Internal injection of argument into scripts. Usage: Command args, details about respawn admin event, 
-- [X] Fix Map animation by allowing to cancel with drag
-- [X] Add non spawnable treasures
-- [X] Add simple crate treasure
-- [X] Add nodes for search and listing players and clans base on name
-- [X] Display chances for kit lootboxes
-- [X] New events that trigger for each killer of an npc
-- [X] Screen shake node
-- [X] Toggle all lights (Outside of admin ones) on/off with a node in a radius
-- [X] Have any quest with particular status node
-- [X] Sometimes the GUI selector don't load its content from the server
-- [X] Get Quest Objective Type
-- [X] Get Quest Objective Details
-- [X] Get Quest Objective Amount
-- [X] Create an SpawnedNPC type that concist of a Spawner UID and GUID for the NPC
-- [X] Get/Set Int/Float stat for NPC
-- [X] Get SpawnedNPC list of a spawner
-- [X] Get SpawnedNPC name
-- [X] Get SpawnedNPC key from NPC
-- [X] Get SpawnedNPC Spawner
-- [X] Pre-Run Feature for scripts to increase speed
-- [X] Is Equal Node
-- [X] Alternative cooldown method for quest: Recuring. 
-- [X] Get Custom NPC Name node
-- [X] Node to reset Feats
-- [X] Node to Reset RPR sheet
-- [ ] More opening animations for secret walls
-- [ ] Map Mechanic node to display a cloud based location of a player to another. Position of cloud need to be procedural based on current location (Grid based). This could be used to locate things other than player
 - [ ] Patch Video
-#### TotCustom 
-- [X] Reset Unlocked Item Button and Node (Through API)
-- [X] Refresh unlocker when unlocked items list change
-- [X] Replace the profile dropdown selector into a full fledge profile selector with reordering
-- [X] Color picker right click menu
-- [T] Restore dong and Bust stat for RPR
-- [ ] Remove the 50cm offset on the camera
-- [ ] Check escape button not closing color picker on accessories
-- [ ] Fix deformed weapons
-#### Redux
-- [ ] Add a toggle to waystone to prevent people carrying treasures to warp
-- [ ] Dismantle lock for staff POI
-- [ ] Server restart auto cleanup duration for POI
 
 ### Next
 #### TotCustom 
@@ -82,6 +37,8 @@
         - [ ] Cancel limb animation with T-pose blending
         - [ ] Auto swap a pose in some sub-state like fly, sit, etc..
     - [ ] Add Sean's lantern
+#### TotAdmin
+- [ ] Map Mechanic node to display a cloud based location of a player to another. Position of cloud need to be procedural based on current location (Grid based for seed). This could be used to locate things other than player
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
@@ -199,6 +156,47 @@
         - [X] Maybe do a custom tree for spawned NPCs with spawners
 - [ ] Cinematic Video
 - [ ] Variable storage video
+- [X] Alpha `0.8.0`
+    - [X] Pseudo Random Number Generator node with seed/Stream
+    - [X] Nodes/Spawner for exploiting treasure mechanic
+    - [X] Clean corpses in a radius (Command and node)
+    - [X] Placeable group tool - Use the selector to add/remove placeables to it. Can make the placeable disapear on script interaction
+    - [X] Internal injection of argument into scripts. Usage: Command args, details about respawn admin event, 
+    - [X] Fix Map animation by allowing to cancel with drag
+    - [X] Add non spawnable treasures
+    - [X] Add simple crate treasure
+    - [X] Add nodes for search and listing players and clans base on name
+    - [X] Display chances for kit lootboxes
+    - [X] New events that trigger for each killer of an npc
+    - [X] Screen shake node
+    - [X] Toggle all lights (Outside of admin ones) on/off with a node in a radius
+    - [X] Have any quest with particular status node
+    - [X] Sometimes the GUI selector don't load its content from the server
+    - [X] Get Quest Objective Type
+    - [X] Get Quest Objective Details
+    - [X] Get Quest Objective Amount
+    - [X] Create an SpawnedNPC type that concist of a Spawner UID and GUID for the NPC
+    - [X] Get/Set Int/Float stat for NPC
+    - [X] Get SpawnedNPC list of a spawner
+    - [X] Get SpawnedNPC name
+    - [X] Get SpawnedNPC key from NPC
+    - [X] Get SpawnedNPC Spawner
+    - [X] Pre-Run Feature for scripts to increase speed
+    - [X] Is Equal Node
+    - [X] Alternative cooldown method for quest: Recuring. 
+    - [X] Get Custom NPC Name node
+    - [X] Node to reset Feats
+    - [X] Node to Reset RPR sheet
+    - [X] Test concealer network cull
+    - [X] Script anchor - New Admin tool. Yellow cube
+    - [X] Add map marker nodes
+    - [X] New Rule for carrying
+    - [X] More opening animations for secret walls
+    - [X] HUD programmable gages
+    - [X] Find a way to detect death and if possible, prevent it. This could be togglable by script, and even trigger a script when the state is detected.
+    - [X] Nodes to count and remove droppable from a zone
+    - [X] Nodes to add/remove/reset climbing blocker
+    - [X] Add killer data to death event
 - [ ] Alpha `0.9.0`
     - [ ] Reset RPR Sheet node
     - [ ] Server Light Manager
@@ -310,11 +308,11 @@
 - [X] Armor stand cannot be selected with /select
 - [X] Test invisibility code performance
 - [X] Add Euna and Sean creator entry.
-- [ ] Custom `1.6.0`
+- [X] Custom `1.6.0`
     - [X] Slider instead of button for light
     - [X] Mannequin have no HP
     - [X] Clan Emblem
-    - [ ] Accessory panel rework
+    - [X] Accessory panel rework
         - [X] World axis should be player aligned
         - [X] Color code location fields with the same as arrows
         - [X] Better 3D bone selection + Twist bones + facial bones
@@ -333,14 +331,17 @@
     - [X] Add specific totcustom tags to the accessory mesh components
     - [X] Prevent Custom from opening when the escape menu is open
     - [X] Add refresh accessory event on attached actors
+- [X] Reset Unlocked Item Button and Node (Through API)
+- [X] Refresh unlocker when unlocked items list change
+- [X] Replace the profile dropdown selector into a full fledge profile selector with reordering
+- [X] Color picker right click menu
+- [X] Restore dong and Bust stat for RPR
+- [X] Remove the 50cm offset on the camera
+- [X] Check escape button not closing color picker on accessories
+- [X] Fix deformed weapons
 - [ ] Custom `1.7.0` `Pose System`
     - [ ] Add Sean's lantern
-    - [ ] Replace the profile dropdown selector into a full fledge profile selector with reordering
-    - [ ] Multi dye accessories
-    - [ ] Color picker right click menu
-    - [ ] Role based cap addition
-    - [ ] Footstep system.
-    - [ ] Restore dong and Bust stat for RPR
+    - [ ] Footstep system
     - [ ] Body merge system
     - [ ] Pose system
         - [ ] Cancel limb animation with T-pose blending
@@ -376,7 +377,8 @@
 - [X] Integrate the Universal Nameplate to replace the original
 - [X] Bio pops up even when empty
 - [X] Edit button on notice board
-- [ ] Dismantle lock for staff POI
+- [X] Add a toggle to waystone to prevent people carrying treasures to warp at all
+- [X] Server restart auto cleanup duration for POI
 - [ ] Game raid doors are not locked when keys are enable for doors (https://discord.com/channels/917916583064662076/1219343615130730667/1219787387085783150)
 - [ ] Notice board sometimes don't load their content.
 - [ ] Improve bio opening on only happen when the center of screen over the plate
