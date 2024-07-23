@@ -6,13 +6,18 @@
 - Spawners now have a new event that trigger with player context for each player that killed or assisted in killing an NPC of that spawner.
 - You can now set a script to pre-run up to 200 nodes. When starting a new script (Not as a subscript), you can tell the server to pre-run a certain amount of nodes before placing the script into the normal execution queue. This will make the scripts more reactive when needed. Setting is located in the Settings tab of the script editor.
 - Quest definition now have a new optional cooldown mode: Recuring. Instead of setting up a cooldown from the moment the quest is validated for the player, the cooldown will be relative to a cycle. You can then make a daily quest that reset every day at 6 in the morning for example, for everyone, instead of having a 24h cooldown from the moment the player has finished the quest.
-- Added 58 new nodes:
+- New rule to filter people carrying a treasure.
+- Adding a new Admin Event: Death Prevented. It is triggered instead of the character death, if death prevention was activated through scripting. This **Require** to have Tot ! Module Death in order to work.
+- +400 icons for quest categories, from RPR
+- Admin Tools:
+    - Decoration Concealer: Use the selector to select decoration and bind them to the concealer that then can be used to make the decoration disapear.
+    - Script Container: A simply tool that hold a script that can be called by events. Specially useful with parameters.
+- Added 69 new nodes:
     - `Reset Unlocked Items` to reset the Tot!Custom Unlocked Items of a character
     - New `SRandom nodes` that allow to make use of Pseudo-Random number generators based on seeds.
     - `Get Door State` to get a scripted door state and `Set Door State` to set a scripted door state (Open or closed)
     - Carryable treasure oriented nodes: Spawn/Despawn carryable treasure, detect a carried treasure, etc... It comes with non spawnable treasure variant for your quest needs.
     - Clear corpse in zones and sphere
-    - Decoration Concealer. Use the selector to select decoration and bind them to the concealer that then can be used to make the decoration disapear.
     - `Get Spawn Event Data` and `Get Command Data` to get added data from starting a script respectively from a Player Spawn admin event and from a chat command.
     - `List all Clans`, `Search Clans`, `Search Players`
     - `Screen Shake`
@@ -24,6 +29,10 @@
     - Node to reset the character's feat/knowledge
     - Node to reset the character's attributes
     - Node to reset Roleplay Redux Dice Sheet
+    - Nodes to manage game map markers
+    - Nodes to create Tot!Hud gages and update them through scripts
+    - Nodes to handle climb blockers
+    - A node to toggle a death prevention system. This **Require** to have Tot ! Module Death in order to work.
 ## Changed
 `0.8.0`
 - Display the chances to get an item from a kit in the kit editor. Specially useful for lootbox kits

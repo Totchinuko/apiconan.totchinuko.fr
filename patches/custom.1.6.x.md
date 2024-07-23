@@ -43,6 +43,7 @@
 - Improved the Favorites profile selector to be more usable
 - Right click on an accessory color will now pop open a menu to copy/paste/reset a color. Color reset shortcut was moved on Shift + Middle Click
 - Small improvements to camera behavior
+- Compatibility with RPR mutator for Penis and Bust size. You read that right.
 ## Fixed
 `1.6.0`
 - Fixed hair/beard accessory not displaying their ID on hover of their icon
