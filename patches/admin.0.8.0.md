@@ -7,12 +7,14 @@
 - You can now set a script to pre-run up to 200 nodes. When starting a new script (Not as a subscript), you can tell the server to pre-run a certain amount of nodes before placing the script into the normal execution queue. This will make the scripts more reactive when needed. Setting is located in the Settings tab of the script editor.
 - Quest definition now have a new optional cooldown mode: Recuring. Instead of setting up a cooldown from the moment the quest is validated for the player, the cooldown will be relative to a cycle. You can then make a daily quest that reset every day at 6 in the morning for example, for everyone, instead of having a 24h cooldown from the moment the player has finished the quest.
 - New rule to filter people carrying a treasure.
-- Adding a new Admin Event: Death Prevented. It is triggered instead of the character death, if death prevention was activated through scripting. This **Require** to have Tot ! Module Death in order to work.
+- Adding new Admin Events: 
+    - Death Prevented. It is triggered instead of the character death, if death prevention was activated through scripting. This **Require** to have Tot ! Module Death in order to work.
+    - RPR Sheet Refresh. Triggered when a change in the player dice sheet occur.
 - +400 icons for quest categories, from RPR
 - Admin Tools:
     - Decoration Concealer: Use the selector to select decoration and bind them to the concealer that then can be used to make the decoration disapear.
     - Script Container: A simply tool that hold a script that can be called by events. Specially useful with parameters.
-- Added 69 new nodes:
+- Added 74 new nodes:
     - `Reset Unlocked Items` to reset the Tot!Custom Unlocked Items of a character
     - New `SRandom nodes` that allow to make use of Pseudo-Random number generators based on seeds.
     - `Get Door State` to get a scripted door state and `Set Door State` to set a scripted door state (Open or closed)
@@ -33,11 +35,15 @@
     - Nodes to create Tot!Hud gages and update them through scripts
     - Nodes to handle climb blockers
     - A node to toggle a death prevention system. This **Require** to have Tot ! Module Death in order to work.
+    - A node to get the Steam ID of a player
+    - A node to send webhook request to a router server
+    - Two nodes to send people back at their home or bed/bedroll
 ## Changed
 `0.8.0`
 - Display the chances to get an item from a kit in the kit editor. Specially useful for lootbox kits
 - Improved the node filter field
 - Node `Has Any Quest` was improved to return the list of quest found
+- Staff list is now based on the role selected in server settings.
 ## Fixed
 `0.8.0`
 - Integrated map sometimes were stuck on transition animations
