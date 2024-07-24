@@ -13,7 +13,7 @@
 - [X] Custom Accessory panel rework and other improvements
 - [X] Custom post release support
 - [X] Amunet Server Transfer Module
-- [ ] Admin 0.8.0
+- [X] Admin 0.8.0
 - [ ] Custom 1.7 `Pose Update` + Body merge
 - [ ] Tot ! Fishing
 - [ ] Sudo Webhook API
