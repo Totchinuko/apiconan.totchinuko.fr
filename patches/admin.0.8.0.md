@@ -14,7 +14,7 @@
 - Admin Tools:
     - Decoration Concealer: Use the selector to select decoration and bind them to the concealer that then can be used to make the decoration disapear.
     - Script Container: A simply tool that hold a script that can be called by events. Specially useful with parameters.
-- Added 74 new nodes:
+- Added ~77 new nodes:
     - `Reset Unlocked Items` to reset the Tot!Custom Unlocked Items of a character
     - New `SRandom nodes` that allow to make use of Pseudo-Random number generators based on seeds.
     - `Get Door State` to get a scripted door state and `Set Door State` to set a scripted door state (Open or closed)
@@ -38,15 +38,19 @@
     - A node to get the Steam ID of a player
     - A node to send webhook request to a router server
     - Two nodes to send people back at their home or bed/bedroll
+    - New nodes to track down a character change of state
 ## Changed
 `0.8.0`
 - Display the chances to get an item from a kit in the kit editor. Specially useful for lootbox kits
 - Improved the node filter field
 - Node `Has Any Quest` was improved to return the list of quest found
 - Staff list is now based on the role selected in server settings.
+- Added manual max value for Box and Sphere Zones sizes 10 times superior to max slider.
 ## Fixed
 `0.8.0`
 - Integrated map sometimes were stuck on transition animations
 - Node field were loosing keyboard focus shortly after creating the node
 - Lines starting from the second output plug and up were not aligned properly
 - In some rare cases, the player editor was not able to display the selected character informations, specifically after character creation.
+- Fix parameters for `Try Fire Event` not restoring properly
+- Send message node was preventing the script from continuing after posting in clan channel
