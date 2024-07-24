@@ -25,19 +25,11 @@
 ## Short Term Roadmap
 ### Current
 #### TotAdmin
-- [X] Webhook node
-- [X] Add NPC type date on death data 
-- [X] Get steam ID node
-- [X] Send back home node
-- [X] Send back to bedroll ?`
-- [ ] Rework decoration invisibility
-- [ ] Fix Admin map teleport bug when animation is canceled by drag
-- [ ] Background for gage icon
-- [ ] Custom camera is broken on puppets
-- [ ] Try Fire event: Event field sometimes don't save properly or don't restore properly the selected value
 - [ ] Patch Video
 
 ### Next
+#### TotHUD
+- [ ] Hud buff disapear for some reason ?
 #### TotCustom 
 - [ ] Custom `1.7.0`
     - [ ] Body merge system
@@ -208,6 +200,7 @@
     - [X] Nodes to add/remove/reset climbing blocker
     - [X] Add killer data to death event
 - [ ] Alpha `0.9.0`
+    - [ ] Replace blocker scan with interface (Search for TODO)
     - [ ] Reset RPR Sheet node
     - [ ] Server Light Manager
     - [ ] Stop Script node
