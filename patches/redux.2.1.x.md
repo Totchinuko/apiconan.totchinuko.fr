@@ -46,3 +46,5 @@
 - Fixed line breaks in identities preventing the Amunet server transfer to be performed properly.
 `2.1.29`
 - Somehow fixed the keymaker toolbox sorting inventory every times its opened ? I don't know. It's broken as fuck.
+`2.1.30`
+- Fixed waypoint use sudo log displaying twice the origin instead of the origin and destination
