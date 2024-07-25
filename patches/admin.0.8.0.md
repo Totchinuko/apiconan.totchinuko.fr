@@ -39,6 +39,7 @@
     - A node to send webhook request to a router server
     - Two nodes to send people back at their home or bed/bedroll
     - New nodes to track down a character change of state
+    
 ## Changed
 `0.8.0`
 - Display the chances to get an item from a kit in the kit editor. Specially useful for lootbox kits
@@ -46,6 +47,7 @@
 - Node `Has Any Quest` was improved to return the list of quest found
 - Staff list is now based on the role selected in server settings.
 - Added manual max value for Box and Sphere Zones sizes 10 times superior to max slider.
+
 ## Fixed
 `0.8.0`
 - Integrated map sometimes were stuck on transition animations

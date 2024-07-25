@@ -32,6 +32,7 @@
 `1.0.19`
 - Added a parameter to control the background opacity of nameplates
 - Added a parameter to hide the name of thralls separatly from players
+
 `1.0.32`
 - Improved nameplate visibility curve
 - Improved nameplate "Aimed At" detection to be less intrusive
@@ -39,6 +40,7 @@
 - Favorites - You can now add to favorites a sudo menu to pin it at the top and display it ont the main menu.
 - Sudo menus are now ordered alphabetically
 - Sudo Backup Rework: Backups will now be stored in the form of save files in your Conan server folders. You can use an FTP client to access these and move them from one server to another.
+
 `1.0.37`
 - Internal Changes
 ## Fixes
@@ -59,10 +61,13 @@
 
 `1.0.30`
 - Fixed sprint being stuck after opening sudo panels
+
 `1.0.33`
 - Fix the role attribution UI allowing role escalation from lower roles
+
 `1.0.34`
 - Fixed a few wonky behavior with vars API, potentially corrupting vars list
 - Improved the Hexadecimal conversion for color picker
+
 `1.0.36`
 - Sudo tabs where showing duplicates and displayed empty groups

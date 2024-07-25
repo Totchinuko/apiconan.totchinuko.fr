@@ -155,5 +155,6 @@
 `1.5.17`
 - Fixed hair/beard accessories replacing other accessories or the list when adding them
 - Attempt at fixing wrong visible accessories on thrall when using DD emote system
+
 `1.5.18`
 - Fixed a potential exploit allowing to equip more accessories than the server allow

@@ -3,19 +3,24 @@
 ## New
 `2.1.23`
 - Integration of Sudo Backup system.
+
 `2.1.30`
 - Auto Remove for POI. If you select a duration, POI will be removed from the server on the next server restart after the selected duration from the placement of the POI
 - New option for waypoints to prevent carryable treasures to be taken through a waypoint.
+
 ## Changes
 `2.1.15`
 - Integrating Sudo Nameplate System. Several settings got removed now controlled by Sudo. Sudo nameplate system MUST be activated for players in order to use RR nameplate features.
 
 `2.1.19`
 - Added a repost button on the notice board to make a copy of an existing message. Only available if you are the author of the message or the manager of the board.
+
 `2.1.25`
 - Added an admin section in POI editor to display the name of the players the previously edited and saved the POI. Old POI will not have any named saved, but after the patch, POI will start to collect that data for admin usage.
+
 `2.1.26`
 - Internal Changes
+
 ## Fixes
 `2.1.15`
 - Fixing various color formating issues
@@ -38,13 +43,18 @@
 
 `2.1.21`
 - Fixing a performance issue, cause the client to stutter every seconds. This fix is not magical, heavy dice systems are expensive, but this will cut the constant refresh of the dice sheet to only refresh when needed instead of every seconds.
+
 `2.1.22`
 - Fixed `GetStat` API implementation returning the wrong current stat in some situation
+
 `2.1.27`
 - Fixed identity serialization for Tot ! Module AST identity transfer. 
+
 `2.1.28`
 - Fixed line breaks in identities preventing the Amunet server transfer to be performed properly.
+
 `2.1.29`
 - Somehow fixed the keymaker toolbox sorting inventory every times its opened ? I don't know. It's broken as fuck.
+
 `2.1.30`
 - Fixed waypoint use sudo log displaying twice the origin instead of the origin and destination

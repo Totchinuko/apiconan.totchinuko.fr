@@ -19,5 +19,6 @@
 
 `2.0.6`
 - When deactivating an ihud widget, it would sometimes conflict with the inventory
+
 `2.1.3`
 - Fixed corruption display on health/stamina bar

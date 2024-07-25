@@ -80,6 +80,7 @@
     - Math formula now accept variables between brackets (${variable}) or without, to solve issues when using and/or/xor operators
     - Renamed player login admin event to player spawn as it is triggered every time a player spawn
     - Node `Start Camera Pan` now have a `Skip` output plug for when the user skip a cinematic
+
 `0.7.2`
 - Added a toggle on scripted door to prevent their manual operation (Open and close by hand)
 - Added `On Interact` scripted door event emiter
@@ -91,32 +92,42 @@
     - Log Sudo now take a text value, but will be truncated at 100 characters max.
     - Renamed Visual Clues into Staff Vision:tm:
     - Improved some admin tools to only be interactable when the Staff Vision is active
+
 `0.7.6`
 - You can now shift click on an item stack in the trader UI to move the entire stack to the trading area
 - Remove UTC to Local conversion for date/time fields. Now the field will display the current server UTC time for you to make the conversion, when UTC time is expected.
 - Added alpha channel to color variables
+
 `0.7.7`
 - Added thrall trigger filter on sphere and box zones
 - Added a head tracking toggle for puppet conversation nodes
 - Display the original name of a node in the node inspector
+
 `0.7.8`
 - Increased the duration for paused script to get automaticly scrapted for inactivity from 5 minutes to an hour.
+
 `0.7.9`
 - Increase the stack size of Radishes. I'd rather have more radishes.
+
 `0.7.10`
 - Internal changes
+
 `0.7.12`
 - Increased the trader definition capacity for items from 60 to 100.
+
 `0.7.13`
 - Shift clicking item in the cheat panel now give the full stack of the item, just like the vanilla cheat panel
 - Improved the item spawn of the cheat panel to create multiple items if the requested stack size goes beyond the item maximum stack size
 - Renamed Exit Script to Kill Script
 - Improved quest log tab look to be less confusing
+
 ## Fixes
+
 `0.7.0`
 - Fixed the rule Is Math Not Zero using the old formula editor
 - Fixed resource spawner giving too much resources with kits if the server multiplier was more than one.
 - Fixed event order spawn on spawner that was waiting for the respawn time before spawning
+
 `0.7.1`
 - Scripting:
     - Sudo var nodes were missing a failed plug for when the variable do not exists
@@ -134,6 +145,7 @@
     - Fixed Formula variables not supporting variable with space
     - `Character is Online` was not functioning properly
     - `Get Time` was not functioning properly
+
 `0.7.2`
 - Scripting:
     - Those nodes did not function: `Has RR Key`, `Has Quest Category`
@@ -147,6 +159,7 @@
     - Node created using the right click menu where not selected automaticly uppon creation.
     - Sudo Log was not functionning
     - Text variable insertion preview was not taking into account the edited script variables. This does not execute your script, and will only display default values
+
 `0.7.3`
 - Scripting:
     - Variable assigned to returned lists would be cleared when selecting back a node
@@ -159,10 +172,12 @@
     - Export window close button was non functional
     - `Fire Many Event` and `Try Fire Event` were not working on Scripted Doors, Chests and Game Lights
     - Fixed Asura's Glory and Midnight Flower not harvestable in resource spawner
+
 `0.7.4`
 - Scripting:
     - Subsequent call to `Set Camera for conversation` were broken
     - `Set Player Clan` was not working
+
 `0.7.5`
 - Reverting an auto save feature for the action modules, suspected to introduce saving issues
 - Patrol Point emote was continuing after leaving the point, sometimes as the NPC traveled
@@ -198,10 +213,13 @@
 - Improved /cheat creative command deactivation
 - Added a safety to Box/Sphere zone to delay their action on freshly logged in players, avoiding a server crash in some cases.
 - Trader NPC will now drop or give back the item in storage when its dismantled or picked up respectively.
+
 `0.7.10`
 - It was previously possible to edit a script without the script edition permission
+
 `0.7.12`
 - Pasting a ruleset into a script parameter was not saved properly
+
 `0.7.13`
 - OnValidate Events did not import properly for quests
 - Warp created using `/warp create <warp name>` were corrupted
