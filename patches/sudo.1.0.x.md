@@ -18,6 +18,9 @@
 `1.0.23`
 - Add settings for players to hide player and thrall names.
 
+`1.0.39`
+- Added an API Lock toggle/permission to the roles. This is not a permission for users, but instead will lock the role from being given through the API, effectively preventing the role from ever being granted outside of sudo (by third party mods, Scripting system, etc.). The only notable exception to this, is `Tot!Module AST`, that use its own internal means to restore the role in an Amunet server transfer.
+
 ## Changes/Improvements
 `1.0.13`
 - Improved performance for Setting, Getting, and Removing Float Char/Global vars and String Char/Global vars

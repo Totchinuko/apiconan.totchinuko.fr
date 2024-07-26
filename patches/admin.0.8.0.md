@@ -56,3 +56,14 @@
 - In some rare cases, the player editor was not able to display the selected character informations, specifically after character creation.
 - Fix parameters for `Try Fire Event` not restoring properly
 - Send message node was preventing the script from continuing after posting in clan channel
+`0.8.1`
+- Script Pre-Run value was not exported
+- Script command values where not imported properly if the script already existed.
+- Editing Script Pre-Run or command values did not update the script editor
+- Reinforced default variable field in scripting to avoid some confusion in certain use cases (Notably the Equal node)
+- Reworked how scripted door/chest/light collisions are handled, fixing cases where chests could not be interacted with.
+- It was sometime possible to move things with the move tool that were not supposed to be moved.
+- Variable that are a Parameter and a Return at the same time could not be assigned to both correctly in a sub script node.
+- Math expression solving was improved:
+    - Word detection is now more robust and the solver should not confused longer words for shorter ones. 
+    - Expected parameter count for an operator or function is now more strictly regulated.
