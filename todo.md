@@ -14,8 +14,9 @@
 - [X] Custom post release support
 - [X] Amunet Server Transfer Module
 - [X] Admin 0.8.0
-- [ ] Custom 1.7 `Pose Update` + Body merge
+- [ ] 25th Post-Release Maintenance
 - [ ] Tot ! Fishing
+- [ ] Custom 1.7 `Pose Update` + Body merge
 - [ ] Sudo Webhook API
 - [ ] Nameplate visibility optional improvements + fix death nameplate issue
 - [ ] Admin 0.9.0
@@ -23,24 +24,28 @@
 - [ ] Custom various body improvements
 
 ## Short Term Roadmap
-### Current
-#### TotAdmin
-- [ ] Patch Video
-
-### Next
+### 25th Post-Release Maintenance
+#### Planned releases
+- Admin 0.8.1
+- Sudo 1.0.39
+- HUD 2.1.5
 #### TotHUD
-- [ ] Hud buff disapear for some reason ?
-#### TotCustom 
-- [ ] Custom `1.7.0`
-    - [ ] Body merge system
-    - [ ] Separate hairline color
-    - [ ] Footstep system.
-    - [ ] Pose system
-        - [ ] Cancel limb animation with T-pose blending
-        - [ ] Auto swap a pose in some sub-state like fly, sit, etc..
-    - [ ] Add Sean's lantern
+- [ ] Hud buff disapear for some reason ? `tbt`
 #### TotAdmin
-- [ ] Map Mechanic node to display a cloud based location of a player to another. Position of cloud need to be procedural based on current location (Grid based for seed). This could be used to locate things other than player
+- [X] Pre-run value should be exported and change the editor
+- [X] Node to fire a script blindly
+- [X] Scripted Chests are broken ?
+- [X] Default field should be enforced in many levels: AddParameter and when creating a variable
+- [ ] Improve modern chest compatibility. See treasure chest for that.
+- [ ] Turn on PVP node (Look for battle standards)
+- [ ] Operator d eat the degrees function in math parsing. Check the whole word before resolving the function naming.
+- [ ] Patch Video
+#### SudoExile
+- [ ] Add a toggle on roles that prevent their grant using API (Fix big security gaps with scripting)
+
+### Next Short Term Roadmap
+#### TotFishing
+`tbd`
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
@@ -156,8 +161,6 @@
     - [X] Improve arrival distance of navigation and home distance
         - [X] Seem arrival tolerance is located in BTDecorator_isAtHome
         - [X] Maybe do a custom tree for spawned NPCs with spawners
-- [ ] Cinematic Video
-- [ ] Variable storage video
 - [X] Alpha `0.8.0`
     - [X] Pseudo Random Number Generator node with seed/Stream
     - [X] Nodes/Spawner for exploiting treasure mechanic
@@ -199,9 +202,13 @@
     - [X] Nodes to count and remove droppable from a zone
     - [X] Nodes to add/remove/reset climbing blocker
     - [X] Add killer data to death event
+- [ ] Cinematic Video
+- [ ] Variable storage video
+- [ ] Map Mechanic node to display a cloud based location of a player to another. Position of cloud need to be procedural based on current location (Grid based for seed). This could be used to locate things other than player. Wait for HUD map.
 - [ ] Alpha `0.9.0`
+    - [ ] UTF16 encoding for webhook node
+    - [ ] KO mode that can be trigger with scripting
     - [ ] Replace blocker scan with interface (Search for TODO)
-    - [ ] Reset RPR Sheet node
     - [ ] Server Light Manager
     - [ ] Stop Script node
     - [ ] Invisible wall to block navigation
@@ -342,13 +349,14 @@
 - [X] Remove the 50cm offset on the camera
 - [X] Check escape button not closing color picker on accessories
 - [X] Fix deformed weapons
-- [ ] Custom `1.7.0` `Pose System`
-    - [ ] Add Sean's lantern
-    - [ ] Footstep system
+- [ ] Custom `1.7.0`
     - [ ] Body merge system
+    - [ ] Separate hairline color
+    - [ ] Footstep system.
     - [ ] Pose system
         - [ ] Cancel limb animation with T-pose blending
         - [ ] Auto swap a pose in some sub-state like fly, sit, etc..
+    - [ ] Add Sean's lantern
 - [ ] Check: https://discord.com/channels/917916583064662076/1202830393347407953/1203184757706334258
 - [ ] Custom `1.8.0` `Body Improvements`
     - [ ] Teeth Coloring
