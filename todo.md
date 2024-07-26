@@ -26,22 +26,9 @@
 ## Short Term Roadmap
 ### 25th Post-Release Maintenance
 #### Planned releases
-- Admin 0.8.1
-- Sudo 1.0.39
-- HUD 2.1.5
-#### TotHUD
-- [ ] Hud buff disapear for some reason ? `tbt`
+- Admin 0.8.2
 #### TotAdmin
-- [X] Pre-run value should be exported and change the editor
-- [X] Node to fire a script blindly
-- [X] Scripted Chests are broken ?
-- [X] Default field should be enforced in many levels: AddParameter and when creating a variable
-- [ ] Improve modern chest compatibility. See treasure chest for that.
-- [ ] Turn on PVP node (Look for battle standards)
-- [ ] Operator d eat the degrees function in math parsing. Check the whole word before resolving the function naming.
-- [ ] Patch Video
-#### SudoExile
-- [ ] Add a toggle on roles that prevent their grant using API (Fix big security gaps with scripting)
+- [ ] Fix auto assign on variable creation from fields
 
 ### Next Short Term Roadmap
 #### TotFishing
