@@ -14,7 +14,7 @@
 - [X] Custom post release support
 - [X] Amunet Server Transfer Module
 - [X] Admin 0.8.0
-- [ ] 25th Post-Release Maintenance
+- [X] 25th Post-Release Maintenance
 - [ ] Tot ! Fishing
 - [ ] Custom 1.7 `Pose Update` + Body merge
 - [ ] Sudo Webhook API
@@ -42,8 +42,24 @@
 - [X] Timer Status should return the date
 
 ### Next Short Term Roadmap
+- Fishing 1.0.0
 #### TotFishing
-`tbd`
+- [ ] Game Design
+    - [ ] Fishing minigame, how does it work ?
+    - [ ] Procedural fish spawn with seed, how to unsure that every type of fish are catchable regardless of the map setup ?
+    - [ ] Fishing types and rarity: Check the fish 3D model pack and assign each of them names, type, etc... Do we have fish stats ?
+    - [ ] What to do with the fishes ?
+    - [ ] What type of rods ? For what purpose ?
+    - [ ] What type of lure ? For what purpose ?
+    - [ ] Chair as fishing accessory ? What benefit if any ?
+    - [ ] Fishing boats in the future ?
+- [ ] Experiment
+    - [ ] Check the treasure weapon mechanic that change the input scheme with an input component
+    - [ ] Animations in general, with some level of procedural.
+    - [ ] Procedural fishing line with tension level to make it more or less droopy
+- [ ] Assets
+    - [ ] Find at least 3 fishing rods
+    - [ ] The rods will be rigged with custom made skeletong for "bending" the rods during tension. 4 to 5 bones.
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
