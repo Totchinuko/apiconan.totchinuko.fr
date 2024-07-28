@@ -91,3 +91,6 @@
 `1.6.6`
 - Color picker opened from an accessory was not responsive to the escape button
 - Weapons/Shield were sometimes influenced by your limbs scales. It will only be influenced by your character overall size now.
+
+`1.6.7`
+- It was possible to import body profiles with a line break in the export code that would in turn re-export with that same line break. This would result in a problem with Amunet Server Transfer, preventing the transfer of those characters.
