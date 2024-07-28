@@ -36,8 +36,8 @@
 - [X] Node to spawn outside of the view range
 - [X] Add node delete/count every dropped crate
 - [X] Fix auto assign on variable creation from fields
-- [ ] Folding variables don't save properly
-- [ ] Quest events don't seem to load the content of script parameters properly
+- [X] Folding variables don't save properly
+- [X] Quest events don't seem to load the content of script parameters properly
 - [X] On Fail is not triggered on abandon
 - [X] Timer Status should return the date
 
@@ -203,7 +203,8 @@
 - [ ] Cinematic Video
 - [ ] Variable storage video
 - [ ] Map Mechanic node to display a cloud based location of a player to another. Position of cloud need to be procedural based on current location (Grid based for seed). This could be used to locate things other than player. Wait for HUD map.
-- [ ] Alpha `0.9.0`
+- [ ] Alpha `0.X.0` 
+    - [ ] Server settings edition through nodes
     - [ ] UTF16 encoding for webhook node
     - [ ] KO mode that can be trigger with scripting
     - [ ] Replace blocker scan with interface (Search for TODO)
