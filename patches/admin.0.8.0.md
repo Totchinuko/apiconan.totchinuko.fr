@@ -39,6 +39,12 @@
     - A node to send webhook request to a router server
     - Two nodes to send people back at their home or bed/bedroll
     - New nodes to track down a character change of state
+
+`0.8.1`
+- New Node: Run blind script
+
+`0.8.2`
+- New Node: Find Ambush Points. This node use an Environment Query System, the very same used by the Jhebbal Sag hunters events, to find points in a radius around the player that can reach the target, preferably in their backs. 
     
 ## Changed
 `0.8.0`
@@ -48,6 +54,10 @@
 - Staff list is now based on the role selected in server settings.
 - Added manual max value for Box and Sphere Zones sizes 10 times superior to max slider.
 
+`0.8.2`
+- Random Point in Circle nodes now have a minimum radius parameter
+- Get Player Clan now also return the player current rank in the clan
+
 ## Fixed
 `0.8.0`
 - Integrated map sometimes were stuck on transition animations
@@ -56,6 +66,7 @@
 - In some rare cases, the player editor was not able to display the selected character informations, specifically after character creation.
 - Fix parameters for `Try Fire Event` not restoring properly
 - Send message node was preventing the script from continuing after posting in clan channel
+
 `0.8.1`
 - Script Pre-Run value was not exported
 - Script command values where not imported properly if the script already existed.
@@ -67,3 +78,8 @@
 - Math expression solving was improved:
     - Word detection is now more robust and the solver should not confused longer words for shorter ones. 
     - Expected parameter count for an operator or function is now more strictly regulated.
+
+`0.8.2`
+- Creating variables from a parameter field were not auto-assigned properly after the creation
+- Folded state of variables in the scripting editor was not saved properly
+- Events in the Quest editor were not loading properly in various cases, entering in conflict with each others.
