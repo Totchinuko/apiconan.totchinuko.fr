@@ -27,8 +27,19 @@
 ### 25th Post-Release Maintenance
 #### Planned releases
 - Admin 0.8.2
+- Custom 1.6.7
 #### TotAdmin
-- [ ] Fix auto assign on variable creation from fields
+- [X] New node to check objective completion using the index instead of a pointer
+- [X] Get Player clan should also return rank
+- [X] Find code responsible for Jhebbal Sag werehyena spawn and make a node out of it
+- [X] Random Radius Point should have a minimum radius
+- [X] Node to spawn outside of the view range
+- [X] Add node delete/count every dropped crate
+- [X] Fix auto assign on variable creation from fields
+- [ ] Folding variables don't save properly
+- [ ] Quest events don't seem to load the content of script parameters properly
+- [X] On Fail is not triggered on abandon
+- [X] Timer Status should return the date
 
 ### Next Short Term Roadmap
 #### TotFishing
