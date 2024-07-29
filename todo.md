@@ -28,25 +28,8 @@
 #### Planned releases
 - Admin 0.8.2
 - Custom 1.6.7
-#### TotAdmin
-- [X] New node to check objective completion using the index instead of a pointer
-- [X] Get Player clan should also return rank
-- [X] Find code responsible for Jhebbal Sag werehyena spawn and make a node out of it
-- [X] Random Radius Point should have a minimum radius
-- [X] Node to spawn outside of the view range
-- [X] Add node delete/count every dropped crate
-- [X] Fix auto assign on variable creation from fields
-- [X] Folding variables don't save properly
-- [X] Quest events don't seem to load the content of script parameters properly
-- [X] On Fail is not triggered on abandon
-- [X] Timer Status should return the date
-
-#### TotCustom
-- [X] Add None bone
-
-### Next Short Term Roadmap
-- Fishing 1.0.0
-#### TotFishing
+- Roleplay Redux 2.1.31
+### TotFishing
 - [ ] Game Design
     - [ ] Fishing minigame, how does it work ?
     - [ ] Procedural fish spawn with seed, how to unsure that every type of fish are catchable regardless of the map setup ?
@@ -67,6 +50,10 @@
 - [ ] Assets
     - [ ] Find at least 3 fishing rods
     - [ ] The rods will be rigged with custom made skeletong for "bending" the rods during tension. 4 to 5 bones.
+
+
+### Next Short Term Roadmap
+- Nothing for now...
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
