@@ -17,19 +17,12 @@
 - [X] 25th Post-Release Maintenance
 - [ ] Tot ! Fishing
 - [ ] Custom 1.7 `Pose Update` + Body merge
-- [ ] Sudo Webhook API
+- [ ] !Hud Map
 - [ ] Nameplate visibility optional improvements + fix death nameplate issue
 - [ ] Admin 0.9.0
-- [ ] !Hud Map
 - [ ] Custom various body improvements
 
 ## Short Term Roadmap
-### 25th Post-Release Maintenance
-#### Planned releases
-- Admin 0.8.2
-- Custom 1.6.7
-- Roleplay Redux 2.1.31
-- Sudo 1.0.40
 ### TotFishing
 - [ ] Game Design
     - [ ] Fishing minigame, how does it work ?
