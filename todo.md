@@ -29,6 +29,7 @@
 - Admin 0.8.2
 - Custom 1.6.7
 - Roleplay Redux 2.1.31
+- Sudo 1.0.40
 ### TotFishing
 - [ ] Game Design
     - [ ] Fishing minigame, how does it work ?
