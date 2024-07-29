@@ -58,3 +58,6 @@
 
 `2.1.30`
 - Fixed waypoint use sudo log displaying twice the origin instead of the origin and destination
+
+`2.1.31`
+- Improve some server side performance triggering too much refresh of some of the data
