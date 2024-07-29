@@ -41,6 +41,9 @@
 - [X] On Fail is not triggered on abandon
 - [X] Timer Status should return the date
 
+#### TotCustom
+- [X] Add None bone
+
 ### Next Short Term Roadmap
 - Fishing 1.0.0
 #### TotFishing
@@ -48,11 +51,15 @@
     - [ ] Fishing minigame, how does it work ?
     - [ ] Procedural fish spawn with seed, how to unsure that every type of fish are catchable regardless of the map setup ?
     - [ ] Fishing types and rarity: Check the fish 3D model pack and assign each of them names, type, etc... Do we have fish stats ?
+        - Fish all have a fishing technique, a favorite lure and a rarity. Catching a fish will give those informations.
     - [ ] What to do with the fishes ?
     - [ ] What type of rods ? For what purpose ?
     - [ ] What type of lure ? For what purpose ?
     - [ ] Chair as fishing accessory ? What benefit if any ?
     - [ ] Fishing boats in the future ?
+    - [ ] Input pattern
+        - Lure Camera (Hold)
+    - [ ] Chances to catch a particular fish are influence by 3 things: Concealement of the rod for rare fishes, Technique used for the lure on water, and the lure itself
 - [ ] Experiment
     - [ ] Check the treasure weapon mechanic that change the input scheme with an input component
     - [ ] Animations in general, with some level of procedural.
