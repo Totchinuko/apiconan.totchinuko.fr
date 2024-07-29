@@ -94,3 +94,4 @@
 
 `1.6.7`
 - It was possible to import body profiles with a line break in the export code that would in turn re-export with that same line break. This would result in a problem with Amunet Server Transfer, preventing the transfer of those characters.
+- Added the missing `None` bone as an alternate selection to `b_root` bone.
