@@ -23,6 +23,20 @@
 - [ ] Custom various body improvements
 
 ## Short Term Roadmap
+### Release on the 2nd
+- !Admin 0.8.3
+- !Sudo 1.0.41
+- !HUD 2.1.6
+### TotAdmin
+- [X] Early trigger of a timer
+- [X] Reduce latency on node search
+- [X] Concealer should make thing invulnerable by default
+- [X] Add custom gage the possibility to have a unit
+- [ ] Is Spawned NPC at Destination ?
+- [ ] List spawned NPC in box/sphere
+- [ ] Get Location of Spawned NPC
+- [ ] Cast AdminTool to specifics or backward
+- [ ] Global vars should be available even without player context
 ### TotFishing
 - [ ] Game Design
     - [ ] Fishing minigame, how does it work ?
@@ -208,6 +222,7 @@
 - [ ] Variable storage video
 - [ ] Map Mechanic node to display a cloud based location of a player to another. Position of cloud need to be procedural based on current location (Grid based for seed). This could be used to locate things other than player. Wait for HUD map.
 - [ ] Alpha `0.X.0` 
+    - [ ] Rework the variable creation with a full fledge list, complete with a filter and list of fields.
     - [ ] Server settings edition through nodes
     - [ ] UTF16 encoding for webhook node
     - [ ] KO mode that can be trigger with scripting
