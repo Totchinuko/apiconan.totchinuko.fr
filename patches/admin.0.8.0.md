@@ -45,6 +45,9 @@
 
 `0.8.2`
 - New Node: Find Ambush Points. This node use an Environment Query System, the very same used by the Jhebbal Sag hunters events, to find points in a radius around the player that can reach the target, preferably in their backs. 
+
+`0.8.3`
+- New Node: Fire timer early. This trigger a timer before it reach its trigger date.
     
 ## Changed
 `0.8.0`
@@ -57,6 +60,9 @@
 `0.8.2`
 - Random Point in Circle nodes now have a minimum radius parameter
 - Get Player Clan now also return the player current rank in the clan
+
+`0.8.3`
+- Remove the delay for node filtering
 
 ## Fixed
 `0.8.0`
@@ -83,3 +89,7 @@
 - Creating variables from a parameter field were not auto-assigned properly after the creation
 - Folded state of variables in the scripting editor was not saved properly
 - Events in the Quest editor were not loading properly in various cases, entering in conflict with each others.
+
+`0.8.3`
+- A script starting with pre-run nodes from a timer, concidered the triggering timer to still be in effect.
+- Concealed decoration could sometimes loose stability on server start
