@@ -47,7 +47,15 @@
 - New Node: Find Ambush Points. This node use an Environment Query System, the very same used by the Jhebbal Sag hunters events, to find points in a radius around the player that can reach the target, preferably in their backs. 
 
 `0.8.3`
-- New Node: Fire timer early. This trigger a timer before it reach its trigger date.
+- New Nodes: 
+    - Fire timer early. This trigger a timer before it reach its trigger date.
+    - Is Spawned NPC at Destination. Check if an NPC has arrived to the lastest destination it was given
+    - Get Spawned NPC in various box and spheres
+    - Get Actor Position. Replacing specific position request, this will work with players, admin tools, or spawned NPC.
+    - Receive Message. To make personalized notifications to a specific player.
+    - Convert generic admin tool to a specific tool and back.
+    - Send local message from a Puppet
+
     
 ## Changed
 `0.8.0`
@@ -63,6 +71,8 @@
 
 `0.8.3`
 - Remove the delay for node filtering
+- Improved Send Message to allow added tags (API stuff)
+- New variable creation panel
 
 ## Fixed
 `0.8.0`
@@ -93,3 +103,5 @@
 `0.8.3`
 - A script starting with pre-run nodes from a timer, concidered the triggering timer to still be in effect.
 - Concealed decoration could sometimes loose stability on server start
+- Get Float Var truncate boolean had not effect
+- Various item lists were not applying the filter again after refreshing for any reason
