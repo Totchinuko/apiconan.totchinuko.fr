@@ -47,6 +47,8 @@
 ## Issue List
 ### TotAdmin
 - [ ] Thrall cannot be sold through puppet anymore `Cannot reproduce`
+- [ ] Some custom tool fail to harvest  : https://discord.com/channels/917916583064662076/1217078661036118106/1217078661036118106 `Cannot reproduce`
+
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
@@ -203,11 +205,20 @@
     - [X] Nodes to count and remove droppable from a zone
     - [X] Nodes to add/remove/reset climbing blocker
     - [X] Add killer data to death event
+- [X] Puppet post message node (Auto connect to chat somehow)
+- [X] Converter Admin Tool -> Specific tool
+- [X] Converter Specific Tool -> Admin Tool
+- [X] Get players in clan
+- [X] On Player Killed - Admin Event
+- [X] Tot!Hud Gage with scripting
+- [X] Rework the variable creation with a full fledge list, complete with a filter and list of fields.
+- [X] Get Clan ID
 - [ ] Cinematic Video
 - [ ] Variable storage video
 - [ ] Map Mechanic node to display a cloud based location of a player to another. Position of cloud need to be procedural based on current location (Grid based for seed). This could be used to locate things other than player. Wait for HUD map.
-- [ ] Alpha `0.X.0` 
-    - [ ] Rework the variable creation with a full fledge list, complete with a filter and list of fields.
+- [ ] Alpha `0.X.X` 
+    - [ ] Tool edition with nodes
+    - [ ] Quest edit copy to change the objectives procedurally before giving to a player
     - [ ] Server settings edition through nodes
     - [ ] UTF16 encoding for webhook node
     - [ ] KO mode that can be trigger with scripting
@@ -225,19 +236,12 @@
     - [ ] Rework event logs
     - [ ] Community made script library
     - [ ] Auto focus camera (Colision raycast)
-    - [ ] Get Clan ID
-    - [ ] Get players in clan
     - [ ] Get Current Admin tool
-    - [ ] Converter Admin Tool -> Specific tool
-    - [ ] Converter Specific Tool -> Admin Tool
     - [ ] Dynamic puppet inventory linked to scripted chests
     - [ ] List weight does not refresh on opening
-    - [ ] On Player Killed - Admin Event
     - [ ] A check to hide quest objectives as long as higher objectives are not complete.
     - [ ] Voiced dialogue lines
-    - [ ] Tot!Hud Gage with scripting
     - [ ] Improve contextual box for small screens
-    - [ ] Puppet post message node (Auto connect to chat somehow)
     - [ ] Puppet display bubble only
     - [ ] Placeable invulnerability function (Toggle with selector)
     - [ ] Comments as an anchor on the grid. Display the text on click or hover
@@ -246,7 +250,6 @@
     - [ ] Try to find a way to replace the shift + insert of the cheat panel to the !Admin cheat panel.
     - [ ] Integrate RR Dice Sheet on Puppets
     - [ ] Add light customization to scripted lights
-    - [ ] Turn a placeable into a scripted interactable (Like door and chests)
     - [ ] Puppet voice selection
     - [ ] Projectile Launchers
     - [ ] Better velocity transition for short warps (Manual exit vector ?)
@@ -260,7 +263,6 @@
     - [ ] Model Picker/Placer
     - [ ] Hunting Horn (Linked to soundboard API)
     - [ ] Player scripted movement ?
-    - [ ] Some custom tool fail to harvest  : https://discord.com/channels/917916583064662076/1217078661036118106/1217078661036118106
 - [ ] Decoration group (A placeable that has a 3D editor for placing meshes around in a performant manner)
 - [ ] Selector: Copy/Cut/Paste Buildings `Experimental`
 - [ ] Selector: Improve building ownership change ?
