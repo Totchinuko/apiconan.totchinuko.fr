@@ -23,45 +23,30 @@
 - [ ] Custom various body improvements
 
 ## Short Term Roadmap
-### Release on the 2nd
-- !Admin 0.8.3
-- !Sudo 1.0.41
-- !HUD 2.1.6
-### TotAdmin
-- [X] Early trigger of a timer
-- [X] Reduce latency on node search
-- [X] Concealer should make thing invulnerable by default
-- [X] Add custom gage the possibility to have a unit
-- [ ] Is Spawned NPC at Destination ?
-- [ ] List spawned NPC in box/sphere
-- [ ] Get Location of Spawned NPC
-- [ ] Cast AdminTool to specifics or backward
-- [ ] Global vars should be available even without player context
 ### TotFishing
-- [ ] Game Design
-    - [ ] Fishing minigame, how does it work ?
-    - [ ] Procedural fish spawn with seed, how to unsure that every type of fish are catchable regardless of the map setup ?
-    - [ ] Fishing types and rarity: Check the fish 3D model pack and assign each of them names, type, etc... Do we have fish stats ?
+- [X] Game Design
+    - [X] Fishing minigame, how does it work ?
+    - [X] Procedural fish spawn with seed, how to unsure that every type of fish are catchable regardless of the map setup ?
+    - [X] Fishing types and rarity: Check the fish 3D model pack and assign each of them names, type, etc... Do we have fish stats ?
         - Fish all have a fishing technique, a favorite lure and a rarity. Catching a fish will give those informations.
-    - [ ] What to do with the fishes ?
-    - [ ] What type of rods ? For what purpose ?
-    - [ ] What type of lure ? For what purpose ?
-    - [ ] Chair as fishing accessory ? What benefit if any ?
-    - [ ] Fishing boats in the future ?
-    - [ ] Input pattern
-        - Lure Camera (Hold)
-    - [ ] Chances to catch a particular fish are influence by 3 things: Concealement of the rod for rare fishes, Technique used for the lure on water, and the lure itself
+    - [X] What to do with the fishes ?
+    - [X] What type of rods ? For what purpose ?
+    - [X] What type of lure ? For what purpose ?
+    - [X] Chair as fishing accessory ? What benefit if any ?
+    - [X] Fishing boats in the future ?
+    - [X] Input pattern
 - [ ] Experiment
     - [ ] Check the treasure weapon mechanic that change the input scheme with an input component
     - [ ] Animations in general, with some level of procedural.
     - [ ] Procedural fishing line with tension level to make it more or less droopy
-- [ ] Assets
-    - [ ] Find at least 3 fishing rods
-    - [ ] The rods will be rigged with custom made skeletong for "bending" the rods during tension. 4 to 5 bones.
-
+- [ ] Find required assets
 
 ### Next Short Term Roadmap
 - Nothing for now...
+
+## Issue List
+### TotAdmin
+- [ ] Thrall cannot be sold through puppet anymore `Cannot reproduce`
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
