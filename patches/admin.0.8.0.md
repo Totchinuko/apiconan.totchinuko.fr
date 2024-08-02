@@ -54,8 +54,7 @@
     - Get Actor Position. Replacing specific position request, this will work with players, admin tools, or spawned NPC.
     - Receive Message. To make personalized notifications to a specific player.
     - Convert generic admin tool to a specific tool and back.
-    - Send local message from a Puppet
-
+    - Send local message or fake bubble from a Puppet
     
 ## Changed
 `0.8.0`
@@ -105,3 +104,5 @@
 - Concealed decoration could sometimes loose stability on server start
 - Get Float Var truncate boolean had not effect
 - Various item lists were not applying the filter again after refreshing for any reason
+- Enforcing rules on quest giver was not displaying errors properly
+- Not enforcing rules on quest giver would still enforce the rules before accepting a quest
