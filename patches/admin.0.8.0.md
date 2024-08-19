@@ -55,6 +55,11 @@
     - Receive Message. To make personalized notifications to a specific player.
     - Convert generic admin tool to a specific tool and back.
     - Send local message or fake bubble from a Puppet
+
+`0.8.4`
+- Added a setting on resource spawner to disable the use of quick harvest perk
+- New Node: `Find Actor Ambush Points`
+- New Node: `Toggle Prevent Fly`
     
 ## Changed
 `0.8.0`
@@ -72,6 +77,9 @@
 - Remove the delay for node filtering
 - Improved Send Message to allow added tags (API stuff)
 - New variable creation panel
+
+`0.8.4`
+- Preventing flight while carrying a crate
 
 ## Fixed
 `0.8.0`
@@ -106,3 +114,8 @@
 - Various item lists were not applying the filter again after refreshing for any reason
 - Enforcing rules on quest giver was not displaying errors properly
 - Not enforcing rules on quest giver would still enforce the rules before accepting a quest
+
+`0.8.4`
+- Decoration concealers were not revealing their bound decorations when dismantled
+- Scripted chests did not received event calls like they should
+- Nodes that format text or solve math expressions should now properly do it using the overriden player context
