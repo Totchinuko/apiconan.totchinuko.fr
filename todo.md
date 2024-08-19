@@ -22,32 +22,29 @@
 - [ ] Admin 0.9.0
 - [ ] Custom various body improvements
 
-## Short Term Roadmap
+## Short Term Roadmap 
+### Release on 23rd
+- Tot!Admin 0.8.4
+- Tot!Custom (Recook)
+- Tot!Sudo Exile (Recook)
+### TotAdmin
+- [X] Destroying a concealer should reveal its bound decoration
+- [X] Resource spawner should have an option to not scale with attribute bonus
+- [X] New ambush point that don't require a player
+- [X] Prevent flying when carrying a crate
+- [X] Node to deactivate fly
 ### TotFishing
-- [X] Game Design
-    - [X] Fishing minigame, how does it work ?
-    - [X] Procedural fish spawn with seed, how to unsure that every type of fish are catchable regardless of the map setup ?
-    - [X] Fishing types and rarity: Check the fish 3D model pack and assign each of them names, type, etc... Do we have fish stats ?
-        - Fish all have a fishing technique, a favorite lure and a rarity. Catching a fish will give those informations.
-    - [X] What to do with the fishes ?
-    - [X] What type of rods ? For what purpose ?
-    - [X] What type of lure ? For what purpose ?
-    - [X] Chair as fishing accessory ? What benefit if any ?
-    - [X] Fishing boats in the future ?
-    - [X] Input pattern
-- [ ] Experiment
-    - [ ] Check the treasure weapon mechanic that change the input scheme with an input component
-    - [ ] Animations in general, with some level of procedural.
-    - [ ] Procedural fishing line with tension level to make it more or less droopy
-- [ ] Find required assets
 
 ### Next Short Term Roadmap
-- Nothing for now...
+### TotAdmin
+- [ ] Make a tool that delete vanilla spawners in a radius
+### Redux
+- [ ] Hide client side the POI that have expired but not been scraped
 
 ## Issue List
 ### TotAdmin
 - [ ] Thrall cannot be sold through puppet anymore `Cannot reproduce`
-- [ ] Some custom tool fail to harvest  : https://discord.com/channels/917916583064662076/1217078661036118106/1217078661036118106 `Cannot reproduce`
+- [ ] Some custom tool fail to harvest : https://discord.com/channels/917916583064662076/1217078661036118106/1217078661036118106 `Cannot reproduce`
 
 
 ## Tot ! Admin
@@ -263,6 +260,7 @@
     - [ ] Model Picker/Placer
     - [ ] Hunting Horn (Linked to soundboard API)
     - [ ] Player scripted movement ?
+    - [ ] No fly node
 - [ ] Decoration group (A placeable that has a 3D editor for placing meshes around in a performant manner)
 - [ ] Selector: Copy/Cut/Paste Buildings `Experimental`
 - [ ] Selector: Improve building ownership change ?
@@ -437,6 +435,7 @@
 - [ ] Improve workshop search
 - [X] Fix conan installation folder detection
 - [X] Find solution for program files folder restriction
+- [ ] More client settings for cloth: https://discord.com/channels/917916583064662076/917933712438595615/1271999510385655891
 
 ## Tot ! Walk
 - [X] Prevent attacks under a target speed (selectable)
