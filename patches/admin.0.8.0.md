@@ -119,3 +119,5 @@
 - Decoration concealers were not revealing their bound decorations when dismantled
 - Scripted chests did not received event calls like they should
 - Nodes that format text or solve math expressions should now properly do it using the overriden player context
+- A rare scenario could trigger a desync between client and server with the visibility of resources on a resource spawner, specially after respawn.
+- Invisible wall was not interactable if its size was increased and it was disabled
