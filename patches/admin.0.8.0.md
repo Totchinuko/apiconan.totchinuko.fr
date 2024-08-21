@@ -80,6 +80,8 @@
 
 `0.8.4`
 - Preventing flight while carrying a crate
+- Node `Get Character Name` now also return the real name (Non act one)
+- Node `Get Puppet Name` now have a failed output as it should have
 
 ## Fixed
 `0.8.0`
