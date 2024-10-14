@@ -60,6 +60,16 @@
 - Added a setting on resource spawner to disable the use of quick harvest perk
 - New Node: `Find Actor Ambush Points`
 - New Node: `Toggle Prevent Fly`
+
+`0.8.5`
+- Added Item Stack Size Multiplier to the general settings of the server. (Experimental) (Best to reboot after any change)
+- Added Inventory Size Multiplier to the general settings of the server. (Experiemental) (Best to reboot after any change)
+- Node `Get Date` now also return the local date along side UTC
+- New Nodes:
+    - Is Character in Own Land Claim
+    - Set Unconscious
+    - Is Unconscious
+    - Get/Set Admin Tool Parameter. For now only Post Process Anchor And Lights are compatible, more will be added in the future.
     
 ## Changed
 `0.8.0`
@@ -123,3 +133,9 @@
 - Nodes that format text or solve math expressions should now properly do it using the overriden player context
 - Resource on client side resource spawners could desync in specific scenarios, making the resources invisible.
 - Invisible wall was not interactable if its size was increased and it was disabled
+
+`0.8.5`
+- Node `Set Spawned NPC Behavior` was not working properly
+- Duplicating a quest was not properly duplicating the failed event section
+- Improved the conditions in which the `In Combat` rule triggers
+- Improve default NPC speed spawned with spawners, specifically when they enter combat.
