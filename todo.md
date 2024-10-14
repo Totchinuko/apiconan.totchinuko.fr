@@ -15,36 +15,56 @@
 - [X] Amunet Server Transfer Module
 - [X] Admin 0.8.0
 - [X] 25th Post-Release Maintenance
-- [ ] Tot ! Fishing
+- [ ] Age of Heros Chapter 1 Update
 - [ ] Custom 1.7 `Pose Update` + Body merge
+- [ ] Tot ! Fishing
 - [ ] !Hud Map
 - [ ] Nameplate visibility optional improvements + fix death nameplate issue
 - [ ] Admin 0.9.0
 - [ ] Custom various body improvements
 
 ## Short Term Roadmap 
-### Release on 23rd
-- Tot!Admin 0.8.4
-- Tot!Custom (Recook)
-- Tot!Sudo Exile (Recook)
 ### TotAdmin
-- [X] Destroying a concealer should reveal its bound decoration
-- [X] Resource spawner should have an option to not scale with attribute bonus
-- [X] New ambush point that don't require a player
-- [X] Prevent flying when carrying a crate
-- [X] Node to deactivate fly
-### TotFishing
+- [X] Set Spawned NPC Behavior is not responding
+- [X] Duplicate of quest Definition, does not copy On Fail
+- [X] Get In Combat not reliable
+- [X] Is in own land claim
+- [X] Improve walk speed for NPC [Thread](https://discord.com/channels/917916583064662076/1285109507063545907)
+- [X] Improve node date to offer local date
+- [X] Down node for death module
+- [X] Add Get/Set nods for anchor parameters
+- [ ] Spawn/Destroy Admin Tools
+- [ ] More admin tool compatibility for Get/Set Param
+- [X] Stack multiplier slider
+### TotHud
+- [ ] Not updating buff timers correctly
+### ModuleDeath
+- [ ] Module Death Post Death NPC's Docile Chance
+### TotCustom
+- [ ] Improve item ban list [Thread](https://discord.com/channels/917916583064662076/1293195819431755907)
+- [ ] Command to enforce rules on character + scripting
+### TotChat
+- [ ] Fix horse stamina exploit
+### Redux
+- [ ] Investigate reset RPR stat override reset (API) [Thread](https://discord.com/channels/917916583064662076/1285906750763175936/1285906750763175936)
+
 
 ### Next Short Term Roadmap
-### TotAdmin
-- [ ] Make a tool that delete vanilla spawners in a radius
 ### Redux
 - [ ] Hide client side the POI that have expired but not been scraped
+### Admin
+- [ ] Set a script to fire when a character is receiving interaction
+### TotCustom
+- [ ] Body merge + Body data change
+- [ ] Find a way to flag materials as flat chest replacements.
 
 ## Issue List
 ### TotAdmin
 - [ ] Thrall cannot be sold through puppet anymore `Cannot reproduce`
-- [ ] Some custom tool fail to harvest : https://discord.com/channels/917916583064662076/1217078661036118106/1217078661036118106 `Cannot reproduce`
+- [ ] Some custom tool fail to harvest `Cannot reproduce` [Thread](https://discord.com/channels/917916583064662076/1217078661036118106/1217078661036118106) 
+- [ ] Removing points using the attribute editor does not revoke attribute perks `Game bug, Even when perk is removed the ability remain`
+- [ ] Thrallify causing thrall to be destroyed on certain maps `Can't reproduce, suspected mod conflict` [Thread](https://discord.com/channels/917916583064662076/1279525791775850619)
+- [ ] Warning Logs (Quest and scripted door related) `Cannot reproduce`
 
 
 ## Tot ! Admin
@@ -261,6 +281,9 @@
     - [ ] Hunting Horn (Linked to soundboard API)
     - [ ] Player scripted movement ?
     - [ ] No fly node
+    - [ ] Client side time node ?
+    - [ ] More script context regarding what started the script
+    - [ ] Request variable in dialogues (Use fields)
 - [ ] Decoration group (A placeable that has a 3D editor for placing meshes around in a performant manner)
 - [ ] Selector: Copy/Cut/Paste Buildings `Experimental`
 - [ ] Selector: Improve building ownership change ?
@@ -360,6 +383,7 @@
         - [ ] Cancel limb animation with T-pose blending
         - [ ] Auto swap a pose in some sub-state like fly, sit, etc..
     - [ ] Add Sean's lantern
+    - [ ] Access of presets on non player customizables
 - [ ] Check: https://discord.com/channels/917916583064662076/1202830393347407953/1203184757706334258
 - [ ] Custom `1.8.0` `Body Improvements`
     - [ ] Teeth Coloring
