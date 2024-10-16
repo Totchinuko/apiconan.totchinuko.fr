@@ -6,7 +6,7 @@
 
 `2.1.30`
 - Auto Remove for POI. If you select a duration, POI will be removed from the server on the next server restart after the selected duration from the placement of the POI
-- New option for waypoints to prevent carryable treasures to be taken through a waypoint.
+- New option for waypoints to prevent carriable treasures to be taken through a waypoint.
 
 ## Changes
 `2.1.15`
@@ -21,9 +21,13 @@
 `2.1.26`
 - Internal Changes
 
+`2.1.32`
+- Slowed down timings at which the dice system is loaded onto the client, to reduce the impact on the login loading it can have.
+- Added an client experimental setting to only load the dice sheet when RPR panel is first opened. This help login loading by delaying the dice sheet download.
+
 ## Fixes
 `2.1.15`
-- Fixing various color formating issues
+- Fixing various color formatting issues
 
 `2.1.16`
 - Fix empty nameplate bio displaying empty content
@@ -54,7 +58,7 @@
 - Fixed line breaks in identities preventing the Amunet server transfer to be performed properly.
 
 `2.1.29`
-- Somehow fixed the keymaker toolbox sorting inventory every times its opened ? I don't know. It's broken as fuck.
+- Somehow fixed the key maker toolbox sorting inventory every times its opened ? I don't know. It's broken as fuck.
 
 `2.1.30`
 - Fixed waypoint use sudo log displaying twice the origin instead of the origin and destination

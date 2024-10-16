@@ -1,14 +1,14 @@
 # Tot ! Sudo 1.0.x
 ## API
 `1.0.13`
-- Adding new Internaface `I_EA_MC_Vars` to access the global variables without the need of a player character reference.
+- Adding new Interface `I_EA_MC_Vars` to access the global variables without the need of a player character reference.
 
 `1.0.16`
-- Adding a new datatable `EA_DT_App_Nav_Buttons`. This table add new button to the new navigation menu on the top right corner of the game escape menu. A small section have been added to the documentation.
+- Adding a new data table `EA_DT_App_Nav_Buttons`. This table add new button to the new navigation menu on the top right corner of the game escape menu. A small section have been added to the documentation.
 
 `1.0.28`
 - API update that made available a few days ago
-- Added the Decoration Handler to the pak file
+- Added the Decoration Handler to the PAK file
 
 ## New
 
@@ -20,6 +20,11 @@
 
 `1.0.39`
 - Added an API Lock toggle/permission to the roles. This is not a permission for users, but instead will lock the role from being given through the API, effectively preventing the role from ever being granted outside of sudo (by third party mods, Scripting system, etc.). The only notable exception to this, is `Tot!Module AST`, that use its own internal means to restore the role in an Amunet server transfer.
+
+`1.0.42`
+- Added the meaning of the universe
+- Server setting to hide nameplates behind obstacles (Off by default)
+- New Admin flags `Nameplate Wall Hack` to display the nameplate, regardless of distance and walls.
 
 ## Changes/Improvements
 `1.0.13`
@@ -34,13 +39,13 @@
 
 `1.0.19`
 - Added a parameter to control the background opacity of nameplates
-- Added a parameter to hide the name of thralls separatly from players
+- Added a parameter to hide the name of thralls separately from players
 
 `1.0.32`
 - Improved nameplate visibility curve
 - Improved nameplate "Aimed At" detection to be less intrusive
 - Quick Search - Use Ctrl + K in Admin or player panel to quickly go to a specific sudo menu
-- Favorites - You can now add to favorites a sudo menu to pin it at the top and display it ont the main menu.
+- Favorites - You can now add to favorites a sudo menu to pin it at the top and display it on the main menu.
 - Sudo menus are now ordered alphabetically
 - Sudo Backup Rework: Backups will now be stored in the form of save files in your Conan server folders. You can use an FTP client to access these and move them from one server to another.
 

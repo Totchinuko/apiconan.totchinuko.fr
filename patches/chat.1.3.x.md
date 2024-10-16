@@ -4,7 +4,7 @@
 `1.3.0`
 - Posted Message Edition
     - By hovering your mouse pointer on a message you now have access to a toolbar on the right, Discord style.
-    - You can edit messages posted by yourself directly (only messages posted after 1.3.0 can be edited). Messages posted on your behalf like notification, linled messages or RR rolls cannot be edited.
+    - You can edit messages posted by yourself directly (only messages posted after 1.3.0 can be edited). Messages posted on your behalf like notification, linked messages or RR rolls cannot be edited.
     - Message that are edited appear with a "(edited)" at the end, and you can visualize the original version at any time using the message toolbar.
     - In the local channel, people that received the original message will receive the edit regardless of their current position.
     - You cannot edit the Language or the Range and you cannot use a Command or a Macro during an edit.
@@ -21,7 +21,7 @@
 - Integration of Sudo Backup system
 
 `1.3.17`
-- Experiemental Feature: Alternate Horse Auto Run. Added in player settings.
+- Experimental Feature: Alternate Horse Auto Run. Added in player settings.
 
 ## Changes/Improvements
 `1.3.2`
@@ -40,12 +40,12 @@
 
 `1.3.12`
 - You can now customize the previous/next message sent key bindings (Default is Shift + Up/Down)
-- Added a keybind to edit the last message posted in the current channel. (Default is Up)
+- Added a key bind to edit the last message posted in the current channel. (Default is Up)
 - Improved message editing keyboard focus
 - Escape now cancel a message edition while focused on the chat input
 
 `1.3.15`
-- Allow to change the emote formating separately for /me, /tell and /do
+- Allow to change the emote formatting separately for /me, /tell and /do
 
 `1.3.16`
 - Added a setting to deactivate server wide the nameplate visibility based on selected chat range.
@@ -73,7 +73,7 @@
 - Fixed distance based display of the nameplate and bubbles
 
 `1.3.10`
-- Hide you own bubble parameter was disabling everyones bubbles
+- Hide you own bubble parameter was disabling everyone's bubbles
 
 `1.3.13`
 - Fix message historic navigation being inverted
@@ -82,8 +82,11 @@
 - Fixed channel list unfolding in rare situations when it should not.
 
 `1.3.15`
-- Fixed ooc message getting hidden by language
+- Fixed OOC message getting hidden by language
 
 `1.3.20`
 - Chat bubbles did not scale language tag properly with selected font size
 - Improved the active chat notification setting to not ring when posting message or receiving notifications.
+
+`1.3.24`
+- Fixed infinite horse stamina exploit. No, this was not a feature.

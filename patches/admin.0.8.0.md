@@ -12,13 +12,13 @@
     - RPR Sheet Refresh. Triggered when a change in the player dice sheet occur.
 - +400 icons for quest categories, from RPR
 - Admin Tools:
-    - Decoration Concealer: Use the selector to select decoration and bind them to the concealer that then can be used to make the decoration disapear.
+    - Decoration Concealer: Use the selector to select decoration and bind them to the concealer that then can be used to make the decoration disappear.
     - Script Container: A simply tool that hold a script that can be called by events. Specially useful with parameters.
 - Added ~77 new nodes:
     - `Reset Unlocked Items` to reset the Tot!Custom Unlocked Items of a character
     - New `SRandom nodes` that allow to make use of Pseudo-Random number generators based on seeds.
     - `Get Door State` to get a scripted door state and `Set Door State` to set a scripted door state (Open or closed)
-    - Carryable treasure oriented nodes: Spawn/Despawn carryable treasure, detect a carried treasure, etc... It comes with non spawnable treasure variant for your quest needs.
+    - Carriable treasure oriented nodes: Spawn/Despawn carriable treasure, detect a carried treasure, etc... It comes with non spawnable treasure variant for your quest needs.
     - Clear corpse in zones and sphere
     - `Get Spawn Event Data` and `Get Command Data` to get added data from starting a script respectively from a Player Spawn admin event and from a chat command.
     - `List all Clans`, `Search Clans`, `Search Players`
@@ -49,7 +49,7 @@
 `0.8.3`
 - New Nodes: 
     - Fire timer early. This trigger a timer before it reach its trigger date.
-    - Is Spawned NPC at Destination. Check if an NPC has arrived to the lastest destination it was given
+    - Is Spawned NPC at Destination. Check if an NPC has arrived to the latest destination it was given
     - Get Spawned NPC in various box and spheres
     - Get Actor Position. Replacing specific position request, this will work with players, admin tools, or spawned NPC.
     - Receive Message. To make personalized notifications to a specific player.
@@ -63,17 +63,17 @@
 
 `0.8.5`
 - Added Item Stack Size Multiplier to the general settings of the server. (Experimental) (Best to reboot after any change)
-- Added Inventory Size Multiplier to the general settings of the server. (Experiemental) (Best to reboot after any change)
+- Added Inventory Size Multiplier to the general settings of the server. (Experimental) (Best to reboot after any change)
 - Node `Get Date` now also return the local date along side UTC
 - New Nodes:
     - Is Character in Own Land Claim
     - Set Unconscious
     - Is Unconscious
-    - Get/Set Admin Tool Parameter. For now only Post Process Anchor And Lights are compatible, more will be added in the future.
+    - Get/Set Admin Tool Parameter. For now only Post Process Anchor, Portal And Lights are compatible, more will be added in the future.
     
 ## Changed
 `0.8.0`
-- Display the chances to get an item from a kit in the kit editor. Specially useful for lootbox kits
+- Display the chances to get an item from a kit in the kit editor. Specially useful for loot box kits
 - Improved the node filter field
 - Node `Has Any Quest` was improved to return the list of quest found
 - Staff list is now based on the role selected in server settings.
@@ -98,7 +98,7 @@
 - Integrated map sometimes were stuck on transition animations
 - Node field were loosing keyboard focus shortly after creating the node
 - Lines starting from the second output plug and up were not aligned properly
-- In some rare cases, the player editor was not able to display the selected character informations, specifically after character creation.
+- In some rare cases, the player editor was not able to display the selected character information, specifically after character creation.
 - Fix parameters for `Try Fire Event` not restoring properly
 - Send message node was preventing the script from continuing after posting in clan channel
 
@@ -120,9 +120,9 @@
 - Events in the Quest editor were not loading properly in various cases, entering in conflict with each others.
 
 `0.8.3`
-- A script starting with pre-run nodes from a timer, concidered the triggering timer to still be in effect.
+- A script starting with pre-run nodes from a timer, considered the triggering timer to still be in effect.
 - Concealed decoration could sometimes loose stability on server start
-- Get Float Var truncate boolean had not effect
+- Get Float Var truncate Boolean had not effect
 - Various item lists were not applying the filter again after refreshing for any reason
 - Enforcing rules on quest giver was not displaying errors properly
 - Not enforcing rules on quest giver would still enforce the rules before accepting a quest
@@ -130,7 +130,7 @@
 `0.8.4`
 - Decoration concealers were not revealing their bound decorations when dismantled
 - Scripted chests did not received event calls like they should
-- Nodes that format text or solve math expressions should now properly do it using the overriden player context
+- Nodes that format text or solve math expressions should now properly do it using the overridden player context
 - Resource on client side resource spawners could desync in specific scenarios, making the resources invisible.
 - Invisible wall was not interactable if its size was increased and it was disabled
 

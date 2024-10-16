@@ -7,7 +7,7 @@
 `1.6.0`
 - Added compatibility with Clan Emblems
 - Added the possibility to offset/rotate your character to better fit a scene or pose, using the 3D editor
-- New hidding conditions: Crouch and Fly related
+- New hiding conditions: Crouch and Fly related
 - Deactivate IK button to prevent your character from moving its feet based on ground level
 - Added a button to keep the !Custom camera on after leaving the panel. With the new camera, this can be used to offset your view to had a better view at an RP scene
 - Complete Rework of the accessory editor:
@@ -16,7 +16,7 @@
     - Select multiple accessories
     - Keyboard shortcuts: Copy, Past, 3D tools, Skeleton layers...
     - Move multiple accessories that share the same bone
-    - 3D skeleton to select virtualy any bone of the character body + weapon sheath sockets
+    - 3D skeleton to select virtually any bone of the character body + weapon sheath sockets
     - Copy/Paste multiple accessories across profiles
     - Hide button to hide an accessory in editor
     - You can now hold shift while rotating to snap the rotation in 1/16 of a rotation increment
@@ -52,17 +52,20 @@
 - Small improvements to camera behavior
 - Compatibility with RPR mutator for Penis and Bust size. You read that right.
 
+`1.6.8`
+- Optimization of various item lists download to the client. Instead of downloading them entirely upon login, those lists will be loaded and refreshed (When needed) when !Custom panel is opened, and in small chunks to avoid overloading the connection between the client and server. This should improve initial game loading times upon login in some cases, but will also make the first !Custom panel opening slower as those lists are being downloaded to your client.
+
 ## Fixed
 `1.6.0`
 - Fixed hair/beard accessory not displaying their ID on hover of their icon
 - Mannequin could not be deleted using Shift + Delete
-- Opening custom was possible while another fullscreen UI was opened, bricking the escape button
+- Opening custom was possible while another Fullscreen UI was opened, bricking the escape button
 
 `1.6.1`
 - Editing a character offset after reopening the Custom panel did not behave as expected
 - Editing the character offset would trigger a rapid flicker on the first frame of movement
 - Skeleton visualization was not scaling with the body
-- Swaping an accessory with effects to another with effects did not update the effects properly
+- Swapping an accessory with effects to another with effects did not update the effects properly
 - It is no longer possible to use the move offset while the character is running
 - It was not possible to paste a color copied from the accessory section, into the armor sections
 - Reset of the camera and character offset on movement is more accurate and reliable
@@ -79,14 +82,14 @@
 - Tools were absent from the weapon tab since a recent funcom patch
 
 `1.6.3`
-- Camera was reseting its position after using it outside of the custom panel
+- Camera was resetting its position after using it outside of the custom panel
 
 `1.6.4`
 - Fixed character offset not applying correct for character loaded after they edited their offset
-- Attempt at fixing accessory not equiping correctly in rare situations.
+- Attempt at fixing accessory not equipping correctly in rare situations.
 
 `1.6.5`
-- Some male hair were concidered invalid in accessories.
+- Some male hair were considered invalid in accessories.
 
 `1.6.6`
 - Color picker opened from an accessory was not responsive to the escape button

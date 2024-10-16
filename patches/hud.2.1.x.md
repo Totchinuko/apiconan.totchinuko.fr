@@ -29,8 +29,11 @@
 
 `2.1.2`
 - Fixed Decoration info not restoring the vanilla equivalent when deactivated
-- Improved hud replacement code to reduce contextual flickering
+- Improved HUD replacement code to reduce contextual flickering
 - Fixed the decayed indicator displayed on non decayed objects
 
 `2.1.5`
 - Making the buff list more resilient to errors
+
+`2.1.7`
+- HUD buffs timers were not progressing when the HUD was hidden in some capacity.
