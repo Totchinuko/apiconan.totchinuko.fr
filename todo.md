@@ -24,42 +24,16 @@
 - [ ] Custom various body improvements
 
 ## Short Term Roadmap 
-### TotAdmin
-- [X] Set Spawned NPC Behavior is not responding
-- [X] Duplicate of quest Definition, does not copy On Fail
-- [X] Get In Combat not reliable
-- [X] Is in own land claim
-- [X] Improve walk speed for NPC [Thread](https://discord.com/channels/917916583064662076/1285109507063545907)
-- [X] Improve node date to offer local date
-- [X] Down node for death module
-- [X] Add Get/Set nods for anchor parameters
-- [X] Stack multiplier slider
-- [X] Spawn/Destroy Admin Tools
-### TotHud
-- [X] Bump version
-- [X] Not updating buff timers correctly
-### TotCustom
-- [X] Bump version
-- [X] Improve item ban list [Thread](https://discord.com/channels/917916583064662076/1293195819431755907)
-### TotChat
-- [X] Bump version
-- [X] Fix horse stamina exploit
-### TotRedux
-- [X] Update door
-### TotSudo
-- [X] Bump version
-- [X] Admin flag to see nameplates through walls
-
-
-### Next Short Term Roadmap
 ### Redux
 - [ ] Investigate reset RPR stat override reset (API) [Thread](https://discord.com/channels/917916583064662076/1285906750763175936/1285906750763175936)
 ### ModuleDeath
 - [ ] Module Death Post Death NPC's Docile Chance
 ### Redux
 - [ ] Hide client side the POI that have expired but not been scraped
+- [ ] Find a way to prevent bench thralls from using doors with a toggle
 ### TotAdmin
-- [ ] Thrallify causing thrall to be destroyed on certain maps `Can't reproduce, suspected mod conflict` [Thread](https://discord.com/channels/917916583064662076/1279525791775850619)
+- [ ] Find a way to disable bench thrall wander
+- [ ] Thrallify doesn't work anymore, should rewrite thrall making code
 - [ ] Set a script to fire when a character is receiving interaction
 - [ ] Set Event node, to configure a script on an admin tool
 - [ ] More admin tool compatibility for Get/Set Param
@@ -70,6 +44,10 @@
 - [ ] Find a way to flag materials as flat chest replacements.
 - [ ] Command to enforce rules on character + scripting
 - [ ] Odd Claw Render [Thread](https://discord.com/channels/917916583064662076/1291513890743783455)
+
+
+### Next Short Term Roadmap
+`Nothing for now`
 
 ## Issue List
 ### TotAdmin
