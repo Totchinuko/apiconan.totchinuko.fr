@@ -24,38 +24,45 @@
 - [ ] Custom various body improvements
 
 ## Short Term Roadmap 
+### Next Update
+- Redux
+- Sudo
+- Admin
+- Custom
 ### Redux
-- [ ] Investigate reset RPR stat override reset (API) [Thread](https://discord.com/channels/917916583064662076/1285906750763175936/1285906750763175936)
-### ModuleDeath
-- [ ] Module Death Post Death NPC's Docile Chance
-### Redux
-- [ ] Hide client side the POI that have expired but not been scraped
-- [ ] Find a way to prevent bench thralls from using doors with a toggle
+- [X] Hide client side the POI that have expired but not been scraped [Thread](https://discord.com/channels/917916583064662076/1269395064707350629)
 ### TotAdmin
-- [ ] Find a way to disable bench thrall wander
-- [ ] Thrallify doesn't work anymore, should rewrite thrall making code
+- [X] Resize affect new living settlement thralls [Thread](https://discord.com/channels/917916583064662076/1297622991009480826)
+- [X] Thrallify doesn't work anymore, should rewrite thrall making code [Thread](https://discord.com/channels/917916583064662076/1296830480695689259)
+- [ ] Thrallify cause certain thralls to be destroyed on certain maps [Thread](https://discord.com/channels/917916583064662076/1279525791775850619)
+- [ ] Weapons and Armor resetting values in Trader NPC [Thread](https://discord.com/channels/917916583064662076/1292946924424532019)
+- [X] Tot Trader Fatal Error [Thread](https://discord.com/channels/917916583064662076/1291358479948189728)
 - [ ] Set a script to fire when a character is receiving interaction
 - [ ] Set Event node, to configure a script on an admin tool
 - [ ] More admin tool compatibility for Get/Set Param
-- [ ] Weapons and Armor resetting values in Trader NPC [Thread](https://discord.com/channels/917916583064662076/1292946924424532019)
-- [ ] Tot Trader Fatal Error [Thread](https://discord.com/channels/917916583064662076/1291358479948189728)
 ### TotCustom
 - [ ] Body merge + Body data change
 - [ ] Find a way to flag materials as flat chest replacements.
 - [ ] Command to enforce rules on character + scripting
 - [ ] Odd Claw Render [Thread](https://discord.com/channels/917916583064662076/1291513890743783455)
+- [ ] Breast slider alpha is behaving oddly [Thread](https://discord.com/channels/917916583064662076/1296484553325547640)
 
-
-### Next Short Term Roadmap
-`Nothing for now`
-
-## Issue List
+## Unresolved Issues
+### Redux
+- [ ] Investigate reset RPR stat override reset (API) `Can't fix` [Thread](https://discord.com/channels/917916583064662076/1285906750763175936/1285906750763175936)
 ### TotAdmin
-- [ ] Thrall cannot be sold through puppet anymore `Cannot reproduce`
-- [ ] Some custom tool fail to harvest `Cannot reproduce` [Thread](https://discord.com/channels/917916583064662076/1217078661036118106/1217078661036118106) 
+- [ ] Move tool is acting up when used on admin tools `Can't reproduce` [Thread](https://discord.com/channels/917916583064662076/1297696767718068234)
+- [ ] Bed spawn block for building ? `Can't reproduce` [Thread](https://discord.com/channels/917916583064662076/1297585979422674995)
+- [ ] Module Death Post Death NPC's Docile Chance `Can't reproduce` [Thread](https://discord.com/channels/917916583064662076/1277397369796821032)
+- [ ] Thrall cannot be sold through puppet anymore `Can't reproduce`
+- [ ] Some custom tool fail to harvest `Can't reproduce` [Thread](https://discord.com/channels/917916583064662076/1217078661036118106/1217078661036118106) 
 - [ ] Removing points using the attribute editor does not revoke attribute perks `Game bug, Even when perk is removed the ability remain`
-- [ ] Warning Logs (Quest and scripted door related) `Cannot reproduce`
+- [ ] Warning Logs (Quest and scripted door related) `Can't reproduce`
 
+
+## Issue Follow up
+### Custom
+- [X] Improve item ban list [Thread](https://discord.com/channels/917916583064662076/1293195819431755907)
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
@@ -222,8 +229,15 @@
 - [X] Get Clan ID
 - [ ] Cinematic Video
 - [ ] Variable storage video
+- [ ] Scripting API publication
 - [ ] Map Mechanic node to display a cloud based location of a player to another. Position of cloud need to be procedural based on current location (Grid based for seed). This could be used to locate things other than player. Wait for HUD map.
 - [ ] Alpha `0.X.X` 
+    - [ ] Allow wildcard variable as parameters [Thread](https://discord.com/channels/917916583064662076/1292807649825521684)
+    - [ ] Improve warp hub zoom [Thread](https://discord.com/channels/917916583064662076/1291444338940837981)
+    - [ ] Construction hammer resource pull [Thread](https://discord.com/channels/917916583064662076/1296913642343895141)
+    - [ ] Crafting table resource pull [Thread](https://discord.com/channels/917916583064662076/1296913642343895141)
+    - [ ] Construction hammer search bar [Thread](https://discord.com/channels/917916583064662076/1296913642343895141)
+    - [ ] Spawn/Despawn/Kill button on NPC Customization editor. [Thread](https://discord.com/channels/917916583064662076/1295041668927721483)
     - [ ] Tool edition with nodes
     - [ ] Quest edit copy to change the objectives procedurally before giving to a player
     - [ ] Server settings edition through nodes
@@ -277,6 +291,7 @@
 - [ ] Decoration group (A placeable that has a 3D editor for placing meshes around in a performant manner)
 - [ ] Selector: Copy/Cut/Paste Buildings `Experimental`
 - [ ] Selector: Improve building ownership change ?
+- [ ] Find a way to disable bench thrall wander
 
 ## Tot ! Chat
 - [X] Improve look and feel of bubbles
@@ -374,7 +389,6 @@
         - [ ] Auto swap a pose in some sub-state like fly, sit, etc..
     - [ ] Add Sean's lantern
     - [ ] Access of presets on non player customizable
-- [ ] Check: https://discord.com/channels/917916583064662076/1202830393347407953/1203184757706334258
 - [ ] Custom `1.8.0` `Body Improvements`
     - [ ] Teeth Coloring
     - [ ] Investigate faction voice line for NPC ?
@@ -432,7 +446,7 @@
 - [X] Backup update
     - [X] Store backup as a .sav rather than downloading/uploading a JSON text
 - [ ] Admin Flags API
-- [ ] Sudo Webhook API
+- [ ] Sudo Nameplate API
 - [ ] Make the command fallback display notification and error in the vanilla console
 - [ ] Make image download documentation
 
