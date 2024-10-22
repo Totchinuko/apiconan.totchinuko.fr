@@ -34,9 +34,11 @@
 ### TotAdmin
 - [X] Resize affect new living settlement thralls [Thread](https://discord.com/channels/917916583064662076/1297622991009480826)
 - [X] Thrallify doesn't work anymore, should rewrite thrall making code [Thread](https://discord.com/channels/917916583064662076/1296830480695689259)
-- [ ] Thrallify cause certain thralls to be destroyed on certain maps [Thread](https://discord.com/channels/917916583064662076/1279525791775850619)
+- [X] Thrallify cause certain thralls to be destroyed on certain maps [Thread](https://discord.com/channels/917916583064662076/1279525791775850619)
 - [ ] Weapons and Armor resetting values in Trader NPC [Thread](https://discord.com/channels/917916583064662076/1292946924424532019)
 - [X] Tot Trader Fatal Error [Thread](https://discord.com/channels/917916583064662076/1291358479948189728)
+- [ ] Unconsciousness does not restrict movement in every scenarios [Thread](https://discord.com/channels/917916583064662076/1296974730410328177/1296974730410328177)
+- [ ] Inventory size should not influence any type of inventories [Thread](https://discord.com/channels/917916583064662076/1296771017510752337)
 - [ ] Set a script to fire when a character is receiving interaction
 - [ ] Set Event node, to configure a script on an admin tool
 - [ ] More admin tool compatibility for Get/Set Param
@@ -232,6 +234,8 @@
 - [ ] Scripting API publication
 - [ ] Map Mechanic node to display a cloud based location of a player to another. Position of cloud need to be procedural based on current location (Grid based for seed). This could be used to locate things other than player. Wait for HUD map.
 - [ ] Alpha `0.X.X` 
+    - [ ] Improve XP reward for customized NPC [Thread](https://discord.com/channels/917916583064662076/1238916353361051750)
+    - [ ] Support <span> features in Admin Server Rules text [Thread](https://discord.com/channels/917916583064662076/1297959511578906674)
     - [ ] Allow wildcard variable as parameters [Thread](https://discord.com/channels/917916583064662076/1292807649825521684)
     - [ ] Improve warp hub zoom [Thread](https://discord.com/channels/917916583064662076/1291444338940837981)
     - [ ] Construction hammer resource pull [Thread](https://discord.com/channels/917916583064662076/1296913642343895141)
