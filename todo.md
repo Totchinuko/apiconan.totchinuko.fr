@@ -25,23 +25,24 @@
 
 ## Short Term Roadmap 
 ### Next Update
-- Redux
-- Sudo
-- Admin
+- Redux 2.1.3
+- Sudo (recook)
+- Admin 0.8.6
 - Custom
+### Sudo
+- [X] Nameplate should raycast head to head and ignore both starting and ending actor. Channel should also be camera and not visibility.
 ### Redux
 - [X] Hide client side the POI that have expired but not been scraped [Thread](https://discord.com/channels/917916583064662076/1269395064707350629)
 ### TotAdmin
 - [X] Resize affect new living settlement thralls [Thread](https://discord.com/channels/917916583064662076/1297622991009480826)
 - [X] Thrallify doesn't work anymore, should rewrite thrall making code [Thread](https://discord.com/channels/917916583064662076/1296830480695689259)
 - [X] Thrallify cause certain thralls to be destroyed on certain maps [Thread](https://discord.com/channels/917916583064662076/1279525791775850619)
-- [ ] Weapons and Armor resetting values in Trader NPC [Thread](https://discord.com/channels/917916583064662076/1292946924424532019)
 - [X] Tot Trader Fatal Error [Thread](https://discord.com/channels/917916583064662076/1291358479948189728)
-- [ ] Unconsciousness does not restrict movement in every scenarios [Thread](https://discord.com/channels/917916583064662076/1296974730410328177/1296974730410328177)
-- [ ] Inventory size should not influence any type of inventories [Thread](https://discord.com/channels/917916583064662076/1296771017510752337)
-- [ ] Set a script to fire when a character is receiving interaction
-- [ ] Set Event node, to configure a script on an admin tool
-- [ ] More admin tool compatibility for Get/Set Param
+- [X] Unconsciousness does not restrict movement in every scenarios [Thread](https://discord.com/channels/917916583064662076/1296974730410328177/1296974730410328177)
+- [X] Inventory size should not influence any type of inventories [Thread](https://discord.com/channels/917916583064662076/1296771017510752337)
+- [X] Set a script to fire when a character is receiving interaction
+- [X] Set Event node, to configure a script on an admin tool
+- [X] More admin tool compatibility for Get/Set Param
 ### TotCustom
 - [ ] Body merge + Body data change
 - [ ] Find a way to flag materials as flat chest replacements.
@@ -60,11 +61,7 @@
 - [ ] Some custom tool fail to harvest `Can't reproduce` [Thread](https://discord.com/channels/917916583064662076/1217078661036118106/1217078661036118106) 
 - [ ] Removing points using the attribute editor does not revoke attribute perks `Game bug, Even when perk is removed the ability remain`
 - [ ] Warning Logs (Quest and scripted door related) `Can't reproduce`
-
-
-## Issue Follow up
-### Custom
-- [X] Improve item ban list [Thread](https://discord.com/channels/917916583064662076/1293195819431755907)
+- [ ] Weapons and Armor resetting values in Trader NPC `Can't reproduce` [Thread](https://discord.com/channels/917916583064662076/1292946924424532019)
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
@@ -242,6 +239,7 @@
     - [ ] Crafting table resource pull [Thread](https://discord.com/channels/917916583064662076/1296913642343895141)
     - [ ] Construction hammer search bar [Thread](https://discord.com/channels/917916583064662076/1296913642343895141)
     - [ ] Spawn/Despawn/Kill button on NPC Customization editor. [Thread](https://discord.com/channels/917916583064662076/1295041668927721483)
+    - [ ] NPC customization toggle to add every clan as friendly [Thread](https://discord.com/channels/917916583064662076/1298407246350258319)
     - [ ] Tool edition with nodes
     - [ ] Quest edit copy to change the objectives procedurally before giving to a player
     - [ ] Server settings edition through nodes
