@@ -79,3 +79,6 @@
 
 `1.0.36`
 - Sudo tabs where showing duplicates and displayed empty groups
+
+`1.0.44`
+- Improve nameplate collision
