@@ -15,8 +15,9 @@
 - [X] Amunet Server Transfer Module
 - [X] Admin 0.8.0
 - [X] 25th Post-Release Maintenance
-- [ ] Age of Hero's Chapter 1 Update
-- [ ] Custom 1.7 `Pose Update` + Body merge
+- [X] Age of Hero's Chapter 1 Update
+- [ ] Custom 1.7 `Partial Body`
+- [ ] Custom 1.8 `Pose Update`
 - [ ] Tot ! Fishing
 - [ ] !Hud Map
 - [ ] Nameplate visibility optional improvements + fix death nameplate issue
