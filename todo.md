@@ -15,24 +15,26 @@
 - [X] Amunet Server Transfer Module
 - [X] Admin 0.8.0
 - [X] 25th Post-Release Maintenance
+- [X] Nameplate visibility optional improvements
 - [X] Age of Hero's Chapter 1 Update
 - [ ] Custom 1.7 `Partial Body`
+- [ ] !Hud Map
 - [ ] Custom 1.8 `Pose Update`
 - [ ] Tot ! Fishing
-- [ ] !Hud Map
-- [ ] Nameplate visibility optional improvements + fix death nameplate issue
 - [ ] Admin 0.9.0
 - [ ] Custom various body improvements
 
 ## Short Term Roadmap 
-### Next Update
-- Redux 2.1.3
-- Sudo (recook)
-- Admin 0.8.6
-- Custom 1.7.0
-### TotCustom
+### Custom
 - [ ] Find a way to flag materials as flat chest replacements.
 - [ ] Command to enforce rules on character + scripting
+- [ ] Separate hairline color
+- [ ] Footstep system.
+### Admin
+- [ ] More admin tool compatibility for Get/Set Param
+### Sudo
+- [ ] Fix death nameplate issue showing own when it should not
+
 
 ## Unresolved Issues
 ### Redux
@@ -218,7 +220,6 @@
     - [X] Add killer data to death event
     - [X] Set a script to fire when a character is receiving interaction
     - [X] Set Event node, to configure a script on an admin tool
-    - [X] More admin tool compatibility for Get/Set Param
 - [X] Puppet post message node (Auto connect to chat somehow)
 - [X] Converter Admin Tool -> Specific tool
 - [X] Converter Specific Tool -> Admin Tool
