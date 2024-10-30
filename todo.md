@@ -28,27 +28,10 @@
 - Redux 2.1.3
 - Sudo (recook)
 - Admin 0.8.6
-- Custom
-### Sudo
-- [X] Nameplate should raycast head to head and ignore both starting and ending actor. Channel should also be camera and not visibility.
-### Redux
-- [X] Hide client side the POI that have expired but not been scraped [Thread](https://discord.com/channels/917916583064662076/1269395064707350629)
-### TotAdmin
-- [X] Resize affect new living settlement thralls [Thread](https://discord.com/channels/917916583064662076/1297622991009480826)
-- [X] Thrallify doesn't work anymore, should rewrite thrall making code [Thread](https://discord.com/channels/917916583064662076/1296830480695689259)
-- [X] Thrallify cause certain thralls to be destroyed on certain maps [Thread](https://discord.com/channels/917916583064662076/1279525791775850619)
-- [X] Tot Trader Fatal Error [Thread](https://discord.com/channels/917916583064662076/1291358479948189728)
-- [X] Unconsciousness does not restrict movement in every scenarios [Thread](https://discord.com/channels/917916583064662076/1296974730410328177/1296974730410328177)
-- [X] Inventory size should not influence any type of inventories [Thread](https://discord.com/channels/917916583064662076/1296771017510752337)
-- [X] Set a script to fire when a character is receiving interaction
-- [X] Set Event node, to configure a script on an admin tool
-- [X] More admin tool compatibility for Get/Set Param
+- Custom 1.7.0
 ### TotCustom
-- [ ] Body merge + Body data change
 - [ ] Find a way to flag materials as flat chest replacements.
 - [ ] Command to enforce rules on character + scripting
-- [ ] Odd Claw Render [Thread](https://discord.com/channels/917916583064662076/1291513890743783455)
-- [ ] Breast slider alpha is behaving oddly [Thread](https://discord.com/channels/917916583064662076/1296484553325547640)
 
 ## Unresolved Issues
 ### Redux
@@ -62,6 +45,20 @@
 - [ ] Removing points using the attribute editor does not revoke attribute perks `Game bug, Even when perk is removed the ability remain`
 - [ ] Warning Logs (Quest and scripted door related) `Can't reproduce`
 - [ ] Weapons and Armor resetting values in Trader NPC `Can't reproduce` [Thread](https://discord.com/channels/917916583064662076/1292946924424532019)
+
+## Resolved
+### Redux
+- [X] Hide client side the POI that have expired but not been scraped [Thread](https://discord.com/channels/917916583064662076/1269395064707350629)
+### TotAdmin
+- [X] Resize affect new living settlement thralls [Thread](https://discord.com/channels/917916583064662076/1297622991009480826)
+- [X] Thrallify doesn't work anymore, should rewrite thrall making code [Thread](https://discord.com/channels/917916583064662076/1296830480695689259)
+- [X] Thrallify cause certain thralls to be destroyed on certain maps [Thread](https://discord.com/channels/917916583064662076/1279525791775850619)
+- [X] Tot Trader Fatal Error [Thread](https://discord.com/channels/917916583064662076/1291358479948189728)
+- [X] Unconsciousness does not restrict movement in every scenarios [Thread](https://discord.com/channels/917916583064662076/1296974730410328177/1296974730410328177)
+- [X] Inventory size should not influence any type of inventories [Thread](https://discord.com/channels/917916583064662076/1296771017510752337)
+### TotCustom
+- [X] Odd Claw Render [Thread](https://discord.com/channels/917916583064662076/1291513890743783455)
+- [X] Breast slider alpha is behaving oddly [Thread](https://discord.com/channels/917916583064662076/1296484553325547640)
 
 ## Tot ! Admin
 - [X] Sphere Interaction Not Saving Rules on Server Restart
@@ -218,6 +215,9 @@
     - [X] Nodes to count and remove droppable from a zone
     - [X] Nodes to add/remove/reset climbing blocker
     - [X] Add killer data to death event
+    - [X] Set a script to fire when a character is receiving interaction
+    - [X] Set Event node, to configure a script on an admin tool
+    - [X] More admin tool compatibility for Get/Set Param
 - [X] Puppet post message node (Auto connect to chat somehow)
 - [X] Converter Admin Tool -> Specific tool
 - [X] Converter Specific Tool -> Admin Tool
@@ -231,6 +231,7 @@
 - [ ] Scripting API publication
 - [ ] Map Mechanic node to display a cloud based location of a player to another. Position of cloud need to be procedural based on current location (Grid based for seed). This could be used to locate things other than player. Wait for HUD map.
 - [ ] Alpha `0.X.X` 
+    - [ ] Have a button to swap between Sudo's Player panel and Tot!Admin Player Editor [Thread](https://discord.com/channels/917916583064662076/1299028138759684166)
     - [ ] Improve XP reward for customized NPC [Thread](https://discord.com/channels/917916583064662076/1238916353361051750)
     - [ ] Support <span> features in Admin Server Rules text [Thread](https://discord.com/channels/917916583064662076/1297959511578906674)
     - [ ] Allow wildcard variable as parameters [Thread](https://discord.com/channels/917916583064662076/1292807649825521684)
@@ -383,15 +384,15 @@
 - [X] Check escape button not closing color picker on accessories
 - [X] Fix deformed weapons
 - [ ] Custom `1.7.0`
-    - [ ] Body merge system
+    - [X] Body merge system
     - [ ] Separate hairline color
     - [ ] Footstep system.
+- [ ] Custom `1.8.0`
     - [ ] Pose system
         - [ ] Cancel limb animation with T-pose blending
         - [ ] Auto swap a pose in some sub-state like fly, sit, etc..
-    - [ ] Add Sean's lantern
     - [ ] Access of presets on non player customizable
-- [ ] Custom `1.8.0` `Body Improvements`
+- [ ] Custom `1.X.0` `Body Improvements`
     - [ ] Teeth Coloring
     - [ ] Investigate faction voice line for NPC ?
     - [ ] Add a new item ban rule: Unlock or Item in bag/equipped
@@ -447,6 +448,7 @@
     - [X] Favorite system that add new menu in escape menu 
 - [X] Backup update
     - [X] Store backup as a .sav rather than downloading/uploading a JSON text
+- [X] Nameplate should raycast head to head and ignore both starting and ending actor. Channel should also be camera and not visibility.
 - [ ] Admin Flags API
 - [ ] Sudo Nameplate API
 - [ ] Make the command fallback display notification and error in the vanilla console
