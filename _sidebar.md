@@ -37,6 +37,7 @@
     - [Custom.1.4.x](patches/custom.1.4.x.md)
     - [Custom.1.5.x](patches/custom.1.5.x.md)
     - [Custom.1.6.x](patches/custom.1.6.x.md)
+    - [Custom.1.7.x](patches/custom.1.7.x.md)
     - [Roleplay Redux.2.1.x](patches/redux.2.1.x.md)
     - [iHud.2.0.x](patches/ihud.2.0.x.md)
     - [Sudo.1.0.x](patches/sudo.1.0.x.md)

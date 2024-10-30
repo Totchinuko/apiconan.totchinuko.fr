@@ -25,6 +25,9 @@
 - Slowed down timings at which the dice system is loaded onto the client, to reduce the impact on the login loading it can have.
 - Added an client experimental setting to only load the dice sheet when RPR panel is first opened. This help login loading by delaying the dice sheet download.
 
+`2.1.33`
+- POI will now be made invisible upon reaching the expiration duration, then be scraped on the next reboot.
+
 ## Fixes
 `2.1.15`
 - Fixing various color formatting issues

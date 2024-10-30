@@ -93,6 +93,14 @@
 - Node `Get Character Name` now also return the real name (Non act one)
 - Node `Get Puppet Name` now have a failed output as it should have
 
+`0.8.6`
+- New nodes:
+    - Set Player Interaction - Attach a script to a player character that will be triggered by other players interaction.
+    - Clear Player Interaction - Remove the interaction script attached to a player character.
+    - Get Script Origin - Get the original actor that started the script. It can be a player, an admin tool or simply nothing usable (Return failed in the last case)
+    - Set Event Action - Set the response of an Admin Tool Event Action for a script of your choosing.
+- Added compatibility to Box Zone, Sphere Zone and Sphere Interaction for Get/Set Admin Tool Parameter nods
+
 ## Fixed
 `0.8.0`
 - Integrated map sometimes were stuck on transition animations
@@ -139,3 +147,10 @@
 - Duplicating a quest was not properly duplicating the failed event section
 - Improved the conditions in which the `In Combat` rule triggers
 - Improve default NPC speed spawned with spawners, specifically when they enter combat.
+
+`0.8.6`
+- Preventing the use of move tool on benches that have a thrall attached to it
+- Fixed Thrall generating function (Cheat panel, trader) that broke with the last patch
+- Rewriting how the trading window closes automatically, as it was crashing the server in specific scenarios.
+- Cheat panel thrallify button was not functional on certain maps.
+- Reinforced unconsciousness movement freeze
