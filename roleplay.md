@@ -541,7 +541,7 @@ The entry supports the same formatting as Notice Boards.
 [codex:ENTRY_ID](Text in the link)
 ```
 
-To link a Perk/Ability/etc description to the codex, type in `\[codex:ENTRY_ID]` in the description field.
+To link a Perk/Ability/etc description to the codex, type in `[codex:ENTRY_ID]` in the description field.
 There cannot be anything else in there.
 
 ### How to add this API to your own mod
