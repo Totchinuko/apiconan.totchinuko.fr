@@ -1,68 +1,86 @@
 # Todo list - Tot ! Mods
 ## Currently worked on
-- [ ][Admin] More admin tool compatibility for Get/Set Param `Open` `Scripting System`
-- [ ][Sudo] Fix death nameplate issue showing own when it should not `Open` `Bug`
-- [ ][Custom] Separate hairline color `Open` `Feature`
-- [ ][Custom] Footstep system `Open` `Feature`
-- [ ][Custom] Find a way to flag materials as flat chest replacements. `Open` `API`
-- [ ][Custom] Command to enforce rules on character + scripting `Open` `Feature`
-- [ ][Custom] Reset entire body category `Open` `Improvement`
-- [ ][Custom] Dual weapons can be upside down `Open` `Bug`
+- [ ][Sudo] Fix death nameplate issue showing own when it should not `Bug`
+- [ ][Custom] Separate hairline color `Feature`
+- [ ][Custom] Find a way to flag materials as flat chest replacements. `API`
+- [ ][Custom] Command to enforce rules on character + scripting `Feature`
+- [ ][Custom] Reset entire body category `Improvement`
+- [ ][Custom] Dual weapons can be upside down `Bug`
+- [ ][Admin] No fly node should stop flying `Bug`
+- [ ][Admin] Add hard off switch for inventory multipliers `Improvement`
+- [ ][Admin] Allow for less than 5 inventory slot with multiplier `Improvement`
+- [ ][Admin] Rename the puppet tags to status `Improvement`
+- [ ][Admin] Close admin panel on warp `Improvement`
+- [ ][Admin] Thrall names displayed incorrectly traders `Bug`
+- [ ][Admin] Spheres do not run script on spawn when inside them `Bug`
+- [ ][Admin] Some weird building prevention on specific area of the map `Bug`
+- [ ][Admin] Add Var Float seem to produce Sudo Float Var duplicates `Bug`
+- [ ][Admin] Force completion does not function correctly with Char Number `Bug`
+- [ ][Admin] Send Message node is not behaving accordingly with colors/tags `Bug` `Scripting System`
+- [ ][Admin] Recuring Even typo, is named "Unique day Event" `Bug`
+- [ ][Roleplay] Game raid doors are not locked when keys are enable for doors `Bug`
 
 
 ## Admin
-- [ ] More admin tool compatibility for Get/Set Param `Open` `Scripting System`
-- [ ] Cinematic Video `Open` `Documentation`
-- [ ] Variable storage video `Open` `Documentation`
-- [ ] Scripting API publication `Open` `API` `Scripting System`
-- [ ] Cloud based map location mechanic `Open` `Feature`
-- [ ] Procedural quest generation ? `Open` `Experimental` `Scripting System`
-- [ ] Server settings edition through nodes `Open` `Scripting System`
-- [ ] UTF16 encoding for webhook node `Open` `Improvement`
-- [ ] Replace blocker scan with interface (Search for TODO) `Open` `Improvement`
-- [ ] Server Light Manager `Open` `Feature`
-- [ ] Stop Script node `Open` `Scripting System`
-- [ ] Invisible wall to block navigation `Open` `Feature`
-- [ ] Node to display friendly durations/date `Open` `Scripting System`
-- [ ] Nodes to handle /act `Open` `Scripting System`
-- [ ] Player Trader Edition locked to a single player `Open` `Feature`
-- [ ] Free Editor Mode `Open` `Feature`
-- [ ] Display banned feat in separate list `Open` `Improvement`
-- [ ] Add Thrall to inventory node `Open` `Scripting System`
-- [ ] Rework mod event logs `Open` `Improvement`
-- [ ] Community made script library `Open` `Feature` `Scripting System`
-- [ ] Auto focus camera (Collision Raycast) `Open` `Feature` `Scripting System`
-- [ ] Get Current Admin tool `Open` `Scripting System`
-- [ ] Dynamic puppet inventory linked to scripted chests `Open` `Feature`
-- [ ] Variable list weight does not refresh on opening `Open` `Bug` `Scripting System`
-- [ ] Setting to hide lower quest objectives `Open` `Improvement`
-- [ ] Voiced dialogue lines `Open` `Scripting System`
-- [ ] Placeable invulnerability function (Toggle with move tool) `Open` `Feature`
-- [ ] Script comments `Open` `Feature` `Scripting System`
-- [ ] Music Box using the mod sound library `Open` `Feature`
-- [ ] Vector3 Calculation Nodes `Open` `Feature` `Scripting System`
-- [ ] Replace shit + Insert of the cheat panel `Open` `Improvement`
-- [ ] Integrate RR Dice Sheet on Puppets `Open` `Delayed` `Experimental`
-- [ ] Add light customization to scripted lights `Open` `Feature`
-- [ ] Puppet voice selection `Open` `Improvement`
-- [ ] Projectile Launchers `Open` `Feature`
-- [ ] Better velocity transition for short warps `Open` `Improvement`
-- [ ] Map markers on warp HUB `Open` `Improvement`
-- [ ] Events Collector Area `Open` `Feature` `Experimental`
-- [ ] Add a server setting to force to hide the player fake light `Open` `Feature`
-- [ ] Create an item that can execute scripts on usage `Open` `Feature` `Scripting System`
-- [ ] /summon multiple character separated by a comma `Open` `Improvement`
-- [ ] Warper Wand `Open` `Feature`
-- [ ] Model Picker/Placer `Open` `Feature`
-- [ ] Hunting Horn (Linked to soundboard API) `Open` `Feature` `Delayed`
-- [ ] Player scripted movement ? `Open` `Feature` `Experimental` `Scripting System`
-- [ ] No fly node should stop flying `Open` `Bug`
-- [ ] Request variable in dialogues (Use fields) `Open` `Scripting System`
-- [ ] Decoration group `Open` `Feature` `Experimental`
-- [ ] Selector: Copy/Cut/Paste Buildings `Open` `Experimental`
-- [ ] Selector: Improve building ownership change ? `Open` `Improvement` `Delayed` `Experimental`
-- [ ] Find a way to disable bench thrall wander `Open` `Feature` `Experimental`
-- [ ] Find a way to block door use from thralls `Open` `Feature` `Experimental`
+- [ ] Thrall names displayed incorrectly traders `Bug`
+- [ ] Spheres do not run script on spawn when inside them `Bug`
+- [ ] Some weird building prevention on specific area of the map `Bug`
+- [ ] Force completion does not function correctly with Char Number `Bug`
+- [ ] Add Var Float seem to produce Sudo Float Var duplicates `Bug`
+- [ ] Send Message node is not behaving accordingly with colors/tags `Bug` `Scripting System`
+- [ ] Recuring Even typo, is named "Unique day Event" `Bug`
+- [ ] More admin tool compatibility for Get/Set Param `Scripting System`
+- [ ] Cinematic Video `Documentation`
+- [ ] Variable storage video `Documentation`
+- [ ] Scripting API publication `API` `Scripting System`
+- [ ] Cloud based map location mechanic `Feature`
+- [ ] Procedural quest generation ? `Experimental` `Scripting System`
+- [ ] Server settings edition through nodes `Scripting System`
+- [ ] UTF16 encoding for webhook node `Improvement`
+- [ ] Replace blocker scan with interface (Search for TODO) `Improvement`
+- [ ] Server Light Manager `Feature`
+- [ ] Stop Script node `Scripting System`
+- [ ] Invisible wall to block navigation `Feature`
+- [ ] Node to display friendly durations/date `Scripting System`
+- [ ] Nodes to handle /act `Scripting System`
+- [ ] Player Trader Edition locked to a single player `Feature`
+- [ ] Free Editor Mode `Feature`
+- [ ] Display banned feat in separate list `Improvement`
+- [ ] Add Thrall to inventory node `Scripting System`
+- [ ] Rework mod event logs `Improvement`
+- [ ] Community made script library `Feature` `Scripting System`
+- [ ] Auto focus camera (Collision Raycast) `Feature` `Scripting System`
+- [ ] Get Current Admin tool `Scripting System`
+- [ ] Dynamic puppet inventory linked to scripted chests `Feature`
+- [ ] Variable list weight does not refresh on opening `Bug` `Scripting System`
+- [ ] Setting to hide lower quest objectives `Improvement`
+- [ ] Voiced dialogue lines `Scripting System`
+- [ ] Placeable invulnerability function (Toggle with move tool) `Feature`
+- [ ] Script comments `Feature` `Scripting System`
+- [ ] Music Box using the mod sound library `Feature`
+- [ ] Vector3 Calculation Nodes `Feature` `Scripting System`
+- [ ] Replace shit + Insert of the cheat panel `Improvement`
+- [ ] Integrate RR Dice Sheet on Puppets `Delayed` `Experimental`
+- [ ] Add light customization to scripted lights `Feature`
+- [ ] Puppet voice selection `Improvement`
+- [ ] Projectile Launchers `Feature`
+- [ ] Better velocity transition for short warps `Improvement`
+- [ ] Map markers on warp HUB `Improvement`
+- [ ] Events Collector Area `Feature` `Experimental`
+- [ ] Add a server setting to force to hide the player fake light `Feature`
+- [ ] Create an item that can execute scripts on usage `Feature` `Scripting System`
+- [ ] /summon multiple character separated by a comma `Improvement`
+- [ ] Warper Wand `Feature`
+- [ ] Model Picker/Placer `Feature`
+- [ ] Hunting Horn (Linked to soundboard API) `Feature` `Delayed`
+- [ ] Player scripted movement ? `Feature` `Experimental` `Scripting System`
+- [ ] No fly node should stop flying `Bug`
+- [ ] Request variable in dialogues (Use fields) `Scripting System`
+- [ ] Decoration group `Feature` `Experimental`
+- [ ] Selector: Copy/Cut/Paste Buildings `Experimental`
+- [ ] Selector: Improve building ownership change ? `Improvement` `Delayed` `Experimental`
+- [ ] Find a way to disable bench thrall wander `Feature` `Experimental`
+- [ ] Find a way to block door use from thralls `Feature` `Experimental`
 - [ ] Thrall cannot be sold through puppet anymore `Blocked` `Bug`
 - [ ] Warning Logs (Quest and scripted door related) `Blocked` `Bug`
 - [ ] Removing points using the attribute editor does not revoke perks `Blocked` `Bug`
@@ -70,153 +88,183 @@
 - [ ] Module Death Post Death NPC's Docile Chance `Blocked` `Bug`
 - [ ] Some custom tool fail to harvest `Blocked` `Bug` `API`
 - [ ] Weapons and Armor resetting values in Trader NPC `Blocked` `Bug`
+- [ ] Learn Recipe node `Feature` `Scripting System`
+- [ ] Player Achored Post Processing, Lighting, and Particles
+- [ ] Custom fail text on rule sets `Improvement`
+- [ ] Interactable control through scripting/admin tool `Feature`
+- [ ] Rename the puppet tags to status `Improvement`
+- [ ] Allow for less than 5 inventory slot with multiplier `Improvement`
+- [ ] Add hard off switch for inventory multipliers `Improvement`
+- [ ] Quest objective hunt player `Feature`
+- [ ] Display last online in clan player list on admin side `Improvement`
+- [ ] Close admin panel on warp `Improvement`
+- [ ] Speed up the navigation in the Admin Map `Improvement`
+- [ ] Node to use RPR Ability `Feature` `Delayed`
+- [ ] Placement-friendly Wallpaper
 
 ## Chat
-- [ ] Death Announcements `Open` `Feature`
-- [ ] No struct in API functions `Open` `Improvement`
-- [ ] Link in messages `Open` `Feature`
-- [ ] Remove access to language and range management from API `Open` `Improvement`
-- [ ] Word highlighter `Open` `Feature`
-- [ ] Remove the use of the API internally `Open` `Improvement`
-- [ ] Chat 2.0 `Open` `Version`
-  - [ ] No struct in API functions `Open` `Improvement`
-  - [ ] Remove access to language and range management from API `Open` `Improvement`
-  - [ ] Remove the use of the API internally `Open` `Improvement`
-  - [ ] Chat System need to be an Actor, not a component `Open` `Improvement`
-  - [ ] Channels use GUID `Open` `Improvement`
-  - [ ] Companion use GUID `Open` `Improvement`
-  - [ ] Channels are persistent with X amount of cache `Open` `Feature`
-  - [ ] Channels remember who is connected to them with GUID `Open` `Feature`
-  - [ ] Channels notify when empty `Open` `Feature`
-  - [ ] Local channels will remained cached on client side. `Open` `Feature`
-  - [ ] Language ID → GUID `Open` `Improvement`
-  - [ ] Range ID → GUID `Open` `Improvement`
-  - [ ] Improve Add/Remove listener API `Open` `Improvement`
-  - [ ] Improve Focus mode to be retro active on messages `Open` `Improvement`
-  - [ ] Range physical visualization (Circle Shader - Tot!Lib) `Open` `Improvement`
-  - [ ] Splitting channels in multiple windows `Open` `Feature`
-  - [ ] Admin channel list `Open` `Feature`
-  - [ ] RCON Support `Open` `Feature`
-  - [ ] Learning mechanic with Language XP `Open` `Feature`
-  - [ ] Log Support (Formatted for Trebuchet) `Open` `Feature`
-  - [ ] Extra range for too far notifications `Open` `Feature`
-  - [ ] Add special quotes as excluding emote system `Open` `Improvement`
-  - [ ] Add messages shortcut to focus on protagonist `Open` `Improvement`
-  - [ ] Replace @ with a selector `Open` `Improvement`
-  - [ ] Add message shortcut to @ people `Open` `Improvement`
-  - [ ] Make the character look at someone with a simple click `Open` `Feature`
-  - [ ] Reorderable chat tabs `Open` `Improvement`
-  - [ ] Sort of omni channels with modular configurable behaviors ? `Open` `Feature` `Experimental`
-  - [ ] Customized channel name and color `Open` `Feature`
-  - [ ] Writable note/book `Open` `Feature`
-- [ ] Chat System need to be an Actor, not a component `Open` `Improvement`
-- [ ] Channels use GUID `Open` `Improvement`
-- [ ] Companion use GUID `Open` `Improvement`
-- [ ] Channels are persistent with X amount of cache `Open` `Feature`
-- [ ] Channels remember who is connected to them with GUID `Open` `Feature`
-- [ ] Channels notify when empty `Open` `Feature`
-- [ ] Local channels will remained cached on client side. `Open` `Feature`
-- [ ] Language ID → GUID `Open` `Improvement`
-- [ ] Range ID → GUID `Open` `Improvement`
-- [ ] Improve Add/Remove listener API `Open` `Improvement`
-- [ ] Improve Focus mode to be retro active on messages `Open` `Improvement`
-- [ ] Range physical visualization (Circle Shader - Tot!Lib) `Open` `Improvement`
-- [ ] Splitting channels in multiple windows `Open` `Feature`
-- [ ] Admin channel list `Open` `Feature`
-- [ ] RCON Support `Open` `Feature`
-- [ ] Learning mechanic with Language XP `Open` `Feature`
-- [ ] Log Support (Formatted for Trebuchet) `Open` `Feature`
-- [ ] Extra range for too far notifications `Open` `Feature`
-- [ ] Add special quotes as excluding emote system `Open` `Improvement`
-- [ ] Add messages shortcut to focus on protagonist `Open` `Improvement`
-- [ ] Replace @ with a selector `Open` `Improvement`
-- [ ] Add message shortcut to @ people `Open` `Improvement`
-- [ ] Make the character look at someone with a simple click `Open` `Feature`
-- [ ] Reorderable chat tabs `Open` `Improvement`
-- [ ] Sort of omni channels with modular configurable behaviors ? `Open` `Feature` `Experimental`
-- [ ] Customized channel name and color `Open` `Feature`
-- [ ] Writable note/book `Open` `Feature`
+- [ ] Death Announcements `Feature`
+- [ ] No struct in API functions `Improvement`
+- [ ] Link in messages `Feature`
+- [ ] Remove access to language and range management from API `Improvement`
+- [ ] Word highlighter `Feature`
+- [ ] Remove the use of the API internally `Improvement`
+- [ ] Chat 2.0 `Version`
+  - [ ] No struct in API functions `Improvement`
+  - [ ] Remove access to language and range management from API `Improvement`
+  - [ ] Remove the use of the API internally `Improvement`
+  - [ ] Chat System need to be an Actor, not a component `Improvement`
+  - [ ] Channels use GUID `Improvement`
+  - [ ] Companion use GUID `Improvement`
+  - [ ] Channels are persistent with X amount of cache `Feature`
+  - [ ] Channels remember who is connected to them with GUID `Feature`
+  - [ ] Channels notify when empty `Feature`
+  - [ ] Local channels will remained cached on client side. `Feature`
+  - [ ] Language ID → GUID `Improvement`
+  - [ ] Range ID → GUID `Improvement`
+  - [ ] Improve Add/Remove listener API `Improvement`
+  - [ ] Improve Focus mode to be retro active on messages `Improvement`
+  - [ ] Range physical visualization (Circle Shader - Tot!Lib) `Improvement`
+  - [ ] Splitting channels in multiple windows `Feature`
+  - [ ] Admin channel list `Feature`
+  - [ ] RCON Support `Feature`
+  - [ ] Learning mechanic with Language XP `Feature`
+  - [ ] Log Support (Formatted for Trebuchet) `Feature`
+  - [ ] Extra range for too far notifications `Feature`
+  - [ ] Add special quotes as excluding emote system `Improvement`
+  - [ ] Add messages shortcut to focus on protagonist `Improvement`
+  - [ ] Replace @ with a selector `Improvement`
+  - [ ] Add message shortcut to @ people `Improvement`
+  - [ ] Make the character look at someone with a simple click `Feature`
+  - [ ] Reorderable chat tabs `Improvement`
+  - [ ] Sort of omni channels with modular configurable behaviors ? `Feature` `Experimental`
+  - [ ] Customized channel name and color `Feature`
+  - [ ] Writable note/book `Feature`
+- [ ] Chat System need to be an Actor, not a component `Improvement`
+- [ ] Channels use GUID `Improvement`
+- [ ] FPS problem when receiving very special character `Blocked` `Bug`
+- [ ] Companion use GUID `Improvement`
+- [ ] Add a prompt on chat to swap the setting for the player on log
+- [ ] Channels are persistent with X amount of cache `Feature`
+- [ ] Channels remember who is connected to them with GUID `Feature`
+- [ ] Channels notify when empty `Feature`
+- [ ] Local channels will remained cached on client side. `Feature`
+- [ ] Language ID → GUID `Improvement`
+- [ ] Range ID → GUID `Improvement`
+- [ ] Improve Add/Remove listener API `Improvement`
+- [ ] Improve Focus mode to be retro active on messages `Improvement`
+- [ ] Range physical visualization (Circle Shader - Tot!Lib) `Improvement`
+- [ ] Splitting channels in multiple windows `Feature`
+- [ ] Admin channel list `Feature`
+- [ ] RCON Support `Feature`
+- [ ] Learning mechanic with Language XP `Feature`
+- [ ] Log Support (Formatted for Trebuchet) `Feature`
+- [ ] Extra range for too far notifications `Feature`
+- [ ] Add special quotes as excluding emote system `Improvement`
+- [ ] Add messages shortcut to focus on protagonist `Improvement`
+- [ ] Replace @ with a selector `Improvement`
+- [ ] Add message shortcut to @ people `Improvement`
+- [ ] Make the character look at someone with a simple click `Feature`
+- [ ] Reorderable chat tabs `Improvement`
+- [ ] Sort of omni channels with modular configurable behaviors ? `Feature` `Experimental`
+- [ ] Customized channel name and color `Feature`
+- [ ] Writable note/book `Feature`
 
 ## Custom
-- [ ] Gender should apply to body menu in partial bodies `Open` `Bug`
-- [ ] Custom 1.7.0 `Open` `Version`
-  - [ ] Gender should apply to body menu in partial bodies `Open` `Bug`
-  - [ ] Override profiles are broken `Open` `Bug`
-  - [ ] Dual weapons can be upside down `Open` `Bug`
-  - [ ] Separate hairline color `Open` `Feature`
-  - [ ] Footstep system `Open` `Feature`
-  - [ ] Find a way to flag materials as flat chest replacements. `Open` `API`
-  - [ ] Command to enforce rules on character + scripting `Open` `Feature`
-  - [ ] Reset entire body category `Open` `Improvement`
-- [ ] Pose System `Open` `Feature`
-  - [ ] Cancel limb animation with T-pose blending `Open`
-  - [ ] Auto swap a pose in some sub-state like fly, sit, etc.. `Open`
-- [ ] Cancel limb animation with T-pose blending `Open`
-- [ ] Override profiles are broken `Open` `Bug`
-- [ ] Custom 1.8.0 `Open` `Version`
-  - [ ] Pose System `Open` `Feature`
-    - [ ] Cancel limb animation with T-pose blending `Open`
-    - [ ] Auto swap a pose in some sub-state like fly, sit, etc.. `Open`
-  - [ ] Access of presets on non player customizable `Open`
-- [ ] Auto swap a pose in some sub-state like fly, sit, etc.. `Open`
-- [ ] Access of presets on non player customizable `Open`
-- [ ] Dual weapons can be upside down `Open` `Bug`
-- [ ] Separate hairline color `Open` `Feature`
-- [ ] Teeth Coloring `Open` `Feature`
-- [ ] Footstep system `Open` `Feature`
-- [ ] Investigate faction voice line for NPC ? `Open` `Improvement`
-- [ ] Add a new item ban rule: Unlock or Item in bag/equipped `Open` `Feature`
-- [ ] Find a way to flag materials as flat chest replacements. `Open` `API`
-- [ ] Texture Merger `Open` `Experimental`
-- [ ] Command to enforce rules on character + scripting `Open` `Feature`
-- [ ] Reset entire body category `Open` `Improvement`
-- [ ] Alternative sweat specular `Open` `Feature`
-- [ ] Warpaint Glow `Open` `Feature`
-- [ ] Warpaint Metallic slider `Open` `Feature`
-- [ ] Horse Edition (Separate Mod ?) `Open` `Feature`
+- [ ] Down But Not Out does not function properly with Customization `Bug`
+- [ ] Custom 1.7.0 `Version`
+  - [ ] Down But Not Out does not function properly with Customization `Bug`
+  - [ ] Gender should apply to body menu in partial bodies `Bug`
+  - [ ] Override profiles are broken `Bug`
+  - [ ] Mannequin heads reappearing even with invisible head armor `Bug`
+  - [ ] Dual weapons can be upside down `Bug`
+  - [ ] Separate hairline color `Feature`
+  - [ ] Footstep system `Feature`
+  - [ ] Find a way to flag materials as flat chest replacements. `API`
+  - [ ] Command to enforce rules on character + scripting `Feature`
+  - [ ] Reset entire body category `Improvement`
+- [ ] Pose System `Feature`
+  - [ ] Cancel limb animation with T-pose blending
+  - [ ] Auto swap a pose in some sub-state like fly, sit, etc..
+- [ ] Cancel limb animation with T-pose blending
+- [ ] Gender should apply to body menu in partial bodies `Bug`
+- [ ] Custom 1.8.0 `Version`
+  - [ ] Pose System `Feature`
+    - [ ] Cancel limb animation with T-pose blending
+    - [ ] Auto swap a pose in some sub-state like fly, sit, etc..
+  - [ ] Access of presets on non player customizable
+- [ ] Auto swap a pose in some sub-state like fly, sit, etc..
+- [ ] Access of presets on non player customizable
+- [ ] Override profiles are broken `Bug`
+- [ ] Teeth Coloring `Feature`
+- [ ] Mannequin heads reappearing even with invisible head armor `Bug`
+- [ ] Investigate faction voice line for NPC ? `Improvement`
+- [ ] Dual weapons can be upside down `Bug`
+- [ ] Separate hairline color `Feature`
+- [ ] Add a new item ban rule: Unlock or Item in bag/equipped `Feature`
+- [ ] Footstep system `Feature`
+- [ ] Texture Merger `Experimental`
+- [ ] Find a way to flag materials as flat chest replacements. `API`
+- [ ] Alternative sweat specular `Feature`
+- [ ] Command to enforce rules on character + scripting `Feature`
+- [ ] Warpaint Glow `Feature`
+- [ ] Reset entire body category `Improvement`
+- [ ] Warpaint Metallic slider `Feature`
+- [ ] Horse Edition (Separate Mod ?) `Feature`
+- [ ] Chair compatibility improvement `Improvement`
+- [ ] Networking issue on login/Slow loading time on DS `Bug` `Delayed`
+- [ ] Visibility tag for swimming `Feature`
+- [ ] Separate head and body skin shininess `Improvement`
+- [ ] Investigate documentation for making armor accessories `Documentation`
+- [ ] Adjustable time for blood spilled on your character from combat `Improvement`
+- [ ] Find a way to filter by weapon type for transmog compatibility
 
 ## HUD
-- [ ] Alternative World Map `Open` `Feature`
-- [ ] Active Quest Integration to map `Open` `Feature`
-- [ ] Follower HP `Open` `Feature`
-- [ ] Realtime Clock with server reboot warning `Open` `Feature`
-- [ ] Optional Simpler Sun/Moon game clock `Open` `Improvement`
-- [ ] Minimap Z Order issue with chat box `Open` `Bug`
-- [ ] Toggle Cursor with special input `Open` `Feature`
+- [ ] Minimap Z Order issue with chat box `Bug`
+- [ ] Alternative World Map `Feature`
+- [ ] Active Quest Integration to map `Feature`
+- [ ] Follower HP `Feature`
+- [ ] Realtime Clock with server reboot warning `Feature`
+- [ ] Optional Simpler Sun/Moon game clock `Improvement`
+- [ ] Toggle Cursor with special input `Feature`
+- [ ] Highlight of some type of buff, such as damaging buffs
+- [ ] Improve ping value `Improvement`
 
 ## Library
-- [ ] Make a range visualizer (Visual 3D circle) `Open` `Feature`
-- [ ] Rework the placeable editor `Open` `Improvement`
-- [ ] New Item Lookup supporting multiple selection `Open` `Improvement`
-- [ ] Improve 3D editor use cases `Open` `Improvement`
+- [ ] Make a range visualizer (Visual 3D circle) `Feature`
+- [ ] Rework the placeable editor `Improvement`
+- [ ] New Item Lookup supporting multiple selection `Improvement`
+- [ ] Improve 3D editor use cases `Improvement`
 
 ## Roleplay
+- [ ] Notice boards stuck on loading for some notice boards `Bug`
 - [ ] Investigate reset RPR stat override reset `Blocked` `Bug` `API`
-- [ ] Game raid doors are not locked when keys are enable for doors `Open` `Bug`
-- [ ] Notice board sometimes don't load their content. `Open` `Bug`
-- [ ] Selected distance in Tot ! Chat does not affect roll `Open` `Bug`
-- [ ] Make a server settings to make runes un-droppable `Open` `Improvement`
-- [ ] Ability to set/increment float/tag/string `Open` `Feature` `Delayed`
-- [ ] Integrate the math library to replace the original `Open` `Feature` `Delayed`
+- [ ] Game raid doors are not locked when keys are enable for doors `Bug`
+- [ ] Notice board sometimes don't load their content. `Bug`
+- [ ] Selected distance in Tot ! Chat does not affect roll `Bug`
+- [ ] Make a server settings to make runes un-droppable `Improvement`
+- [ ] Ability to set/increment float/tag/string `Feature` `Delayed`
+- [ ] Integrate the math library to replace the original `Feature` `Delayed`
+- [ ] Run Script Effect in RPR
 
 ## Sudo
-- [ ] Fix death nameplate issue showing own when it should not `Open` `Bug`
-- [ ] Admin Flags API `Open` `API`
-- [ ] Sudo Nameplate API `Open` `API`
-- [ ] Vanilla command fall back should display notifications `Open` `Improvement`
-- [ ] Make image download documentation `Open` `Documentation`
+- [ ] Fix death nameplate issue showing own when it should not `Bug`
+- [ ] Admin Flags API `API`
+- [ ] Sudo Nameplate API `API`
+- [ ] Vanilla command fall back should display notifications `Improvement`
+- [ ] Make image download documentation `Documentation`
 
 ## Trebuchet
-- [ ] Only allow one instance of Trebuchet to run `Open` `Improvement`
-- [ ] Work on the first use experience `Open` `Improvement`
-- [ ] Rework asynchronous operations `Open` `Improvement`
-- [ ] Rework MVVM pattern `Open` `Improvement`
-- [ ] Log Filter to event `Open` `Feature`
-- [ ] Shutdown event sequence `Open` `Feature`
-- [ ] Mod update/Server update auto reboot `Open` `Feature`
-- [ ] Separate UI text for later translation system `Open` `Improvement`
-- [ ] Improve workshop search `Open` `Improvement`
-- [ ] More client settings for cloth `Open` `Improvement`
+- [ ] Only allow one instance of Trebuchet to run `Improvement`
+- [ ] Work on the first use experience `Improvement`
+- [ ] Rework asynchronous operations `Improvement`
+- [ ] Rework MVVM pattern `Improvement`
+- [ ] Log Filter to event `Feature`
+- [ ] Shutdown event sequence `Feature`
+- [ ] Mod update/Server update auto reboot `Feature`
+- [ ] Separate UI text for later translation system `Improvement`
+- [ ] Improve workshop search `Improvement`
+- [ ] More client settings for cloth `Improvement`
 
 ## Walk
-- [ ] Animation: Improve horse blending `Open` `Improvement`
+- [ ] Animation: Improve horse blending `Improvement`
