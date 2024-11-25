@@ -1,24 +1,24 @@
 # Todo list - Tot ! Mods
 ## Currently worked on
-- [ ][Sudo] Fix death nameplate issue showing own when it should not `Bug`
-- [ ][Custom] Separate hairline color `Feature`
-- [ ][Custom] Find a way to flag materials as flat chest replacements. `API`
-- [ ][Custom] Command to enforce rules on character + scripting `Feature`
-- [ ][Custom] Reset entire body category `Improvement`
-- [ ][Custom] Dual weapons can be upside down `Bug`
-- [ ][Admin] No fly node should stop flying `Bug`
-- [ ][Admin] Add hard off switch for inventory multipliers `Improvement`
-- [ ][Admin] Allow for less than 5 inventory slot with multiplier `Improvement`
-- [ ][Admin] Rename the puppet tags to status `Improvement`
-- [ ][Admin] Close admin panel on warp `Improvement`
-- [ ][Admin] Thrall names displayed incorrectly traders `Bug`
-- [ ][Admin] Spheres do not run script on spawn when inside them `Bug`
-- [ ][Admin] Some weird building prevention on specific area of the map `Bug`
-- [ ][Admin] Add Var Float seem to produce Sudo Float Var duplicates `Bug`
-- [ ][Admin] Force completion does not function correctly with Char Number `Bug`
-- [ ][Admin] Send Message node is not behaving accordingly with colors/tags `Bug` `Scripting System`
-- [ ][Admin] Recuring Even typo, is named "Unique day Event" `Bug`
-- [ ][Roleplay] Game raid doors are not locked when keys are enable for doors `Bug`
+- [ ] [Sudo] Fix death nameplate issue showing own when it should not `Bug`
+- [ ] [Custom] Separate hairline color `Feature`
+- [ ] [Custom] Find a way to flag materials as flat chest replacements. `API`
+- [ ] [Custom] Command to enforce rules on character + scripting `Feature`
+- [ ] [Custom] Reset entire body category `Improvement`
+- [ ] [Custom] Dual weapons can be upside down `Bug`
+- [ ] [Admin] No fly node should stop flying `Bug`
+- [ ] [Admin] Add hard off switch for inventory multipliers `Improvement`
+- [ ] [Admin] Allow for less than 5 inventory slot with multiplier `Improvement`
+- [ ] [Admin] Rename the puppet tags to status `Improvement`
+- [ ] [Admin] Close admin panel on warp `Improvement`
+- [ ] [Admin] Thrall names displayed incorrectly traders `Bug`
+- [ ] [Admin] Spheres do not run script on spawn when inside them `Bug`
+- [ ] [Admin] Some weird building prevention on specific area of the map `Bug`
+- [ ] [Admin] Add Var Float seem to produce Sudo Float Var duplicates `Bug`
+- [ ] [Admin] Force completion does not function correctly with Char Number `Bug`
+- [ ] [Admin] Send Message node is not behaving accordingly with colors/tags `Bug` `Scripting System`
+- [ ] [Admin] Recuring Even typo, is named "Unique day Event" `Bug`
+- [ ] [Roleplay] Game raid doors are not locked when keys are enable for doors `Bug`
 
 
 ## Admin
