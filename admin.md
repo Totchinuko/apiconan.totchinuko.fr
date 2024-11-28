@@ -7,7 +7,7 @@
 3- Do not put these files in your mod content folder and do not select them in the modfile list  
 If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
 
-**Download API**: [Tot!Admin 0.6.8](/API/TotAdmin0.6.8.zip ':ignore')
+**Download API**: [Tot!Admin 0.8.7](/API/TotAdmin0.8.7.zip ':ignore')
 
 ## Move Tool Tags
 Adding the following tags to a placeable actor tags will have the given effect on the move tool.
@@ -1009,3 +1009,26 @@ Raised when a player is no longuer a given puppet. Puppet is made visible again 
 |string|Data[]||
 |Object|Context\[BasePlayerChar]||
 
+## Inventory Multipliers API <small>0.8.7+</small>
+
+### Tot_I_InventoryMultipliers
+`ModsShared/SudoExile/TotAdmin/Tot_I_InventoryMultipliers`
+
+Available on a `ModController` and give access to the curent multipliers in effect on the server.
+
+#### GetMultipliers <small>Server</small>
+Return the stack and inventory multiplier currently in effect. **Value strickly inferior to zero (-1) indicate that the feature is off**
+
+<!-- tabs:start -->
+#### **Input**
+
+void
+
+#### **Output**
+
+|type|name|description|
+|-|-|----|
+|Float|StackMultiplier|Item Stack Multiplier|
+|Float|InventoryMultiplier|Inventory Size Multiplier|
+
+<!-- tabs:end -->
