@@ -90,12 +90,12 @@ Skin textures including diffuse and mask (roughness) for hands and body.
 ### Tot_DT_BaseMaterialRef_Hairs <small>1.3.0+</small>
 `ModsShared/SudoExile/TotCustom/Tables/Tot_DT_BaseMaterialRef_Hairs`
 
-If your haircut mod use a custom base material, but you still wish the one from Custom take over when it is installed, simple inject your base material to this table so custom can recognize it as hairs.
+If your haircut mod use a custom base material, but you still wish the one from Custom take over when it is installed, simple inject your base material to this table so custom can recognize it as hairs. The Path field does need to be set if you set the material directly inside the table, and can be left empty.
 
 ### Tot_DT_BaseMaterialRef_Skins <small>1.3.0+</small>
 `ModsShared/SudoExile/TotCustom/Tables/Tot_DT_BaseMaterialRef_Skins`
 
-If your body mod use a custom base material, but you still wish the one from Custom take over when it is installed, simple inject your base material to this table so Custom can recognize it as skin.
+If your body mod use a custom base material, but you still wish the one from Custom take over when it is installed, simple inject your base material to this table so Custom can recognize it as skin. The Path field does need to be set if you set the material directly inside the table, and can be left empty.
 
 ### Tot_DT_ModCreators <small>1.5.10+</small>
 `ModsShared/SudoExile/TotCustom/Tables/Tot_DT_ModCreators`
@@ -127,6 +127,11 @@ Here is a list of the content tags:
 - `TotCustom.FaceWrinkles`
 - `TotCustom.Scars`
 - `TotCustom.Makeups`
+
+### Tot_DT_MaterialRef_FlatChest <small>1.7.1+</small>
+`ModsShared/SudoExile/TotCustom/Tables/Tot_DT_MaterialRef_FlatChest`
+
+Adding material to this table will flag indicate to custom that they are copies of the flat chest material and they should be treated as such, changing slightly the internal behavior to apply the proper texturing. The Path field does need to be set if you set the material directly inside the table, and can be left empty.
 
 ## Accessory Guide
 
