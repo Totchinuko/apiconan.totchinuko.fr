@@ -7,46 +7,32 @@
 - [X] [Custom] Gender should apply to body menu in partial bodies `Bug`
 - [X] [Custom] Override profiles are broken `Bug`
 - [X] [Custom] Mannequin heads reappearing even with invisible head armor `Bug`
-- [ ] [Admin] No fly node should stop flying `In Review` `Bug`
-- [ ] [Admin] Thrall names displayed incorrectly traders `Blocked` `Bug`
-- [ ] [Admin] Spheres do not run script on spawn when inside them `Blocked` `Bug`
-- [ ] [Admin] Some weird building prevention on specific area of the map `Bug`
-- [ ] [Admin] Add Var Float seem to produce Sudo Float Var duplicates `Blocked` `Bug`
-- [ ] [Admin] Force completion does not function correctly with Char Number `Blocked` `Bug`
-- [ ] [Admin] Send Message node is not behaving accordingly with colors/tags `Blocked` `Bug` `Scripting System`
-- [ ] [Admin] Recurring Event typo, is named "Unique day Event" `Bug`
-- [ ] [Roleplay] Game raid doors are not locked when keys are enable for doors `Bug`
+- [X] [Admin] No fly node should stop flying `Bug`
+- [X] [Admin] Recurring Event typo, is named "Unique day Event" `Bug`
+- [X] [Roleplay] Game raid doors are not locked when keys are enable for doors `Bug`
 - [X] [Custom] Separate hairline color `Feature`
 - [X] [Custom] Find a way to flag materials as flat chest replacements. `API`
-- [ ] [Custom] Command to enforce rules on character + scripting `In Review` `Feature`
+- [X] [Custom] Command to enforce rules on character + scripting `Feature`
 - [X] [Custom] Reset entire body category `Improvement`
-- [ ] [Admin] Add hard off switch for inventory multipliers `Improvement`
-- [ ] [Admin] Allow for less than 5 inventory slot with multiplier `Improvement`
-- [ ] [Admin] Rename the puppet tags to status `Improvement`
-- [ ] [Admin] Close admin panel on warp `Improvement`
-- [ ] [Admin] Expose inventory multipliers to API `API`
-- [ ] [Custom] Integrate the lantern `Feature`
-- [ ] [Library] Compile a list of permission for documentation `Documentation`
-- [ ] [Custom] Document the new table API `Documentation`
-- [ ] [Release] Next Release `Release`
+- [X] [Admin] Add hard off switch for inventory multipliers `Improvement`
+- [X] [Admin] Allow for less than 5 inventory slot with multiplier `Improvement`
+- [X] [Admin] Rename the puppet tags to status `Improvement`
+- [X] [Admin] Close admin panel on warp `Improvement`
+- [X] [Admin] Expose inventory multipliers to API `API`
+- [X] [Custom] Integrate the lantern `Feature`
+- [X] [Library] Compile a list of permission for documentation `Documentation`
+- [X] [Custom] Document the new table API `Documentation`
+- [ ] [Release] Mods Release `Release`
 
 
 ## Admin
-- [ ]  Thrall names displayed incorrectly traders `Blocked` `Bug`
-- [ ]  Spheres do not run script on spawn when inside them `Blocked` `Bug`
-- [ ]  Some weird building prevention on specific area of the map `Bug`
-- [ ]  Force completion does not function correctly with Char Number `Blocked` `Bug`
-- [ ]  Add Var Float seem to produce Sudo Float Var duplicates `Blocked` `Bug`
-- [ ]  Send Message node is not behaving accordingly with colors/tags `Blocked` `Bug` `Scripting System`
-- [ ]  Recurring Event typo, is named "Unique day Event" `Bug`
-- [ ]  More admin tool compatibility for Get/Set Param `Scripting System`
-- [ ]  Cinematic Video `Documentation`
-- [ ]  Variable storage video `Documentation`
-- [ ]  Scripting API publication `API` `Scripting System`
-- [ ]  Cloud based map location mechanic `Feature`
-- [ ]  Procedural quest generation ? `Experimental` `Scripting System`
-- [ ]  Server settings edition through nodes `Scripting System`
 - [ ]  UTF16 encoding for webhook node `Improvement`
+- [ ]  Scripting API publication `API` `Scripting System`
+- [ ]  More admin tool compatibility for Get/Set Param `Scripting System`
+- [ ]  Active Quest Integration to map `Feature`
+- [X]  Recurring Event typo, is named "Unique day Event" `Bug`
+- [ ]  Cloud based map location mechanic `Feature`
+- [ ]  Server settings edition through nodes `Scripting System`
 - [ ]  Replace blocker scan with interface (Search for TODO) `Improvement`
 - [ ]  Server Light Manager `Feature`
 - [ ]  Stop Script node `Scripting System`
@@ -84,7 +70,7 @@
 - [ ]  Model Picker/Placer `Feature`
 - [ ]  Hunting Horn (Linked to soundboard API) `Feature` `Delayed`
 - [ ]  Player scripted movement ? `Feature` `Experimental` `Scripting System`
-- [ ]  No fly node should stop flying `In Review` `Bug`
+- [X]  No fly node should stop flying `Bug`
 - [ ]  Request variable in dialogues (Use fields) `Scripting System`
 - [ ]  Decoration group `Feature` `Experimental`
 - [ ]  Selector: Copy/Cut/Paste Buildings `Experimental`
@@ -101,16 +87,25 @@
 - [ ]  Player Achored Post Processing, Lighting, and Particles
 - [ ]  Custom fail text on rule sets `Improvement`
 - [ ]  Interactable control through scripting/admin tool `Feature`
-- [ ]  Rename the puppet tags to status `Improvement`
-- [ ]  Allow for less than 5 inventory slot with multiplier `Improvement`
-- [ ]  Add hard off switch for inventory multipliers `Improvement`
 - [ ]  Quest objective hunt player `Feature`
+- [X]  Rename the puppet tags to status `Improvement`
 - [ ]  Display last online in clan player list on admin side `Improvement`
-- [ ]  Close admin panel on warp `Improvement`
+- [X]  Allow for less than 5 inventory slot with multiplier `Improvement`
+- [X]  Close admin panel on warp `Improvement`
+- [X]  Add hard off switch for inventory multipliers `Improvement`
 - [ ]  Speed up the navigation in the Admin Map `Improvement`
 - [ ]  Node to use RPR Ability `Feature` `Delayed`
 - [ ]  Placement-friendly Wallpaper
-- [ ]  Expose inventory multipliers to API `API`
+- [X]  Expose inventory multipliers to API `API`
+- [ ]  Cinematic Video `Documentation`
+- [ ]  Variable storage video `Documentation`
+- [ ]  Procedural quest generation ? `Experimental` `Scripting System`
+- [ ]  Thrall names displayed incorrectly traders `Blocked` `Bug`
+- [ ]  Spheres do not run script on spawn when inside them `Blocked` `Bug`
+- [ ]  Some weird building prevention on specific area of the map `Blocked` `Bug`
+- [ ]  Force completion does not function correctly with Char Number `Blocked` `Bug`
+- [ ]  Add Var Float seem to produce Sudo Float Var duplicates `Blocked` `Bug`
+- [ ]  Send Message node is not behaving accordingly with colors/tags `Blocked` `Bug` `Scripting System`
 
 ## Chat
 - [ ]  Death Announcements `Feature`
@@ -191,7 +186,7 @@
   - [X]  Separate hairline color `Feature`
   - [ ]  Footstep system `Feature`
   - [X]  Find a way to flag materials as flat chest replacements. `API`
-  - [ ]  Command to enforce rules on character + scripting `In Review` `Feature`
+  - [X]  Command to enforce rules on character + scripting `Feature`
   - [X]  Reset entire body category `Improvement`
 - [ ]  Pose System `Feature`
   - [ ]  Cancel limb animation with T-pose blending
@@ -216,7 +211,7 @@
 - [ ]  Texture Merger `Experimental`
 - [X]  Find a way to flag materials as flat chest replacements. `API`
 - [ ]  Alternative sweat specular `Feature`
-- [ ]  Command to enforce rules on character + scripting `In Review` `Feature`
+- [X]  Command to enforce rules on character + scripting `Feature`
 - [ ]  Warpaint Glow `Feature`
 - [X]  Reset entire body category `Improvement`
 - [ ]  Warpaint Metallic slider `Feature`
@@ -228,18 +223,17 @@
 - [ ]  Investigate documentation for making armor accessories `Documentation`
 - [ ]  Adjustable time for blood spilled on your character from combat `Improvement`
 - [ ]  Find a way to filter by weapon type for transmog compatibility
-- [ ]  Integrate the lantern `Feature`
-- [ ]  Document the new table API `Documentation`
+- [X]  Integrate the lantern `Feature`
+- [X]  Document the new table API `Documentation`
 
 ## HUD
 - [ ]  Minimap Z Order issue with chat box `Bug`
-- [ ]  Alternative World Map `Feature`
-- [ ]  Active Quest Integration to map `Feature`
+- [ ]  HUD world map overlay `Improvement`
 - [ ]  Follower HP `Feature`
 - [ ]  Realtime Clock with server reboot warning `Feature`
 - [ ]  Optional Simpler Sun/Moon game clock `Improvement`
 - [ ]  Toggle Cursor with special input `Feature`
-- [ ]  Highlight of some type of buff, such as damaging buffs
+- [ ]  Highlight of some type of buff, such as damaging buffs `Improvement`
 - [ ]  Improve ping value `Improvement`
 
 ## Library
@@ -247,15 +241,16 @@
 - [ ]  Rework the placeable editor `Improvement`
 - [ ]  New Item Lookup supporting multiple selection `Improvement`
 - [ ]  Improve 3D editor use cases `Improvement`
-- [ ]  Compile a list of permission for documentation `Documentation`
+- [X]  Compile a list of permission for documentation `Documentation`
 
 ## Release
-- [ ]  Next Release `Release`
+- [ ]  Mods Release `Release`
 
 ## Roleplay
+- [X]  Game raid doors are not locked when keys are enable for doors `Bug`
+- [ ]  Integrate World Map API `API`
 - [ ]  Notice boards stuck on loading for some notice boards `Bug`
 - [ ]  Investigate reset RPR stat override reset `Blocked` `Bug` `API`
-- [ ]  Game raid doors are not locked when keys are enable for doors `Bug`
 - [ ]  Notice board sometimes don't load their content. `Bug`
 - [ ]  Selected distance in Tot ! Chat does not affect roll `Bug`
 - [ ]  Make a server settings to make runes un-droppable `Improvement`
@@ -264,6 +259,7 @@
 - [ ]  Run Script Effect in RPR
 
 ## Sudo
+- [ ]  World Map API `API`
 - [X]  Fix death nameplate issue showing own when it should not `Bug`
 - [ ]  Admin Flags API `API`
 - [ ]  Sudo Nameplate API `API`
