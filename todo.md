@@ -22,7 +22,7 @@
 - [X] [Custom] Integrate the lantern `Feature`
 - [X] [Library] Compile a list of permission for documentation `Documentation`
 - [X] [Custom] Document the new table API `Documentation`
-- [ ] [Release] Mods Release `Release`
+- [ ] [Release] Mods Release `Release` (Due 04 Dec 2024)
 
 
 ## Admin
@@ -106,6 +106,7 @@
 - [ ]  Force completion does not function correctly with Char Number `Blocked` `Bug`
 - [ ]  Add Var Float seem to produce Sudo Float Var duplicates `Blocked` `Bug`
 - [ ]  Send Message node is not behaving accordingly with colors/tags `Blocked` `Bug` `Scripting System`
+- [ ]  Inventory management nodes `Scripting System`
 
 ## Chat
 - [ ]  Death Announcements `Feature`
@@ -189,6 +190,8 @@
 - [ ]  Toggle Cursor with special input `Feature`
 - [ ]  Highlight of some type of buff, such as damaging buffs `Improvement`
 - [ ]  Improve ping value `Improvement`
+- [ ]  Display level on hud `Improvement`
+- [ ]  More informations on the minimap `Feature`
 
 ## Library
 - [ ]  Make a range visualizer (Visual 3D circle) `Feature`
@@ -198,7 +201,7 @@
 - [X]  Compile a list of permission for documentation `Documentation`
 
 ## Release
-- [ ]  Mods Release `Release`
+- [ ]  Mods Release `Release` (Due 04 Dec 2024)
 
 ## Roleplay
 - [X]  Game raid doors are not locked when keys are enable for doors `Bug`
@@ -210,7 +213,8 @@
 - [ ]  Make a server settings to make runes un-droppable `Improvement`
 - [ ]  Ability to set/increment float/tag/string `Feature` `Delayed`
 - [ ]  Integrate the math library to replace the original `Feature` `Delayed`
-- [ ]  Run Script Effect in RPR
+- [ ]  Run Script Effect in RPR `Feature` `Scripting System`
+- [ ]  Image insertion into POI with admin setting `Improvement`
 
 ## Sudo
 - [ ]  World Map API `API`
