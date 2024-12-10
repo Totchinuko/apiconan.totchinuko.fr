@@ -9,6 +9,9 @@ If you do not follow those guidelines, whenever we update the API files, your mo
 
 **Download API**: [Tot!Admin 0.8.7](/API/TotAdmin0.8.7.zip ':ignore')
 
+## Scripting
+Scripting has [its own dedicated page](scripting).
+
 ## Move Tool Tags
 Adding the following tags to a placeable actor tags will have the given effect on the move tool.
 

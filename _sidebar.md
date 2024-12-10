@@ -12,6 +12,7 @@
 
     - [Sudo API](sudo)
     - [Admin API](admin)
+    - [Scripting API](scripting)
     - [Chat API](chat)
     - [Roleplay Redux API](roleplay)
     - [Custom API](custom)
