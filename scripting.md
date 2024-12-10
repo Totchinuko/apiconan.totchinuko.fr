@@ -13,7 +13,7 @@ I've made a video and an example mod to teach how the components work together a
 ## Interfaces
 
 ### Tot_I_FlowChartArray
-`/Game/ModsShared/SudoExile/TotAdmin/Tot_I_FlowChartArray`
+`/Game/ModsShared/SudoExile/TotAdmin/Tot_I_FlowChartArray`  
 Represent a list in the scripting system. In the background this is a serializable class, and common functions are exposed through this interface. I will not detail all the functions from this class, since more simply achieve the same thing, only for different types. It is important to note that, while this serialized array allow to mix whatever type you want, in the end, the UI will only display one type of variable for every entry of the array. Something to keep in mind.
 
 #### AddString
@@ -70,17 +70,6 @@ void
 |type|name|description|
 |-|-|----|
 |Integer|Index|Position of the element to remove|
-#### **Output**
-void
-<!-- tabs:end -->
-
-#### MergeArrays
-Merge the content of another array into this one. This does not check about duplicates
-<!-- tabs:start -->
-#### **Input**
-|type|name|description|
-|-|-|----|
-|Tot_I_FlowChartArray|MergeFrom|The data to merge from|
 #### **Output**
 void
 <!-- tabs:end -->
@@ -158,8 +147,7 @@ void
 <!-- tabs:end -->
 
 ### Tot_I_FlowChartField <small>To Implement</small>
-`/Game/ModsShared/SudoExile/TotAdmin/Tot_I_FlowChartField`
-
+`/Game/ModsShared/SudoExile/TotAdmin/Tot_I_FlowChartField`  
 This is a class you would implement on your custom UI fields to edit a particular variable type. All your field **must** implement it for the inspector to use them properly. Fields is the base element of the UI to edit data. If you intend to make more variable types/fields, it is important to note that this system was designed to be used with small and simple bit of data. Avoid making field/type that represent complex structure when you can to favor splitting them into smaller parts. Small field of simple piece of data will always provide better reusability in the script.
 
 #### GetFieldValue <small>Client</small>
@@ -196,7 +184,7 @@ void
 <!-- tabs:end -->
 
 ### Tot_I_FlowChartFieldCallback
-`/Game/ModsShared/SudoExile/TotAdmin/Tot_I_FlowChartFieldCallback`
+`/Game/ModsShared/SudoExile/TotAdmin/Tot_I_FlowChartFieldCallback`  
 This represent the callback for fields to call whenever their value change. It will be provided by the inspect throught the the `Tot_I_FlowChartField.SetFieldCallback` method.
 
 #### OnValueChanged <small>Client</small>
@@ -210,8 +198,7 @@ void
 <!-- tabs:end -->
 
 ### Tot_I_FlowChartInspector
-`/Game/ModsShared/SudoExile/TotAdmin/Tot_I_FlowChartInspector`
-
+`/Game/ModsShared/SudoExile/TotAdmin/Tot_I_FlowChartInspector`  
 Main interface representing the scripting Inspector. The inspector is the side pannel you use to edit a node values through fields. It handle the partial deserialization of the node data, the construction of all the fields that need to be displayed for a node, variable insertions, and cleanup of unused bits of data. Its what you'll use to order the scripting editor to draw fields for your nodes.
 
 #### AddParameter <small>Client</small>
@@ -387,7 +374,7 @@ Set the name of the currently selected node, useful for automatically generated 
 <!-- tabs:end -->
 
 ### Tot_I_FlowChartNode <small>To Implement</small>
-`/Game/ModsShared/SudoExile/TotAdmin/Tot_I_FlowChartNode`
+`/Game/ModsShared/SudoExile/TotAdmin/Tot_I_FlowChartNode`  
 This is the interface you need to implement to your class to create nodes. Do not use an Actor, or a component, use an object. You can use a GameItem to have access to WorldContext, but the parent must be based out of an Object. At the very least, you'll need to pay attention to `RunNode` and `InspectorUpdate`. A good practice would be to create a base node that would be the parent of all your actual nodes. That base node would provide default implementation for all the methods of the interface.
 
 #### RunNode <small>Server</small>
@@ -470,7 +457,7 @@ Should the inspector indicate that this node require player context to function 
 <!-- tabs:end -->
 
 ### Tot_I_FlowChartStack
-`/Game/ModsShared/SudoExile/TotAdmin/Tot_I_FlowChartStack`
+`/Game/ModsShared/SudoExile/TotAdmin/Tot_I_FlowChartStack`  
 This is to interact with the current stack for the script execution. You'd use that one to access parameters and set returns and other execution oriented tasks. This is exclusively server side.
 
 #### SetString
@@ -792,7 +779,7 @@ Get the type of a variable inserted in a return. This is only useful if your ret
 <!-- tabs:end -->
 
 ### Tot_I_FlowChartVariable <small>To Implement</small>
-`/Game/ModsShared/SudoExile/TotAdmin/Tot_I_FlowChartVariable`
+`/Game/ModsShared/SudoExile/TotAdmin/Tot_I_FlowChartVariable`  
 This interface is used for variable validators. If you ever need to create your own type of variable, you'll need to provide a class that implement this interface. If your type could be useful for other modders, concider instead making a suggestion for its addition to Tot!Admin, so that everyone can use it as a common bit of data.
 
 #### ConvertTo
@@ -853,7 +840,7 @@ void
 ## DataTables
 
 ### Tot_DT_FlowChartFields
-`/Game/ModsShared/SudoExile/TotAdmin/Tables/Tot_DT_FLowChartFields`
+`/Game/ModsShared/SudoExile/TotAdmin/Tables/Tot_DT_FLowChartFields`  
 This table is used to reference your custom fields. If you need a specific field to edit a variable type, that how you would reference its existance. Row keys can be anything, but the key will be used during the node conception when adding parameters, so once you chose a key, never change it or you'll break all the nodes that you made with it. Avoid using names already used by Tot!Admin as well.
 
 |type|name|description|
@@ -864,7 +851,7 @@ This table is used to reference your custom fields. If you need a specific field
 |Boolean|Selectable|Is this field user selectable in variables, or only available in node design ?|
 
 ### Tot_DT_FlowChartVariables
-`/Game/ModsShared/SudoExile/TotAdmin/Tables/Tot_DT_FlowChartVariables`
+`/Game/ModsShared/SudoExile/TotAdmin/Tables/Tot_DT_FlowChartVariables`  
 This table is used to reference your custom variable types. If the variable type you wish to create is of public interest and not specific to your mod, consider making a suggestion for its addition to Tot!Admin so that everyone can profit from a common bit of data. Row keys can be anything, but the key will be used during the node conception when adding parameters/returns, so once you chose a key, never change it or you'll break all the nodes that you made with it. Avoid using names already used by Tot!Admin as well.
 
 |type|name|description|
@@ -875,7 +862,7 @@ This table is used to reference your custom variable types. If the variable type
 |Object(class)|VariableClass|The validator class for your variable type. This is technically optional buy highly encouraged. It **must** implement `Tot_I_FlowChartVariable` interface|
 
 ### Tot_DT_FlowChartNodes
-`/Game/ModsShared/SudoExile/TotAdmin/Tables/Tot_DT_FlowChartNodes`
+`/Game/ModsShared/SudoExile/TotAdmin/Tables/Tot_DT_FlowChartNodes`  
 Where you reference your nodes. Row key **must** be a number, avoid using number in the range of 0-1000 and 100,000-999,999, as those are used by Tot!Admin. Max range is 2,147,483,647. 
 
 |type|name|description|
