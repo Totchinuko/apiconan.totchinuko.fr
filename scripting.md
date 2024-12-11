@@ -9,6 +9,9 @@ Every files that is named `Tot_I_FlowChart`, `Tot_DT_FlowChart`, `Tot_S_FlowChar
 I've made a video and an example mod to teach how the components work together and how to build upon them.
 
 ## Video
+Here you can download the example mod I'm making during the video: [Example Mod](/API/TotScriptingSystemExample.zip ':ignore')
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8JCp5xOihZM?si=V7CD83QubaCn5yEH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Interfaces
 
