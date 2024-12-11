@@ -1050,3 +1050,138 @@ Set an Integer as a Numeric return. Will be converted automatically if the retur
 #### **Output**
 void
 <!-- tabs:end -->
+
+## Variable Types
+Bellow you'll find all the variable types declared and used by Tot!Admin. I'm open to suggestion to add more that could be used by the many, even if !Admin itself don't make use of them.
+
+|RowKey|UI Name|Description|
+|-|-|----|
+Integer|Integer|A round number. Marshal Helper available|
+Float|Decimal|A Decimal number. Marshal Helper available|
+String|Text|Normal text|
+Key|Key|Text used as an identifier. Max length: 64 characters|
+Boolean|Boolean|A boolean, true or false. Marshal Helper available|
+Vector2|Vector 2D|Vector in 2D space. Marshal Helper available|
+Vector3|Vector 3D|Vector in 3D space. Marshal Helper available|
+Color|Color|Marshal Helper available|
+Date|Date|Marshal Helper available|
+Player|Player Character|A pointer to a player character. Internally it is just the character database UID|
+Clan|Clan|Database UID|
+Kit|Kit|GUID|
+Warp|Warp|GUID|
+Stall|Trader Definition|GUID|
+Quest|Quest|GUID|
+PostProcess|Post Process|GUID|
+QuestCategory|Quest Category|GUID|
+FlowChart|Script|GUID|
+AdminTool|Generic Admin Tool|Database UID|
+Portal|Portal|Database UID|
+PostProcessAnchor|Post Process Anchor|Database UID|
+Puppet|Puppet|Database UID|
+Wallpaper|Wallpaper|Database UID|
+Decal|Decal|Database UID|
+BoxZone|Box Zone|Database UID|
+SphereZone|Sphere Zone|Database UID|
+SphereInteraction|Sphere Interaction|Database UID|
+Spawner|Spawner|Database UID|
+Point|Point|Database UID|
+ScriptedDoor|Scripted Doors|Database UID|
+TotLight|Light|Database UID|
+TotWall|Invisible Wall|Database UID|
+ScriptedChest|Scripted Chest|Database UID|
+TotGameLight|Scripted Light|Database UID|
+TotResourceSpawner|Resource Spawner|Database UID|
+Concealer|Decoration Concealer|Database UID|
+ScriptContainer|Script Container|Database UID|
+
+## Field Types
+Bellow you'll find most of the field already built in Tot!Admin that you can use in your parameters
+
+|RowKey|UI Name|Variable Type|Description|
+|-|-|-|----|
+FormatableText1000|Text Editor|String|A text editor with the documentation to insert variables. Note that the field itself does not do text formating, its up to the node to do that. Limit of a 1000 character max.|
+SimpleText1000|Single Line Text|String|A single line text with a 1000 character limit|
+SimpleFloat|Decimal|Float|A float without limit|
+FlowChart|Script|FlowChart|A script selector|
+Toggle|Toggle|Boolean|A boolean toggle|
+Quest|Quest|Quest||
+Kit|Kit|Kit||
+Warp|Warp|Warp||
+SimpleInteger|Integer|Integer|A simple integer without limit|
+Role|Role|Key|Sudo Role|
+Player|Player|Player|Player character selector|
+Duration|Duration|Integer|Duration in seconds. The selector allow for minute, hours and day selection and handle conversion to seconds on its own|
+Key|Key|Key|Text field with 64 character max|
+Puppet|Puppet|Puppet||
+AdminTool|Admin Tool|AdminTool||
+Vector2|Vector 2D|Vector2||
+ItemLookup|Item Lookup|Integer|Game Item selector stored as a template ID|
+Language|Language|Key|Tot!Chat Language|
+UnitFloat|Unit Float|Float|A float between 0 and 1|
+Feat|Feat|Integer|A game feat selector|
+RRBuffType|RR Buff Type|Integer|RR buff type selector|
+DurationMinute|Duration (Minutes)|Integer|Same as duration, but as minutes for unit, not seconds|
+CharIntStat|Character Int Stat|Integer|Game ECharIntStatID selector|
+CharFloatStat|Character Float Stat|Integer|Game ECharFloatStatID selector|
+ChatChannelTarget|Chat Channel|Integer|Tot!Chat channel target between global,local and clan|
+ChatDistance|Chat Distance|Key|Tot!Chat distance as provided by server configuration|
+EmoteFormating|Emote Formating|Key|Tot!Chat emote formating modes|
+Color|Color|Color||
+ToolType|Admin Tool Type|Key|Tot!Admin Admin tool type selector|
+Stall|Stall|Stall|Tot!Admin Trader definition|
+Multiplier5|Multiplier 5|Float|A float slider between 0 and 5|
+Rounding|Rounding|Integer|Rounding mode|
+Vector2Clamp02|Vector 2 (Clamp 0-2)|Vector2|A Vector2 double slider from 0 to 2|
+Sound|Sound|Integer|Sound selector from the sound library|
+SphereZone|Sphere Zone|SphereZone||
+BoxZone|Box Zone|BoxZone||
+ScriptedChest|ScriptedChest|ScriptedChest||
+Vector3|Vector 3D|Vector3||
+Spawner|Spawner|Spawner||
+NPC|NPC Type|Key|NPC selector, can be vanilla spawn data table row or a Tot!Admin custom NPC GUID|
+Speed|NPC Speed|Float|NPC speed selector|
+FoundationDistance|Distance (Foundation)|Float|Distance selection in foundation. Value is converted back to centimeters internally|
+SpawnQuantity|Spawn Quantity|Integer|A quantity selector (no negative values)|
+StandardEmote|Game Emote|Integer|Game standard emote selector|
+Point|Point|Point||
+SudoEmote|Emote|Key|Sudo emote selector|
+Multiplier2|Multiplier 2|Float|A float slider between 0 and 2|
+DT_AdminTool|Dynamic Location|AdminTool|Dynamic location, user Helper provided instead of directly using this|
+DT_Vector3|Dynamic Location|Vector3|Dynamic location, user Helper provided instead of directly using this|
+Date|Date|Date||
+Comparison|Comparison|Integer|Comparison method|
+QuestCategory|Quest Category|QuestCategory||
+NPCBehavior|NPC Behavior|Integer|Base game NPC behavior selector|
+Clan|Clan|Clan||
+HateType|Hate Type|Integer|Base game aggro type selector|
+IntBitFlags|Int Bit Flags|Integer|A bit flag selector|
+TextMaxSize|Text Max Size|Integer|Integer slider between 0 and 1000|
+RRKey|RR Key|Integer|RR Door key selector|
+Seed|Seed|Integer|A integer seed random generator|
+QuestObjective|Quest Objective|Key||
+GuildRank|Guild Rank|Integer|Base game guild rank (clan)|
+Energy|Energy|Integer|Base game energy selector|
+ScriptedDoor|Scripted Door|ScriptedDoor||
+TreasureItem|Treasure Item|Integer|Game item selector for carryable treasures|
+QuestStatus|Quest Status|Integer||
+DT_Float|Numeric Float|Float|Numeric dynamic field, user helper instead|
+DT_Integer|Numeric Integer|Integer|Numeric dynamic field, user helper instead|
+QuestObjectiveType|Objective Type|Key||
+MarkerIcon|Marker Icon|Key|Map marker icon data table|
+IconTable|Icons|Integer|Icon data table|
+CharState|Character State|Integer|Base Game Character State (ECharacterState)|
+Portal|Portal|Portal||
+PostProcessAnchor|Post Process Anchor|PostProcessAnchor||
+Decal|Decal|Decal||
+SphereInteraction|Sphere Interaction|SphereInteraction||
+TotLight|Light|TotLight||
+TotWall|Invisible Wall|TotWall||
+TotGameLight|Scripted Light|TotGameLight||
+TotResourceSpawner|Resource Spawner|TotResourceSpawner||
+Concealer|Decoration Concealer|Concealer||
+ScriptContainer|Script Container|ScriptContainer||
+Wallpaper|Wallpaper|Wallpaper||
+AdminToolType|Admin Tool Type|Key||
+PostProcess|Post Process Profile|PostProcess||
+ColorHDR|Color HDR|Color|HDR color|
+URL|Image URL|String|URL selector with validation|
