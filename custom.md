@@ -855,3 +855,34 @@ Raised by the custom component whenever the player change its character profile 
 |-|-|----|
 |string|Data[]||
 |Object|Context\[]||
+
+## Weapon Transmog API <small>1.7.2+</small>
+If you're making custom weapon in your mod, their is a way for you to increase compatibility with the new method for Custom to handle transmog between weapons. This is very similar to how Fashionist work as well, and in fact I've been making Custom compatible with Fashionist tags. So if your mod has been made compatible with Fashionist transmog system, you should not need to update anything. Otherwise, here is the item tags that can be added to recategorise your weapons:
+
+- custom.transmog.axe1h
+- custom.transmog.axe2h
+- custom.transmog.bow
+- custom.transmog.chakram
+- custom.transmog.claws
+- custom.transmog.dagger
+- custom.transmog.dual
+- custom.transmog.fistweapon
+- custom.transmog.katana
+- custom.transmog.lance
+- custom.transmog.mace1h
+- custom.transmog.mace2h
+- custom.transmog.shield
+- custom.transmog.spear1h
+- custom.transmog.spear2h
+- custom.transmog.sword1h
+- custom.transmog.sword2h
+- custom.transmog.throwingaxe
+- custom.transmog.cleaver
+- custom.transmog.hatchet
+- custom.transmog.multitool
+- custom.transmog.pick
+- custom.transmog.sickle
+- custom.transmog.skinningknife
+- custom.transmog.torch
+
+Names I think should be relatively self explanatory. In your item table, you'll find an array of item tags, simply add one of those to the list and your weapon should be categorised as such by !Custom.
