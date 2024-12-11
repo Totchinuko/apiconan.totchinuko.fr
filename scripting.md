@@ -880,13 +880,13 @@ Where you reference your nodes. Row key **must** be a number, avoid using number
 ## Libraries
 
 ### Tot_FL_PrimitiveMarshal
-`/Game/ModsShared/SudoExile/TotAdmin/Tot_FL_PrimitiveMarshal`
+`/Game/ModsShared/SudoExile/TotAdmin/Tot_FL_PrimitiveMarshal`  
 In their you'll find how serialization of primitives is done, so you can serialize/deserialize (Marshal/Unmarshal) data in the same way the scripting system does. I will not detail how most of this works, as it is rather self explanatory. Marshal functions turn data into string, Unmarshal functions attempt to turn a string back to its original data. Simple.
 
 !> Please do **not** modify those functions. If you want one to work a little different, make copies in your own libraries to modify. If you change how this work, your mod will force a different behavior on everyone else.
 
 ### Tot_FL_FlowChartHelper
-`/Game/ModsShared/SudoExile/TotAdmin/Tot_FL_FlowChartHelper`
+`/Game/ModsShared/SudoExile/TotAdmin/Tot_FL_FlowChartHelper`  
 In there you'll find helpers to handle special types of field that are used in Tot!Admin, such as dynamic location, numeric fields and inventory field. Those are essentially multi type fields. I will only details the methods that are intended for usage, the rest is only there for dependancy.
 
 !> Please do **not** modify those functions. If you want one to work a little different, make copies in your own libraries to modify. If you change how this work, your mod will force a different behavior on everyone else.
