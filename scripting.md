@@ -876,3 +876,177 @@ Where you reference your nodes. Row key **must** be a number, avoid using number
 |Boolean|PreventDeletion|This is always false. The only node that use that is the start node, so it may never be deleted|
 |String|Description|UI Description|
 |Boolean|HiddenInMenu|Prevent your node to be created or even copy/pasted. This effectively prevent new copies of the node to be made, and is useful to deprecate a node without deleting it and breaking existing scripts.|
+
+## Libraries
+
+### Tot_FL_PrimitiveMarshal
+`/Game/ModsShared/SudoExile/TotAdmin/Tot_FL_PrimitiveMarshal`
+In their you'll find how serialization of primitives is done, so you can serialize/deserialize (Marshal/Unmarshal) data in the same way the scripting system does. I will not detail how most of this works, as it is rather self explanatory. Marshal functions turn data into string, Unmarshal functions attempt to turn a string back to its original data. Simple.
+
+!> Please do **not** modify those functions. If you want one to work a little different, make copies in your own libraries to modify. If you change how this work, your mod will force a different behavior on everyone else.
+
+### Tot_FL_FlowChartHelper
+`/Game/ModsShared/SudoExile/TotAdmin/Tot_FL_FlowChartHelper`
+In there you'll find helpers to handle special types of field that are used in Tot!Admin, such as dynamic location, numeric fields and inventory field. Those are essentially multi type fields. I will only details the methods that are intended for usage, the rest is only there for dependancy.
+
+!> Please do **not** modify those functions. If you want one to work a little different, make copies in your own libraries to modify. If you change how this work, your mod will force a different behavior on everyone else.
+
+#### AddDynamicLocation
+Add a Dynamic Location Parameter to the node. Dynamic Location allow a user to either select an admin tool as a point in space or directly type a Vector3 coordinates. It work similarly to `Tot_I_FlowChartInspector.AddParameter`.
+<!-- tabs:start -->
+#### **Input**
+|type|name|description|
+|-|-|----|
+|Tot_I_FlowChartInspector|Inspector||
+|Object|Instigator||
+|Name|Key|Parameter Key|
+|Text|Label||
+|Text|HelpTooltip||
+|Boolean|VectorDefault|Should the default type be Vector or Admin Tool ?|
+#### **Output**
+void
+<!-- tabs:end -->
+
+#### GetDynamicLocationParam
+Get the location value during run time
+<!-- tabs:start -->
+#### **Input**
+|type|name|description|
+|-|-|----|
+|Tot_I_FlowChartStack|Stack||
+|Name|Key|Parameter Key|
+#### **Output**
+|type|name|description|
+|-|-|----|
+|Vector3|Return|Location|
+|Actor|Object|The AdminTool Actor reference if the user used an admin tool, null otherwise|
+<!-- tabs:end -->
+
+#### GetDynamicLocationTransformParam
+Similar to location but attempt to get a full transform (mostly for its rotation)
+<!-- tabs:start -->
+#### **Input**
+|type|name|description|
+|-|-|----|
+|Tot_I_FlowChartStack|Stack||
+|Name|Key|Parameter Key|
+|Rotator|DefaultRotation|If the user directly input a Vector3, their wont be rotation informations, so this default rotation will be returned|
+#### **Output**
+|type|name|description|
+|-|-|----|
+|Transform|Return||
+<!-- tabs:end -->
+
+#### AddInventoryTargetParameters
+Add a multi-typed inventory target parameter to your node
+<!-- tabs:start -->
+#### **Input**
+|type|name|description|
+|-|-|----|
+|Tot_I_FlowChartInspector|Inspector||
+|Object|Instigator||
+|Name|Key|Parameter Key|
+|Text|Label||
+#### **Output**
+void
+<!-- tabs:end -->
+
+#### GetInventoriesFromParameters
+Get the collection of inventories from the parameter at runtime
+<!-- tabs:start -->
+#### **Input**
+|type|name|description|
+|-|-|----|
+|Tot_I_FlowChartStack|Stack||
+|Name|Key|Parameter Key|
+|Actor|Default|Provide a reference to the player character here, so that the player context be used as a default fallback|
+#### **Output**
+|type|name|description|
+|-|-|----|
+|ItemInventory[]|Return||
+<!-- tabs:end -->
+
+#### AddNumericParameter
+Add a parameter that can either be a float or an integer for the user to provide. The system will do the necessary conversion in the background
+<!-- tabs:start -->
+#### **Input**
+|type|name|description|
+|-|-|----|
+|Tot_I_FlowChartInspector|Inspector||
+|Object|Instigator||
+|Name|Key|Parameter Key|
+|Text|Label||
+|Text|HelpTooltip||
+|Boolean|FloatDefault||
+#### **Output**
+void
+<!-- tabs:end -->
+
+#### AddNumericReturn
+Add a return that can either be a float or an integer for the user to provide. The system will do the necessary conversion in the background
+<!-- tabs:start -->
+#### **Input**
+|type|name|description|
+|-|-|----|
+|Tot_I_FlowChartInspector|Inspector||
+|Object|Instigator||
+|Name|Key|Parameter Key|
+|Text|Label||
+|Boolean|FloatDefault||
+#### **Output**
+void
+<!-- tabs:end -->
+
+#### GetNumericFloatParam
+Get a numeric parameter as a Float. Conversion will be handled if an integer was provided.
+<!-- tabs:start -->
+#### **Input**
+|type|name|description|
+|-|-|----|
+|Tot_I_FlowChartStack|Stack||
+|Name|Key|Parameter Key|
+#### **Output**
+|type|name|description|
+|-|-|----|
+|Float|Return||
+<!-- tabs:end -->
+
+#### GetNumericIntegerParam
+Get a numeric parameter as an Integer. Truncation will be handled if an float was provided.
+<!-- tabs:start -->
+#### **Input**
+|type|name|description|
+|-|-|----|
+|Tot_I_FlowChartStack|Stack||
+|Name|Key|Parameter Key|
+#### **Output**
+|type|name|description|
+|-|-|----|
+|Integer|Return||
+<!-- tabs:end -->
+
+#### SetNumericFloatReturn
+Set a Float as a Numeric return. Will be truncated automatically if the return expect an integer
+<!-- tabs:start -->
+#### **Input**
+|type|name|description|
+|-|-|----|
+|Tot_I_FlowChartStack|Stack||
+|Name|Key|Return Key|
+|Float|Value||
+#### **Output**
+void
+<!-- tabs:end -->
+
+#### SetNumericIntegerReturn
+Set an Integer as a Numeric return. Will be converted automatically if the return expect an float
+<!-- tabs:start -->
+#### **Input**
+|type|name|description|
+|-|-|----|
+|Tot_I_FlowChartStack|Stack||
+|Name|Key|Return Key|
+|Integer|Value||
+#### **Output**
+void
+<!-- tabs:end -->
