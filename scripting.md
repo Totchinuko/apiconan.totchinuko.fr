@@ -200,6 +200,17 @@ This represent the callback for fields to call whenever their value change. It w
 void
 <!-- tabs:end -->
 
+#### OnValueChangedUnsafe <small>Client</small>
+Same as above but do not check variable validity. Only use when you know what you are doing (Mostly this should only be used when not reporting user change)
+<!-- tabs:start -->
+#### **Input**
+|type|name|description|
+|-|-|----|
+|String|Value|The new serialized value of your field|
+#### **Output**
+void
+<!-- tabs:end -->
+
 ### Tot_I_FlowChartInspector
 `/Game/ModsShared/SudoExile/TotAdmin/Tot_I_FlowChartInspector`  
 Main interface representing the scripting Inspector. The inspector is the side pannel you use to edit a node values through fields. It handle the partial deserialization of the node data, the construction of all the fields that need to be displayed for a node, variable insertions, and cleanup of unused bits of data. Its what you'll use to order the scripting editor to draw fields for your nodes.
