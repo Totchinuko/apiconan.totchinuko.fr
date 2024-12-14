@@ -1,32 +1,34 @@
 # Todo list - Tot ! Mods
 ## Currently worked on
-- [ ] [Admin] Set Character Name Node `In Review` `Scripting System`
-- [ ] [Admin] UTF16 encoding for webhook node `In Review` `Improvement`
+- [X] [Admin] Position Parameter Cannot Switch to Vector3D Type `Bug`
+- [ ] [Custom] Fixing the damn IK, again `Bug`
+- [ ] [Admin] Investigate never ending script `Bug`
+- [ ] [Chat] /servertime command to display date/time in notification `Feature`
+- [ ] [Admin] Place Webhooks calls into a queue `Improvement`
 - [ ] [Admin] More admin tool compatibility for Get/Set Param `Scripting System`
-- [ ] [Admin] Scripting field API shouldn't need the compatible list `Improvement` `API`
-- [ ] [Admin] Scripting API publication `API` `Scripting System`
-- [ ] [Custom] Adjustable time for blood spilled on your character from combat `Improvement`
-- [ ] [Custom] Visibility tag for swimming `Feature`
-- [ ] [Custom] Experiment with light material for the lantern `Improvement`
+- [ ] [Admin] Copy past button on list `Scripting System`
+- [ ] [Custom] Footstep system `Feature`
+- [ ] [Release] Mods Release `Release`
 - [ ] [Sudo] World Map API `API`
 - [ ] [Admin] Active Quest Integration to map `Feature`
 - [ ] [Admin] Cloud based map location mechanic `Feature`
 - [ ] [HUD] HUD world map overlay `Improvement`
 - [ ] [Roleplay] Integrate World Map API `API`
-- [ ] [Release] Mods Release `Release`
 
 
 ## Admin
-- [ ]  Set Character Name Node `In Review` `Scripting System`
-- [ ]  UTF16 encoding for webhook node `In Review` `Improvement`
-- [ ]  Scripting API publication `API` `Scripting System`
-- [ ]  Scripting field API shouldn't need the compatible list `Improvement` `API`
+- [X]  Trim space on text/key fields for scripting `Improvement`
+- [X]  UTF16 encoding for webhook node `Improvement`
+- [X]  Set Character Name Node `Scripting System`
 - [ ]  More admin tool compatibility for Get/Set Param `Scripting System`
 - [ ]  Active Quest Integration to map `Feature`
+- [X]  Scripting field API shouldn't need the compatible list `Improvement` `API`
+- [X]  Scripting API publication `API` `Scripting System`
 - [ ]  Cloud based map location mechanic `Feature`
-- [X]  Recurring Event typo, is named "Unique day Event" `Bug`
+- [ ]  Copy past button on list `Scripting System`
 - [ ]  Server settings edition through nodes `Scripting System`
 - [ ]  Replace blocker scan with interface (Search for TODO) `Improvement`
+- [X]  Recurring Event typo, is named "Unique day Event" `Bug`
 - [ ]  Server Light Manager `Feature`
 - [ ]  Stop Script node `Scripting System`
 - [ ]  Invisible wall to block navigation `Feature`
@@ -70,9 +72,9 @@
 - [ ]  Find a way to disable bench thrall wander `Feature` `Experimental`
 - [ ]  Find a way to block door use from thralls `Feature` `Experimental`
 - [ ]  Learn Recipe node `Feature` `Scripting System`
-- [X]  No fly node should stop flying `Bug`
 - [ ]  Player Achored Post Processing, Lighting, and Particles
 - [ ]  Custom fail text on rule sets `Improvement`
+- [X]  No fly node should stop flying `Bug`
 - [ ]  Interactable control through scripting/admin tool `Feature`
 - [ ]  Quest objective hunt player `Feature`
 - [ ]  Display last online in clan player list on admin side `Improvement`
@@ -87,19 +89,24 @@
 - [ ]  Spheres do not run script on spawn when inside them `Blocked` `Bug`
 - [ ]  Some weird building prevention on specific area of the map `Blocked` `Bug`
 - [ ]  Force completion does not function correctly with Char Number `Blocked` `Bug`
-- [ ]  Add Var Float seem to produce Sudo Float Var duplicates `Blocked` `Bug`
 - [ ]  Send Message node is not behaving accordingly with colors/tags `Blocked` `Bug` `Scripting System`
 - [ ]  Weapons and Armor resetting values in Trader NPC `Blocked` `Bug`
-- [X]  Rename the puppet tags to status `Improvement`
 - [ ]  Some custom tool fail to harvest `Blocked` `Bug` `API`
+- [ ]  Module Death Post Death NPC's Docile Chance `Blocked` `Bug`
+- [ ]  Removing points using the attribute editor does not revoke perks `Blocked` `Bug`
+- [X]  Rename the puppet tags to status `Improvement`
+- [ ]  Warning Logs (Quest and scripted door related) `Blocked` `Bug`
 - [X]  Allow for less than 5 inventory slot with multiplier `Improvement`
 - [X]  Close admin panel on warp `Improvement`
-- [ ]  Module Death Post Death NPC's Docile Chance `Blocked` `Bug`
-- [X]  Add hard off switch for inventory multipliers `Improvement`
-- [ ]  Removing points using the attribute editor does not revoke perks `Blocked` `Bug`
-- [ ]  Warning Logs (Quest and scripted door related) `Blocked` `Bug`
 - [ ]  Thrall cannot be sold through puppet anymore `Blocked` `Bug`
+- [X]  Add hard off switch for inventory multipliers `Improvement`
 - [X]  Expose inventory multipliers to API `API`
+- [X]  Legs bent with heels on, when not on flat ground `Bug`
+- [X]  Get Date (To Text) seems to return nothing now
+- [X]  Position Parameter Cannot Switch to Vector3D Type `Bug`
+- [ ]  Admin tool: Hitable. A volume that can be attacked for events.
+- [ ]  Investigate never ending script `Bug`
+- [ ]  Place Webhooks calls into a queue `Improvement`
 
 ## Chat
 - [ ]  Death Announcements `Feature`
@@ -138,8 +145,11 @@
   - [ ]  Writable note/book `Feature`
 - [ ]  FPS problem when receiving very special character `Blocked` `Bug`
 - [ ]  Add a prompt on chat to swap the setting for the player on log
+- [ ]  Hotkeys for macros
+- [ ]  /servertime command to display date/time in notification `Feature`
 
 ## Custom
+- [ ]  Fixing the damn IK, again `Bug`
 - [ ]  Investigate documentation for making armor accessories `Documentation`
 - [ ]  Custom 1.7.0 `Version`
   - [X]  Down But Not Out does not function properly with Customization `Bug`
@@ -154,8 +164,7 @@
   - [X]  Reset entire body category `Improvement`
   - [X]  Alternative weapon transmog compatibility method `Feature`
   - [X]  Find a way to filter by weapon type for transmog compatibility `Improvement`
-  - [ ]  Adjustable time for blood spilled on your character from combat `Improvement`
-  - [ ]  Visibility tag for swimming `Feature`
+  - [X]  Visibility tag for swimming `Feature`
   - [X]  Warpaint Glow `Feature`
   - [X]  Warpaint Metallic slider `Feature`
 - [ ]  Custom 1.8.0 `Version`
@@ -172,11 +181,18 @@
 - [ ]  Horse Edition (Separate Mod ?) `Feature`
 - [ ]  Networking issue on login/Slow loading time on DS `Bug` `Delayed`
 - [ ]  Separate head and body skin shininess `Improvement`
+- [ ]  Blood Metallic / Glow `Improvement`
+- [ ]  Manually typed rotation do not behave properly `Blocked` `Bug`
+- [ ]  Body randomization
+- [ ]  Player choice to hide armor if vanilla armor is unequiped
 - [X]  Integrate the lantern `Feature`
 - [X]  Document the new table API `Documentation`
 - [X]  Character shoulders twisted inwards `Bug`
-- [ ]  Experiment with light material for the lantern `Improvement`
-- [ ]  Blood Metallic / Glow
+- [X]  Experiment with light material for the lantern `Improvement`
+- [X]  Investigate sliders all Locked to Zero `Bug`
+- [X]  API for new transmog mechanism `API`
+- [X]  Typo on act name tooltip `Bug`
+- [ ]  A way to select all the accessories of a bone
 
 ## HUD
 - [ ]  Minimap Z Order issue with chat box `Bug`
@@ -235,3 +251,7 @@
 
 ## Walk
 - [ ]  Animation: Improve horse blending `Improvement`
+
+## WebPanel
+- [X]  Create a simple .net webhook router
+- [ ]  ASP.net webpanel for Conan `Feature`
