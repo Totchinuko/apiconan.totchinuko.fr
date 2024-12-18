@@ -1,19 +1,15 @@
 # Todo list - Tot ! Mods
 ## Currently worked on
-- [X] [Admin] Position Parameter Cannot Switch to Vector3D Type `Bug`
-- [ ] [Custom] Fixing the damn IK, again `Bug`
 - [ ] [Admin] Investigate never ending script `Bug`
-- [ ] [Chat] /servertime command to display date/time in notification `Feature`
-- [ ] [Admin] Place Webhooks calls into a queue `Improvement`
+- [ ] [Custom] Footstep system `Feature`
 - [ ] [Admin] More admin tool compatibility for Get/Set Param `Scripting System`
 - [ ] [Admin] Copy past button on list `Scripting System`
-- [ ] [Custom] Footstep system `Feature`
-- [ ] [Release] Mods Release `Release`
 - [ ] [Sudo] World Map API `API`
 - [ ] [Admin] Active Quest Integration to map `Feature`
 - [ ] [Admin] Cloud based map location mechanic `Feature`
 - [ ] [HUD] HUD world map overlay `Improvement`
 - [ ] [Roleplay] Integrate World Map API `API`
+- [ ] [Release] Mods Release `Release`
 
 
 ## Admin
@@ -106,7 +102,10 @@
 - [X]  Position Parameter Cannot Switch to Vector3D Type `Bug`
 - [ ]  Admin tool: Hitable. A volume that can be attacked for events.
 - [ ]  Investigate never ending script `Bug`
-- [ ]  Place Webhooks calls into a queue `Improvement`
+- [X]  Place Webhooks calls into a queue `Improvement`
+- [ ]  Player offline editing
+- [ ]  Advanced variable types `Scripting System`
+- [X]  Unexpected skip of subscript `Bug`
 
 ## Chat
 - [ ]  Death Announcements `Feature`
@@ -146,10 +145,10 @@
 - [ ]  FPS problem when receiving very special character `Blocked` `Bug`
 - [ ]  Add a prompt on chat to swap the setting for the player on log
 - [ ]  Hotkeys for macros
-- [ ]  /servertime command to display date/time in notification `Feature`
+- [X]  /servertime command to display date/time in notification `Feature`
 
 ## Custom
-- [ ]  Fixing the damn IK, again `Bug`
+- [X]  Fixing the damn IK, again `Bug`
 - [ ]  Investigate documentation for making armor accessories `Documentation`
 - [ ]  Custom 1.7.0 `Version`
   - [X]  Down But Not Out does not function properly with Customization `Bug`
