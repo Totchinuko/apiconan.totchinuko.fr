@@ -1,15 +1,22 @@
 # Todo list - Tot ! Mods
 ## Currently worked on
-- [ ] [Admin] Investigate never ending script `Bug`
-- [ ] [Custom] Footstep system `Feature`
-- [ ] [Admin] More admin tool compatibility for Get/Set Param `Scripting System`
+- [X] [Admin] Investigate never ending script `Bug`
+- [X] [Custom] Footstep system `Feature`
+- [ ] [Library] Environement controller `Feature`
+- [ ] [Custom] Footstep improvements `Improvement`
 - [ ] [Admin] Copy past button on list `Scripting System`
+- [ ] [Custom] Mounts do not have footstep `Bug`
+- [ ] [Custom] Reset weapon size when modifying body `Bug`
+- [ ] [Custom] Issues with Sliders based on Roles `Bug`
+- [ ] [Admin] Resized Placeables 'Snap' Back to Round Number `Bug`
+- [ ] [Admin] Text Join can no longer use space as separator `Bug`
+- [ ] [Admin] Add teleport radius to warps/nodes to avoid player stacking `Bug`
+- [ ] [Release] Mods Release `Release`
 - [ ] [Sudo] World Map API `API`
 - [ ] [Admin] Active Quest Integration to map `Feature`
 - [ ] [Admin] Cloud based map location mechanic `Feature`
 - [ ] [HUD] HUD world map overlay `Improvement`
 - [ ] [Roleplay] Integrate World Map API `API`
-- [ ] [Release] Mods Release `Release`
 
 
 ## Admin
@@ -101,11 +108,20 @@
 - [X]  Get Date (To Text) seems to return nothing now
 - [X]  Position Parameter Cannot Switch to Vector3D Type `Bug`
 - [ ]  Admin tool: Hitable. A volume that can be attacked for events.
-- [ ]  Investigate never ending script `Bug`
+- [X]  Investigate never ending script `Bug`
 - [X]  Place Webhooks calls into a queue `Improvement`
 - [ ]  Player offline editing
 - [ ]  Advanced variable types `Scripting System`
 - [X]  Unexpected skip of subscript `Bug`
+- [ ]  Add teleport radius to warps/nodes to avoid player stacking `Bug`
+- [ ]  Resized Placeables 'Snap' Back to Round Number `Bug`
+- [ ]  Text Join can no longer use space as separator `Bug`
+- [ ]  NPC speed multipliers
+- [ ]  Knowledge learned as quest objective
+- [ ]  Improving wallpapers
+- [ ]  Add Attribute/Feat points details
+- [ ]  Add toggle to search in all categories
+- [ ]  ToT!Trader - Sorting
 
 ## Chat
 - [ ]  Death Announcements `Feature`
@@ -148,8 +164,8 @@
 - [X]  /servertime command to display date/time in notification `Feature`
 
 ## Custom
-- [X]  Fixing the damn IK, again `Bug`
 - [ ]  Investigate documentation for making armor accessories `Documentation`
+- [X]  Fixing the damn IK, again `Bug`
 - [ ]  Custom 1.7.0 `Version`
   - [X]  Down But Not Out does not function properly with Customization `Bug`
   - [X]  Gender should apply to body menu in partial bodies `Bug`
@@ -157,7 +173,7 @@
   - [X]  Mannequin heads reappearing even with invisible head armor `Bug`
   - [X]  Dual weapons can be upside down `Bug`
   - [X]  Separate hairline color `Feature`
-  - [ ]  Footstep system `Feature`
+  - [X]  Footstep system `Feature`
   - [X]  Find a way to flag materials as flat chest replacements. `API`
   - [X]  Command to enforce rules on character + scripting `Feature`
   - [X]  Reset entire body category `Improvement`
@@ -166,11 +182,15 @@
   - [X]  Visibility tag for swimming `Feature`
   - [X]  Warpaint Glow `Feature`
   - [X]  Warpaint Metallic slider `Feature`
+  - [ ]  Blood Metallic / Glow `Improvement`
 - [ ]  Custom 1.8.0 `Version`
   - [ ]  Pose System `Feature`
     - [ ]  Cancel limb animation with T-pose blending
     - [ ]  Auto swap a pose in some sub-state like fly, sit, etc..
   - [ ]  Access of presets on non player customizable
+  - [ ]  Separate head and body skin shininess `Improvement`
+  - [ ]  Body randomization `Improvement`
+  - [ ]  Player choice to hide armor if vanilla armor is unequiped `Improvement`
 - [ ]  Teeth Coloring `Feature`
 - [ ]  Investigate faction voice line for NPC ? `Improvement`
 - [ ]  Add a new item ban rule: Unlock or Item in bag/equipped `Feature`
@@ -179,11 +199,8 @@
 - [ ]  Chair compatibility improvement `Improvement`
 - [ ]  Horse Edition (Separate Mod ?) `Feature`
 - [ ]  Networking issue on login/Slow loading time on DS `Bug` `Delayed`
-- [ ]  Separate head and body skin shininess `Improvement`
-- [ ]  Blood Metallic / Glow `Improvement`
+- [ ]  A way to select all the accessories of a bone `Improvement`
 - [ ]  Manually typed rotation do not behave properly `Blocked` `Bug`
-- [ ]  Body randomization
-- [ ]  Player choice to hide armor if vanilla armor is unequiped
 - [X]  Integrate the lantern `Feature`
 - [X]  Document the new table API `Documentation`
 - [X]  Character shoulders twisted inwards `Bug`
@@ -191,7 +208,15 @@
 - [X]  Investigate sliders all Locked to Zero `Bug`
 - [X]  API for new transmog mechanism `API`
 - [X]  Typo on act name tooltip `Bug`
-- [ ]  A way to select all the accessories of a bone
+- [ ]  Footstep improvements `Improvement`
+- [ ]  Issues with Sliders based on Roles `Bug`
+- [ ]  Investigate: No Walking Sound
+- [ ]  Randomize ToT! NPC's?
+- [ ]  Improve weapon transmog tooltips
+- [ ]  Tradeable Exports
+- [ ]  API Suggestion: Hide ToT Accessories Flag
+- [ ]  Reset weapon size when modifying body `Bug`
+- [ ]  Mounts do not have footstep `Bug`
 
 ## HUD
 - [ ]  Minimap Z Order issue with chat box `Bug`
@@ -204,8 +229,10 @@
 - [ ]  Improve ping value `Improvement`
 - [ ]  Display level on hud `Improvement`
 - [ ]  More informations on the minimap `Feature`
+- [ ]  ToT Immersive HUD wrong/missing Icon reference
 
 ## Library
+- [ ]  Environement controller `Feature`
 - [ ]  Make a range visualizer (Visual 3D circle) `Feature`
 - [ ]  Rework the placeable editor `Improvement`
 - [ ]  New Item Lookup supporting multiple selection `Improvement`
@@ -226,6 +253,7 @@
 - [ ]  Run Script Effect in RPR `Feature` `Scripting System`
 - [ ]  Image insertion into POI with admin setting `Improvement`
 - [ ]  Investigate reset RPR stat override reset `Blocked` `Bug` `API`
+- [ ]  Delayed Status Effects via Script Persisting Invisibly After Rem `Bug`
 
 ## Sudo
 - [ ]  World Map API `API`
@@ -234,6 +262,7 @@
 - [ ]  Sudo Nameplate API `API`
 - [ ]  Vanilla command fall back should display notifications `Improvement`
 - [ ]  Make image download documentation `Documentation`
+- [ ]  UTF16BE log webhook
 
 ## Trebuchet
 - [X]  More fixing of the broken SK2 integration `Bug`
