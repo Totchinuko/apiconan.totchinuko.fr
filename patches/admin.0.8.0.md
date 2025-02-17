@@ -1,7 +1,6 @@
 # Tot ! Admin 0.8.x (Alpha)
 
-## New
-`0.8.0`
+## 0.8.0
 - Added a button in the `Player Editor` to reset the Tot!Custom Unlocked Items of a character
 - Spawners now have a new event that trigger with player context for each player that killed or assisted in killing an NPC of that spawner.
 - You can now set a script to pre-run up to 200 nodes. When starting a new script (Not as a subscript), you can tell the server to pre-run a certain amount of nodes before placing the script into the normal execution queue. This will make the scripts more reactive when needed. Setting is located in the Settings tab of the script editor.
@@ -39,70 +38,11 @@
     - A node to send webhook request to a router server
     - Two nodes to send people back at their home or bed/bedroll
     - New nodes to track down a character change of state
-
-`0.8.1`
-- New Node: Run blind script
-
-`0.8.2`
-- New Node: Find Ambush Points. This node use an Environment Query System, the very same used by the Jhebbal Sag hunters events, to find points in a radius around the player that can reach the target, preferably in their backs. 
-
-`0.8.3`
-- New Nodes: 
-    - Fire timer early. This trigger a timer before it reach its trigger date.
-    - Is Spawned NPC at Destination. Check if an NPC has arrived to the latest destination it was given
-    - Get Spawned NPC in various box and spheres
-    - Get Actor Position. Replacing specific position request, this will work with players, admin tools, or spawned NPC.
-    - Receive Message. To make personalized notifications to a specific player.
-    - Convert generic admin tool to a specific tool and back.
-    - Send local message or fake bubble from a Puppet
-
-`0.8.4`
-- Added a setting on resource spawner to disable the use of quick harvest perk
-- New Node: `Find Actor Ambush Points`
-- New Node: `Toggle Prevent Fly`
-
-`0.8.5`
-- Added Item Stack Size Multiplier to the general settings of the server. (Experimental) (Best to reboot after any change)
-- Added Inventory Size Multiplier to the general settings of the server. (Experimental) (Best to reboot after any change)
-- Node `Get Date` now also return the local date along side UTC
-- New Nodes:
-    - Is Character in Own Land Claim
-    - Set Unconscious
-    - Is Unconscious
-    - Get/Set Admin Tool Parameter. For now only Post Process Anchor, Portal And Lights are compatible, more will be added in the future.
-    
-## Changed
-`0.8.0`
 - Display the chances to get an item from a kit in the kit editor. Specially useful for loot box kits
 - Improved the node filter field
 - Node `Has Any Quest` was improved to return the list of quest found
 - Staff list is now based on the role selected in server settings.
 - Added manual max value for Box and Sphere Zones sizes 10 times superior to max slider.
-
-`0.8.2`
-- Random Point in Circle nodes now have a minimum radius parameter
-- Get Player Clan now also return the player current rank in the clan
-
-`0.8.3`
-- Remove the delay for node filtering
-- Improved Send Message to allow added tags (API stuff)
-- New variable creation panel
-
-`0.8.4`
-- Preventing flight while carrying a crate
-- Node `Get Character Name` now also return the real name (Non act one)
-- Node `Get Puppet Name` now have a failed output as it should have
-
-`0.8.6`
-- New nodes:
-    - Set Player Interaction - Attach a script to a player character that will be triggered by other players interaction.
-    - Clear Player Interaction - Remove the interaction script attached to a player character.
-    - Get Script Origin - Get the original actor that started the script. It can be a player, an admin tool or simply nothing usable (Return failed in the last case)
-    - Set Event Action - Set the response of an Admin Tool Event Action for a script of your choosing.
-- Added compatibility to Box Zone, Sphere Zone and Sphere Interaction for Get/Set Admin Tool Parameter nods
-
-## Fixed
-`0.8.0`
 - Integrated map sometimes were stuck on transition animations
 - Node field were loosing keyboard focus shortly after creating the node
 - Lines starting from the second output plug and up were not aligned properly
@@ -110,7 +50,8 @@
 - Fix parameters for `Try Fire Event` not restoring properly
 - Send message node was preventing the script from continuing after posting in clan channel
 
-`0.8.1`
+## 0.8.1
+- New Node: Run blind script
 - Script Pre-Run value was not exported
 - Script command values where not imported properly if the script already existed.
 - Editing Script Pre-Run or command values did not update the script editor
@@ -122,12 +63,26 @@
     - Word detection is now more robust and the solver should not confused longer words for shorter ones. 
     - Expected parameter count for an operator or function is now more strictly regulated.
 
-`0.8.2`
+## 0.8.2
+- New Node: Find Ambush Points. This node use an Environment Query System, the very same used by the Jhebbal Sag hunters events, to find points in a radius around the player that can reach the target, preferably in their backs. 
+- Random Point in Circle nodes now have a minimum radius parameter
+- Get Player Clan now also return the player current rank in the clan
 - Creating variables from a parameter field were not auto-assigned properly after the creation
 - Folded state of variables in the scripting editor was not saved properly
 - Events in the Quest editor were not loading properly in various cases, entering in conflict with each others.
 
-`0.8.3`
+## 0.8.3
+- New Nodes: 
+    - Fire timer early. This trigger a timer before it reach its trigger date.
+    - Is Spawned NPC at Destination. Check if an NPC has arrived to the latest destination it was given
+    - Get Spawned NPC in various box and spheres
+    - Get Actor Position. Replacing specific position request, this will work with players, admin tools, or spawned NPC.
+    - Receive Message. To make personalized notifications to a specific player.
+    - Convert generic admin tool to a specific tool and back.
+    - Send local message or fake bubble from a Puppet
+- Remove the delay for node filtering
+- Improved Send Message to allow added tags (API stuff)
+- New variable creation panel
 - A script starting with pre-run nodes from a timer, considered the triggering timer to still be in effect.
 - Concealed decoration could sometimes loose stability on server start
 - Get Float Var truncate Boolean had not effect
@@ -135,22 +90,71 @@
 - Enforcing rules on quest giver was not displaying errors properly
 - Not enforcing rules on quest giver would still enforce the rules before accepting a quest
 
-`0.8.4`
+## 0.8.4
+- Added a setting on resource spawner to disable the use of quick harvest perk
+- New Node: `Find Actor Ambush Points`
+- New Node: `Toggle Prevent Fly`
+- Preventing flight while carrying a crate
+- Node `Get Character Name` now also return the real name (Non act one)
+- Node `Get Puppet Name` now have a failed output as it should have
 - Decoration concealers were not revealing their bound decorations when dismantled
 - Scripted chests did not received event calls like they should
 - Nodes that format text or solve math expressions should now properly do it using the overridden player context
 - Resource on client side resource spawners could desync in specific scenarios, making the resources invisible.
 - Invisible wall was not interactable if its size was increased and it was disabled
 
-`0.8.5`
+## 0.8.5
+- Added Item Stack Size Multiplier to the general settings of the server. (Experimental) (Best to reboot after any change)
+- Added Inventory Size Multiplier to the general settings of the server. (Experimental) (Best to reboot after any change)
+- Node `Get Date` now also return the local date along side UTC
+- New Nodes:
+    - Is Character in Own Land Claim
+    - Set Unconscious
+    - Is Unconscious
+    - Get/Set Admin Tool Parameter. For now only Post Process Anchor, Portal And Lights are compatible, more will be added in the future.
 - Node `Set Spawned NPC Behavior` was not working properly
 - Duplicating a quest was not properly duplicating the failed event section
 - Improved the conditions in which the `In Combat` rule triggers
 - Improve default NPC speed spawned with spawners, specifically when they enter combat.
 
-`0.8.6`
+## 0.8.6
+- New nodes:
+    - Set Player Interaction - Attach a script to a player character that will be triggered by other players interaction.
+    - Clear Player Interaction - Remove the interaction script attached to a player character.
+    - Get Script Origin - Get the original actor that started the script. It can be a player, an admin tool or simply nothing usable (Return failed in the last case)
+    - Set Event Action - Set the response of an Admin Tool Event Action for a script of your choosing.
+- Added compatibility to Box Zone, Sphere Zone and Sphere Interaction for Get/Set Admin Tool Parameter nods
 - Preventing the use of move tool on benches that have a thrall attached to it
 - Fixed Thrall generating function (Cheat panel, trader) that broke with the last patch
 - Rewriting how the trading window closes automatically, as it was crashing the server in specific scenarios.
 - Cheat panel thrallify button was not functional on certain maps.
 - Reinforced unconsciousness movement freeze
+
+## 0.8.7
+- Expose inventory multipliers to API `API`
+- Add hard off switch for inventory multipliers `Improvement`
+- Allow for less than 5 inventory slot with multiplier `Improvement`
+- Rename the puppet tags to status `Improvement`
+- Close admin panel on any warp `Improvement`
+- No fly node should toggle off flying `Bug`
+- Recurring Event typo, is named "Unique day Event" `Bug`
+
+## 0.8.8
+- Publication of the Scripting API `API`
+- Node to rename act name or character name `Scripting system`
+- Setting on send webhook to encode text with UTF16BE Hexadecimals `Scripting System`
+- Node variant send webhook with simple text `Scripting system`
+- Adding variable type conversion nodes `Scripting system`
+- Many internal changes to polish the API `Scripting System`
+
+## 0.8.10
+- New debug data export on long running scripts to identify why they are stuck `Improvement`
+- Scripting send webhook nodes now queue their requests to be sent one by one and avoid  some issues when two hooks were running at the same time. `Bug`
+- Broken dynamic location and numerics parameters `Bug`
+- Return node was corrupting the parent script state when calling a sub script `Bug`
+
+## 0.8.11
+- Added a grid size on warps; This will allow to spawn character around the point of warp randomly, while also rejecting points that would lead into a collision. This is useful for busy hubs.
+- Fixed placeable on client rounding their scale to a single decimal
+- Modified Text Join/Parse scripting node to not trim spaces
+- Fixed some reference error on client side
