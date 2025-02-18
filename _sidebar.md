@@ -8,6 +8,9 @@
     - [Mod Orders](modlist)
     - [Videos](stream)
     - [Tot ! Custom Help](custom-help)
+- Tot ! Roadmap
+
+    - [2025](roadmap.2025)
 - Tot ! API
 
     - [Sudo API](sudo)
