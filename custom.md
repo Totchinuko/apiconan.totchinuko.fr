@@ -8,7 +8,7 @@
 3- Do not put these files in your mod content folder and do not select them in the modfile list  
 If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
 
-**Download API**: [Tot!Custom 1.7.1](/API/TotCustom1.7.1.zip ':ignore') 
+**Download API**: [Tot!Custom 1.7.6](/API/TotCustom.1.7.6.zip ':ignore') 
 
 ## Internal Data Tables
 ### Tot_DT_CustomFieldTable
@@ -670,6 +670,39 @@ Get the mesh component associated with an accessory GUID. Please note that unequ
 |type|name|description|
 |-|-|----|
 |MeshComponent|MeshComponent||
+<!-- tabs:end -->
+
+#### GetInvisibleAccessories <small>Client - 1.7.6+</small>
+
+<!-- tabs:start -->
+#### **Input**
+
+void
+
+#### **Output**
+
+|type|name|description|
+|-|-|----|
+|Boolean|Return||
+<!-- tabs:end -->
+
+#### SetInvisibleAccessories <small>Client - 1.7.6+</small>
+Force the accessories to be invisible
+
+<!-- tabs:start -->
+#### **Input**
+
+|type|name|description|
+|-|-|----|
+|Boolean|Invisible||
+
+#### **Output**
+
+|type|name|description|
+|-|-|----|
+|Boolean|IsSuccess||
+|String|ErrorMessage||
+
 <!-- tabs:end -->
 
 ### Weapon transmog methods
