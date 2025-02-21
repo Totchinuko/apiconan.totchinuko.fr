@@ -95,6 +95,14 @@ NoServerListAutoRefresh=true
 ### Crashing when trying to open an inventory on the admin map
 A similar case was already resolved. If you are using Unlock+, try reducing both inventory multiplier to x1, save, and restore the previous value you had. We suspect this is due to some form of corrupted configuration somewhere, either from Unlock+ or from some vanilla data modified by Unlock+.
 
+### Deactivate Move Tool High Precision mode <small>(Tot!Admin 0.8.12+)</small>
+For compatibility reasons with other scaling methods coming from other mods, you can disable this feature from Tot!Admin to avoid conflicts. 
+
+`Conan Exiles/ConanSandbox/Config/DefaultEngine.ini`
+```
+[/Game/Mods/TotAdmin/Tot_AC_Buildable_RPC.Tot_AC_Buildable_RPC_C]
+DisableHighPrecisionMoveTool = True
+```
 
 ## Tot ! Sudo
 ### Super Admin for Steam ID
