@@ -76,7 +76,6 @@
 ## 1.0.49
 - Fix soft lock during setup with super admin password
 
-
-
-
+## 1.0.50
+- Fixed the parameter blocking nameplates through walls that was not getting backed up
 

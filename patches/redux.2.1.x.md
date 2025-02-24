@@ -62,3 +62,6 @@
 
 ## 2.1.35
 - Legs bent with heels on, when not on flat ground `Bug`
+
+## 2.1.37
+-  Fixed map overlay going above the map markers

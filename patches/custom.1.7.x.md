@@ -47,3 +47,17 @@
 - Fix some mounts not having footsteps sounds
 - Fix weapon exploit with hand sizes
 - Fix body rules not updating when roles/tags were changed
+
+## 1.7.6
+- Added double click in the accessory editor to select all the accessories of a same bone
+- Added blood glow and metalic slider
+- Added a hidding condition based on the state of the lantern (Lit or not)
+- Added the chair snap menu item. Open the wheel on a chair, to automatically snap your character at the proper coordinates so you can play chair emotes.
+- Added a button in custom panel to offset your character the proper height to sit on the surface you stand on with a chair emote.
+- Improved the item tooltip of the weapon transmog panel
+- Improved radium lantern to allow the cork and string to be dyed
+- Decreased intensity and range of some of !Custom lanterns by about 30%.
+- Fixed camera being stuck into you when too close from a collision such as a wall, chair, floor, etc...
+- Fixed character offset tool not having proper rotation when opening Custom panel again
+- Fixed wrong breast perk rotation during emotes when the character was oriented differently
+- Fixed character offset tool not working after editing accessories

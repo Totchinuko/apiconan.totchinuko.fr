@@ -158,3 +158,12 @@
 - Fixed placeable on client rounding their scale to a single decimal
 - Modified Text Join/Parse scripting node to not trim spaces
 - Fixed some reference error on client side
+
+## 0.8.12
+- Shift+Insert will now open the vanilla or !Admin cheat panel based on your Admin status and permissions. If you have access to one and not the other, it will prefere that one. If you have access to both, you can choose in !Admin settings which one you wish to open with the input key.
+- Added an .ini setting to DefaultEngine.ini to disable high precision scale on the move tool, in order to be more compatible with other scaling methods. You can find details in the tips section of the website.
+- Fixed move tool teleporting the player if it was standing on the object that was being moved.
+- Fixed quest not getting added to completed log in some cases when auto-validating was on
+- Fixed cheat panel not spawning full stack of item when using shift click
+- Fixed Admin map listing scripted admin tools such as scripted door when no owner was selected
+- Fixed scripted admin tools being counted as the wrong type of tool in admin map
