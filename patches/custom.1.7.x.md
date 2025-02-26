@@ -61,3 +61,6 @@
 - Fixed character offset tool not having proper rotation when opening Custom panel again
 - Fixed wrong breast perk rotation during emotes when the character was oriented differently
 - Fixed character offset tool not working after editing accessories
+
+## 1.7.7
+- Fixed broken camera on puppet and mannequin
