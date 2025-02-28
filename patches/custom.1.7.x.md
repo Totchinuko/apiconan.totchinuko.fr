@@ -64,3 +64,7 @@
 
 ## 1.7.7
 - Fixed broken camera on puppet and mannequin
+
+## 1.7.8
+- Improved sync of body rules status that was not getting loaded properly.
+- Fixed !Custom camera teleporting at the center of the world when using the input key
