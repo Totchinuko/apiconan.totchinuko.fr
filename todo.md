@@ -1,17 +1,29 @@
 # Todo list - Tot ! Mods
 ## Currently worked on
-- [ ] [Library] Environement controller `In Review` `Feature`
-- [ ] [Sudo] World Map API `API`
-- [ ] [Admin] Active Quest Integration to map `Feature`
-- [ ] [Admin] Cloud based map location mechanic `Feature`
-- [ ] [HUD] HUD world map overlay `Improvement`
-- [ ] [Roleplay] Integrate World Map API `API`
-- [ ] [Admin] Server Light Manager `Feature`
+- [X] [Custom] Toggle Camera: Cam moves to location (0|0|0) `Bug`
+- [X] [Chat] Range physical visualization (Circle Shader - Tot!Lib) `Improvement`
+- [ ] [Custom] Sliders not initialized `In Review` `Bug`
+- [X] [Library] Environement controller `Feature`
+- [X] [Admin] Environment Improvements `Improvement`
+- [X] [Sudo] Some favorits are getting duplicated on main menu `Bug`
+- [X] [Admin] Bad script import/export `Bug`
 - [ ] [Admin] Copy past button on list `Scripting System`
+- [ ] [Admin] Server Light Manager `Feature`
+- [ ] [Admin] Improving wallpapers `Improvement`
+- [ ] [Admin] Add Attribute/Feat points details `Improvement` `Scripting System`
+- [ ] [Admin] Add toggle to search in all categories `Improvement`
+- [ ] [Admin] More admin tool compatibility for Get/Set Param `Scripting System`
+- [ ] [Admin] Improve Kick to disconnect instead of closing the game `Improvement`
+- [ ] [Admin] Learn Recipe node `Feature` `Scripting System`
 - [ ] [Release] Mods Release `Release`
+- [ ] [Custom] Photo Mode `Feature`
 
 
 ## Admin
+- [X]  Issue when buying thralls from trading puppet `Bug`
+- [X]  Nameplate wall blocking is not backed up `Bug`
+- [X]  Environment Improvements `Improvement`
+- [X]  Auto-Validate issue with loot already in bag `Bug`
 - [X]  Trim space on text/key fields for scripting `Improvement`
 - [X]  UTF16 encoding for webhook node `Improvement`
 - [X]  Set Character Name Node `Scripting System`
@@ -55,6 +67,9 @@
   - [ ]  Model Picker/Placer `Feature`
   - [ ]  Night vision cheat `Feature`
   - [ ]  Knowledge learned as quest objective `Feature`
+  - [X]  Deactivate collision of placeable server side when using move `Improvement`
+  - [ ]  Improve Kick to disconnect instead of closing the game `Improvement`
+  - [ ]  Add head tracking variant that do not rotate the whole body `Improvement` `Scripting System`
 - [ ]  Invisible wall to block navigation `Feature`
 - [ ]  Node to display friendly durations/date `Scripting System`
 - [X]  Scripting field API shouldn't need the compatible list `Improvement` `API`
@@ -97,19 +112,21 @@
 - [ ]  Homepoint per clan in Clan Switch `Feature` `Experimental`
 - [ ]  Admin Customizable UI Project `Feature` `Experimental`
 - [ ]  Text admin tool `Feature`
+- [ ]  Custom API through scripting `Experimental` `Scripting System`
 - [ ]  Server settings edition through nodes `Scripting System`
 - [ ]  Integrate RR Dice Sheet on Puppets `Delayed` `Experimental`
 - [ ]  Setting to apply warp rules to /return and /teleport `Improvement`
+- [ ]  Interaction sphere as interaction box `Feature`
 - [ ]  Thrall names displayed incorrectly traders `Blocked` `Bug`
 - [ ]  Spheres do not run script on spawn when inside them `Blocked` `Bug`
 - [ ]  Some weird building prevention on specific area of the map `Blocked` `Bug`
 - [ ]  Force completion does not function correctly with Char Number `Blocked` `Bug`
 - [ ]  Send Message node is not behaving accordingly with colors/tags `Blocked` `Bug` `Scripting System`
 - [ ]  Weapons and Armor resetting values in Trader NPC `Blocked` `Bug`
+- [X]  No fly node should stop flying `Bug`
 - [ ]  Some custom tool fail to harvest `Blocked` `Bug` `API`
 - [ ]  Module Death Post Death NPC's Docile Chance `Blocked` `Bug`
 - [ ]  Removing points using the attribute editor does not revoke perks `Blocked` `Bug`
-- [X]  No fly node should stop flying `Bug`
 - [ ]  Warning Logs (Quest and scripted door related) `Blocked` `Bug`
 - [ ]  Thrall cannot be sold through puppet anymore `Blocked` `Bug`
 - [X]  Rename the puppet tags to status `Improvement`
@@ -123,6 +140,12 @@
 - [X]  Investigate never ending script `Bug`
 - [X]  Place Webhooks calls into a queue `Improvement`
 - [X]  Unexpected skip of subscript `Bug`
+- [X]  Add opt out setting from move tool fix `Improvement`
+- [X]  Scripted Doors Detected as Unowned Placeables. `Bug`
+- [ ]  Return more information about prevented death `Improvement`
+- [X]  Bad script import/export `Bug`
+- [ ]  Add description of an item in the trading window `Improvement`
+- [ ]  Block NPC Spawn Tool `Feature`
 
 ## Chat
 - [ ]  Add a prompt on chat to swap the setting for the player on log `Improvement`
@@ -144,7 +167,7 @@
   - [ ]  Range ID → GUID `Improvement`
   - [ ]  Improve Add/Remove listener API `Improvement`
   - [ ]  Improve Focus mode to be retro active on messages `Improvement`
-  - [ ]  Range physical visualization (Circle Shader - Tot!Lib) `Improvement`
+  - [X]  Range physical visualization (Circle Shader - Tot!Lib) `Improvement`
   - [ ]  Splitting channels in multiple windows `Feature`
   - [ ]  Admin channel list `Feature`
   - [ ]  RCON Support `Feature`
@@ -161,24 +184,32 @@
   - [ ]  Customized channel name and color `Feature`
   - [ ]  Writable note/book `Feature`
   - [ ]  Hotkeys for macros `Feature`
+  - [ ]  Visualize positions of actors for a given message `Feature`
 - [ ]  FPS problem when receiving very special character `Blocked` `Bug`
 - [X]  /servertime command to display date/time in notification `Feature`
+- [ ]  A setting for more detailed timestamps `Improvement`
 
 ## Custom
-- [X]  Fixing the damn IK, again `Bug`
-- [X]  Issues with Sliders based on Roles `Bug`
-- [ ]  Investigate bone rotation issue `Bug`
-- [ ]  Investigate documentation for making armor accessories `Documentation`
-- [X]  Reset weapon size when modifying body `Bug`
-- [ ]  Custom 1.7.0 `Version`
+- [ ]  Sliders not initialized `In Review` `Bug`
+- [X]  Toggle Camera: Cam moves to location (0|0|0) `Bug`
+- [ ]  Preset seem to ignore slider limitations ? `Blocked` `Bug`
+- [X]  Anything other than main character edition has camera issues `Bug`
+- [X]  Custom 1.7.0 `Version`
   - [X]  Down But Not Out does not function properly with Customization `Bug`
+  - [X]  Investigate bone rotation issue `Bug`
   - [X]  Gender should apply to body menu in partial bodies `Bug`
+  - [X]  Blood Metallic / Glow `Improvement`
   - [X]  Override profiles are broken `Bug`
   - [X]  Mannequin heads reappearing even with invisible head armor `Bug`
+  - [X]  API Suggestion: Hide ToT Accessories Flag `API`
   - [X]  Dual weapons can be upside down `Bug`
+  - [X]  Improve weapon transmog tooltips `Improvement`
   - [X]  Separate hairline color `Feature`
+  - [X]  A way to select all the accessories of a bone `Improvement`
   - [X]  Footstep system `Feature`
+  - [X]  Let the radium lantern string be dyed! `Improvement`
   - [X]  Find a way to flag materials as flat chest replacements. `API`
+  - [X]  Visible while light is toggled on and off. `Improvement`
   - [X]  Command to enforce rules on character + scripting `Feature`
   - [X]  Reset entire body category `Improvement`
   - [X]  Alternative weapon transmog compatibility method `Feature`
@@ -186,37 +217,37 @@
   - [X]  Visibility tag for swimming `Feature`
   - [X]  Warpaint Glow `Feature`
   - [X]  Warpaint Metallic slider `Feature`
-  - [ ]  Blood Metallic / Glow `Improvement`
-  - [ ]  Tradeable Exports `Feature`
-  - [ ]  API Suggestion: Hide ToT Accessories Flag `API`
-  - [ ]  Improve weapon transmog tooltips `Improvement`
-  - [ ]  A way to select all the accessories of a bone `Improvement`
-  - [ ]  Let the radium lantern string be dyed! `Improvement`
-  - [ ]  Visible while light is toggled on and off. `Improvement`
-- [X]  Mounts do not have footstep `Bug`
 - [ ]  Custom 1.8.0 `Version`
   - [ ]  Pose System `Feature`
-    - [ ]  Cancel limb animation with T-pose blending
-    - [ ]  Auto swap a pose in some sub-state like fly, sit, etc..
-  - [ ]  Access of presets on non player customizable
+  - [ ]  Access of presets on non player customizable `Improvement`
   - [ ]  Separate head and body skin shininess `Improvement`
   - [ ]  Body randomization `Improvement`
   - [ ]  Player choice to hide armor if vanilla armor is unequiped `Improvement`
   - [ ]  Chair compatibility improvement `Improvement`
-- [X]  Silent Footsteps - First Person `Bug`
+  - [ ]  Export favorit presets code `Feature`
+  - [ ]  Animations & voice of opposite gender `Feature`
+  - [ ]  Photo Mode `Feature`
+  - [ ]  The ability to 'Favourite' specific hairstyles/Warpaints/Etc `Improvement`
+  - [ ]  Collapsable Foldering Option for Profile `Improvement`
+  - [ ]  Alternative sweat specular `Feature`
+  - [ ]  Investigate faction voice line for NPC ? `Improvement`
+  - [ ]  Rework of the preset system `Improvement`
+- [X]  Fixing the damn IK, again `Bug`
+- [X]  Issues with Sliders based on Roles `Bug`
 - [ ]  Teeth Coloring `Feature`
-- [ ]  Investigate faction voice line for NPC ? `Improvement`
+- [X]  Reset weapon size when modifying body `Bug`
+- [ ]  Investigate documentation for making armor accessories `Documentation`
+- [X]  Mounts do not have footstep `Bug`
+- [X]  Silent Footsteps - First Person `Bug`
 - [ ]  Add a new item ban rule: Unlock or Item in bag/equipped `Feature`
-- [ ]  Texture Merger `Experimental`
 - [ ]  Randomize ToT! NPC's? `Feature`
-- [ ]  Alternative sweat specular `Feature`
-- [ ]  Collapsable Foldering Option for Profile `Improvement`
+- [ ]  Texture Merger `Experimental`
 - [ ]  Horse Edition (Separate Mod ?) `Feature`
 - [ ]  Networking issue on login/Slow loading time on DS `Bug` `Delayed`
-- [ ]  The ability to 'Favourite' specific hairstyles/Warpaints/Etc `Improvement`
-- [ ]  Animations & voice of opposite gender `Feature`
 - [ ]  Investigate: No Walking Sound `Blocked`
 - [ ]  Manually typed rotation do not behave properly `Blocked` `Bug`
+- [ ]  Tradeable Exports `Blocked` `Feature`
+- [ ]  Check beard visibility with invisibility status `Blocked` `Bug`
 - [X]  Integrate the lantern `Feature`
 - [X]  Document the new table API `Documentation`
 - [X]  Character shoulders twisted inwards `Bug`
@@ -225,6 +256,7 @@
 - [X]  API for new transmog mechanism `API`
 - [X]  Typo on act name tooltip `Bug`
 - [X]  Footstep improvements `Improvement`
+- [ ]  Button to move profiles to top/bottom `Improvement`
 
 ## HUD
 - [X]  ToT Immersive HUD wrong/missing Icon reference `Bug`
@@ -240,7 +272,7 @@
 - [ ]  More informations on the minimap `Feature`
 
 ## Library
-- [ ]  Environement controller `In Review` `Feature`
+- [X]  Environement controller `Feature`
 - [ ]  Make a range visualizer (Visual 3D circle) `Feature`
 - [ ]  Rework the placeable editor `Improvement`
 - [ ]  New Item Lookup supporting multiple selection `Improvement`
@@ -262,18 +294,24 @@
 - [ ]  Run Script Effect in RPR `Feature` `Scripting System`
 - [ ]  Image insertion into POI with admin setting `Improvement`
 - [ ]  Investigate reset RPR stat override reset `Blocked` `Bug` `API`
+- [ ]  Setting to not force the nameplate display with status
+- [ ]  Scripting & API: Retrieve Redux Character Abilities
 
 ## Sudo
-- [ ]  World Map API `API`
 - [X]  Fix death nameplate issue showing own when it should not `Bug`
+- [ ]  Custom Global Map Marker Registry `API`
+- [ ]  World Map API `API`
 - [ ]  Admin Flags API `API`
 - [ ]  Sudo Nameplate API `API`
 - [ ]  Vanilla command fall back should display notifications `Improvement`
 - [ ]  Make image download documentation `Documentation`
 - [ ]  UTF16BE log webhook `Improvement`
 - [X]  Backing away from setup can soft lock sudo `Bug`
+- [X]  Some favorits are getting duplicated on main menu `Bug`
 
 ## Trebuchet
+- [ ]  Allow mods to update only if they are not file locked `Improvement`
+- [ ]  Updating individual mod never unlock background task `Bug`
 - [X]  More fixing of the broken SK2 integration `Bug`
 - [ ]  Only allow one instance of Trebuchet to run `Improvement`
 - [ ]  Work on the first use experience `Improvement`
@@ -285,6 +323,7 @@
 - [ ]  Separate UI text for later translation system `Improvement`
 - [ ]  Improve workshop search `Improvement`
 - [ ]  More client settings for cloth `Improvement`
+- [ ]  Add button to open workshop page of a mod `Improvement`
 
 ## Walk
 - [ ]  Animation: Improve horse blending `Improvement`
