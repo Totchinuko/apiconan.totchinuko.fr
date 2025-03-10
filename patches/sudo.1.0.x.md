@@ -1,4 +1,4 @@
-# Tot ! Sudo 1.0.x
+# Tot ! Sudo 1.x.x
 
 ## 1.0.13
 - Adding new Interface `I_EA_MC_Vars` to access the global variables without the need of a player character reference.
@@ -59,7 +59,7 @@
 ## 1.0.37
 - Internal Changes
 
-## 1.0.39`1
+## 1.0.39**
 - Added an API Lock toggle/permission to the roles. This is not a permission for users, but instead will lock the role from being given through the API, effectively preventing the role from ever being granted outside of sudo (by third party mods, Scripting system, etc.). The only notable exception to this, is `Tot!Module AST`, that use its own internal means to restore the role in an Amunet server transfer.
 
 ## 1.0.42
@@ -79,3 +79,8 @@
 ## 1.0.50
 - Fixed the parameter blocking nameplates through walls that was not getting backed up
 
+
+## 1.1.0
+- Tot ! Environment:
+  - Added Player side Environment tab to toggle the improved lighting profile for EL and Siptah, along with a bunch of parameters to tweak some aspects of it
+  - Added Player side Decoration Lightning control, to adjust the intensity of player placed lights.

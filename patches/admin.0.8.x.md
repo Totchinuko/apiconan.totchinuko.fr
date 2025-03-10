@@ -167,3 +167,19 @@
 - Fixed cheat panel not spawning full stack of item when using shift click
 - Fixed Admin map listing scripted admin tools such as scripted door when no owner was selected
 - Fixed scripted admin tools being counted as the wrong type of tool in admin map
+
+## 0.8.13
+- Added nodes to control environment on clients: Day Sky colors, Night Sky colors, moon/sun color, Eclipse Mode, Client only frozen time.
+- Added a copy/paste button to script list so you can edit their code directly. They also accept values where each line is a list entry.
+- Added used points to Get Feat/Attribute Points nodes
+- Added post login ban feature. Using the player editor you can ban any user at any time without a reboot, but the ban function by simply kicking the user on login and does not prevent initial login.
+- Added Recipe panel to the player editor
+- Added various nodes to handle player recipes
+- Removed Player Wallpaper tooltip
+- Changed all Admin Tools way to get into editing them for consistency. Every tool will now open its panel by using the action wheel, and using the red bottle pencil icon, including player version of wallpaper and decals
+- Changed every Kick action from admin to be a server disconnect rather than a game shutdown
+- Improved wallpaper collision to not have its thickness scale with its overall size
+- Improved scripting node search with category filtering
+- Improved script search such that when searching from default category, the search will be performed in all categories
+- Fixed export/backup of scripts that could end up being corrupted. Previously exported script might be impossible to reimport after this update and will need to be exported again.
+- Fixed scripting lists not displaying their weight properly

@@ -77,3 +77,6 @@
 
 ## 1.3.25
 - Adding /servertime command `Feature
+
+## 1.3.26
+- Added a range visualizer in a form a sphere around your character
