@@ -65,3 +65,6 @@
 
 ## 2.1.37
 -  Fixed map overlay going above the map markers
+
+## 2.1.38
+- Fixed API call `GetCharacterSheet` returning stat value for non-available stats. They will still be in the list, but be at 0 like they should. This will consequently fix Tot!Admin Math for RR stats. 

@@ -80,3 +80,6 @@
 
 ## 1.3.26
 - Added a range visualizer in a form a sphere around your character
+
+## 1.3.27
+- Fixed the range visualizer size to properly display the radius instead of the diameter.

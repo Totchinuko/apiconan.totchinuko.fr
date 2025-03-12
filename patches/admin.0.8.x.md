@@ -183,3 +183,6 @@
 - Improved script search such that when searching from default category, the search will be performed in all categories
 - Fixed export/backup of scripts that could end up being corrupted. Previously exported script might be impossible to reimport after this update and will need to be exported again.
 - Fixed scripting lists not displaying their weight properly
+
+## 0.8.14
+- Improved the search panel for kit, scripts, quests, etc... When selecting them in scripts. It will now allow partial search combination, broad search on the default category and allow the filter c:Category_Name to be used directly in the search for scripts. Long term, I plan to move other categories of !Admin data to work more like scripts do, but for now I'm just reinforcing the stuff that already exists.
