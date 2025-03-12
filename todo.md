@@ -1,25 +1,12 @@
 # Todo list - Tot ! Mods
 ## Currently worked on
-- [X] [Custom] Toggle Camera: Cam moves to location (0|0|0) `Bug`
-- [X] [Chat] Range physical visualization (Circle Shader - Tot!Lib) `Improvement`
-- [ ] [Custom] Sliders not initialized `In Review` `Bug`
-- [X] [Library] Environement controller `Feature`
-- [X] [Admin] Environment Improvements `Improvement`
-- [X] [Sudo] Some favorits are getting duplicated on main menu `Bug`
-- [X] [Admin] Bad script import/export `Bug`
-- [ ] [Admin] Copy past button on list `Scripting System`
-- [ ] [Admin] Server Light Manager `Feature`
-- [ ] [Admin] Improving wallpapers `Improvement`
-- [ ] [Admin] Add Attribute/Feat points details `Improvement` `Scripting System`
-- [ ] [Admin] Add toggle to search in all categories `Improvement`
-- [ ] [Admin] More admin tool compatibility for Get/Set Param `Scripting System`
-- [ ] [Admin] Improve Kick to disconnect instead of closing the game `Improvement`
-- [ ] [Admin] Learn Recipe node `Feature` `Scripting System`
+- [ ] [Library] Standardize the script list search tool to be reusable `Improvement`
+- [ ] [Admin] Add interface to Spawner to list current NPCs `Improvement` `API`
 - [ ] [Release] Mods Release `Release`
-- [ ] [Custom] Photo Mode `Feature`
 
 
 ## Admin
+- [X]  Script selector does not allow deep search on default `Bug`
 - [X]  Issue when buying thralls from trading puppet `Bug`
 - [X]  Nameplate wall blocking is not backed up `Bug`
 - [X]  Environment Improvements `Improvement`
@@ -34,12 +21,11 @@
   - [ ]  Decal no loading image after restart of serwer `Blocked` `Bug`
   - [ ]  Active Quest Integration to map `Feature`
   - [ ]  Cloud based map location mechanic `Feature`
-  - [ ]  Copy past button on list `Scripting System`
-  - [ ]  Server Light Manager `Feature`
-  - [ ]  Improving wallpapers `Improvement`
+  - [X]  Copy past button on list `Scripting System`
+  - [X]  Improving wallpapers `Improvement`
   - [ ]  Placement-friendly Wallpaper `Improvement`
-  - [ ]  Add Attribute/Feat points details `Improvement` `Scripting System`
-  - [ ]  Add toggle to search in all categories `Improvement`
+  - [X]  Add Attribute/Feat points details `Improvement` `Scripting System`
+  - [X]  Add toggle to search in all categories `Improvement`
   - [ ]  More admin tool compatibility for Get/Set Param `Scripting System`
   - [ ]  Replace blocker scan with interface (Search for TODO) `Improvement`
   - [ ]  Display banned feat in separate list `Improvement`
@@ -56,20 +42,26 @@
   - [ ]  Stop Script node `Scripting System`
   - [ ]  Nodes to handle /act `Scripting System`
   - [ ]  Get Current Admin tool `Scripting System`
-  - [ ]  Variable list weight does not refresh on opening `Bug` `Scripting System`
+  - [X]  Variable list weight does not refresh on opening `Bug` `Scripting System`
   - [ ]  Node to get date values `Scripting System`
   - [ ]  Player Trader editor whitelist `Feature`
   - [ ]  Duplicate Admin Tool using scripting `Feature` `Scripting System`
   - [ ]  Placeable invulnerability function (Selector) `Feature`
-  - [ ]  Learn Recipe node `Feature` `Scripting System`
+  - [X]  Learn Recipe node `Feature` `Scripting System`
   - [ ]  Warper Wand `Feature`
   - [ ]  Add a server setting to force to hide the player fake light `Feature`
   - [ ]  Model Picker/Placer `Feature`
   - [ ]  Night vision cheat `Feature`
   - [ ]  Knowledge learned as quest objective `Feature`
   - [X]  Deactivate collision of placeable server side when using move `Improvement`
-  - [ ]  Improve Kick to disconnect instead of closing the game `Improvement`
+  - [X]  Improve Kick to disconnect instead of closing the game `Improvement`
   - [ ]  Add head tracking variant that do not rotate the whole body `Improvement` `Scripting System`
+  - [ ]  Filter for price definitions on traders `Improvement`
+  - [ ]  Trading System: Client Prediction `Improvement`
+  - [X]  Category side menu for node search + cat: filter `Improvement` `Scripting System`
+  - [ ]  Rework data lists to function like scripting UI `Improvement`
+  - [ ]  Server Wide Default currency `Improvement`
+  - [ ]  Add interface to Spawner to list current NPCs `Improvement` `API`
 - [ ]  Invisible wall to block navigation `Feature`
 - [ ]  Node to display friendly durations/date `Scripting System`
 - [X]  Scripting field API shouldn't need the compatible list `Improvement` `API`
@@ -146,6 +138,10 @@
 - [X]  Bad script import/export `Bug`
 - [ ]  Add description of an item in the trading window `Improvement`
 - [ ]  Block NPC Spawn Tool `Feature`
+- [ ]  Loot multiple for quests `Feature`
+- [ ]  Trader NPC: Items mess up when moving them around `Blocked` `Bug`
+- [ ]  Thrall generator ? `Feature`
+- [ ]  Use placeable API to make customizable flag
 
 ## Chat
 - [ ]  Add a prompt on chat to swap the setting for the player on log `Improvement`
@@ -190,7 +186,7 @@
 - [ ]  A setting for more detailed timestamps `Improvement`
 
 ## Custom
-- [ ]  Sliders not initialized `In Review` `Bug`
+- [X]  Sliders not initialized `Bug`
 - [X]  Toggle Camera: Cam moves to location (0|0|0) `Bug`
 - [ ]  Preset seem to ignore slider limitations ? `Blocked` `Bug`
 - [X]  Anything other than main character edition has camera issues `Bug`
@@ -257,6 +253,7 @@
 - [X]  Typo on act name tooltip `Bug`
 - [X]  Footstep improvements `Improvement`
 - [ ]  Button to move profiles to top/bottom `Improvement`
+- [ ]  Implement Reorderable List V2 `Improvement`
 
 ## HUD
 - [X]  ToT Immersive HUD wrong/missing Icon reference `Bug`
@@ -270,9 +267,12 @@
 - [ ]  Improve ping value `Improvement`
 - [ ]  Display level on hud `Improvement`
 - [ ]  More informations on the minimap `Feature`
+- [ ]  Active quests on hud
 
 ## Library
 - [X]  Environement controller `Feature`
+- [ ]  Reorderable List V2 `Improvement`
+- [ ]  Standardize the script list search tool to be reusable `Improvement`
 - [ ]  Make a range visualizer (Visual 3D circle) `Feature`
 - [ ]  Rework the placeable editor `Improvement`
 - [ ]  New Item Lookup supporting multiple selection `Improvement`
@@ -283,6 +283,9 @@
 - [ ]  Mods Release `Release`
 
 ## Roleplay
+- [X]  RPR API Return max stat when not granted `Bug`
+- [ ]  Add scripting node to create blank dice sheet `Scripting System`
+- [ ]  Run Script Effect in RPR `Feature` `Scripting System`
 - [X]  Game raid doors are not locked when keys are enable for doors `Bug`
 - [ ]  Integrate World Map API `API`
 - [ ]  Delayed Status Effects via Script Persisting Invisibly After Rem `Bug`
@@ -291,7 +294,6 @@
 - [ ]  Make a server settings to make runes un-droppable `Improvement`
 - [ ]  Ability to set/increment float/tag/string `Feature` `Delayed`
 - [ ]  Integrate the math library to replace the original `Feature` `Delayed`
-- [ ]  Run Script Effect in RPR `Feature` `Scripting System`
 - [ ]  Image insertion into POI with admin setting `Improvement`
 - [ ]  Investigate reset RPR stat override reset `Blocked` `Bug` `API`
 - [ ]  Setting to not force the nameplate display with status
@@ -303,13 +305,15 @@
 - [ ]  World Map API `API`
 - [ ]  Admin Flags API `API`
 - [ ]  Sudo Nameplate API `API`
+- [ ]  Delete character from DB `Feature`
 - [ ]  Vanilla command fall back should display notifications `Improvement`
 - [ ]  Make image download documentation `Documentation`
-- [ ]  UTF16BE log webhook `Improvement`
 - [X]  Backing away from setup can soft lock sudo `Bug`
+- [ ]  UTF16BE log webhook `Improvement`
 - [X]  Some favorits are getting duplicated on main menu `Bug`
 
 ## Trebuchet
+- [ ]  Crossplateform `Improvement`
 - [ ]  Allow mods to update only if they are not file locked `Improvement`
 - [ ]  Updating individual mod never unlock background task `Bug`
 - [X]  More fixing of the broken SK2 integration `Bug`
