@@ -83,3 +83,6 @@
 
 ## 1.3.27
 - Fixed the range visualizer size to properly display the radius instead of the diameter.
+
+## 1.3.28
+- Fixed the range viewer, for good, I hope

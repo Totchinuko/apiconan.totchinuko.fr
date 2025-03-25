@@ -84,3 +84,8 @@
 - Tot ! Environment:
   - Added Player side Environment tab to toggle the improved lighting profile for EL and Siptah, along with a bunch of parameters to tweak some aspects of it
   - Added Player side Decoration Lightning control, to adjust the intensity of player placed lights.
+
+## 1.1.6
+- Fixed some issue when deactivating Image Sharpening
+- Added a Lens Flare intensity slider
+- Added some decency to Conan Exiles
