@@ -11,9 +11,3 @@
 - Changed the way server stats are calculated, since Funcom removed a bunch of debug features from the game
 - Minimap player pin is not scaled with the rest of the minimap
 - When deactivating an ihud widget, it would sometimes conflict with the inventory
-
-## 2.1.3
-- Fixed corruption display on health/stamina bar
-
-## 2.1.9
-- Fix broken asset reference
