@@ -186,3 +186,7 @@
 
 ## 0.8.14
 - Improved the search panel for kit, scripts, quests, etc... When selecting them in scripts. It will now allow partial search combination, broad search on the default category and allow the filter c:Category_Name to be used directly in the search for scripts. Long term, I plan to move other categories of !Admin data to work more like scripts do, but for now I'm just reinforcing the stuff that already exists.
+
+## 0.8.24
+- Fixed scripting main command taking priority over all their sub variants.
+- Fixed scripted doors, chests, lights having their panel opening on other players screen when edited from the tool master list.
