@@ -1,11 +1,20 @@
 # Todo list - Tot ! Mods
 ## Currently worked on
+- [ ] [Trebuchet] Rework code base `Improvement`
+- [ ] [Trebuchet] Cancelling a mod download do not free the pak file `Bug`
+- [ ] [Trebuchet] Only allow one instance of Trebuchet to run `Improvement`
+- [ ] [Trebuchet] Separate UI text for later translation system `Improvement`
+- [ ] [Trebuchet] Work on the first use experience `Improvement`
+- [ ] [Trebuchet] A button to trim mods that are not used by any modlist `Feature`
+- [ ] [Release] Mods Release `Release`
 - [ ] [Library] Standardize the script list search tool to be reusable `Improvement`
 - [ ] [Admin] Add interface to Spawner to list current NPCs `Improvement` `API`
-- [ ] [Release] Mods Release `Release`
 
 
 ## Admin
+- [X]  Script commands should check sub command before main `Bug`
+- [X]  Secret door becomes double door `Bug`
+- [X]  Scripted door settings menus are opening on other players `Bug`
 - [X]  Script selector does not allow deep search on default `Bug`
 - [X]  Issue when buying thralls from trading puppet `Bug`
 - [X]  Nameplate wall blocking is not backed up `Bug`
@@ -62,6 +71,7 @@
   - [ ]  Rework data lists to function like scripting UI `Improvement`
   - [ ]  Server Wide Default currency `Improvement`
   - [ ]  Add interface to Spawner to list current NPCs `Improvement` `API`
+  - [ ]  NPC Spawner Improvements `Improvement`
 - [ ]  Invisible wall to block navigation `Feature`
 - [ ]  Node to display friendly durations/date `Scripting System`
 - [X]  Scripting field API shouldn't need the compatible list `Improvement` `API`
@@ -141,7 +151,12 @@
 - [ ]  Loot multiple for quests `Feature`
 - [ ]  Trader NPC: Items mess up when moving them around `Blocked` `Bug`
 - [ ]  Thrall generator ? `Feature`
-- [ ]  Use placeable API to make customizable flag
+- [ ]  Use placeable API to make customizable flag `Feature`
+- [ ]  Script edited by multiple people at the same time `Improvement`
+- [ ]  Allow bulk Emptying / Destruction of container using Heatmap `Improvement`
+- [ ]  Refresh Dice UI `Experimental` `Scripting System`
+- [ ]  Nodes to toggle buildable damages `Scripting System`
+- [ ]  Non-blocking Kit redemption message. `Improvement`
 
 ## Chat
 - [ ]  Add a prompt on chat to swap the setting for the player on log `Improvement`
@@ -181,14 +196,14 @@
   - [ ]  Writable note/book `Feature`
   - [ ]  Hotkeys for macros `Feature`
   - [ ]  Visualize positions of actors for a given message `Feature`
+  - [ ]  Webhooks `Feature`
+- [ ]  A setting for more detailed timestamps `Improvement`
 - [ ]  FPS problem when receiving very special character `Blocked` `Bug`
 - [X]  /servertime command to display date/time in notification `Feature`
-- [ ]  A setting for more detailed timestamps `Improvement`
 
 ## Custom
 - [X]  Sliders not initialized `Bug`
 - [X]  Toggle Camera: Cam moves to location (0|0|0) `Bug`
-- [ ]  Preset seem to ignore slider limitations ? `Blocked` `Bug`
 - [X]  Anything other than main character edition has camera issues `Bug`
 - [X]  Custom 1.7.0 `Version`
   - [X]  Down But Not Out does not function properly with Customization `Bug`
@@ -254,6 +269,9 @@
 - [X]  Footstep improvements `Improvement`
 - [ ]  Button to move profiles to top/bottom `Improvement`
 - [ ]  Implement Reorderable List V2 `Improvement`
+- [ ]  Investigate Alt. Wepon transmog `Blocked` `Bug`
+- [ ]  Preset seem to ignore slider limitations ? `Blocked` `Bug`
+- [ ]  Add export button to favorites
 
 ## HUD
 - [X]  ToT Immersive HUD wrong/missing Icon reference `Bug`
@@ -283,6 +301,8 @@
 - [ ]  Mods Release `Release`
 
 ## Roleplay
+- [X]  Update for next patch `Improvement`
+- [X]  Spelling mistake `Bug`
 - [X]  RPR API Return max stat when not granted `Bug`
 - [ ]  Add scripting node to create blank dice sheet `Scripting System`
 - [ ]  Run Script Effect in RPR `Feature` `Scripting System`
@@ -298,8 +318,11 @@
 - [ ]  Investigate reset RPR stat override reset `Blocked` `Bug` `API`
 - [ ]  Setting to not force the nameplate display with status
 - [ ]  Scripting & API: Retrieve Redux Character Abilities
+- [ ]  GetConsentValue API `API`
+- [ ]  Investigate what RPR use for dropdowns `Blocked` `Bug`
 
 ## Sudo
+- [X]  Low stamina post process blinding with environment on `Bug`
 - [X]  Fix death nameplate issue showing own when it should not `Bug`
 - [ ]  Custom Global Map Marker Registry `API`
 - [ ]  World Map API `API`
@@ -311,23 +334,36 @@
 - [X]  Backing away from setup can soft lock sudo `Bug`
 - [ ]  UTF16BE log webhook `Improvement`
 - [X]  Some favorits are getting duplicated on main menu `Bug`
+- [X]  ImageSharpening disable glitch is back `Bug`
+- [X]  Lens Flares setting `Improvement`
 
 ## Trebuchet
-- [ ]  Crossplateform `Improvement`
-- [ ]  Allow mods to update only if they are not file locked `Improvement`
-- [ ]  Updating individual mod never unlock background task `Bug`
+- [X]  Buttons on mods are disabled `Bug`
+- [X]  Crossplateform `Improvement`
 - [X]  More fixing of the broken SK2 integration `Bug`
-- [ ]  Only allow one instance of Trebuchet to run `Improvement`
+- [X]  Find replacement for auto-field focus `Improvement`
+- [ ]  Cancelling a mod download do not free the pak file `Bug`
+- [X]  Window title is not themed `Bug`
+- [ ]  A button to trim mods that are not used by any modlist `Feature`
+- [ ]  Rework code base `Improvement`
+- [X]  Separator is not themed `Bug`
 - [ ]  Work on the first use experience `Improvement`
-- [ ]  Rework asynchronous operations `Improvement`
-- [ ]  Rework MVVM pattern `Improvement`
-- [ ]  Log Filter to event `Feature`
-- [ ]  Shutdown event sequence `Feature`
-- [ ]  Mod update/Server update auto reboot `Feature`
+- [X]  Setting fields titles are not themed `Bug`
+- [ ]  Only allow one instance of Trebuchet to run `Improvement`
+- [X]  Stronger panel colors for Light theme `Improvement`
 - [ ]  Separate UI text for later translation system `Improvement`
+- [X]  DarkPanel should be darker on Light theme `Bug`
 - [ ]  Improve workshop search `Improvement`
+- [X]  Labels on client dashboard don't use proper theming `Bug`
+- [ ]  Mod update/Server update auto reboot `Feature`
+- [X]  Player stat is displayed on client `Bug`
+- [ ]  Shutdown event sequence `Feature`
+- [ ]  Log Filter to event `Feature`
 - [ ]  More client settings for cloth `Improvement`
-- [ ]  Add button to open workshop page of a mod `Improvement`
+- [X]  Updating individual mod never unlock background task `Bug`
+- [ ]  Linux port `Feature`
+- [X]  Add button to open workshop page of a mod `Improvement`
+- [ ]  dotnet 10 `Feature`
 
 ## Walk
 - [ ]  Animation: Improve horse blending `Improvement`
