@@ -89,3 +89,6 @@
 - Fixed some issue when deactivating Image Sharpening
 - Added a Lens Flare intensity slider
 - Added some decency to Conan Exiles
+
+## 1.1.7
+- Removing the decency

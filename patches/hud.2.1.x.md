@@ -35,3 +35,7 @@
 
 ## 2.1.15
 - Added compass an independent hud widget. It will only be displayed when having the item in your inventory and doesn't require permissions to use outside of that. 
+
+## 2.1.16
+- Fixed the minimap overlaying everything
+- Removing the +/- button from the minimap as the chat back panel catch clicks on those all the time.

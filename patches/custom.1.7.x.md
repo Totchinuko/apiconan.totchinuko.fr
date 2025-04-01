@@ -68,3 +68,6 @@
 ## 1.7.8
 - Improved sync of body rules status that was not getting loaded properly.
 - Fixed !Custom camera teleporting at the center of the world when using the input key
+
+## 1.7.11
+- Added a new accessory: Tot!Decency. You two can now wear your very own piece of pixelated censorship, with dyable option.
