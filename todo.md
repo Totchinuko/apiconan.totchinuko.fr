@@ -1,17 +1,20 @@
 # Todo list - Tot ! Mods
 ## Currently worked on
 - [ ] [Trebuchet] Rework code base `Improvement`
-- [ ] [Trebuchet] Cancelling a mod download do not free the pak file `Bug`
 - [ ] [Trebuchet] Only allow one instance of Trebuchet to run `Improvement`
 - [ ] [Trebuchet] Separate UI text for later translation system `Improvement`
 - [ ] [Trebuchet] Work on the first use experience `Improvement`
 - [ ] [Trebuchet] A button to trim mods that are not used by any modlist `Feature`
+- [ ] [Admin] Conflict with EEWA? `Bug`
+- [ ] [Admin] Generic inventory infinit loop from mod conflict `Bug`
 - [ ] [Release] Mods Release `Release`
 - [ ] [Library] Standardize the script list search tool to be reusable `Improvement`
 - [ ] [Admin] Add interface to Spawner to list current NPCs `Improvement` `API`
 
 
 ## Admin
+- [ ]  Generic inventory infinit loop from mod conflict `Bug`
+- [ ]  Conflict with EEWA? `Bug`
 - [X]  Script commands should check sub command before main `Bug`
 - [X]  Secret door becomes double door `Bug`
 - [X]  Scripted door settings menus are opening on other players `Bug`
@@ -72,6 +75,7 @@
   - [ ]  Server Wide Default currency `Improvement`
   - [ ]  Add interface to Spawner to list current NPCs `Improvement` `API`
   - [ ]  NPC Spawner Improvements `Improvement`
+  - [ ]  Get Vector3 Postion for warps `Scripting System`
 - [ ]  Invisible wall to block navigation `Feature`
 - [ ]  Node to display friendly durations/date `Scripting System`
 - [X]  Scripting field API shouldn't need the compatible list `Improvement` `API`
@@ -159,6 +163,7 @@
 - [ ]  Non-blocking Kit redemption message. `Improvement`
 
 ## Chat
+- [ ]  Search exact names before doing partial matches `Improvement`
 - [ ]  Add a prompt on chat to swap the setting for the player on log `Improvement`
 - [ ]  Death Announcements `Feature`
 - [ ]  Link in messages `Feature`
@@ -197,6 +202,7 @@
   - [ ]  Hotkeys for macros `Feature`
   - [ ]  Visualize positions of actors for a given message `Feature`
   - [ ]  Webhooks `Feature`
+  - [ ]  Quote parsing for command arguments `Improvement`
 - [ ]  A setting for more detailed timestamps `Improvement`
 - [ ]  FPS problem when receiving very special character `Blocked` `Bug`
 - [X]  /servertime command to display date/time in notification `Feature`
@@ -243,6 +249,8 @@
   - [ ]  Alternative sweat specular `Feature`
   - [ ]  Investigate faction voice line for NPC ? `Improvement`
   - [ ]  Rework of the preset system `Improvement`
+  - [ ]  Use the visibility filter to target weapon transmog slot `Feature`
+  - [ ]  Naming during Import `Improvement`
 - [X]  Fixing the damn IK, again `Bug`
 - [X]  Issues with Sliders based on Roles `Bug`
 - [ ]  Teeth Coloring `Feature`
@@ -274,6 +282,7 @@
 - [ ]  Add export button to favorites
 
 ## HUD
+- [X]  Minimap doesn't hide anymore `Bug`
 - [X]  ToT Immersive HUD wrong/missing Icon reference `Bug`
 - [ ]  HUD world map overlay `Improvement`
 - [ ]  Minimap Z Order issue with chat box `Bug`
@@ -301,6 +310,7 @@
 - [ ]  Mods Release `Release`
 
 ## Roleplay
+- [X]  Add level exceptions to RPR door locks `Bug`
 - [X]  Update for next patch `Improvement`
 - [X]  Spelling mistake `Bug`
 - [X]  RPR API Return max stat when not granted `Bug`
@@ -336,13 +346,14 @@
 - [X]  Some favorits are getting duplicated on main menu `Bug`
 - [X]  ImageSharpening disable glitch is back `Bug`
 - [X]  Lens Flares setting `Improvement`
+- [ ]  More Better.
 
 ## Trebuchet
 - [X]  Buttons on mods are disabled `Bug`
 - [X]  Crossplateform `Improvement`
 - [X]  More fixing of the broken SK2 integration `Bug`
 - [X]  Find replacement for auto-field focus `Improvement`
-- [ ]  Cancelling a mod download do not free the pak file `Bug`
+- [X]  Cancelling a mod download do not free the pak file `Bug`
 - [X]  Window title is not themed `Bug`
 - [ ]  A button to trim mods that are not used by any modlist `Feature`
 - [ ]  Rework code base `Improvement`
