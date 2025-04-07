@@ -71,3 +71,8 @@
 
 ## 1.7.11
 - Added a new accessory: Tot!Decency. You two can now wear your very own piece of pixelated censorship, with dyable option.
+
+## 1.7.12
+- Added a name field to the import window, so you can name your newly imported profile.
+- Added a right click input on the profile creation buttons of the favorite area, to instead import directly into your favorites.
+- Added an export button to the favorite profiles.

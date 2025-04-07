@@ -190,3 +190,7 @@
 ## 0.8.24
 - Fixed scripting main command taking priority over all their sub variants.
 - Fixed scripted doors, chests, lights having their panel opening on other players screen when edited from the tool master list.
+
+## 0.8.25
+- Fixed removing someone from the banlist always removing the first in the least instead of the desired one.
+- Fixed pp anchors hiding health bars.

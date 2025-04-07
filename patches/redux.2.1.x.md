@@ -71,3 +71,6 @@
 
 ## 2.1.39
 - Fixed a typo
+
+## Roleplay Redux 2.1.41
+- Fixed raid doors being open from Al-Merayah Reborn (by Xevyr)

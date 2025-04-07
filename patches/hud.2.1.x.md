@@ -39,3 +39,6 @@
 ## 2.1.16
 - Fixed the minimap overlaying everything
 - Removing the +/- button from the minimap as the chat back panel catch clicks on those all the time.
+
+## 2.1.17
+- Fixed compass not hiding when the inventory is open
