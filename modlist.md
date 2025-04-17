@@ -40,8 +40,6 @@ This says, the code could not find a particular function in a specific file. Thi
 [...]
 ..\steamapps\workshop\content\440900\880454836\Pippi.pak
 [...]
-..\steamapps\workshop\content\440900\1542041983\RA.pak
-[...]
 [Body mods]
 [...]
 ..\steamapps\workshop\content\440900\2010870025\HighHeels.pak
