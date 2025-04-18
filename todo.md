@@ -1,20 +1,23 @@
 # Todo list - Tot ! Mods
 ## Currently worked on
-- [ ] [Trebuchet] Rework code base `Improvement`
-- [ ] [Trebuchet] Only allow one instance of Trebuchet to run `Improvement`
-- [ ] [Trebuchet] Separate UI text for later translation system `Improvement`
-- [ ] [Trebuchet] Work on the first use experience `Improvement`
-- [ ] [Trebuchet] A button to trim mods that are not used by any modlist `Feature`
-- [ ] [Admin] Conflict with EEWA? `Bug`
-- [ ] [Admin] Generic inventory infinit loop from mod conflict `Bug`
+- [ ] [Trebuchet] First server launch overwrites game.db `Bug`
+- [ ] [Trebuchet] Automatically migrated save profile does not have a profile.json `Bug`
+- [ ] [Trebuchet] Work on the server console `Feature`
+- [ ] [Trebuchet] Modlist: Server IP,Pass,Port and an auto connect launch button `Feature`
+- [ ] [Trebuchet] Unreal UDP queries as a better way to detect server hang `Improvement`
+- [ ] [Chat] Improve auto-scroll when typing on narrow window `Bug`
+- [X] [Admin] Sound library should hide the previous button when applicable `Bug`
 - [ ] [Release] Mods Release `Release`
-- [ ] [Library] Standardize the script list search tool to be reusable `Improvement`
-- [ ] [Admin] Add interface to Spawner to list current NPCs `Improvement` `API`
+- [ ] [Roleplay] Investigation roleplay teach Language not working `Blocked` `Bug`
+- [ ] [Admin] Editing interaction tool remotely is not working `Blocked` `Bug`
 
 
 ## Admin
-- [ ]  Generic inventory infinit loop from mod conflict `Bug`
-- [ ]  Conflict with EEWA? `Bug`
+- [X]  Sound library should hide the previous button when applicable `Bug`
+- [ ]  Editing interaction tool remotely is not working `Blocked` `Bug`
+- [X]  Post Processing causing invisible NPC's health bars? `Bug`
+- [X]  Banlist unbanning unban the wrong player + other strange things `Bug`
+- [ ]  Generic inventory infinit loop from mod conflict `Blocked` `Bug`
 - [X]  Script commands should check sub command before main `Bug`
 - [X]  Secret door becomes double door `Bug`
 - [X]  Scripted door settings menus are opening on other players `Bug`
@@ -76,6 +79,7 @@
   - [ ]  Add interface to Spawner to list current NPCs `Improvement` `API`
   - [ ]  NPC Spawner Improvements `Improvement`
   - [ ]  Get Vector3 Postion for warps `Scripting System`
+  - [ ]  Hide interaction UI for interaction box `Improvement`
 - [ ]  Invisible wall to block navigation `Feature`
 - [ ]  Node to display friendly durations/date `Scripting System`
 - [X]  Scripting field API shouldn't need the compatible list `Improvement` `API`
@@ -118,7 +122,7 @@
 - [ ]  Homepoint per clan in Clan Switch `Feature` `Experimental`
 - [ ]  Admin Customizable UI Project `Feature` `Experimental`
 - [ ]  Text admin tool `Feature`
-- [ ]  Custom API through scripting `Experimental` `Scripting System`
+- [ ]  Handle customization from Custom `Experimental` `Scripting System`
 - [ ]  Server settings edition through nodes `Scripting System`
 - [ ]  Integrate RR Dice Sheet on Puppets `Delayed` `Experimental`
 - [ ]  Setting to apply warp rules to /return and /teleport `Improvement`
@@ -161,8 +165,12 @@
 - [ ]  Refresh Dice UI `Experimental` `Scripting System`
 - [ ]  Nodes to toggle buildable damages `Scripting System`
 - [ ]  Non-blocking Kit redemption message. `Improvement`
+- [ ]  Mouse-over tooltip for dialogue choices `Improvement` `Scripting System`
+- [ ]  Make a standard shape selector for all tools `Improvement`
+- [ ]  Conflict with EEWA? `Blocked` `Bug`
 
 ## Chat
+- [ ]  Improve auto-scroll when typing on narrow window `Bug`
 - [ ]  Search exact names before doing partial matches `Improvement`
 - [ ]  Add a prompt on chat to swap the setting for the player on log `Improvement`
 - [ ]  Death Announcements `Feature`
@@ -208,6 +216,7 @@
 - [X]  /servertime command to display date/time in notification `Feature`
 
 ## Custom
+- [X]  Add export button to favorites `Improvement`
 - [X]  Sliders not initialized `Bug`
 - [X]  Toggle Camera: Cam moves to location (0|0|0) `Bug`
 - [X]  Anything other than main character edition has camera issues `Bug`
@@ -250,7 +259,7 @@
   - [ ]  Investigate faction voice line for NPC ? `Improvement`
   - [ ]  Rework of the preset system `Improvement`
   - [ ]  Use the visibility filter to target weapon transmog slot `Feature`
-  - [ ]  Naming during Import `Improvement`
+  - [X]  Naming during Import `Improvement`
 - [X]  Fixing the damn IK, again `Bug`
 - [X]  Issues with Sliders based on Roles `Bug`
 - [ ]  Teeth Coloring `Feature`
@@ -279,9 +288,11 @@
 - [ ]  Implement Reorderable List V2 `Improvement`
 - [ ]  Investigate Alt. Wepon transmog `Blocked` `Bug`
 - [ ]  Preset seem to ignore slider limitations ? `Blocked` `Bug`
-- [ ]  Add export button to favorites
+- [ ]  Independant scar glow slider `Improvement`
+- [ ]  Tot!decency transparency priority should be higher `Blocked` `Bug`
 
 ## HUD
+- [X]  Hide compass when fullscreen is open `Bug`
 - [X]  Minimap doesn't hide anymore `Bug`
 - [X]  ToT Immersive HUD wrong/missing Icon reference `Bug`
 - [ ]  HUD world map overlay `Improvement`
@@ -310,6 +321,7 @@
 - [ ]  Mods Release `Release`
 
 ## Roleplay
+- [ ]  Investigation roleplay teach Language not working `Blocked` `Bug`
 - [X]  Add level exceptions to RPR door locks `Bug`
 - [X]  Update for next patch `Improvement`
 - [X]  Spelling mistake `Bug`
@@ -349,32 +361,53 @@
 - [ ]  More Better.
 
 ## Trebuchet
+- [ ]  First server launch overwrites game.db `Bug`
+- [X]  Game Map selection flower under the text `Bug`
+- [ ]  Automatically migrated save profile does not have a profile.json `Bug`
+- [X]  Resolve mod folder number first before file `Bug`
+- [X]  Workshop navigator changes `Improvement`
+- [X]  Small UI tweaks `Improvement`
+- [X]  Modlist status/date alignment is wrong `Bug`
 - [X]  Buttons on mods are disabled `Bug`
 - [X]  Crossplateform `Improvement`
+- [X]  Rework code base `Improvement`
 - [X]  More fixing of the broken SK2 integration `Bug`
 - [X]  Find replacement for auto-field focus `Improvement`
 - [X]  Cancelling a mod download do not free the pak file `Bug`
+- [X]  Centralize update flag to fix update issues `Bug`
+- [X]  Crash callstack export button `Feature`
+- [X]  Handle reordering multiple mods at once `Improvement`
+- [X]  Fix the map popup menu `Bug`
+- [X]  Integrate German translation `Feature`
 - [X]  Window title is not themed `Bug`
-- [ ]  A button to trim mods that are not used by any modlist `Feature`
-- [ ]  Rework code base `Improvement`
+- [X]  A button to trim mods that are not used by any modlist `Feature`
+- [X]  Auto-update `Feature`
+- [ ]  Work on the server console `Feature`
+- [X]  Work on the first use experience `Improvement`
 - [X]  Separator is not themed `Bug`
-- [ ]  Work on the first use experience `Improvement`
+- [X]  Deploy through github release + go open source under GPL2.0 `Feature`
+- [ ]  Modlist: Server IP,Pass,Port and an auto connect launch button `Feature`
+- [X]  Only allow one instance of Trebuchet to run `Improvement`
 - [X]  Setting fields titles are not themed `Bug`
-- [ ]  Only allow one instance of Trebuchet to run `Improvement`
-- [X]  Stronger panel colors for Light theme `Improvement`
-- [ ]  Separate UI text for later translation system `Improvement`
-- [X]  DarkPanel should be darker on Light theme `Bug`
-- [ ]  Improve workshop search `Improvement`
-- [X]  Labels on client dashboard don't use proper theming `Bug`
+- [ ]  Unreal UDP queries as a better way to detect server hang `Improvement`
 - [ ]  Mod update/Server update auto reboot `Feature`
-- [X]  Player stat is displayed on client `Bug`
+- [X]  Separate UI text for later translation system `Improvement`
+- [X]  Stronger panel colors for Light theme `Improvement`
 - [ ]  Shutdown event sequence `Feature`
+- [X]  Improve workshop search `Improvement`
+- [X]  DarkPanel should be darker on Light theme `Bug`
 - [ ]  Log Filter to event `Feature`
+- [X]  Labels on client dashboard don't use proper theming `Bug`
 - [ ]  More client settings for cloth `Improvement`
-- [X]  Updating individual mod never unlock background task `Bug`
+- [X]  Player stat is displayed on client `Bug`
 - [ ]  Linux port `Feature`
-- [X]  Add button to open workshop page of a mod `Improvement`
+- [ ]  Finish Boulder `Feature`
+- [X]  Updating individual mod never unlock background task `Bug`
 - [ ]  dotnet 10 `Feature`
+- [ ]  Corrupted State for mods on cancel `Improvement`
+- [X]  Add button to open workshop page of a mod `Improvement`
+- [ ]  Explore Chromless windows from SourceGit `Improvement`
+- [ ]  Duplicating a Server Save does not duplicate some settings `Bug`
 
 ## Walk
 - [ ]  Animation: Improve horse blending `Improvement`
