@@ -194,3 +194,14 @@
 ## 0.8.25
 - Fixed removing someone from the banlist always removing the first in the least instead of the desired one.
 - Fixed pp anchors hiding health bars.
+
+## 0.8.30
+- Rework the `/home` family of commands. `/home` now support extra homes on top of the main one. Admins can choose how many extra home players can have, with the default being 1.
+  - `/sethome` has been removed to consolidate the group of commands
+  - `/home set [name]` take an optional name to update/set a new extra home, or no name at all to set the main home.
+  - `/home del <name>` delete one of your extra homes
+  - `/home list` List all of your extra homes
+  - Home rules apply to all of your homes as a whole. So if you have a cooldown set, it will be shared between all the players homes.
+  - The `Clear Home` admin button delete the main home and all the extra homes of the targeted player.
+  - If the maximum of extra home is lowered by an admin, and you have an excess of them, you won't be able to use your extra homes until you have removed that excess.
+- Fixed sound library displaying the previous button when it should not
