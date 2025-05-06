@@ -35,49 +35,11 @@ void
 
 **Download**: [CrossModEvents](/API/Lib.CrossModEvents.zip ':ignore')
 
-## Math Solver <small>Not Released</small>
-### Tot_C_VariableHolder
-`ModsShared/SudoExile/TotLib/Types/Math/Tot_C_VariableHolder`
-
-#### SetVariable
-Set a float variable that can be used in the solving algorithm. Name of the variable does not include the $ sign used in the expression. So if in the expression you write $myvariable, you should add "myvariable". Name only allow alphabetical character and underscore and is not case sensitive.
-<!-- tabs:start -->
-
-#### **Input**
-
-|type|name|description|
-|-|-|----|
-|string|Key||
-|float|Value||
-
-#### **Output**
-
-void
-
-<!-- tabs:end -->
-
-#### GetVariable
-Get the value of a float variable.
-<!-- tabs:start -->
-
-#### **Input**
-
-|type|name|description|
-|-|-|----|
-|string|Key||
-
-#### **Output**
-
-|type|name|description|
-|-|-|----|
-|float|Return||
-
-<!-- tabs:end -->
+## Math Solver <small>1.1.10+</small>
+**Download**: [MathSolver](/API/Lib.MathSolver.zip ':ignore')
 
 ### Tot_I_MathSolver
 `ModsShared/SudoExile/MathSolver/Tot_I_MathSolver`
-
-**Download**: [MathSolver](/API/Lib.MathSolver.zip ':ignore')
 
 #### Solve
 Take an expression in form of a string and give a result as float. If the expression was already processed before by this solver, the cache is used to calculate the result again, even if variables are different from the previous one.  
