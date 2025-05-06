@@ -1,24 +1,23 @@
 # Todo list - Tot ! Mods
 ## Currently worked on
-- [ ] [Library] Release Math Solver API `API`
-- [ ] [Trebuchet] UI Rework for profiles `Improvement`
-- [ ] [Trebuchet] Modlist: Server IP,Pass,Port and an auto connect launch button `Feature`
-- [ ] [Trebuchet] Reordering mods is not saved upon refreshing mod data `Bug`
 - [ ] [Trebuchet] Mod update/Server update auto reboot `Feature`
 - [ ] [Trebuchet] Shutdown event sequence `Feature`
 - [ ] [Trebuchet] Duplicating a Server Save does not duplicate some settings `Bug`
-- [ ] [Trebuchet] First server launch overwrites game.db `In Review` `Bug`
 - [ ] [Chat] Improve auto-scroll when typing on narrow window `Bug`
-- [X] [Admin] Sound library should hide the previous button when applicable `Bug`
 - [ ] [Release] Mods Release `Release`
-- [ ] [Roleplay] Investigation roleplay teach Language not working `Blocked` `Bug`
-- [ ] [Admin] Editing interaction tool remotely is not working `Blocked` `Bug`
+- [ ] [Roleplay] Notice boards stuck on loading for some notice boards `In Review` `Bug`
+- [ ] [Trebuchet] First server launch overwrites game.db `In Review` `Bug`
+- [ ] [Roleplay] Crashing/Fatal errors when opening RPR `Blocked` `Bug`
 
 
 ## Admin
+- [X]  Improve inputs of use input in dialogues `Improvement`
+- [X]  /cheat creative does not behave as expected `Bug`
+- [ ]  Map rework, node to add marker with option to pin on hud `Feature`
+- [X]  Opaque recipe icons hide learned status color `Bug`
 - [X]  Multi-home `Feature`
 - [X]  Sound library should hide the previous button when applicable `Bug`
-- [ ]  Editing interaction tool remotely is not working `Blocked` `Bug`
+- [X]  Editing interaction tool remotely is not working `Bug`
 - [X]  Post Processing causing invisible NPC's health bars? `Bug`
 - [X]  Banlist unbanning unban the wrong player + other strange things `Bug`
 - [ ]  Generic inventory infinit loop from mod conflict `Blocked` `Bug`
@@ -86,6 +85,12 @@
   - [ ]  Hide interaction UI for interaction box `Improvement`
   - [ ]  Star metal model for resource spawner `Improvement`
   - [ ]  Node: Get Puppets in Zone `Feature` `Scripting System`
+  - [ ]  Node to create a clan for the player `Feature` `Scripting System`
+  - [ ]  Adding to a world spawned loot drop `Feature`
+  - [ ]  Add live settlements animations to emotes `Improvement`
+  - [ ]  Nodes: Player scale and foot position `Scripting System`
+  - [ ]  Stock limits for trader NPC `Improvement`
+  - [ ]  Clean inventory node `Scripting System`
 - [ ]  Invisible wall to block navigation `Feature`
 - [ ]  Node to display friendly durations/date `Scripting System`
 - [X]  Scripting field API shouldn't need the compatible list `Improvement` `API`
@@ -222,6 +227,7 @@
 - [X]  /servertime command to display date/time in notification `Feature`
 
 ## Custom
+- [X]  Update !Custom creators
 - [X]  Add export button to favorites `Improvement`
 - [X]  Sliders not initialized `Bug`
 - [X]  Toggle Camera: Cam moves to location (0|0|0) `Bug`
@@ -297,6 +303,7 @@
 - [ ]  Preset seem to ignore slider limitations ? `Blocked` `Bug`
 - [ ]  Independant scar glow slider `Improvement`
 - [ ]  Tot!decency transparency priority should be higher `Blocked` `Bug`
+- [ ]  Physics toggle `Improvement`
 
 ## HUD
 - [X]  Hide compass when fullscreen is open `Bug`
@@ -317,7 +324,7 @@
 
 ## Library
 - [X]  Environement controller `Feature`
-- [ ]  Release Math Solver API `API`
+- [X]  Release Math Solver API `API`
 - [ ]  Reorderable List V2 `Improvement`
 - [ ]  Standardize the script list search tool to be reusable `Improvement`
 - [ ]  Make a range visualizer (Visual 3D circle) `Feature`
@@ -330,6 +337,8 @@
 - [ ]  Mods Release `Release`
 
 ## Roleplay
+- [ ]  Crashing/Fatal errors when opening RPR `Blocked` `Bug`
+- [X]  Force Character Name mode on Notice Boards `Improvement`
 - [ ]  Investigation roleplay teach Language not working `Blocked` `Bug`
 - [X]  Add level exceptions to RPR door locks `Bug`
 - [X]  Update for next patch `Improvement`
@@ -340,7 +349,7 @@
 - [X]  Game raid doors are not locked when keys are enable for doors `Bug`
 - [ ]  Integrate World Map API `API`
 - [ ]  Delayed Status Effects via Script Persisting Invisibly After Rem `Bug`
-- [ ]  Notice boards stuck on loading for some notice boards `Bug`
+- [ ]  Notice boards stuck on loading for some notice boards `In Review` `Bug`
 - [ ]  Selected distance in Tot ! Chat does not affect roll `Bug`
 - [ ]  Make a server settings to make runes un-droppable `Improvement`
 - [ ]  Ability to set/increment float/tag/string `Feature` `Delayed`
@@ -370,7 +379,9 @@
 - [ ]  More Better.
 
 ## Trebuchet
-- [ ]  Reordering mods is not saved upon refreshing mod data `Bug`
+- [ ]  Sync Panel does not display modlist at first `Bug`
+- [X]  Various bugs `Bug`
+- [X]  Reordering mods is not saved upon refreshing mod data `Bug`
 - [X]  Rcon should be optional when disabled `Improvement`
 - [X]  Game Map selection flower under the text `Bug`
 - [X]  Automatically migrated save profile does not have a profile.json `Bug`
@@ -392,7 +403,7 @@
 - [X]  UI Adjustments `Improvement`
 - [X]  Add more internal logs `Improvement`
 - [X]  Add last 100 internal logs into the crash export `Improvement`
-- [ ]  UI Rework for profiles `Improvement`
+- [X]  UI Rework for profiles `Improvement`
 - [X]  Window title is not themed `Bug`
 - [X]  A button to trim mods that are not used by any modlist `Feature`
 - [X]  Auto-update `Feature`
@@ -405,7 +416,7 @@
 - [X]  Refacto console log to use SeriLog `Improvement`
 - [X]  Only allow one instance of Trebuchet to run `Improvement`
 - [X]  Setting fields titles are not themed `Bug`
-- [ ]  Modlist: Server IP,Pass,Port and an auto connect launch button `Feature`
+- [X]  Modlist: Server IP,Pass,Port and an auto connect launch button `Feature`
 - [ ]  Mod update/Server update auto reboot `Feature`
 - [X]  Separate UI text for later translation system `Improvement`
 - [X]  Stronger panel colors for Light theme `Improvement`
@@ -413,7 +424,7 @@
 - [X]  Improve workshop search `Improvement`
 - [X]  DarkPanel should be darker on Light theme `Bug`
 - [X]  Labels on client dashboard don't use proper theming `Bug`
-- [ ]  Popout console + save filters `Feature`
+- [X]  Popout console + save filters `Feature`
 - [X]  Player stat is displayed on client `Bug`
 - [ ]  Unreal UDP queries as a better way to detect server hang `Improvement`
 - [ ]  Finish Boulder `Feature`
