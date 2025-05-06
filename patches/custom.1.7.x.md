@@ -76,3 +76,9 @@
 - Added a name field to the import window, so you can name your newly imported profile.
 - Added a right click input on the profile creation buttons of the favorite area, to instead import directly into your favorites.
 - Added an export button to the favorite profiles.
+
+## 1.7.14
+- Trying to go around the bug from Funcom about bazaar DLC sometimes not unlocking on heavily loaded servers. This bug from the game also prevent people from equipping things in !Custom, so I'm trying a little something to see if it works.
+
+## 1.7.18
+- Added new creator categories, GrimProduction and Ithlinne's Armory.

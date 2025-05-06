@@ -74,3 +74,8 @@
 
 ## Roleplay Redux 2.1.41
 - Fixed raid doors being open from Al-Merayah Reborn (by Xevyr)
+
+## 2.1.46
+- Added a toggle on Notice Board that force players posting a message to display their real character name. This is only accessible with the new Notice Board management admin flag.
+- Optimized the initial loading of Notice Boards message lists. This might fix the issue where the list could not load. Let me know if it did.
+- Notice Board admin management will now use a new admin flag, available through a new RR permission (Notice Board Management)

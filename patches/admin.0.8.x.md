@@ -205,3 +205,14 @@
   - The `Clear Home` admin button delete the main home and all the extra homes of the targeted player.
   - If the maximum of extra home is lowered by an admin, and you have an excess of them, you won't be able to use your extra homes until you have removed that excess.
 - Fixed sound library displaying the previous button when it should not
+
+## 0.8.32
+- Fixed `/home set` not actually checking warp rules for setting the home
+- Fixed various places where the old /sethome was still mentioned
+- Added a list of homes in the player editor panel, allowing to locate on a popup map the home, teleport to it or delete it.
+
+## 0.8.39
+- Improved recipe icons in the recipe editor of a player to better handle opaque icons
+- Improved `Get User Input` node UI inputs. User field is now automatically keyboard focused, and the enter key automatically send the user input unless shift is pressed, adding a new line in that case.
+- Fixed interaction sphere opening its panel on a different player when editing through the tool master list.
+- Fixed `/cheat creative` inconsistencies regarding cloak
