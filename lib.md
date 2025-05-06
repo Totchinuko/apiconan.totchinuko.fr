@@ -74,26 +74,29 @@ Get the value of a float variable.
 
 <!-- tabs:end -->
 
-### Tot_C_MathSolver
-`ModsShared/SudoExile/TotLib/Types/Math/Tot_C_MathSolver`
+### Tot_I_MathSolver
+`ModsShared/SudoExile/MathSolver/Tot_I_MathSolver`
+
+**Download**: [MathSolver](/API/Lib.MathSolver.zip ':ignore')
 
 #### Solve
-Take an expression in form of a string and a Tot_C_VariableHolder and give a result as float. If the expression was already processed before by this solver, the cache is used to calculate the result again, even if variables are different from the previous one.
+Take an expression in form of a string and give a result as float. If the expression was already processed before by this solver, the cache is used to calculate the result again, even if variables are different from the previous one.  
+To access the solver, use GetAllActorWithInterface. This automatically insert variables just like the scripting system from !Admin, so sudo global vars/char vars are inserted as well, allowing you to add your own variables if you wish.
 <!-- tabs:start -->
 
 #### **Input**
 
-|type|name|description|
-|-|-|----|
-|string|Expression||
-|string|Variable||
+| type           | name             |description|
+|----------------|------------------|----|
+| string         | SolvedExpression ||
+| ConanCharacter | OptionalPlayer    ||
 
 #### **Output**
 
 |type|name|description|
 |-|-|----|
 |float|Return||
-|bool|IsSuccess||
+|bool|Success||
 |string|ErrorMessage||
 
 <!-- tabs:end -->
