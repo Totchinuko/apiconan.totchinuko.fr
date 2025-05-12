@@ -79,3 +79,6 @@
 - Added a toggle on Notice Board that force players posting a message to display their real character name. This is only accessible with the new Notice Board management admin flag.
 - Optimized the initial loading of Notice Boards message lists. This might fix the issue where the list could not load. Let me know if it did.
 - Notice Board admin management will now use a new admin flag, available through a new RR permission (Notice Board Management)
+
+## 2.1.47
+- Added days on the buff duration/delay and abilities cooldown, when such duration is beyond 24h.

@@ -216,3 +216,7 @@
 - Improved `Get User Input` node UI inputs. User field is now automatically keyboard focused, and the enter key automatically send the user input unless shift is pressed, adding a new line in that case.
 - Fixed interaction sphere opening its panel on a different player when editing through the tool master list.
 - Fixed `/cheat creative` inconsistencies regarding cloak
+
+## 0.8.42
+- Added two cross mod events on client side, when the player start/stop using the move tool.
+- Fixed most situations when ghost mode would remain activated when loosing flight, cause the character to fall through the ground and beyond.

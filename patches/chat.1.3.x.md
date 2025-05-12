@@ -86,3 +86,6 @@
 
 ## 1.3.28
 - Fixed the range viewer, for good, I hope
+
+## 1.3.31
+- Improved the horse advanced auto run to not require an override of a vanilla game file. Now a separate input key need to be set in order to use it.
