@@ -1,16 +1,17 @@
 # Todo list - Tot ! Mods
 ## Currently worked on
-- [ ] [Trebuchet] Mod update/Server update auto reboot `Feature`
+- [ ] [Trebuchet] Start on login setting `Feature`
+- [ ] [Trebuchet] Discord notifications `Feature`
 - [ ] [Trebuchet] Shutdown event sequence `Feature`
 - [ ] [Trebuchet] Duplicating a Server Save does not duplicate some settings `Bug`
-- [ ] [Chat] Improve auto-scroll when typing on narrow window `Bug`
-- [ ] [Release] Mods Release `Release`
 - [ ] [Roleplay] Notice boards stuck on loading for some notice boards `In Review` `Bug`
 - [ ] [Trebuchet] First server launch overwrites game.db `In Review` `Bug`
-- [ ] [Roleplay] Crashing/Fatal errors when opening RPR `Blocked` `Bug`
+- [ ] [Release] Mods Release `Release`
 
 
 ## Admin
+- [X]  Deactivate Ghost when changing flightstate `Improvement`
+- [X]  interface to report status of move tool `API`
 - [X]  Improve inputs of use input in dialogues `Improvement`
 - [X]  /cheat creative does not behave as expected `Bug`
 - [ ]  Map rework, node to add marker with option to pin on hud `Feature`
@@ -181,12 +182,10 @@
 - [ ]  Conflict with EEWA? `Blocked` `Bug`
 
 ## Chat
+- [X]  Review overrride of BP_MountInput between Walk and Chat
 - [ ]  Improve auto-scroll when typing on narrow window `Bug`
 - [ ]  Search exact names before doing partial matches `Improvement`
 - [ ]  Add a prompt on chat to swap the setting for the player on log `Improvement`
-- [ ]  Death Announcements `Feature`
-- [ ]  Link in messages `Feature`
-- [ ]  Word highlighter `Feature`
 - [ ]  Chat 2.0 `Version`
   - [ ]  No struct in API functions `Improvement`
   - [ ]  Remove access to language and range management from API `Improvement`
@@ -222,6 +221,9 @@
   - [ ]  Visualize positions of actors for a given message `Feature`
   - [ ]  Webhooks `Feature`
   - [ ]  Quote parsing for command arguments `Improvement`
+  - [ ]  Word highlighter `Feature`
+  - [ ]  Link in messages `Feature`
+  - [ ]  Death Announcements `Feature`
 - [ ]  A setting for more detailed timestamps `Improvement`
 - [ ]  FPS problem when receiving very special character `Blocked` `Bug`
 - [X]  /servertime command to display date/time in notification `Feature`
@@ -337,6 +339,7 @@
 - [ ]  Mods Release `Release`
 
 ## Roleplay
+- [X]  RPR Display days for cooldowns `Improvement`
 - [ ]  Crashing/Fatal errors when opening RPR `Blocked` `Bug`
 - [X]  Force Character Name mode on Notice Boards `Improvement`
 - [ ]  Investigation roleplay teach Language not working `Blocked` `Bug`
@@ -379,7 +382,8 @@
 - [ ]  More Better.
 
 ## Trebuchet
-- [ ]  Sync Panel does not display modlist at first `Bug`
+- [ ]  Start on login setting `Feature`
+- [ ]  Discord notifications `Feature`
 - [X]  Various bugs `Bug`
 - [X]  Reordering mods is not saved upon refreshing mod data `Bug`
 - [X]  Rcon should be optional when disabled `Improvement`
@@ -404,38 +408,39 @@
 - [X]  Add more internal logs `Improvement`
 - [X]  Add last 100 internal logs into the crash export `Improvement`
 - [X]  UI Rework for profiles `Improvement`
+- [ ]  Sync Panel does not display modlist at first `Bug`
+- [ ]  Shutdown event sequence `Feature`
 - [X]  Window title is not themed `Bug`
 - [X]  A button to trim mods that are not used by any modlist `Feature`
 - [X]  Auto-update `Feature`
 - [X]  Work on the server console `Feature`
-- [ ]  Duplicating a Server Save does not duplicate some settings `Bug`
 - [X]  Work on the first use experience `Improvement`
 - [X]  Separator is not themed `Bug`
 - [X]  Deploy through github release + go open source under GPL2.0 `Feature`
-- [ ]  First server launch overwrites game.db `In Review` `Bug`
+- [ ]  Unreal UDP queries as a better way to detect server hang `Improvement`
 - [X]  Refacto console log to use SeriLog `Improvement`
 - [X]  Only allow one instance of Trebuchet to run `Improvement`
 - [X]  Setting fields titles are not themed `Bug`
+- [ ]  Finish Boulder `Feature`
 - [X]  Modlist: Server IP,Pass,Port and an auto connect launch button `Feature`
-- [ ]  Mod update/Server update auto reboot `Feature`
+- [X]  Mod update/Server update auto reboot `Feature`
 - [X]  Separate UI text for later translation system `Improvement`
 - [X]  Stronger panel colors for Light theme `Improvement`
-- [ ]  Shutdown event sequence `Feature`
+- [ ]  Linux port `Feature`
 - [X]  Improve workshop search `Improvement`
 - [X]  DarkPanel should be darker on Light theme `Bug`
-- [X]  Labels on client dashboard don't use proper theming `Bug`
-- [X]  Popout console + save filters `Feature`
-- [X]  Player stat is displayed on client `Bug`
-- [ ]  Unreal UDP queries as a better way to detect server hang `Improvement`
-- [ ]  Finish Boulder `Feature`
-- [ ]  Linux port `Feature`
-- [X]  Updating individual mod never unlock background task `Bug`
 - [ ]  dotnet 10 `Feature`
 - [ ]  Log Filter to event `Feature`
+- [X]  Labels on client dashboard don't use proper theming `Bug`
+- [X]  Popout console + save filters `Feature`
 - [ ]  More client settings for cloth `Improvement`
-- [X]  Add button to open workshop page of a mod `Improvement`
+- [X]  Player stat is displayed on client `Bug`
 - [ ]  Corrupted State for mods on cancel `Improvement`
 - [ ]  Explore Chromless windows from SourceGit `Improvement`
+- [X]  Updating individual mod never unlock background task `Bug`
+- [ ]  Duplicating a Server Save does not duplicate some settings `Bug`
+- [ ]  First server launch overwrites game.db `In Review` `Bug`
+- [X]  Add button to open workshop page of a mod `Improvement`
 - [X]  Crash on starting client `Bug`
 - [X]  Crash when filters are empty `Bug`
 
