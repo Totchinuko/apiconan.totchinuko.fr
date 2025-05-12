@@ -1012,6 +1012,14 @@ Raised when a player is no longuer a given puppet. Puppet is made visible again 
 |string|Data[]||
 |Object|Context\[BasePlayerChar]||
 
+#### OnMoveToolStart <small>Client 0.8.41+</small>
+Raised on `BasePlayerChar` Actor Components
+Raised when a player **start** using the Tot!Admin move tool.
+
+#### OnMoveToolStop <small>Client 0.8.41+</small>
+Raised on `BasePlayerChar` Actor Components
+Raised when a player **stop** using the Tot!Admin move tool.
+
 ## Inventory Multipliers API <small>0.8.7+</small>
 
 ### Tot_I_InventoryMultipliers
