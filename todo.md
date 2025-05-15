@@ -1,15 +1,22 @@
 # Todo list - Tot ! Mods
 ## Currently worked on
-- [ ] [Trebuchet] Start on login setting `Feature`
-- [ ] [Trebuchet] Discord notifications `Feature`
 - [ ] [Trebuchet] Shutdown event sequence `Feature`
-- [ ] [Trebuchet] Duplicating a Server Save does not duplicate some settings `Bug`
-- [ ] [Roleplay] Notice boards stuck on loading for some notice boards `In Review` `Bug`
-- [ ] [Trebuchet] First server launch overwrites game.db `In Review` `Bug`
+- [X] [Roleplay] Cooldown/Timers not removing hours when converting to days `Bug`
+- [ ] [Admin] Quest objectives not completing when timer hits zero `Bug`
+- [ ] [Admin] Play music node start at random position ? `Bug`
+- [ ] [Admin] Music Box using the mod sound library `Feature`
+- [ ] [Sudo] World Map API `API`
+- [ ] [Sudo] Custom Global Map Marker Registry `API`
+- [ ] [HUD] HUD world map overlay `Improvement`
+- [ ] [Admin] Map rework, node to add marker with option to pin on hud `Feature`
+- [ ] [Admin] Active Quest Integration to map `Feature`
+- [ ] [Admin] Cloud based map location mechanic `Feature`
 - [ ] [Release] Mods Release `Release`
 
 
 ## Admin
+- [ ]  Quest objectives not completing when timer hits zero `Bug`
+- [ ]  Play music node start at random position ? `Bug`
 - [X]  Deactivate Ghost when changing flightstate `Improvement`
 - [X]  interface to report status of move tool `API`
 - [X]  Improve inputs of use input in dialogues `Improvement`
@@ -339,6 +346,7 @@
 - [ ]  Mods Release `Release`
 
 ## Roleplay
+- [X]  Cooldown/Timers not removing hours when converting to days `Bug`
 - [X]  RPR Display days for cooldowns `Improvement`
 - [ ]  Crashing/Fatal errors when opening RPR `Blocked` `Bug`
 - [X]  Force Character Name mode on Notice Boards `Improvement`
@@ -371,19 +379,20 @@
 - [ ]  World Map API `API`
 - [ ]  Admin Flags API `API`
 - [ ]  Sudo Nameplate API `API`
+- [ ]  Crouch interaction with nameplate (TBD) `Feature`
 - [ ]  Delete character from DB `Feature`
 - [ ]  Vanilla command fall back should display notifications `Improvement`
-- [ ]  Make image download documentation `Documentation`
 - [X]  Backing away from setup can soft lock sudo `Bug`
-- [ ]  UTF16BE log webhook `Improvement`
+- [ ]  Make image download documentation `Documentation`
 - [X]  Some favorits are getting duplicated on main menu `Bug`
+- [ ]  UTF16BE log webhook `Improvement`
 - [X]  ImageSharpening disable glitch is back `Bug`
 - [X]  Lens Flares setting `Improvement`
 - [ ]  More Better.
 
 ## Trebuchet
-- [ ]  Start on login setting `Feature`
-- [ ]  Discord notifications `Feature`
+- [X]  Start on login setting `Feature`
+- [X]  Discord notifications `Feature`
 - [X]  Various bugs `Bug`
 - [X]  Reordering mods is not saved upon refreshing mod data `Bug`
 - [X]  Rcon should be optional when disabled `Improvement`
