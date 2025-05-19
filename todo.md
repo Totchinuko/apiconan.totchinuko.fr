@@ -1,9 +1,12 @@
 # Todo list - Tot ! Mods
 ## Currently worked on
-- [ ] [Trebuchet] Shutdown event sequence `Feature`
+- [ ] [Trebuchet] Polish text for new features `Improvement`
 - [X] [Roleplay] Cooldown/Timers not removing hours when converting to days `Bug`
 - [ ] [Admin] Quest objectives not completing when timer hits zero `Bug`
 - [ ] [Admin] Play music node start at random position ? `Bug`
+- [ ] [Chat] Add totserver RCon command `Feature`
+- [ ] [Admin] Add totpop RCon command `Feature`
+- [ ] [Admin] Add totscript RCon command `Feature`
 - [ ] [Admin] Music Box using the mod sound library `Feature`
 - [ ] [Sudo] World Map API `API`
 - [ ] [Sudo] Custom Global Map Marker Registry `API`
@@ -15,6 +18,8 @@
 
 
 ## Admin
+- [ ]  Add totscript RCon command `Feature`
+- [ ]  Add totpop RCon command `Feature`
 - [ ]  Quest objectives not completing when timer hits zero `Bug`
 - [ ]  Play music node start at random position ? `Bug`
 - [X]  Deactivate Ghost when changing flightstate `Improvement`
@@ -189,6 +194,7 @@
 - [ ]  Conflict with EEWA? `Blocked` `Bug`
 
 ## Chat
+- [ ]  Add totserver RCon command `Feature`
 - [X]  Review overrride of BP_MountInput between Walk and Chat
 - [ ]  Improve auto-scroll when typing on narrow window `Bug`
 - [ ]  Search exact names before doing partial matches `Improvement`
@@ -391,6 +397,7 @@
 - [ ]  More Better.
 
 ## Trebuchet
+- [ ]  Polish text for new features `Improvement`
 - [X]  Start on login setting `Feature`
 - [X]  Discord notifications `Feature`
 - [X]  Various bugs `Bug`
@@ -417,8 +424,8 @@
 - [X]  Add more internal logs `Improvement`
 - [X]  Add last 100 internal logs into the crash export `Improvement`
 - [X]  UI Rework for profiles `Improvement`
-- [ ]  Sync Panel does not display modlist at first `Bug`
-- [ ]  Shutdown event sequence `Feature`
+- [X]  Sync Panel does not display modlist at first `Bug`
+- [X]  Shutdown event sequence `Feature`
 - [X]  Window title is not themed `Bug`
 - [X]  A button to trim mods that are not used by any modlist `Feature`
 - [X]  Auto-update `Feature`
