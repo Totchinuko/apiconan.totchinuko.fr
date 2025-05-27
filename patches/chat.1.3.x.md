@@ -89,3 +89,7 @@
 
 ## 1.3.31
 - Improved the horse advanced auto run to not require an override of a vanilla game file. Now a separate input key need to be set in order to use it.
+
+## 1.3.35
+- Added RCon command `totalert [global|local|clan] <message>` sending a server alert on the chosen channel. Omitting the channel default to global.
+- Fixed horses special auto-run feature which did not allow to walk

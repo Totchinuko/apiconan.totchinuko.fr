@@ -82,3 +82,6 @@
 
 ## 2.1.47
 - Added days on the buff duration/delay and abilities cooldown, when such duration is beyond 24h.
+
+## 2.1.48
+- Fixed the duration/delay of buffs that where display both more than 24 hours and the amount of days.

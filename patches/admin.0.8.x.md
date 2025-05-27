@@ -220,3 +220,7 @@
 ## 0.8.42
 - Added two cross mod events on client side, when the player start/stop using the move tool.
 - Fixed most situations when ghost mode would remain activated when loosing flight, cause the character to fall through the ground and beyond.
+
+## 0.8.45
+- Added RCon command `totpop <message>` to send a pop notification to all players connected
+- Added RCon command `totscript <command> [subCommand] [arguments[..]]` to execute a script on your server. A script executed that way will behave as if executed from a chat command, but without a player context. Checking for RCon origin can be done by using the chat command data node and making sure the `Tags` list contain tag `RCon`.
