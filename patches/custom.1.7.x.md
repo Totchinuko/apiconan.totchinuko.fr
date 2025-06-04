@@ -82,3 +82,6 @@
 
 ## 1.7.18
 - Added new creator categories, GrimProduction and Ithlinne's Armory.
+
+## 1.7.20
+- Fixed drooling on the left side of the mouse only present in some modded heads.

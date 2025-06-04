@@ -224,3 +224,15 @@
 ## 0.8.45
 - Added RCon command `totpop <message>` to send a pop notification to all players connected
 - Added RCon command `totscript <command> [subCommand] [arguments[..]]` to execute a script on your server. A script executed that way will behave as if executed from a chat command, but without a player context. Checking for RCon origin can be done by using the chat command data node and making sure the `Tags` list contain tag `RCon`.
+
+## 0.8.52
+- Added a music player for Admins, and one for players.
+  - Both Sync the music so that every player roughly hear the same thing.
+  - Musics come from the Sound Library which is an API available to people so they can add new sound/musics to the library using a server mod.
+  - It does not use URL (No variant using URL will be made)
+  - Player variant is tied to a Staff Music White List, letting admins decide which music from the Library can be used by the player variant.
+  - Player variant is craftable
+  - Admin variation integrate scripting events and can be used with Set/Get Tool Params type of nodes to configure it via scripts.
+- Added 150 musics from the game and Age of Conan to the Library
+- Added a node to check the land claim in a specific location
+- Fixed dialogue answers cropping out of the UI

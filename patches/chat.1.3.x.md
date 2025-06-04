@@ -93,3 +93,6 @@
 ## 1.3.35
 - Added RCon command `totalert [global|local|clan] <message>` sending a server alert on the chosen channel. Omitting the channel default to global.
 - Fixed horses special auto-run feature which did not allow to walk
+
+## 1.3.36
+- Fixed broken /alert command
