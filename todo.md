@@ -1,13 +1,5 @@
 # Todo list - Tot ! Mods
 ## Currently worked on
-- [ ] [Trebuchet] Polish text for new features `Improvement`
-- [X] [Roleplay] Cooldown/Timers not removing hours when converting to days `Bug`
-- [ ] [Admin] Quest objectives not completing when timer hits zero `Bug`
-- [ ] [Admin] Play music node start at random position ? `Bug`
-- [ ] [Chat] Add totserver RCon command `Feature`
-- [ ] [Admin] Add totpop RCon command `Feature`
-- [ ] [Admin] Add totscript RCon command `Feature`
-- [ ] [Admin] Music Box using the mod sound library `Feature`
 - [ ] [Sudo] World Map API `API`
 - [ ] [Sudo] Custom Global Map Marker Registry `API`
 - [ ] [HUD] HUD world map overlay `Improvement`
@@ -18,22 +10,20 @@
 
 
 ## Admin
-- [ ]  Add totscript RCon command `Feature`
-- [ ]  Add totpop RCon command `Feature`
-- [ ]  Quest objectives not completing when timer hits zero `Bug`
-- [ ]  Play music node start at random position ? `Bug`
+- [X]  Check land claim in location `Scripting System`
+- [ ]  Command data does not create a list when empty of args `Blocked` `Bug`
+- [X]  Adding some padding on the dialogue inputs `Bug`
+- [ ]  Tot ressource spawner crash `Blocked` `Bug`
 - [X]  Deactivate Ghost when changing flightstate `Improvement`
 - [X]  interface to report status of move tool `API`
 - [X]  Improve inputs of use input in dialogues `Improvement`
 - [X]  /cheat creative does not behave as expected `Bug`
-- [ ]  Map rework, node to add marker with option to pin on hud `Feature`
 - [X]  Opaque recipe icons hide learned status color `Bug`
 - [X]  Multi-home `Feature`
 - [X]  Sound library should hide the previous button when applicable `Bug`
 - [X]  Editing interaction tool remotely is not working `Bug`
 - [X]  Post Processing causing invisible NPC's health bars? `Bug`
 - [X]  Banlist unbanning unban the wrong player + other strange things `Bug`
-- [ ]  Generic inventory infinit loop from mod conflict `Blocked` `Bug`
 - [X]  Script commands should check sub command before main `Bug`
 - [X]  Secret door becomes double door `Bug`
 - [X]  Scripted door settings menus are opening on other players `Bug`
@@ -104,19 +94,25 @@
   - [ ]  Nodes: Player scale and foot position `Scripting System`
   - [ ]  Stock limits for trader NPC `Improvement`
   - [ ]  Clean inventory node `Scripting System`
+- [ ]  Volume/Pitch for play music node `Scripting System`
+- [X]  Scripting field API shouldn't need the compatible list `Improvement` `API`
+- [X]  Add totscript RCon command `Feature`
+- [X]  Scripting API publication `API` `Scripting System`
+- [X]  Add totpop RCon command `Feature`
+- [ ]  Quest objectives not completing when timer hits zero `Blocked` `Bug`
+- [X]  Recurring Event typo, is named "Unique day Event" `Bug`
+- [ ]  Map rework, node to add marker with option to pin on hud `Feature`
+- [ ]  Generic inventory infinit loop from mod conflict `Blocked` `Bug`
 - [ ]  Invisible wall to block navigation `Feature`
 - [ ]  Node to display friendly durations/date `Scripting System`
-- [X]  Scripting field API shouldn't need the compatible list `Improvement` `API`
-- [X]  Scripting API publication `API` `Scripting System`
 - [ ]  Free Editor Mode `Feature`
 - [ ]  Add Thrall to inventory node `Scripting System`
 - [ ]  Community made script library `Feature` `Scripting System`
 - [ ]  Auto focus camera (Collision Raycast) `Feature` `Scripting System`
-- [X]  Recurring Event typo, is named "Unique day Event" `Bug`
 - [ ]  Dynamic puppet inventory linked to scripted chests `Feature`
 - [ ]  Voiced dialogue lines `Scripting System`
 - [ ]  Script comments `Feature` `Scripting System`
-- [ ]  Music Box using the mod sound library `Feature`
+- [X]  Music Box using the mod sound library `Feature`
 - [ ]  Vector3 Calculation Nodes `Feature` `Scripting System`
 - [ ]  Add light customization to scripted lights `Feature`
 - [ ]  Projectile Launchers `Feature`
@@ -151,22 +147,37 @@
 - [ ]  Integrate RR Dice Sheet on Puppets `Delayed` `Experimental`
 - [ ]  Setting to apply warp rules to /return and /teleport `Improvement`
 - [ ]  Interaction sphere as interaction box `Feature`
+- [X]  No fly node should stop flying `Bug`
 - [ ]  Thrall names displayed incorrectly traders `Blocked` `Bug`
 - [ ]  Spheres do not run script on spawn when inside them `Blocked` `Bug`
 - [ ]  Some weird building prevention on specific area of the map `Blocked` `Bug`
 - [ ]  Force completion does not function correctly with Char Number `Blocked` `Bug`
 - [ ]  Send Message node is not behaving accordingly with colors/tags `Blocked` `Bug` `Scripting System`
 - [ ]  Weapons and Armor resetting values in Trader NPC `Blocked` `Bug`
-- [X]  No fly node should stop flying `Bug`
 - [ ]  Some custom tool fail to harvest `Blocked` `Bug` `API`
 - [ ]  Module Death Post Death NPC's Docile Chance `Blocked` `Bug`
 - [ ]  Removing points using the attribute editor does not revoke perks `Blocked` `Bug`
 - [ ]  Warning Logs (Quest and scripted door related) `Blocked` `Bug`
 - [ ]  Thrall cannot be sold through puppet anymore `Blocked` `Bug`
+- [ ]  Return more information about prevented death `Improvement`
+- [ ]  Add description of an item in the trading window `Improvement`
+- [ ]  Block NPC Spawn Tool `Feature`
+- [ ]  Loot multiple for quests `Feature`
+- [ ]  Trader NPC: Items mess up when moving them around `Blocked` `Bug`
+- [ ]  Thrall generator ? `Feature`
+- [ ]  Use placeable API to make customizable flag `Feature`
 - [X]  Rename the puppet tags to status `Improvement`
+- [ ]  Script edited by multiple people at the same time `Improvement`
 - [X]  Allow for less than 5 inventory slot with multiplier `Improvement`
 - [X]  Close admin panel on warp `Improvement`
+- [ ]  Allow bulk Emptying / Destruction of container using Heatmap `Improvement`
 - [X]  Add hard off switch for inventory multipliers `Improvement`
+- [ ]  Refresh Dice UI `Experimental` `Scripting System`
+- [ ]  Nodes to toggle buildable damages `Scripting System`
+- [ ]  Non-blocking Kit redemption message. `Improvement`
+- [ ]  Mouse-over tooltip for dialogue choices `Improvement` `Scripting System`
+- [ ]  Make a standard shape selector for all tools `Improvement`
+- [ ]  Conflict with EEWA? `Blocked` `Bug`
 - [X]  Expose inventory multipliers to API `API`
 - [X]  Legs bent with heels on, when not on flat ground `Bug`
 - [X]  Get Date (To Text) seems to return nothing now
@@ -176,26 +187,14 @@
 - [X]  Unexpected skip of subscript `Bug`
 - [X]  Add opt out setting from move tool fix `Improvement`
 - [X]  Scripted Doors Detected as Unowned Placeables. `Bug`
-- [ ]  Return more information about prevented death `Improvement`
 - [X]  Bad script import/export `Bug`
-- [ ]  Add description of an item in the trading window `Improvement`
-- [ ]  Block NPC Spawn Tool `Feature`
-- [ ]  Loot multiple for quests `Feature`
-- [ ]  Trader NPC: Items mess up when moving them around `Blocked` `Bug`
-- [ ]  Thrall generator ? `Feature`
-- [ ]  Use placeable API to make customizable flag `Feature`
-- [ ]  Script edited by multiple people at the same time `Improvement`
-- [ ]  Allow bulk Emptying / Destruction of container using Heatmap `Improvement`
-- [ ]  Refresh Dice UI `Experimental` `Scripting System`
-- [ ]  Nodes to toggle buildable damages `Scripting System`
-- [ ]  Non-blocking Kit redemption message. `Improvement`
-- [ ]  Mouse-over tooltip for dialogue choices `Improvement` `Scripting System`
-- [ ]  Make a standard shape selector for all tools `Improvement`
-- [ ]  Conflict with EEWA? `Blocked` `Bug`
+- [ ]  Alpha to influence the portal effect, not the background `Improvement`
 
 ## Chat
-- [ ]  Add totserver RCon command `Feature`
+- [X]  Test /alert fix `Bug`
 - [X]  Review overrride of BP_MountInput between Walk and Chat
+- [X]  Horse can't walk with auto-run `Bug`
+- [X]  Add totserver RCon command `Feature`
 - [ ]  Improve auto-scroll when typing on narrow window `Bug`
 - [ ]  Search exact names before doing partial matches `Improvement`
 - [ ]  Add a prompt on chat to swap the setting for the player on log `Improvement`
@@ -242,6 +241,7 @@
 - [X]  /servertime command to display date/time in notification `Feature`
 
 ## Custom
+- [X]  Left lip drool `Bug`
 - [X]  Update !Custom creators
 - [X]  Add export button to favorites `Improvement`
 - [X]  Sliders not initialized `Bug`
@@ -352,6 +352,7 @@
 - [ ]  Mods Release `Release`
 
 ## Roleplay
+- [ ]  Adding new abilities sometimes duplicate an existing ID `Blocked` `Bug`
 - [X]  Cooldown/Timers not removing hours when converting to days `Bug`
 - [X]  RPR Display days for cooldowns `Improvement`
 - [ ]  Crashing/Fatal errors when opening RPR `Blocked` `Bug`
@@ -377,6 +378,7 @@
 - [ ]  Scripting & API: Retrieve Redux Character Abilities
 - [ ]  GetConsentValue API `API`
 - [ ]  Investigate what RPR use for dropdowns `Blocked` `Bug`
+- [ ]  POI Inspection Based on Language `Feature`
 
 ## Sudo
 - [X]  Low stamina post process blinding with environment on `Bug`
@@ -397,7 +399,7 @@
 - [ ]  More Better.
 
 ## Trebuchet
-- [ ]  Polish text for new features `Improvement`
+- [X]  Polish text for new features `Improvement`
 - [X]  Start on login setting `Feature`
 - [X]  Discord notifications `Feature`
 - [X]  Various bugs `Bug`
