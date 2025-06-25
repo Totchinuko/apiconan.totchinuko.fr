@@ -236,3 +236,7 @@
 - Added 150 musics from the game and Age of Conan to the Library
 - Added a node to check the land claim in a specific location
 - Fixed dialogue answers cropping out of the UI
+
+## 0.8.56
+- Fixed sound library not loading in scripting editor
+- Fixed music white list not allowing to add musics to the list when it is not empty

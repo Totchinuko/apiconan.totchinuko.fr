@@ -17,7 +17,7 @@
 - New configurable input to turn on/off light from accessories `Feature`
 - Separate hairline color body parameter `Feature`
 - Alternative weapon transmog compatibility method (Can be toggle on the main panel) `Feature`
-- Reset entire body category with a button `Improvement`
+- Reset entire body category with a buton `Improvement`
 - Right clicking on a transmog weapon slot display the compatible weapons `Improvement`
 - Dual weapons can be upside down `Bug`
 - Down But Not Out does not function properly with Customization `Bug`
@@ -85,3 +85,6 @@
 
 ## 1.7.20
 - Fixed drooling on the left side of the mouse only present in some modded heads.
+
+## 1.7.21
+- Fixed bone selection for lip corners being inconsistent between the left and right 
