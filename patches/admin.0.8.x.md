@@ -240,3 +240,8 @@
 ## 0.8.56
 - Fixed sound library not loading in scripting editor
 - Fixed music white list not allowing to add musics to the list when it is not empty
+
+## 0.8.57
+- Added a `Max Buy` limiter to NPC traders and Puppet traders, for each price definition. This allows to set a limit for a given type of object, preventing the trader to buy more than the limit set. This will both remove the option to sell should the trader have too much, and cap the amount sold in a single trade based on the trader current inventory. Leaving the limit to 0, effectively allow the trader to buy as many as it can like before.
+- Added a filter to the pricing column, so you can search for that pesky item you wish to modify the price of.
+- Improved stack error message display to be displayed on HUD before chat.
