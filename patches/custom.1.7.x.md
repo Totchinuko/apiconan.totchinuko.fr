@@ -88,3 +88,7 @@
 
 ## 1.7.21
 - Fixed bone selection for lip corners being inconsistent between the left and right 
+
+## 1.7.27
+- Added `Lew Flat Chest Redux` as a Flat Chest. Original one will remain untouched, and the new one is similar in its shape so that it can remain compatible with clothing made previously.
+- Fixed skin on third party mod flat chests not working with !Custom advanced features.

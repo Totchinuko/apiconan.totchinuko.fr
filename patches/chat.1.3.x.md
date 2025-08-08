@@ -96,3 +96,7 @@
 
 ## 1.3.36
 - Fixed broken /alert command
+
+## 1.3.37
+- Now with leetspeak
+- Added setting to change the typing text color

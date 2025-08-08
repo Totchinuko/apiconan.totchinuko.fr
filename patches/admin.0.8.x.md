@@ -245,3 +245,10 @@
 - Added a `Max Buy` limiter to NPC traders and Puppet traders, for each price definition. This allows to set a limit for a given type of object, preventing the trader to buy more than the limit set. This will both remove the option to sell should the trader have too much, and cap the amount sold in a single trade based on the trader current inventory. Leaving the limit to 0, effectively allow the trader to buy as many as it can like before.
 - Added a filter to the pricing column, so you can search for that pesky item you wish to modify the price of.
 - Improved stack error message display to be displayed on HUD before chat.
+
+## 0.8.58
+- Added `Get Building Sizes` node, to return the Building pieces, decoration, NPC and inventory count of a given owner (Being player or clan). This is an expensive operation, read the description before using this node. It also returns the amount of members if the owner is a clan, as it is often used by server admins to determine how much a clan can build.
+- Improved `To Generic Admin Tool` and `To Admin Tool` nodes to handle properly Scripted Chest/Light/Door/etc...
+- Added a confirmation dialogue when deleting an admin scripting event.
+- Improvements to unmute game music when leaving a music player.
+- Fixed `Find Sub Text` node that was wrongly identical to the `Text Sub` node.

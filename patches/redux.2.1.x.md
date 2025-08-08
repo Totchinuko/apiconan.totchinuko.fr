@@ -85,3 +85,6 @@
 
 ## 2.1.48
 - Fixed the duration/delay of buffs that where display both more than 24 hours and the amount of days.
+
+## 2.1.49
+- Deactivated the waypoint ability to open its UI when simply walking on the stone. This was always terribly bugged and a gigantic pain when in a fight using mech pvp. You can still open the UI by simply pressing your action button while aiming at the stone.
