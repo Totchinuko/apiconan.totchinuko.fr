@@ -88,3 +88,6 @@
 
 ## 2.1.49
 - Deactivated the waypoint ability to open its UI when simply walking on the stone. This was always terribly bugged and a gigantic pain when in a fight using mech pvp. You can still open the UI by simply pressing your action button while aiming at the stone.
+
+## 2.1.52
+- Prevent the transmog system to update the online characters when it is disabled anyway. This also apply when restoring a backup through sudo. 

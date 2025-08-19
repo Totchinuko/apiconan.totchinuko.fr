@@ -92,3 +92,9 @@
 
 ## 1.1.7
 - Removing the decency
+
+## 1.1.26
+- Improved the quick search to be more reactive when typing a keyword and hitting enter immediately.
+- Improved the quick search to not lose focus after the first enter input.
+- Attempt at fixing a client crash while or after using the quick search
+- Fixed the nameplate name not appearing using the wallhack admin tool when the settings are set to not display the name of a player.

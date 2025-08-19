@@ -252,3 +252,9 @@
 - Added a confirmation dialogue when deleting an admin scripting event.
 - Improvements to unmute game music when leaving a music player.
 - Fixed `Find Sub Text` node that was wrongly identical to the `Text Sub` node.
+
+## 0.8.61
+- NPC Traders can now be placed anywhere without any restrictions
+- NPC Traders now have a confirmation dialogue when attempting to pick up or destroy them
+- Fixed cases when restoring a backup would not persist after a restart of the server.
+- Fixed trading a fraction of a thrall stack from a puppet not working.
