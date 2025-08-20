@@ -258,3 +258,6 @@
 - NPC Traders now have a confirmation dialogue when attempting to pick up or destroy them
 - Fixed cases when restoring a backup would not persist after a restart of the server.
 - Fixed trading a fraction of a thrall stack from a puppet not working.
+
+## 0.8.62
+- Fixed an issue causing some transactions with traders including thrall to yield broken thrall tokens.

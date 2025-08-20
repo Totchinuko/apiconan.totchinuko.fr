@@ -98,3 +98,7 @@
 - Improved the quick search to not lose focus after the first enter input.
 - Attempt at fixing a client crash while or after using the quick search
 - Fixed the nameplate name not appearing using the wallhack admin tool when the settings are set to not display the name of a player.
+
+## 1.1.28
+- Improved environment upgrade to feature volumetric fog in EL starting area (which never worked)
+- Added personal environment profiles for EL, Siptah and Savage Wilds. They are personal preference I like to have in game, might not be of everyone's liking.
