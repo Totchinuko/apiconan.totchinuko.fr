@@ -102,3 +102,6 @@
 ## 1.1.28
 - Improved environment upgrade to feature volumetric fog in EL starting area (which never worked)
 - Added personal environment profiles for EL, Siptah and Savage Wilds. They are personal preference I like to have in game, might not be of everyone's liking.
+
+## 1.1.32
+- Fixed the fog color when using the environment profiles.
