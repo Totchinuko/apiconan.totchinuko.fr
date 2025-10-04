@@ -2,7 +2,7 @@
 
 ## Tot ! Custom
 
-### Puppeteer Mode
+### Puppeteer Mode (Done)
 
 Having the ability to design your own pose with a rotation tool that would be the very same use for accessories, only here for bones. Most bones of the body would be available to rotate, save for the facial one. Facial will simply have a bunch of premade emotes, with the ability to blend.
 
@@ -24,7 +24,7 @@ It would also offer control over the environement, to change time of the day dur
 
 Left unsatisfied with the way the current Quest System function, their will be a complete rework to provide procedural quest creation. This would allow to create quest from scratch directly from scripting. No promises that the old data will remain, but ideally I'd like to keep the old system to work on top of the new if possible.
 
-### Environment Control
+### Environment Control (Done)
 
 Possibility to control lighting of a scene. Sun intensity, fog, eclipse, moon color, sky color, etc... All through the scripting system in order to offer either map wide changes or local one in an area. Want to make a cavern dark ? You can do it.
 
@@ -48,7 +48,7 @@ Release of the nameplate API so that other mods can add widgets to the Sudo name
 
 At least have a testing version of the mod. So main fishing mechanic, at least part of the content and its NPC. I plan to test the mod on the test server I plan to have, that will be opened to selected members of the Discord server.
 
-### Environment Upgrade
+### Environment Upgrade (Done)
 
 Graphical upgrade of Exile Land with better lighting/fog and color grading.
 
