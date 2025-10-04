@@ -261,3 +261,6 @@
 
 ## 0.8.62
 - Fixed an issue causing some transactions with traders including thrall to yield broken thrall tokens.
+
+## 0.8.63
+- Puppet compatibility with Poses

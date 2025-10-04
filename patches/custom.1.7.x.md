@@ -1,4 +1,4 @@
-# Tot ! Custom 1.7.x
+# Tot ! Custom 1.7.X
 
 ## 1.7.0`
 - Added Partial Body Profile
@@ -95,3 +95,46 @@
 
 ## 1.7.31
 - Fixing more issues that made the mannequin head pop back when it should be invisible.
+
+# Tot ! Custom 1.8.0
+
+## Release Videos
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rPqxSEowaEs?si=tIBDx968utgA5i85" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wfnJqGuTHbM?si=yjBKLQ1QijMMiGq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## 1.8.0
+- New Gizmos tools (The 3D tools you use to edit accessories)
+  - The central view handle is now a circle that remain out of the way
+  - Move/Scale Axis handles now flip sides to always remain toward the camera and be accessible
+  - Rotation Axis are leaner
+  - Move/Scale tools are now accompanied by 3 plane handle allowing to move/scale the target on two axis.
+  - Improvements were made on the overall tool size depending on the camera's proximity.
+- New Pose System:
+  - Contained in a brand-new panel, that can be accessed in a different input with new input key (B by default)
+  - Modify your character's body pose using tools you've come to like with accessories.
+  - Modify the pose of your character during an emote or completely design from scratch a static pose over a TPosed character.
+  - Edit your character directly after opening the panel for small instant adjustments to a scene.
+  - Save poses or parts of poses, and overlay them back on your character at any time.
+  - Use the Quick Tools and Mirroring to edit your pose more easily
+  - Bind an accessory set to a pose, to equip it at the same time as you play a pose.
+- Complete rework of the UI structure. A necessary work for the future needs of the mod. The original UI code was messy and needed a facelift.
+- File lists now support multi selection and drag and drop, allowing to move, delete, duplicate, export, favorite multiple files at once.
+- Bulk export: Export multiple files in one single export, and even a mix of them from the favorites tab.
+- Added keyboard shortcuts to file lists, such as Delete, Ctrl+D to duplicate and Ctrl+F to focus your keyboard on the search field
+- Favorites are now available on any type of compatible characters
+- Added Favorite groups to replace presets, a way to group multiple favorite files into a group that can conveniently be applied. Groups act as a more flexible alternative to Presets.
+- Your old presets will have been reimported as normal files, and groups will have been generated based on your old presets.
+- Character Profiles are now folders, and can be placed inside other folders, allowing to organize your favorites into a hierarchy with quick navigation to the parent folder or sub folders.
+- Files can now be equipped/applied even if they contained locked elements because of server rules/DLC ownership. The locked elements will simply be ignored and the rest of the file will be applied.
+- Added several keyboard shortcuts to quickly equip/unequip/override Accessories/Armors, those shortcuts are mentioned in the popup menu of the equip button.
+- You can now quickly rename a file without opening the full editor by right-clicking on the edit button.
+- You can now change the background color of the mod's UI. Setting is tucked in the cog wheel on the top toolbar.
+- Changes made to a body by server rules are now indicated by a yellow border around a body row, and various warning icons.
+- Alternative weapon transmog matching is now part of the weapon transmog file
+- Armor parts that are forced nude, will not count as equipped transmog part anymore unless any other part of the armor files is. This would avoid a number of matches that make looking at an armor file list a little confusing
+- Un-Equipping an armor transmog will now apply nude rather than reverting to the real armor. You can still unequip in quick access and have the current armor menu offering to revert to the real armor completely.
+- Font and Icons where changed. The new icon pack is more consistent and of slightly higher resolution. Icons should be slightly bigger.
+- Fixed missing light in female hair thumbnails
+- Remove fog scattering on the main !Custom camera light
+- Fixed a rare case where the list of creators in the body editor would go out of screen.

@@ -1,4 +1,4 @@
-# Tot ! Sudo 1.x.x
+# Tot ! Sudo 1.0.x
 
 ## 1.0.13
 - Adding new Interface `I_EA_MC_Vars` to access the global variables without the need of a player character reference.
@@ -79,6 +79,7 @@
 ## 1.0.50
 - Fixed the parameter blocking nameplates through walls that was not getting backed up
 
+# Tot ! Sudo 1.1.X
 
 ## 1.1.0
 - Tot ! Environment:
@@ -105,3 +106,9 @@
 
 ## 1.1.32
 - Fixed the fog color when using the environment profiles.
+
+## 1.1.54
+- Added a Check/Uncheck All buttons on permission selection for roles, globally and per permission categories.
+- Font and Icons where changed. The new icon pack is more consistent and of slightly higher resolution. Icons should be slightly bigger.
+- Confirmation dialogue now support the Enter as a shortcut to the primary button, and Escape for the cancel button.
+- Optimization of permission network replication
