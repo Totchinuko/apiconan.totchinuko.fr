@@ -1,6 +1,6 @@
 # Tot ! Custom 1.7.X
 
-## 1.7.0`
+## 1.7.0
 - Added Partial Body Profile
     - A partial body profile only apply its non default value of a body on the current body, like an overlay.
     - Non default value are marked in blue and with a asterisk.
