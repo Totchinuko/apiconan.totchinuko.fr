@@ -264,3 +264,4 @@
 
 ## 0.8.63
 - Puppet compatibility with Poses
+- New GetItemQuantity node
