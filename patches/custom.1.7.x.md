@@ -138,3 +138,4 @@
 - Fixed missing light in female hair thumbnails
 - Remove fog scattering on the main !Custom camera light
 - Fixed a rare case where the list of creators in the body editor would go out of screen.
+- Fixed an incompatibility with Devious Desire regarding Elbow and Knee bone rotations.
