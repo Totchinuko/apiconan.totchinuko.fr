@@ -2,15 +2,11 @@
 ## Currently worked on
 - [ ] [Roleplay] Map Overlay causes Ctrl+click Admin Teleport to not work `Blocked` `Bug`
 - [ ] [Custom] Investigate this wonky behavior `Bug`
-- [ ] [Custom] UI Rework `Improvement`
-- [X] [Custom] Separate presets from profiles `Feature`
-- [ ] [Custom] Access of presets on non player customizable `Improvement`
-- [X] [Custom] Highlight sliders exceeding server configuration `Improvement`
-- [ ] [Custom] Custom API sliders don't always apply `Bug` `API`
-- [ ] [Custom] Footsteps sometimes double `Bug`
-- [ ] [Custom] Remove bone influence on female variant to avoid distortion `Bug`
-- [ ] [Custom] Pose System `Feature`
+- [ ] [Library] Skeleton bone selection need a rework `Improvement`
 - [ ] [Release] Mods Release `Release`
+- [ ] [Custom] Custom API sliders don't always apply `In Review` `Bug` `API`
+- [ ] [Custom] Footsteps sometimes double `In Review` `Bug`
+- [ ] [Custom] Remove bone influence on female variant to avoid distortion `In Review` `Bug`
 
 
 ## Admin
@@ -217,6 +213,12 @@
 - [X]  Node to count owner's pieces/inventories, with warning for cost `Scripting System`
 - [ ]  Conflict with EEWA? `Blocked` `Bug`
 - [ ]  Trader NPC: Items mess up when moving them around `Blocked` `Bug`
+- [ ]  Typos in Post Process tool `Improvement`
+- [ ]  Swap move tool to mod inputs entirely `Improvement`
+- [ ]  Fractional Kit Percentage Chance
+- [ ]  Node to get the list of languages a player possess
+- [ ]  Formated field should have at least a few lines of display
+- [ ]  Precision mode for move tool, using 3D editor improvements
 
 ## Chat
 - [X]  Test /alert fix `Bug`
@@ -305,11 +307,26 @@
 - [X]  Issues with Sliders based on Roles `Bug`
 - [ ]  Investigate this wonky behavior `Bug`
 - [ ]  Custom 1.8.0 `Version`
-  - [ ]  UI Rework `Improvement`
-  - [ ]  Access of presets on non player customizable `Improvement`
+  - [ ]  Custom API sliders don't always apply `In Review` `Bug` `API`
+  - [X]  UI Rework `Improvement`
+  - [X]  Access of favorites on non player customizable `Improvement`
   - [X]  Highlight sliders exceeding server configuration `Improvement`
-  - [ ]  Pose System `Feature`
+  - [ ]  Footsteps sometimes double `In Review` `Bug`
+  - [X]  Pose System `Feature`
   - [X]  Separate presets from profiles `Feature`
+  - [ ]  Remove bone influence on female variant to avoid distortion `In Review` `Bug`
+  - [ ]  More Fidgets `Feature`
+  - [ ]  Emote slots with API `Feature` `API`
+  - [ ]  Pose export with bound accessory kit `Improvement`
+  - [ ]  Edit other player poses with confirmation prompt `Feature`
+  - [ ]  Attachment between two characters `Feature`
+  - [ ]  Easy multi-character pose `Feature`
+  - [ ]  Pose: Snap to chair with preset pose `Feature`
+  - [X]  Naming during Import `Improvement`
+- [X]  Reset weapon size when modifying body `Bug`
+- [X]  Mounts do not have footstep `Bug`
+- [X]  Fix mannequin head for good `Bug`
+- [ ]  Custom 1.9.0 `Feature`
   - [ ]  Separate head and body skin shininess `Improvement`
   - [ ]  Alternative sweat specular `Feature`
   - [ ]  Player choice to hide armor if vanilla armor is unequiped `Improvement`
@@ -318,35 +335,31 @@
   - [ ]  Investigate faction voice line for NPC ? `Improvement`
   - [ ]  Use the visibility filter to target weapon transmog slot `Feature`
   - [ ]  Name for accs client side, to display in quick access  `Improvement`
-  - [ ]  Custom API sliders don't always apply `Bug` `API`
-  - [X]  Naming during Import `Improvement`
-  - [ ]  Footsteps sometimes double `Bug`
-  - [ ]  Remove bone influence on female variant to avoid distortion `Bug`
-- [X]  Reset weapon size when modifying body `Bug`
-- [ ]  Teeth Coloring `Feature`
-- [X]  Mounts do not have footstep `Bug`
-- [X]  Fix mannequin head for good `Bug`
+  - [ ]  Pegleg foodsteps `Improvement`
+  - [ ]  Teeth Coloring `Feature`
 - [ ]  Investigate documentation for making armor accessories `Documentation`
 - [X]  Silent Footsteps - First Person `Bug`
-- [ ]  Add a new item ban rule: Unlock or Item in bag/equipped `Feature`
-- [ ]  Randomize ToT! NPC's? `Feature`
 - [ ]  Texture Merger `Experimental`
-- [ ]  Horse Edition (Separate Mod ?) `Feature`
-- [ ]  Networking issue on login/Slow loading time on DS `Bug` `Delayed`
-- [ ]  Investigate: No Walking Sound `Blocked`
-- [ ]  Manually typed rotation do not behave properly `Blocked` `Bug`
-- [ ]  Tradeable Exports `Blocked` `Feature`
-- [ ]  Check beard visibility with invisibility status `Blocked` `Bug`
-- [ ]  Button to move profiles to top/bottom `Improvement`
-- [ ]  Implement Reorderable List V2 `Improvement`
-- [ ]  Investigate Alt. Wepon transmog `Blocked` `Bug`
-- [ ]  Preset seem to ignore slider limitations ? `Blocked` `Bug`
 - [ ]  Independant scar glow slider `Improvement`
-- [ ]  Tot!decency transparency priority should be higher `Blocked` `Bug`
-- [X]  Integrate the lantern `Feature`
 - [ ]  Physics toggle `Improvement`
+- [ ]  Metallic slider for Alt-hair and skin `Improvement`
+- [ ]  Arms/Torso/Legs - Muscle Mass Slider `Improvement`
+- [ ]  Add a new item ban rule: Unlock or Item in bag/equipped `Feature`
+- [ ]  Horse Edition (Separate Mod ?) `Feature`
+- [ ]  Randomize ToT! NPC's? `Feature`
+- [X]  Implement Reorderable List V2 `Improvement`
+- [ ]  Networking issue on login/Slow loading time on DS `Bug` `Delayed`
+- [ ]  Tot!decency transparency priority should be higher `Blocked` `Bug`
+- [ ]  Preset seem to ignore slider limitations ? `Blocked` `Bug`
+- [X]  Rework of the preset system `Improvement`
+- [ ]  Check beard visibility with invisibility status `Blocked` `Bug`
+- [ ]  Manually typed rotation do not behave properly `Blocked` `Bug`
+- [ ]  Investigate: No Walking Sound `Blocked`
+- [ ]  Investigate Alt. Wepon transmog `Blocked` `Bug`
+- [X]  Integrate the lantern `Feature`
+- [ ]  Tradeable Exports `Blocked` `Feature`
 - [X]  Document the new table API `Documentation`
-- [ ]  Rework of the preset system `Improvement`
+- [ ]  Slight incompatibility with latest DD update `Blocked` `Bug`
 - [X]  Character shoulders twisted inwards `Bug`
 - [X]  Experiment with light material for the lantern `Improvement`
 - [X]  Investigate sliders all Locked to Zero `Bug`
@@ -375,18 +388,21 @@
 ## Library
 - [X]  Environement controller `Feature`
 - [X]  Release Math Solver API `API`
-- [ ]  Reorderable List V2 `Improvement`
+- [ ]  Skeleton bone selection need a rework `Improvement`
+- [X]  Reorderable List V2 `Improvement`
+- [ ]  Configurable grid for 3D editor `Improvement`
 - [ ]  Standardize the script list search tool to be reusable `Improvement`
-- [ ]  Make a range visualizer (Visual 3D circle) `Feature`
+- [X]  Make a range visualizer (Visual 3D circle) `Feature`
 - [ ]  Rework the placeable editor `Improvement`
 - [ ]  New Item Lookup supporting multiple selection `Improvement`
 - [X]  Compile a list of permission for documentation `Documentation`
-- [ ]  Improve 3D editor use cases `Improvement`
+- [X]  Improve 3D editor use cases `Improvement`
 
 ## Release
 - [ ]  Mods Release `Release`
 
 ## Roleplay
+- [ ]  Spelling error `Bug`
 - [X]  Cooldown/Timers not removing hours when converting to days `Bug`
 - [X]  RPR Display days for cooldowns `Improvement`
 - [X]  Force Character Name mode on Notice Boards `Improvement`
@@ -420,7 +436,6 @@
 - [ ]  Investigation roleplay teach Language not working `Blocked` `Bug`
 
 ## Sudo
-- [ ]  QuickSearch crash when disconnected from server `Blocked` `Bug`
 - [X]  Low stamina post process blinding with environment on `Bug`
 - [X]  Fix death nameplate issue showing own when it should not `Bug`
 - [X]  Quick Search crash? `Bug`
@@ -439,6 +454,7 @@
 - [X]  Lens Flares setting `Improvement`
 - [ ]  UTF16BE log webhook `Improvement`
 - [ ]  More Better.
+- [ ]  QuickSearch crash when disconnected from server `Blocked` `Bug`
 
 ## Trebuchet
 - [X]  Polish text for new features `Improvement`
@@ -506,6 +522,7 @@
 
 ## Walk
 - [ ]  Animation: Improve horse blending `Improvement`
+- [ ]  Following mode 
 
 ## WebPanel
 - [X]  Create a simple .net webhook router
