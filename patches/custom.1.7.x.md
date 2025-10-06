@@ -139,3 +139,20 @@
 - Remove fog scattering on the main !Custom camera light
 - Fixed a rare case where the list of creators in the body editor would go out of screen.
 - Fixed an incompatibility with Devious Desire regarding Elbow and Knee bone rotations.
+
+## 1.8.4
+- Added search bar to Favorites and Folder hierarchy
+- Added an admin setting to disable the accessory count of the original accessory system
+- Added a client setting to disable the Auto-Act feature
+- Fixed inconsistencies with auto /act compared to 1.7
+- Fixed state log in server and client side that shouldn't have been shown by default.
+- Custom Camera was defaulting to always on
+- Keyboard shortcut Delete will now unfavorite files rather than deleting them permanently. Permanent delete now require to Shift+Delete. Do be careful with that thing, you can't revert that. The confirmation has been made more dramatic as a result.
+- Fixed reset of bones in the editor breaking the connection between the UI and the bone actually rotated
+- Duplicating a folder now internally duplicate the groups correctly and don't make them mysteriously tied to each other.
+- It was sometime necessary to escape twice to close the panel, after changing folder
+- Equipping a group with multiple accessory sets in it didn't produce the desired merged effect.
+- The rotation tool had collisions that didn't match its visual
+- Fixed a rare issue were applying a pose would apply an accessory set out of nowhere.
+- Fixed quick access popup missing a scroll bar
+- Fixed accessories not displaying their name on mouse hover

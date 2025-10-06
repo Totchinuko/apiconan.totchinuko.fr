@@ -112,3 +112,6 @@
 - Font and Icons where changed. The new icon pack is more consistent and of slightly higher resolution. Icons should be slightly bigger.
 - Confirmation dialogue now support the Enter as a shortcut to the primary button, and Escape for the cancel button.
 - Optimization of permission network replication
+
+## 1.1.57
+- Reverted all internal changes made to permissions
