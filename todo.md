@@ -1,16 +1,37 @@
 # Todo list - Tot ! Mods
 ## Currently worked on
-- [ ] [Roleplay] Map Overlay causes Ctrl+click Admin Teleport to not work `Blocked` `Bug`
-- [ ] [Custom] Investigate this wonky behavior `Bug`
-- [ ] [Library] Skeleton bone selection need a rework `Improvement`
+- [X] [Custom] Sippy points to the wrong button when detailing Auto-Act `Bug`
+- [X] [Custom] Reset limbs does not reset T-Post `Bug`
+- [X] [Custom] Long export names pushes export type away `Bug`
+- [X] [Custom] IK Pose Edits don't Work on Puppets `Bug`
+- [X] [Custom] Missing button for puppets `Bug`
+- [X] [Admin] New nodes do not save default values properly `Bug`
+- [X] [Sudo] A couple of spelling errors in the Sippy message `Bug`
+- [X] [Sudo] Menu separator issues `Bug`
+- [ ] [Sudo] GlobVar cannot be modified `In Review` `Bug`
+- [X] [Sudo] Sudo should have an API safety that prevent empty names for vars `Bug`
+- [X] [Custom] Change wording of the permission message `Improvement`
+- [ ] [Admin] Thrall can't trigger glob action `Bug`
+- [ ] [Admin] Scripts: Text Replace: Enable Spaces " " as valid text `Bug` `Scripting System`
+- [ ] [Admin] Customize button in player editor is not locked by permission `Bug`
+- [ ] [Admin] Enforce value when storing variable `Bug` `Scripting System`
+- [ ] [Admin] 2nd monitor + Script copy-paste `Bug`
+- [ ] [Roleplay] Spelling error `Bug`
+- [ ] [Roleplay] Typo - RPR Zones `Bug`
+- [ ] [Roleplay] Crates can be locked but not lockpicked `Bug`
+- [ ] [Roleplay] Restoring Sudo backup for Roleplay Redux doesn't save it `Bug`
+- [ ] [Roleplay] Delayed Status Effects via Script Persisting Invisibly After Rem `Bug`
 - [ ] [Release] Mods Release `Release`
-- [ ] [Custom] Custom API sliders don't always apply `In Review` `Bug` `API`
-- [ ] [Custom] Footsteps sometimes double `In Review` `Bug`
-- [ ] [Custom] Remove bone influence on female variant to avoid distortion `In Review` `Bug`
+- [ ] [Custom] Mirroring a pose `Improvement`
+- [ ] [Sudo] Configure sun angles in environment settings. `Improvement`
+- [ ] [Custom] Standalone look at feature `Feature`
+- [ ] [Custom] Unequip in puppet does not work? `Blocked` `Bug`
+- [ ] [Custom] Investigate T-Pose issue with ghosts of all things. `Blocked` `Bug`
+- [ ] [Custom] Posing system: Male clavicles mirrored? `Blocked` `Bug`
+- [ ] [Custom] Problem with coin toss emote? `Blocked` `Bug`
 
 
 ## Admin
-- [ ]  Customize button in player editor is not locked by permission `Bug`
 - [X]  Sound library does not load in scripting editor `Bug`
 - [X]  Music white list is acting up `Bug`
 - [X]  Check land claim in location `Scripting System`
@@ -37,16 +58,28 @@
 - [X]  UTF16 encoding for webhook node `Improvement`
 - [X]  Set Character Name Node `Scripting System`
 - [X]  DB save is not performed when importing with sudo `Bug`
-- [ ]  Enforce value when storing variable `Bug` `Scripting System`
+- [ ]  Thrall can't trigger glob action `Bug`
 - [X]  Scripted Light cannot be converted to Generic Admin Tool `Improvement`
 - [X]  Stacked thrall sold indivually loose their spawn key `Bug`
-- [ ]  2nd monitor + Script copy-paste `Bug`
+- [ ]  Scripts: Text Replace: Enable Spaces " " as valid text `Bug` `Scripting System`
 - [X]  Scripting field API shouldn't need the compatible list `Improvement` `API`
 - [X]  Add totscript RCon command `Feature`
 - [X]  Find Sub Text seems to have Class of Text Sub `Bug`
 - [X]  Dismantle confirmation for NPC traders `Improvement`
-- [ ]  Environment node override are not working well overall `Bug`
+- [ ]  Customize button in player editor is not locked by permission `Bug`
 - [X]  Scripting API publication `API` `Scripting System`
+- [X]  Add totpop RCon command `Feature`
+- [X]  Purge music is silent when a music box is placed? `Bug`
+- [ ]  Enforce value when storing variable `Bug` `Scripting System`
+- [ ]  2nd monitor + Script copy-paste `Bug`
+- [ ]  Environment node override are not working well overall `Bug`
+- [X]  Recurring Event typo, is named "Unique day Event" `Bug`
+- [ ]  Disable Hunger/Thirst setting `Feature`
+- [ ]  Typos in Post Process tool `Improvement`
+- [ ]  Swap move tool to mod inputs entirely `Improvement`
+- [ ]  Fractional Kit Percentage Chance `Improvement`
+- [ ]  Node to get the list of languages a player possess `Feature` `Scripting System`
+- [ ]  Formated field should have at least a few lines of display `Improvement`
 - [ ]  Admin 1.0 `Version`
   - [X]  Add teleport radius to warps/nodes to avoid player stacking `Bug`
   - [X]  Resized Placeables 'Snap' Back to Round Number `Bug`
@@ -106,14 +139,12 @@
   - [ ]  Nodes: Player scale and foot position `Scripting System`
   - [X]  Stock limits for trader NPC `Improvement`
   - [ ]  Clean inventory node `Scripting System`
-- [X]  Add totpop RCon command `Feature`
-- [X]  Purge music is silent when a music box is placed? `Bug`
 - [ ]  Volume/Pitch for play music node `Scripting System`
 - [ ]  Map rework, node to add marker with option to pin on hud `Feature`
 - [ ]  Invisible wall to block navigation `Feature`
-- [X]  Recurring Event typo, is named "Unique day Event" `Bug`
 - [ ]  Node to display friendly durations/date `Scripting System`
 - [ ]  Free Editor Mode `Feature`
+- [X]  Music Box using the mod sound library `Feature`
 - [ ]  Add Thrall to inventory node `Scripting System`
 - [ ]  Community made script library `Feature` `Scripting System`
 - [ ]  Auto focus camera (Collision Raycast) `Feature` `Scripting System`
@@ -122,7 +153,6 @@
 - [ ]  Script comments `Feature` `Scripting System`
 - [ ]  Vector3 Calculation Nodes `Feature` `Scripting System`
 - [ ]  Add light customization to scripted lights `Feature`
-- [X]  Music Box using the mod sound library `Feature`
 - [ ]  Projectile Launchers `Feature`
 - [ ]  Events Collector Area `Feature` `Experimental`
 - [ ]  Create an item that can execute scripts on usage `Feature` `Scripting System`
@@ -149,6 +179,7 @@
 - [ ]  NPC - Warp to Point `Scripting System`
 - [ ]  Homepoint per clan in Clan Switch `Feature` `Experimental`
 - [ ]  Admin Customizable UI Project `Feature` `Experimental`
+- [X]  No fly node should stop flying `Bug`
 - [ ]  Text admin tool `Feature`
 - [ ]  Handle customization from Custom `Experimental` `Scripting System`
 - [ ]  Server settings edition through nodes `Scripting System`
@@ -158,7 +189,6 @@
 - [ ]  Return more information about prevented death `Improvement`
 - [ ]  Add description of an item in the trading window `Improvement`
 - [ ]  Block NPC Spawn Tool `Feature`
-- [X]  No fly node should stop flying `Bug`
 - [ ]  Loot multiple for quests `Feature`
 - [ ]  Thrall generator ? `Feature`
 - [ ]  Use placeable API to make customizable flag `Feature`
@@ -168,57 +198,64 @@
 - [ ]  Nodes to toggle buildable damages `Scripting System`
 - [ ]  Non-blocking Kit redemption message. `Improvement`
 - [ ]  Mouse-over tooltip for dialogue choices `Improvement` `Scripting System`
+- [X]  Rename the puppet tags to status `Improvement`
 - [ ]  Make a standard shape selector for all tools `Improvement`
+- [X]  Allow for less than 5 inventory slot with multiplier `Improvement`
+- [X]  Close admin panel on warp `Improvement`
 - [ ]  Alpha to influence the portal effect, not the background `Improvement`
+- [X]  Add hard off switch for inventory multipliers `Improvement`
 - [ ]  Node to toggle standard cheat `Scripting System`
 - [ ]  Player activity tracker `Feature`
 - [ ]  More Types of Tot Lights `Improvement`
 - [ ]  Script to edit survival values `Scripting System`
 - [ ]  Remove All for Tags, Float, String Vars `Scripting System`
-- [X]  Rename the puppet tags to status `Improvement`
 - [ ]  Weapon attack script `Experimental` `Scripting System`
-- [X]  Allow for less than 5 inventory slot with multiplier `Improvement`
-- [X]  Close admin panel on warp `Improvement`
-- [X]  Add hard off switch for inventory multipliers `Improvement`
 - [ ]  Make a force spawn event call on spawners `Improvement`
+- [X]  Expose inventory multipliers to API `API`
 - [ ]  Color control for future map markers `Improvement`
+- [X]  Legs bent with heels on, when not on flat ground `Bug`
 - [ ]  Spawning a scripted door should turn off thrall interaction `Improvement`
+- [X]  Get Date (To Text) seems to return nothing now
+- [ ]  Precision mode for move tool, using 3D editor improvements `Feature`
+- [X]  Position Parameter Cannot Switch to Vector3D Type `Bug`
+- [ ]  Admin Tools API - Spawn & Get/Set Params `Feature` `API`
 - [ ]  Weather can sometimes misbehave from the cheat panel `Blocked` `Bug`
+- [X]  Investigate never ending script `Bug`
 - [ ]  Tot ressource spawner crash `Blocked` `Bug`
+- [X]  Place Webhooks calls into a queue `Improvement`
 - [ ]  Command data does not create a list when empty of args `Blocked` `Bug`
 - [ ]  Quest objectives not completing when timer hits zero `Blocked` `Bug`
-- [X]  Expose inventory multipliers to API `API`
 - [ ]  Generic inventory infinit loop from mod conflict `Blocked` `Bug`
 - [ ]  Spheres do not run script on spawn when inside them `Blocked` `Bug`
-- [X]  Legs bent with heels on, when not on flat ground `Bug`
 - [ ]  Thrall names displayed incorrectly traders `Blocked` `Bug`
-- [X]  Get Date (To Text) seems to return nothing now
+- [X]  Unexpected skip of subscript `Bug`
 - [ ]  Some weird building prevention on specific area of the map `Blocked` `Bug`
-- [X]  Position Parameter Cannot Switch to Vector3D Type `Bug`
 - [ ]  Force completion does not function correctly with Char Number `Blocked` `Bug`
 - [ ]  Send Message node is not behaving accordingly with colors/tags `Blocked` `Bug` `Scripting System`
-- [X]  Investigate never ending script `Bug`
 - [ ]  Weapons and Armor resetting values in Trader NPC `Blocked` `Bug`
-- [X]  Place Webhooks calls into a queue `Improvement`
+- [X]  Add opt out setting from move tool fix `Improvement`
 - [ ]  Some custom tool fail to harvest `Blocked` `Bug` `API`
+- [X]  Scripted Doors Detected as Unowned Placeables. `Bug`
 - [ ]  Module Death Post Death NPC's Docile Chance `Blocked` `Bug`
 - [ ]  Removing points using the attribute editor does not revoke perks `Blocked` `Bug`
-- [ ]  Warning Logs (Quest and scripted door related) `Blocked` `Bug`
-- [X]  Unexpected skip of subscript `Bug`
-- [ ]  Thrall cannot be sold through puppet anymore `Blocked` `Bug`
-- [X]  Add opt out setting from move tool fix `Improvement`
-- [X]  Scripted Doors Detected as Unowned Placeables. `Bug`
 - [X]  Bad script import/export `Bug`
+- [ ]  Warning Logs (Quest and scripted door related) `Blocked` `Bug`
+- [ ]  Thrall cannot be sold through puppet anymore `Blocked` `Bug`
 - [X]  Add confirmation on scripting event deletion `Improvement`
-- [X]  Node to count owner's pieces/inventories, with warning for cost `Scripting System`
 - [ ]  Conflict with EEWA? `Blocked` `Bug`
+- [X]  Node to count owner's pieces/inventories, with warning for cost `Scripting System`
 - [ ]  Trader NPC: Items mess up when moving them around `Blocked` `Bug`
-- [ ]  Typos in Post Process tool `Improvement`
-- [ ]  Swap move tool to mod inputs entirely `Improvement`
-- [ ]  Fractional Kit Percentage Chance
-- [ ]  Node to get the list of languages a player possess
-- [ ]  Formated field should have at least a few lines of display
-- [ ]  Precision mode for move tool, using 3D editor improvements
+- [ ]  Kick/Ban Scripting Nodes `Feature` `Scripting System`
+- [ ]  Clear Foliage Within a Zone `Feature`
+- [ ]  Transition for Client Time as well? `Improvement` `Scripting System`
+- [ ]  Add a X button to scripting editor help sheet  `Improvement`
+- [ ]  Freeze Player Node `Scripting System`
+- [ ]  Copy paste for music box playlist `Improvement`
+- [ ]  Filter for specific items in /Heatmap `Improvement`
+- [ ]  Enable Secret Hatch to Change Directions like Secret Door
+- [ ]  Leading zeros in date/time for FlowChartSaves files `Improvement`
+- [X]  New nodes do not save default values properly `Bug`
+- [ ]  Manually select owner ID for admin map `Improvement`
 
 ## Chat
 - [X]  Test /alert fix `Bug`
@@ -270,6 +307,8 @@
 - [ ]  A setting for more detailed timestamps `Improvement`
 - [ ]  FPS problem when receiving very special character `Blocked` `Bug`
 - [X]  /servertime command to display date/time in notification `Feature`
+- [ ]  New line new post
+- [ ]  Minor Spelling Mistake
 
 ## Custom
 - [X]  Investigate state of custom shader API for futur needs. `Improvement`
@@ -305,16 +344,17 @@
   - [X]  Warpaint Metallic slider `Feature`
 - [X]  Fixing the damn IK, again `Bug`
 - [X]  Issues with Sliders based on Roles `Bug`
-- [ ]  Investigate this wonky behavior `Bug`
+- [X]  1.8 Improvements `Improvement`
+- [ ]  Problem with coin toss emote? `Blocked` `Bug`
 - [ ]  Custom 1.8.0 `Version`
-  - [ ]  Custom API sliders don't always apply `In Review` `Bug` `API`
+  - [X]  Custom API sliders don't always apply `Bug` `API`
   - [X]  UI Rework `Improvement`
   - [X]  Access of favorites on non player customizable `Improvement`
   - [X]  Highlight sliders exceeding server configuration `Improvement`
-  - [ ]  Footsteps sometimes double `In Review` `Bug`
+  - [X]  Footsteps sometimes double `Bug`
   - [X]  Pose System `Feature`
   - [X]  Separate presets from profiles `Feature`
-  - [ ]  Remove bone influence on female variant to avoid distortion `In Review` `Bug`
+  - [X]  Remove bone influence on female variant to avoid distortion `Bug`
   - [ ]  More Fidgets `Feature`
   - [ ]  Emote slots with API `Feature` `API`
   - [ ]  Pose export with bound accessory kit `Improvement`
@@ -323,6 +363,12 @@
   - [ ]  Easy multi-character pose `Feature`
   - [ ]  Pose: Snap to chair with preset pose `Feature`
   - [X]  Naming during Import `Improvement`
+  - [ ]  Standalone look at feature `Feature`
+  - [ ]  Pose command `Feature`
+  - [ ]  Mirroring a pose `Improvement`
+  - [ ]  Look At: Save last slider Settings `Improvement`
+  - [ ]  Maybe a number that shows how many loose files are in a folder. `Improvement`
+  - [X]  Change wording of the permission message `Improvement`
 - [X]  Reset weapon size when modifying body `Bug`
 - [X]  Mounts do not have footstep `Bug`
 - [X]  Fix mannequin head for good `Bug`
@@ -337,43 +383,66 @@
   - [ ]  Name for accs client side, to display in quick access  `Improvement`
   - [ ]  Pegleg foodsteps `Improvement`
   - [ ]  Teeth Coloring `Feature`
-- [ ]  Investigate documentation for making armor accessories `Documentation`
+- [X]  Hide in editor is sticky `Bug`
 - [X]  Silent Footsteps - First Person `Bug`
+- [ ]  Investigate documentation for making armor accessories `Documentation`
+- [X]  Clear b_root doesn't reset (R. Click on bone) `Bug`
 - [ ]  Texture Merger `Experimental`
+- [X]  Investigate this wonky behavior `Bug`
 - [ ]  Independant scar glow slider `Improvement`
 - [ ]  Physics toggle `Improvement`
 - [ ]  Metallic slider for Alt-hair and skin `Improvement`
+- [X]  Auto-Clean invalid references `Improvement`
 - [ ]  Arms/Torso/Legs - Muscle Mass Slider `Improvement`
 - [ ]  Add a new item ban rule: Unlock or Item in bag/equipped `Feature`
 - [ ]  Horse Edition (Separate Mod ?) `Feature`
-- [ ]  Randomize ToT! NPC's? `Feature`
 - [X]  Implement Reorderable List V2 `Improvement`
+- [ ]  Randomize ToT! NPC's? `Feature`
 - [ ]  Networking issue on login/Slow loading time on DS `Bug` `Delayed`
+- [X]  Rework of the preset system `Improvement`
 - [ ]  Tot!decency transparency priority should be higher `Blocked` `Bug`
 - [ ]  Preset seem to ignore slider limitations ? `Blocked` `Bug`
-- [X]  Rework of the preset system `Improvement`
 - [ ]  Check beard visibility with invisibility status `Blocked` `Bug`
 - [ ]  Manually typed rotation do not behave properly `Blocked` `Bug`
 - [ ]  Investigate: No Walking Sound `Blocked`
-- [ ]  Investigate Alt. Wepon transmog `Blocked` `Bug`
 - [X]  Integrate the lantern `Feature`
-- [ ]  Tradeable Exports `Blocked` `Feature`
+- [ ]  Investigate Alt. Wepon transmog `Blocked` `Bug`
 - [X]  Document the new table API `Documentation`
-- [ ]  Slight incompatibility with latest DD update `Blocked` `Bug`
+- [ ]  Tradeable Exports `Blocked` `Feature`
+- [X]  Slight incompatibility with latest DD update `Bug`
 - [X]  Character shoulders twisted inwards `Bug`
+- [ ]  Posing system: Male clavicles mirrored? `Blocked` `Bug`
 - [X]  Experiment with light material for the lantern `Improvement`
+- [ ]  Unequip in puppet does not work? `Blocked` `Bug`
+- [ ]  Investigate T-Pose issue with ghosts of all things. `Blocked` `Bug`
 - [X]  Investigate sliders all Locked to Zero `Bug`
 - [X]  API for new transmog mechanism `API`
 - [X]  Typo on act name tooltip `Bug`
 - [X]  Footstep improvements `Improvement`
 - [X]  Creator tabs overflow of the Listv2 `Bug`
+- [X]  Camera Lock in poser is default on `Bug`
+- [X]  Auto /act is broken `Bug`
+- [X]  Pose Editor UI disconnect from the actual pose data `Bug`
+- [X]  Duplicating a folder should at least duplicate groups `Improvement`
+- [X]  Custom menu sometimes requires 2x ESC to close `Bug`
+- [X]  Equip Set with multiple Accessory sets doesn't work `Bug`
+- [X]  Unrendered widgets have collisions
+- [X]  Horns being added when applying poses `Bug`
+- [X]  Scrolling for quick access `Bug`
+- [X]  Names of items dont appear anymore on accessories `Bug`
+- [X]  Reset limbs does not reset T-Post `Bug`
+- [X]  Long export names pushes export type away `Bug`
+- [X]  IK Pose Edits don't Work on Puppets `Bug`
+- [X]  Add a setting to cancel editor camera when moving `Improvement`
+- [X]  Sippy points to the wrong button when detailing Auto-Act `Bug`
+- [X]  Missing button for puppets `Bug`
 
 ## HUD
 - [X]  Hide compass when fullscreen is open `Bug`
 - [X]  Minimap doesn't hide anymore `Bug`
+- [ ]  Minimap Z Order issue with chat box `Bug`
 - [X]  ToT Immersive HUD wrong/missing Icon reference `Bug`
 - [ ]  HUD world map overlay `Improvement`
-- [ ]  Minimap Z Order issue with chat box `Bug`
 - [ ]  Follower HP `Feature`
 - [ ]  Realtime Clock with server reboot warning `Feature`
 - [ ]  Optional Simpler Sun/Moon game clock `Improvement`
@@ -384,11 +453,12 @@
 - [ ]  More informations on the minimap `Feature`
 - [ ]  Active quests on hud
 - [ ]  level Indicator
+- [ ]  Filter minimum damage not to be displayed in Damage Logs
 
 ## Library
 - [X]  Environement controller `Feature`
 - [X]  Release Math Solver API `API`
-- [ ]  Skeleton bone selection need a rework `Improvement`
+- [X]  Skeleton bone selection need a rework `Improvement`
 - [X]  Reorderable List V2 `Improvement`
 - [ ]  Configurable grid for 3D editor `Improvement`
 - [ ]  Standardize the script list search tool to be reusable `Improvement`
@@ -402,7 +472,6 @@
 - [ ]  Mods Release `Release`
 
 ## Roleplay
-- [ ]  Spelling error `Bug`
 - [X]  Cooldown/Timers not removing hours when converting to days `Bug`
 - [X]  RPR Display days for cooldowns `Improvement`
 - [X]  Force Character Name mode on Notice Boards `Improvement`
@@ -412,14 +481,17 @@
 - [X]  RPR API Return max stat when not granted `Bug`
 - [X]  Game raid doors are not locked when keys are enable for doors `Bug`
 - [X]  Restoring settings backup trigger old transmog system removal `Bug`
+- [ ]  Crates can be locked but not lockpicked `Bug`
+- [ ]  Restoring Sudo backup for Roleplay Redux doesn't save it `Bug`
+- [ ]  Spelling error `Bug`
 - [ ]  Typo - RPR Zones `Bug`
+- [X]  Notice boards stuck on loading for some notice boards `Bug`
+- [ ]  Delayed Status Effects via Script Persisting Invisibly After Rem `Bug`
+- [ ]  Selected distance in Tot ! Chat does not affect roll `Bug`
 - [ ]  Fatal error on saving dice system `Bug`
 - [ ]  Add scripting node to create blank dice sheet `Scripting System`
 - [ ]  Run Script Effect in RPR `Feature` `Scripting System`
 - [ ]  Integrate World Map API `API`
-- [ ]  Delayed Status Effects via Script Persisting Invisibly After Rem `Bug`
-- [ ]  Notice boards stuck on loading for some notice boards `In Review` `Bug`
-- [ ]  Selected distance in Tot ! Chat does not affect roll `Bug`
 - [ ]  Make a server settings to make runes un-droppable `Improvement`
 - [ ]  Ability to set/increment float/tag/string `Feature` `Delayed`
 - [ ]  Integrate the math library to replace the original `Feature` `Delayed`
@@ -434,27 +506,35 @@
 - [ ]  Adding new abilities sometimes duplicate an existing ID `Blocked` `Bug`
 - [ ]  Crashing/Fatal errors when opening RPR `Blocked` `Bug`
 - [ ]  Investigation roleplay teach Language not working `Blocked` `Bug`
+- [ ]  RPR disable rolls on attributes/skills `Improvement`
+- [ ]  Remove color for concent sheet or improve contrasts `Improvement`
 
 ## Sudo
 - [X]  Low stamina post process blinding with environment on `Bug`
 - [X]  Fix death nameplate issue showing own when it should not `Bug`
 - [X]  Quick Search crash? `Bug`
-- [X]  Nameplate admin wallhack should force display `Bug`
+- [ ]  GlobVar cannot be modified `In Review` `Bug`
 - [ ]  Custom Global Map Marker Registry `API`
+- [X]  Nameplate admin wallhack should force display `Bug`
 - [ ]  World Map API `API`
 - [ ]  Admin Flags API `API`
 - [ ]  Sudo Nameplate API `API`
-- [X]  Backing away from setup can soft lock sudo `Bug`
 - [ ]  Crouch interaction with nameplate (TBD) `Feature`
-- [X]  Some favorits are getting duplicated on main menu `Bug`
+- [X]  Backing away from setup can soft lock sudo `Bug`
 - [ ]  Delete character from DB `Feature`
 - [ ]  Vanilla command fall back should display notifications `Improvement`
-- [X]  ImageSharpening disable glitch is back `Bug`
+- [X]  Some favorits are getting duplicated on main menu `Bug`
 - [ ]  Make image download documentation `Documentation`
-- [X]  Lens Flares setting `Improvement`
+- [X]  ImageSharpening disable glitch is back `Bug`
 - [ ]  UTF16BE log webhook `Improvement`
+- [X]  Lens Flares setting `Improvement`
 - [ ]  More Better.
+- [ ]  Configure sun angles in environment settings. `Improvement`
 - [ ]  QuickSearch crash when disconnected from server `Blocked` `Bug`
+- [X]  Investigate permission issues `Bug`
+- [X]  Sudo should have an API safety that prevent empty names for vars `Bug`
+- [X]  A couple of spelling errors in the Sippy message `Bug`
+- [X]  Menu separator issues `Bug`
 
 ## Trebuchet
 - [X]  Polish text for new features `Improvement`
@@ -480,6 +560,7 @@
 - [X]  Handle reordering multiple mods at once `Improvement`
 - [X]  Fix the map popup menu `Bug`
 - [X]  Integrate German translation `Feature`
+- [ ]  Duplicating a Server Save does not duplicate some settings `Bug`
 - [X]  UI Adjustments `Improvement`
 - [X]  Add more internal logs `Improvement`
 - [X]  Add last 100 internal logs into the crash export `Improvement`
@@ -489,33 +570,32 @@
 - [X]  Window title is not themed `Bug`
 - [X]  A button to trim mods that are not used by any modlist `Feature`
 - [X]  Auto-update `Feature`
+- [ ]  Unreal UDP queries as a better way to detect server hang `Improvement`
 - [X]  Work on the server console `Feature`
 - [X]  Work on the first use experience `Improvement`
 - [X]  Separator is not themed `Bug`
 - [X]  Deploy through github release + go open source under GPL2.0 `Feature`
-- [ ]  Unreal UDP queries as a better way to detect server hang `Improvement`
+- [ ]  Finish Boulder `Feature`
 - [X]  Refacto console log to use SeriLog `Improvement`
 - [X]  Only allow one instance of Trebuchet to run `Improvement`
 - [X]  Setting fields titles are not themed `Bug`
-- [ ]  Finish Boulder `Feature`
+- [ ]  Linux port `Feature`
 - [X]  Modlist: Server IP,Pass,Port and an auto connect launch button `Feature`
 - [X]  Mod update/Server update auto reboot `Feature`
 - [X]  Separate UI text for later translation system `Improvement`
 - [X]  Stronger panel colors for Light theme `Improvement`
-- [ ]  Linux port `Feature`
-- [X]  Improve workshop search `Improvement`
-- [X]  DarkPanel should be darker on Light theme `Bug`
 - [ ]  dotnet 10 `Feature`
 - [ ]  Log Filter to event `Feature`
+- [X]  Improve workshop search `Improvement`
+- [X]  DarkPanel should be darker on Light theme `Bug`
+- [ ]  More client settings for cloth `Improvement`
 - [X]  Labels on client dashboard don't use proper theming `Bug`
 - [X]  Popout console + save filters `Feature`
-- [ ]  More client settings for cloth `Improvement`
 - [X]  Player stat is displayed on client `Bug`
 - [ ]  Corrupted State for mods on cancel `Improvement`
 - [ ]  Explore Chromless windows from SourceGit `Improvement`
-- [X]  Updating individual mod never unlock background task `Bug`
-- [ ]  Duplicating a Server Save does not duplicate some settings `Bug`
 - [ ]  First server launch overwrites game.db `In Review` `Bug`
+- [X]  Updating individual mod never unlock background task `Bug`
 - [X]  Add button to open workshop page of a mod `Improvement`
 - [X]  Crash on starting client `Bug`
 - [X]  Crash when filters are empty `Bug`
