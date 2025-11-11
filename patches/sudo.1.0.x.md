@@ -115,3 +115,7 @@
 
 ## 1.1.57
 - Reverted all internal changes made to permissions
+
+## 1.1.67
+- Improving visibility of various contextual containers, such as sub menus, floating boxes and tooltips
+- Added a personal palette tool to most !Sudo color pickers. This allows you to create palettes of colors locally to always have your favorite colors around, that you can reuse across all compatible color picking fields.

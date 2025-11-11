@@ -156,3 +156,40 @@
 - Fixed a rare issue were applying a pose would apply an accessory set out of nowhere.
 - Fixed quick access popup missing a scroll bar
 - Fixed accessories not displaying their name on mouse hover
+
+## 1.8.8
+- Introducing Tot!Sippy for !Custom, other mods will come at a later date.
+- Changes in the color palette used for buttons, to return to a more familiar color palette that was used in 1.7
+- Many small changes adjusting contrasts, paddings, and other details to make the panel more readable.
+- Reintroducing icons for the various files on the left side
+- The default background color of the mod has been changed, and will reset what you had selected, but it can still be customized.
+- Added the possibility to blur the panel background when using transparency.
+- Deleting files in the favorite tab is now deactivated by default, and can be enabled back in the settings.
+- The snapshot function that used to be in the main sub-menu is now located in the New Group sub menu, under a different name.
+- Added an edit group button containing functions to update the content of a group with your character data, like preset used to do. It also contains an option to select files from your libraries more easily.
+- Added a checkbox to accessories to prevent them from being equipped when Equipping the whole set (Sort of manual equipping mode), this function for accessory set, groups and even poses.
+- Added the possibility to drag and drop files in and out of groups or between groups.
+- Added a favorite mechanic for the tag menu of the item selection.
+- Added a setting to have bigger icons in item selection.
+- Added skeleton layers for individual hands
+- Added b_prop_1 and b_prop_2 to bones that can be manipulated in the pose panel
+- Added a new tool to the pose toolbox that allow to lock hand/arm prop bones in space, for easier editing.
+- Added a setting to reset camera when the character move
+- Allow to select a bone by clicking on the line, with the spheres always having priorities.
+- Bones can now be selected by clicking on the edited coordinate of the pose editor
+- Enabling rotation on lip bones
+- Accessories equipped through poses, are now remembered and cleared out when overriding a pose or clearing the current pose. There is also a separate menu item that allow to specifically clear those accessories.
+- Simplified the clear pose section of the pose panel, to have one big red button that clear everything, and details in a sub menu.
+- Added Clear Body Only that will clear the pose data of the body, save for the face bones.
+- Added an input key to toggle No Combat Mode with a sound cue.
+- Added an input to clear the current pose data without having to open the panel.
+- Pose are now allowed to be used in previously forbidden states, such as with a weapon in hand IF the no combat mode is enabled.
+- Improved order of eyelid bones
+- Invalid references in folders will now be automatically cleaned up.
+- Fixed clear arms menu items that did not clear hand T-Pose
+- Optimizing some performance issues with the list management
+- Increased the thickness of the gizmos rotation rings
+- Input key to delete files was removed as it caused issues with vanilla admin inputs
+- Fixed selected folder memory when disabling the auto-act feature.
+- Fixed clear b_root not doing anything when right-clicking on skeleton
+- Fixed accessories hide in editor not resetting properly after leaving the editor 
