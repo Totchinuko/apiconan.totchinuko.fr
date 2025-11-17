@@ -265,3 +265,12 @@
 ## 0.8.63
 - Puppet compatibility with Poses
 - New GetItemQuantity node
+
+## 0.8.67
+- Scripting
+  - Improved the node creation process to be faster and to not need a response from the server before proceeding.
+  - Improved node copy-paste positioning on multi-monitor setups
+  - Fixed newly created nodes not sending their parameter/return default data to the server, in some cases resulting in non-functioning scripts.
+  - Removed space trimming on Find/Replace By fields of the `Text Replace` node.
+  - Fixed variable creation not initializing the default value correctly, leading in some instances to breaking empty data. This can't retroactively fix variables that were already created, but to fix a variable that is not initialized properly, you just have to modify the default value and change it back.
+- Fixed global var management through multi-actions not working with thralls

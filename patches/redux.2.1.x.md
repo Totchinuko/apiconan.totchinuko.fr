@@ -91,3 +91,8 @@
 
 ## 2.1.52
 - Prevent the transmog system to update the online characters when it is disabled anyway. This also apply when restoring a backup through sudo. 
+
+## 2.1.53
+- Fixed containers that could be locked with the Key system but not picked or breached.
+- Fixed restoring a backup not triggering a dice system save
+- Fixed a few typos

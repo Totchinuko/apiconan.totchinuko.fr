@@ -119,3 +119,13 @@
 ## 1.1.67
 - Improving visibility of various contextual containers, such as sub menus, floating boxes and tooltips
 - Added a personal palette tool to most !Sudo color pickers. This allows you to create palettes of colors locally to always have your favorite colors around, that you can reuse across all compatible color picking fields.
+
+## 1.1.69
+- Nice
+- Reworked Char/Global var management
+- Prevented the creation of Char/Global vars with an empty ID (None), as it could cause problems in some instances
+- Existing vars with a None ID will be automatically removed from servers to avoid the issues they were causing.
+- Fixed global vars not working properly after restoring a backup, but before the first server reboot
+- Improved network performance for char vars
+- Fixed a few spelling mistakes in Sippy cards
+- Fixed contextual menu separators

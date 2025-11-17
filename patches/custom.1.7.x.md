@@ -193,3 +193,10 @@
 - Fixed selected folder memory when disabling the auto-act feature.
 - Fixed clear b_root not doing anything when right-clicking on skeleton
 - Fixed accessories hide in editor not resetting properly after leaving the editor 
+
+## 1.8.13
+- Fixed various Sippy card positions
+- Fixed Reset Body Only deactivating Face T-Pose instead of Whole Body T-Pose, and leaving the forearms T-posed
+- Fixed some fields that were expanding instead of scrolling
+- Fixed puppets not having the pose stop button
+- Fixed IK tools not working on puppets
