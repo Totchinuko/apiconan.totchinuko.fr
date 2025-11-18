@@ -1,34 +1,15 @@
 # Todo list - Tot ! Mods
 ## Currently worked on
-- [X] [Custom] Sippy points to the wrong button when detailing Auto-Act `Bug`
-- [X] [Custom] Reset limbs does not reset T-Post `Bug`
-- [X] [Custom] Long export names pushes export type away `Bug`
-- [X] [Custom] IK Pose Edits don't Work on Puppets `Bug`
-- [X] [Custom] Missing button for puppets `Bug`
-- [X] [Admin] New nodes do not save default values properly `Bug`
-- [X] [Sudo] A couple of spelling errors in the Sippy message `Bug`
-- [X] [Sudo] Menu separator issues `Bug`
-- [ ] [Sudo] GlobVar cannot be modified `In Review` `Bug`
-- [X] [Sudo] Sudo should have an API safety that prevent empty names for vars `Bug`
-- [X] [Custom] Change wording of the permission message `Improvement`
-- [ ] [Admin] Thrall can't trigger glob action `Bug`
-- [ ] [Admin] Scripts: Text Replace: Enable Spaces " " as valid text `Bug` `Scripting System`
-- [ ] [Admin] Customize button in player editor is not locked by permission `Bug`
-- [ ] [Admin] Enforce value when storing variable `Bug` `Scripting System`
-- [ ] [Admin] 2nd monitor + Script copy-paste `Bug`
-- [ ] [Roleplay] Spelling error `Bug`
-- [ ] [Roleplay] Typo - RPR Zones `Bug`
-- [ ] [Roleplay] Crates can be locked but not lockpicked `Bug`
-- [ ] [Roleplay] Restoring Sudo backup for Roleplay Redux doesn't save it `Bug`
-- [ ] [Roleplay] Delayed Status Effects via Script Persisting Invisibly After Rem `Bug`
-- [ ] [Release] Mods Release `Release`
+- [ ] [Custom] Check editor fields for displacement `Bug`
 - [ ] [Custom] Mirroring a pose `Improvement`
 - [ ] [Sudo] Configure sun angles in environment settings. `Improvement`
 - [ ] [Custom] Standalone look at feature `Feature`
+- [ ] [Release] Mods Release `Release`
+- [ ] [Sudo] GlobVar cannot be modified `In Review` `Bug`
 - [ ] [Custom] Unequip in puppet does not work? `Blocked` `Bug`
-- [ ] [Custom] Investigate T-Pose issue with ghosts of all things. `Blocked` `Bug`
-- [ ] [Custom] Posing system: Male clavicles mirrored? `Blocked` `Bug`
 - [ ] [Custom] Problem with coin toss emote? `Blocked` `Bug`
+- [ ] [Roleplay] Delayed Status Effects via Script Persisting Invisibly After Rem `Blocked` `Bug`
+- [ ] [Custom] Knee twist bones are inverted `Bug`
 
 
 ## Admin
@@ -58,20 +39,20 @@
 - [X]  UTF16 encoding for webhook node `Improvement`
 - [X]  Set Character Name Node `Scripting System`
 - [X]  DB save is not performed when importing with sudo `Bug`
-- [ ]  Thrall can't trigger glob action `Bug`
+- [X]  Thrall can't trigger glob action `Bug`
 - [X]  Scripted Light cannot be converted to Generic Admin Tool `Improvement`
 - [X]  Stacked thrall sold indivually loose their spawn key `Bug`
-- [ ]  Scripts: Text Replace: Enable Spaces " " as valid text `Bug` `Scripting System`
+- [X]  Scripts: Text Replace: Enable Spaces " " as valid text `Bug` `Scripting System`
 - [X]  Scripting field API shouldn't need the compatible list `Improvement` `API`
 - [X]  Add totscript RCon command `Feature`
 - [X]  Find Sub Text seems to have Class of Text Sub `Bug`
 - [X]  Dismantle confirmation for NPC traders `Improvement`
-- [ ]  Customize button in player editor is not locked by permission `Bug`
+- [X]  Customize button in player editor is not locked by permission `Bug`
 - [X]  Scripting API publication `API` `Scripting System`
 - [X]  Add totpop RCon command `Feature`
 - [X]  Purge music is silent when a music box is placed? `Bug`
-- [ ]  Enforce value when storing variable `Bug` `Scripting System`
-- [ ]  2nd monitor + Script copy-paste `Bug`
+- [X]  Enforce value when storing variable `Bug` `Scripting System`
+- [X]  2nd monitor + Script copy-paste `Bug`
 - [ ]  Environment node override are not working well overall `Bug`
 - [X]  Recurring Event typo, is named "Unique day Event" `Bug`
 - [ ]  Disable Hunger/Thirst setting `Feature`
@@ -345,7 +326,13 @@
 - [X]  Fixing the damn IK, again `Bug`
 - [X]  Issues with Sliders based on Roles `Bug`
 - [X]  1.8 Improvements `Improvement`
+- [ ]  Knee twist bones are inverted `Bug`
+- [X]  Reset weapon size when modifying body `Bug`
+- [ ]  Check editor fields for displacement `Bug`
+- [X]  Mounts do not have footstep `Bug`
+- [X]  Fix mannequin head for good `Bug`
 - [ ]  Problem with coin toss emote? `Blocked` `Bug`
+- [X]  Hide in editor is sticky `Bug`
 - [ ]  Custom 1.8.0 `Version`
   - [X]  Custom API sliders don't always apply `Bug` `API`
   - [X]  UI Rework `Improvement`
@@ -369,9 +356,7 @@
   - [ ]  Look At: Save last slider Settings `Improvement`
   - [ ]  Maybe a number that shows how many loose files are in a folder. `Improvement`
   - [X]  Change wording of the permission message `Improvement`
-- [X]  Reset weapon size when modifying body `Bug`
-- [X]  Mounts do not have footstep `Bug`
-- [X]  Fix mannequin head for good `Bug`
+- [X]  Silent Footsteps - First Person `Bug`
 - [ ]  Custom 1.9.0 `Feature`
   - [ ]  Separate head and body skin shininess `Improvement`
   - [ ]  Alternative sweat specular `Feature`
@@ -383,20 +368,18 @@
   - [ ]  Name for accs client side, to display in quick access  `Improvement`
   - [ ]  Pegleg foodsteps `Improvement`
   - [ ]  Teeth Coloring `Feature`
-- [X]  Hide in editor is sticky `Bug`
-- [X]  Silent Footsteps - First Person `Bug`
-- [ ]  Investigate documentation for making armor accessories `Documentation`
 - [X]  Clear b_root doesn't reset (R. Click on bone) `Bug`
-- [ ]  Texture Merger `Experimental`
+- [ ]  Investigate documentation for making armor accessories `Documentation`
 - [X]  Investigate this wonky behavior `Bug`
+- [ ]  Texture Merger `Experimental`
 - [ ]  Independant scar glow slider `Improvement`
 - [ ]  Physics toggle `Improvement`
-- [ ]  Metallic slider for Alt-hair and skin `Improvement`
 - [X]  Auto-Clean invalid references `Improvement`
+- [ ]  Metallic slider for Alt-hair and skin `Improvement`
 - [ ]  Arms/Torso/Legs - Muscle Mass Slider `Improvement`
 - [ ]  Add a new item ban rule: Unlock or Item in bag/equipped `Feature`
-- [ ]  Horse Edition (Separate Mod ?) `Feature`
 - [X]  Implement Reorderable List V2 `Improvement`
+- [ ]  Horse Edition (Separate Mod ?) `Feature`
 - [ ]  Randomize ToT! NPC's? `Feature`
 - [ ]  Networking issue on login/Slow loading time on DS `Bug` `Delayed`
 - [X]  Rework of the preset system `Improvement`
@@ -404,18 +387,18 @@
 - [ ]  Preset seem to ignore slider limitations ? `Blocked` `Bug`
 - [ ]  Check beard visibility with invisibility status `Blocked` `Bug`
 - [ ]  Manually typed rotation do not behave properly `Blocked` `Bug`
-- [ ]  Investigate: No Walking Sound `Blocked`
 - [X]  Integrate the lantern `Feature`
-- [ ]  Investigate Alt. Wepon transmog `Blocked` `Bug`
+- [ ]  Investigate: No Walking Sound `Blocked`
 - [X]  Document the new table API `Documentation`
-- [ ]  Tradeable Exports `Blocked` `Feature`
+- [ ]  Investigate Alt. Wepon transmog `Blocked` `Bug`
 - [X]  Slight incompatibility with latest DD update `Bug`
 - [X]  Character shoulders twisted inwards `Bug`
-- [ ]  Posing system: Male clavicles mirrored? `Blocked` `Bug`
+- [ ]  Tradeable Exports `Blocked` `Feature`
 - [X]  Experiment with light material for the lantern `Improvement`
+- [ ]  Posing system: Male clavicles mirrored? `Blocked` `Bug`
 - [ ]  Unequip in puppet does not work? `Blocked` `Bug`
-- [ ]  Investigate T-Pose issue with ghosts of all things. `Blocked` `Bug`
 - [X]  Investigate sliders all Locked to Zero `Bug`
+- [ ]  Investigate T-Pose issue with ghosts of all things. `Blocked` `Bug`
 - [X]  API for new transmog mechanism `API`
 - [X]  Typo on act name tooltip `Bug`
 - [X]  Footstep improvements `Improvement`
@@ -481,12 +464,12 @@
 - [X]  RPR API Return max stat when not granted `Bug`
 - [X]  Game raid doors are not locked when keys are enable for doors `Bug`
 - [X]  Restoring settings backup trigger old transmog system removal `Bug`
-- [ ]  Crates can be locked but not lockpicked `Bug`
-- [ ]  Restoring Sudo backup for Roleplay Redux doesn't save it `Bug`
-- [ ]  Spelling error `Bug`
-- [ ]  Typo - RPR Zones `Bug`
+- [X]  Crates can be locked but not lockpicked `Bug`
+- [X]  Restoring Sudo backup for Roleplay Redux doesn't save it `Bug`
+- [X]  Spelling error `Bug`
+- [ ]  Typo - RPR Zones `Blocked` `Bug`
 - [X]  Notice boards stuck on loading for some notice boards `Bug`
-- [ ]  Delayed Status Effects via Script Persisting Invisibly After Rem `Bug`
+- [ ]  Delayed Status Effects via Script Persisting Invisibly After Rem `Blocked` `Bug`
 - [ ]  Selected distance in Tot ! Chat does not affect roll `Bug`
 - [ ]  Fatal error on saving dice system `Bug`
 - [ ]  Add scripting node to create blank dice sheet `Scripting System`
