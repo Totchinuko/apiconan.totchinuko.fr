@@ -129,3 +129,8 @@
 - Improved network performance for char vars
 - Fixed a few spelling mistakes in Sippy cards
 - Fixed contextual menu separators
+
+## 1.1.74
+- Added a client setting to hide thrall roles
+- Added environment client settings to configure sun and moon angles.
+- Fixed the moon light not functioning when an environment preset is enabled.

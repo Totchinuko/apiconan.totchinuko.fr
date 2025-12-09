@@ -200,3 +200,12 @@
 - Fixed some fields that were expanding instead of scrolling
 - Fixed puppets not having the pose stop button
 - Fixed IK tools not working on puppets
+
+## 1.8.16
+- Fixed file name fields in editor expanding out of bound
+- Fixed newly added accessories not being placed at their default position
+- Fixed Knee twist bones rotating the opposite one
+- Fixed prop bone location mirroring
+- Fixed Pose/Customization panel quick switch for puppet editing.
+- Fixed improper tooltip on the pose stop button
+- Fixed Clear Body Only not clearing the b_neck_2 and b_head bones, avoiding awkward posing.

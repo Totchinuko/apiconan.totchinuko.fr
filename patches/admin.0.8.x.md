@@ -274,3 +274,7 @@
   - Removed space trimming on Find/Replace By fields of the `Text Replace` node.
   - Fixed variable creation not initializing the default value correctly, leading in some instances to breaking empty data. This can't retroactively fix variables that were already created, but to fix a variable that is not initialized properly, you just have to modify the default value and change it back.
 - Fixed global var management through multi-actions not working with thralls
+
+## 0.8.70
+- Added new event receiver to Spawner named Force Spawn. This will spawn the spawner table without waiting for the usual spawn delay.
+- Fixed spawner not spawning anything when enabled through events
