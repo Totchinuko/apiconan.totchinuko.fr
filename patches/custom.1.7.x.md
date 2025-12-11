@@ -209,3 +209,7 @@
 - Fixed Pose/Customization panel quick switch for puppet editing.
 - Fixed improper tooltip on the pose stop button
 - Fixed Clear Body Only not clearing the b_neck_2 and b_head bones, avoiding awkward posing.
+
+## 1.8.18
+- Fixed thrall unequipping not working (Which in solo/coop resulted into a crash as well, but as a reminder, this is still not supported)
+- Fixed an instance of log spam that came from a division by zero when pose fidgets were not setup. This would have affected performance in the most severe cases for either client or server.
