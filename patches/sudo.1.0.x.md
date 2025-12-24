@@ -134,3 +134,20 @@
 - Added a client setting to hide thrall roles
 - Added environment client settings to configure sun and moon angles.
 - Fixed the moon light not functioning when an environment preset is enabled.
+
+
+## 1.2.0
+- Added various camera sensitivity settings
+- Added Photo Mode
+  - Available as long as Sudo is installed, with one or two features only available when !Custom is installed and the environment system is active.
+  - The default input is Ctrl+B, which you can change in the Sudo Client Settings.
+  - Zoom, pan, roll, and move around
+  - Grids for perfect framing
+  - Depth-of-field mode with autofocus
+  - A full post-processing configurator
+  - Cinematic black bars and green screen
+  - Control the time of day
+  - Change the sun/moon angle and ambient lighting for the perfect lighting conditions (environment upgrade only)
+  - Real-time fog modifier (environment upgrade only)
+  - Have your character look at the camera (!Custom only)
+  - Hide the character for scenery pictures
