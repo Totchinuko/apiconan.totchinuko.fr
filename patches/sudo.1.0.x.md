@@ -151,3 +151,22 @@
   - Real-time fog modifier (environment upgrade only)
   - Have your character look at the camera (!Custom only)
   - Hide the character for scenery pictures
+
+## 1.2.2
+- Photo Mode:
+  - Increased camera max range (From 2 Foundations to 4)
+  - Camera (For Photo mode and !Custom) can now travel at half speed while holding Left Control, when using keyboard keys
+  - Added input to use Camera Roll (Q and E by default, configurable)
+  - Improved activation from !Custom camera mode
+  - Changed the method to enforce the time of day client side, to avoid conflicts
+  - Fixed some field reset buttons
+  - Fixed Depth of Field Auto-Focus acting up in some cases
+  - Improved nameplate hiding refresh when taking a picture
+  - Improve camera anchor point. This might help with some collision issue regarding chairs.
+  - Added an extra frame of delay after turning off UI and before capturing the screen
+
+## 1.2.5
+- Preventing Photo-Mode from opening when a fullscreen GUI is already open (Such as both !Custom panels)
+- Fixed a rare issue that would make !Custom camera and photo camera to have a resolution of 1x1. (What you can't play with just 1 pixel? Skill issue.)
+- Fixed some cases where the vanilla game camera could get stuck
+- Attempted to fix an issue making the camera rotate on its own, without the user's input.
