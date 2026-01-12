@@ -252,3 +252,6 @@
 - Fixed a rare issue that would make !Custom camera and photo camera to have a resolution of 1x1. (What you can't play with just 1 pixel? Skill issue.)
 - Fixed some cases where the vanilla game camera could get stuck
 - Attempted to fix an issue making the camera rotate on its own, without the user's input.
+
+## 1.9.4
+- Fixed the characters being invulnerable after making use of an emote emplacement, such as chairs, hammock, bath, beds, etc... The issue is difficult to pinpoint, and is probably rooted in a conflict between the game and !Custom that I cannot resolve myself, the solution fix the symptom when needed rather than the root cause. Hopefully it will be enough.
