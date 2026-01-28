@@ -170,3 +170,7 @@
 - Fixed a rare issue that would make !Custom camera and photo camera to have a resolution of 1x1. (What you can't play with just 1 pixel? Skill issue.)
 - Fixed some cases where the vanilla game camera could get stuck
 - Attempted to fix an issue making the camera rotate on its own, without the user's input.
+
+## 1.2.7
+- Added new optional health bar/buff display on nameplates, replacing the vanilla one. This can be activated in the sudo player settings. This is a work in progress.
+- Fixed photo mode roll resetting when tweaking unrelated settings.

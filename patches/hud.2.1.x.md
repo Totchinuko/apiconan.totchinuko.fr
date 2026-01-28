@@ -42,3 +42,6 @@
 
 ## 2.1.17
 - Fixed compass not hiding when the inventory is open
+
+## 2.1.22
+- Fixed incorrect corruption values after login

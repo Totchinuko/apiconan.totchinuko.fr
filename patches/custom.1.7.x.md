@@ -255,3 +255,8 @@
 
 ## 1.9.4
 - Fixed the characters being invulnerable after making use of an emote emplacement, such as chairs, hammock, bath, beds, etc... The issue is difficult to pinpoint, and is probably rooted in a conflict between the game and !Custom that I cannot resolve myself, the solution fix the symptom when needed rather than the root cause. Hopefully it will be enough.
+
+## 1.9.5
+- Minor performance improvements
+- Fixed the flute accessory textures
+- Fixed partial bodies getting overridden by server rules even when the parameter was not even set.
