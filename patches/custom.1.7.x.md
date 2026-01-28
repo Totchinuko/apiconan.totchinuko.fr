@@ -260,3 +260,6 @@
 - Minor performance improvements
 - Fixed the flute accessory textures
 - Fixed partial bodies getting overridden by server rules even when the parameter was not even set.
+
+## 1.9.6
+- Fixed Quick Tools and Offset not working after login and before the first edit to the character pose

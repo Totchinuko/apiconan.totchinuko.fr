@@ -174,3 +174,7 @@
 ## 1.2.7
 - Added new optional health bar/buff display on nameplates, replacing the vanilla one. This can be activated in the sudo player settings. This is a work in progress.
 - Fixed photo mode roll resetting when tweaking unrelated settings.
+
+## 1.2.9
+- The nameplate health bar and buffs are now ignoring the view angle when your character is in a combat stance.
+- Improved nameplate health bar and buff layout. This is still a work in progress as I try to fine tune it with people's help.
