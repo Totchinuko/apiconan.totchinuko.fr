@@ -278,3 +278,8 @@
 ## 0.8.70
 - Added new event receiver to Spawner named Force Spawn. This will spawn the spawner table without waiting for the usual spawn delay.
 - Fixed spawner not spawning anything when enabled through events
+
+## 0.8.72
+- Added Rotate up and Rotate down for secret door animations
+- Added slide forward/right/back/left animation to secret hatch animations
+- Fixed Set/Get Params on Box/Sphere Trigger for the Player Trigger toggle being inverted

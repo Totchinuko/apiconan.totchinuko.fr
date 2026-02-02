@@ -263,3 +263,6 @@
 
 ## 1.9.6
 - Fixed Quick Tools and Offset not working after login and before the first edit to the character pose
+
+## 1.9.7
+- Fixed character offset sometimes resetting the pose back to what it was prior to previous clearance.

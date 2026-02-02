@@ -100,3 +100,6 @@
 ## 1.3.37
 - Now with leetspeak
 - Added setting to change the typing text color
+
+## 1.3.40
+- Update to integrate changes made to Sudo's nameplate system.

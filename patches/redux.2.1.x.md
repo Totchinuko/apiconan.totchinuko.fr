@@ -96,3 +96,8 @@
 - Fixed containers that could be locked with the Key system but not picked or breached.
 - Fixed restoring a backup not triggering a dice system save
 - Fixed a few typos
+
+## 2.1.55
+- Added a filtering field on the perk list of the dice sheet editor
+- Made the interaction collision of the waypoint slightly thicker, allowing to burry it under something and still be able to interact with it.
+- Fixed the character being tilted at the exit of a waypoint, when the waypoint itself was tilted. 

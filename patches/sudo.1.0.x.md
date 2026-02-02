@@ -178,3 +178,13 @@
 ## 1.2.9
 - The nameplate health bar and buffs are now ignoring the view angle when your character is in a combat stance.
 - Improved nameplate health bar and buff layout. This is still a work in progress as I try to fine tune it with people's help.
+
+## 1.2.11
+- Added server setting to choose what affect the view distance of nameplates. You'll have the choice between a Fixed distance that you can choose (which is the default) and if Tot!Chat is installed you'll have the original option to have the chat range control it.
+- Added player setting to choose the health bar font size
+- Separated Wall Hack Admin Flags into two, one dedicated to display player nameplates only, and the other for everything else.
+- Nameplates will now always be displayed when Wall Hack is active, even if the server settings disable them.
+- Improved nameplate health/buff integration to the nameplate
+- Fixed nameplate health/buff remaining visible behind walls when weapons were drawn and the wall check is active on the server
+- Fixed nameplate health damage marker
+- Fixed photo mode unfreezing Tot!Admin freeze on the client when closing the panel
