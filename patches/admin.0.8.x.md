@@ -283,3 +283,6 @@
 - Added Rotate up and Rotate down for secret door animations
 - Added slide forward/right/back/left animation to secret hatch animations
 - Fixed Set/Get Params on Box/Sphere Trigger for the Player Trigger toggle being inverted
+
+## 0.8.73
+- Fixed invisible nameplates for Puppets, Basic NPC and Trader NPC

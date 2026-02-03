@@ -188,3 +188,7 @@
 - Fixed nameplate health/buff remaining visible behind walls when weapons were drawn and the wall check is active on the server
 - Fixed nameplate health damage marker
 - Fixed photo mode unfreezing Tot!Admin freeze on the client when closing the panel
+
+## 1.2.12
+- Fixed nameplates health bar failing to hide the vanilla one on some occasions
+- Fixed the Nameplate range settings resetting after a server reboot
