@@ -286,3 +286,6 @@
 
 ## 0.8.73
 - Fixed invisible nameplates for Puppets, Basic NPC and Trader NPC
+
+## 0.8.74
+- Fixed a desync issue with Secret Hatches, making them look open when they are not, and triggering all sorts of collision problems from it.
