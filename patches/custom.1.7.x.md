@@ -266,3 +266,8 @@
 
 ## 1.9.7
 - Fixed character offset sometimes resetting the pose back to what it was prior to previous clearance.
+
+## 1.9.8
+- Changed how the b_root offset is applied to the character. Prior to the update, it was applied relative to your avatar location, which could vary with synchronization issues between clients. With this update and moving forward, the offset is now going to be in World Space Coordinates, by-passing sync issues coming from the avatar location. This also solve accidental switch to first person view that would rotate your avatar and ruin your character position.
+- Added some debug counters internally to analyze and track down potential issues.
+- Fixed offset not replicating properly on clients the first time
