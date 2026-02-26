@@ -101,3 +101,6 @@
 - Added a filtering field on the perk list of the dice sheet editor
 - Made the interaction collision of the waypoint slightly thicker, allowing to burry it under something and still be able to interact with it.
 - Fixed the character being tilted at the exit of a waypoint, when the waypoint itself was tilted. 
+
+## 2.1.58
+- Added `Enable EQS Placement [Experimental]` setting to the Waypoint Server settings. When enabled, waypoint destination will take into account collision overlap and try to find a suitable teleport location around the pad while remaining as close as possible to it. In case the system cannot find a suitable spot, it will revert to the default destination behavior. This in turn will add overhead to the warping mechanic as the server has to check for collisions, but performance hit should hopefully be minimal.
