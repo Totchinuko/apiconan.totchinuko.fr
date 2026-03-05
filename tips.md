@@ -124,3 +124,14 @@ Right click on the row number like in the screenshot and hit delete record.
 Save and reupload your db on you server, and restart. This will reset your password to nothing, so don't forget to change it.
 
 ![Permission example](/img/screenshot/SudoPasswordReset.png ':size=50%')
+
+
+## Tot ! Custom
+
+### Disable DD multipart Armor Contingency
+
+`ConanSandbox/Config/DefaultEngine.ini`
+```
+[/Game/Mods/TotCustom/Tot_AC_BodyCustomization.Tot_AC_BodyCustomization_C]
+DisableMPArmorContingency=True
+```
