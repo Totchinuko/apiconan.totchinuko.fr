@@ -104,3 +104,8 @@
 
 ## 2.1.58
 - Added `Enable EQS Placement [Experimental]` setting to the Waypoint Server settings. When enabled, waypoint destination will take into account collision overlap and try to find a suitable teleport location around the pad while remaining as close as possible to it. In case the system cannot find a suitable spot, it will revert to the default destination behavior. This in turn will add overhead to the warping mechanic as the server has to check for collisions, but performance hit should hopefully be minimal.
+
+## 2.1.61
+### POI
+- Renamed Permission `Manage Notice Board` to `Manage Player Content`
+- Swapped Vanilla Admin Access to access people's POI to the Manage Player Content Permission

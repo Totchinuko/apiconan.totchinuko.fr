@@ -271,3 +271,13 @@
 - Changed how the b_root offset is applied to the character. Prior to the update, it was applied relative to your avatar location, which could vary with synchronization issues between clients. With this update and moving forward, the offset is now going to be in World Space Coordinates, by-passing sync issues coming from the avatar location. This also solve accidental switch to first person view that would rotate your avatar and ruin your character position.
 - Added some debug counters internally to analyze and track down potential issues.
 - Fixed offset not replicating properly on clients the first time
+
+## 1.9.18
+- Added a safeguard function to try and prevent an issue with DD and Multi-Part Armor Pieces, triggering performance problems.
+### Pose
+- Improved how the Look At Quick Tool works for the eyes, moving the eyelids along with the eyes as a normal human being should.
+- Improved how the Look At Quick Tool rotate the head, by involving the neck as well.
+- Added an Apply Head T-Pose to Look At Quick Tool
+- Added checkboxes on the Fingers Quick Tools to only modify the desired fingers
+- Look At Quick Tool Will now remember the last applied sliders
+- Vanilla head rotation to look at things are now only restrained when applying something that affect the neck/head such as a TPose or bone modifications.

@@ -192,3 +192,12 @@
 ## 1.2.12
 - Fixed nameplates health bar failing to hide the vanilla one on some occasions
 - Fixed the Nameplate range settings resetting after a server reboot
+
+## 1.2.19
+### Photo Mode
+- Added a Center Grid mode
+- Rework how UI occlusion works, now always hiding nameplates and POI when the photo panel is open.
+- Added a Hide UI shortcut to hide the grid as well as the panel. This should allow you to take screenshots with third party tools, such as Steam.
+
+### 3D Editor
+- Fixed 3D Gizmos conflict with the Skeleton when the handle clicked happen to be behind one of the bones. The handles of the Gizmos will always have priority now.

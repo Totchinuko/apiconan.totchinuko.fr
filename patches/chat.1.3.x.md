@@ -103,3 +103,7 @@
 
 ## 1.3.40
 - Update to integrate changes made to Sudo's nameplate system.
+
+## 1.3.43
+- Added a client setting to display the header on a new line, which in turn force the display of the name, even when emote commands are used.
+- Increased Line height by 10%
