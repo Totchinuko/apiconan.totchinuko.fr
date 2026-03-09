@@ -109,3 +109,7 @@
 ### POI
 - Renamed Permission `Manage Notice Board` to `Manage Player Content`
 - Swapped Vanilla Admin Access to access people's POI to the Manage Player Content Permission
+
+## 2.1.63
+### Chat Commands
+- Modified `/stat` to only allow editing of stats that are player modifiable, instead of every modifiable stats.

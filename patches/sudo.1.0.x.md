@@ -201,3 +201,10 @@
 
 ### 3D Editor
 - Fixed 3D Gizmos conflict with the Skeleton when the handle clicked happen to be behind one of the bones. The handles of the Gizmos will always have priority now.
+
+## 1.2.24
+### Photo Mode
+- Added a functional Light Tab: Create lights to place around and configure. Build and save multiple light setups.
+- Added the possibility to save multiple effect presets
+### Environment
+- Fixed post process issues when respawning while having a night vision item equipped.

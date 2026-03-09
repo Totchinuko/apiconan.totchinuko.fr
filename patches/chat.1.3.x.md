@@ -107,3 +107,6 @@
 ## 1.3.43
 - Added a client setting to display the header on a new line, which in turn force the display of the name, even when emote commands are used.
 - Increased Line height by 10%
+
+## 1.3.46
+- Removed a sneaky little space character introduced at the beginning of each message, when the setting `Header as New Line` is active.
