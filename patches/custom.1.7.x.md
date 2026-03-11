@@ -281,3 +281,9 @@
 - Added checkboxes on the Fingers Quick Tools to only modify the desired fingers
 - Look At Quick Tool Will now remember the last applied sliders
 - Vanilla head rotation to look at things are now only restrained when applying something that affect the neck/head such as a TPose or bone modifications.
+
+## 1.9.21
+### Pose
+- **New Feature**: Added Mirror Pose Quick Tool
+- Added new clear element to the menu, for eyes and head
+- Fixed the look at quick tool vertical constrains.
