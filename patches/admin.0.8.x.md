@@ -289,3 +289,12 @@
 
 ## 0.8.74
 - Fixed a desync issue with Secret Hatches, making them look open when they are not, and triggering all sorts of collision problems from it.
+
+## 0.8.78
+- Fixed no cost cheat command displaying the wrong notification
+### Warp
+- Warps will now always have the Spawn Area activated, with refinements on how it works. Grid size is now expressed in Foundations. This is to avoid spawns inside collisions or on top of other players, which can lead to server crash. This is based on the same system that was deployed on RPR Waypoint systems.
+
+### Economy
+- Fixed decay timers resetting when being traded with a player Trader.
+- Fixed an issue allowing to bypass the maximum amount a player trader could buy of a particular item.

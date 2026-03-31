@@ -113,3 +113,6 @@
 ## 2.1.63
 ### Chat Commands
 - Modified `/stat` to only allow editing of stats that are player modifiable, instead of every modifiable stats.
+
+## 2.1.67
+- Your own status are now hidden while having a weapon equipped, to avoid the distraction and visual blockage.

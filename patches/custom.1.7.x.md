@@ -287,3 +287,18 @@
 - **New Feature**: Added Mirror Pose Quick Tool
 - Added new clear element to the menu, for eyes and head
 - Fixed the look at quick tool vertical constrains.
+
+## 1.9.26
+- Fixed a multiple issues allowing to equip items that are supposed to be locked either by server rules or missing DLC.
+- Improved depth clarity of the IK handles by making them semi-transparent when behind something
+- Fixed importer allowing to import files in the wrong panels
+
+### Pose
+- Added Mirrored variations of pose apply buttons, with keyboard shortcuts using the right click instead of the left. This allows to apply the mirrored version of a saved pose data directly without editing it.
+- More fine-tuning to the Quick Tool Look At for eyelids
+- Added a slider dedicated to Eyelids for the Quick Tool Look At
+- Improved Mirror Pose Quick Tool to only apply to the currently edited pose when inside the editor, leaving the currently applied pose untouched.
+- Added to the Mirror Pose Quick Tool a sub-menu to choose witch part of the body to mirror.
+- Fixed removing some TPose flags automatically removing other flags.
+- Fixed pose editor apply button equipping accessories that are marked as not to equip automatically.
+- Fixed Quick Tools not deactivating properly when switching panels.

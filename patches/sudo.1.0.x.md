@@ -214,3 +214,6 @@
 - Lowered light sliders max values to be more manageable for intensity and radius. Higher values are still possible by typing the value.
 - Fixed cases where the wrong type of light would be used.
 - Fixed Gizmos tool swap conflicting with camera navigation inputs.
+
+## 1.2.30
+- Hide the Gizmos while taking a screenshot in photo mode.

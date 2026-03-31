@@ -110,3 +110,6 @@
 
 ## 1.3.46
 - Removed a sneaky little space character introduced at the beginning of each message, when the setting `Header as New Line` is active.
+
+## 1.3.48
+- When Header as a new line setting is on, messages posted by the same user in an uninterrupted sequence are now grouped in spans of 7 minutes interval.
