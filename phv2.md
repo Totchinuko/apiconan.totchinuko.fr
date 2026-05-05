@@ -21,6 +21,8 @@ Two things need doing on you mod after installing Sudo API and the Decoration Ha
 When setting up a decoration blueprint to use the system, all you have to do is add a component and configure it:  
 <img src="img/screenshot/PHV2_SetupComponent.png"  style="max-width:200px;margin:10px;"/>
 
+!> For Light color/intensity controls, you must override the function `RegisterDynamicLights` to deactivate the Dynamic Light Subsystem. Override the function, and remove the call to parent. Leave empty.
+
 ## Setup the various tables
 
 Merge into the following tables. See screen captures for details about their content.
