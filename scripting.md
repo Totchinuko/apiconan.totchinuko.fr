@@ -1,6 +1,6 @@
 # Tot ! Admin - Scripting API <small>WIP, 0.8.8+</small>
 ## API Download
-API can be downloaded from the main [Tot ! Admin API](admin) page.
+API can be downloaded from the [API Download Page](api-download).
 
 ## Introduction
 

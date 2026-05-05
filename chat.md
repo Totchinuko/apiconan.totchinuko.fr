@@ -5,13 +5,7 @@
 > Since Tot ! Chat API is bundled with Sudo, you might aswell download sudo API directly, since Tot ! Chat require Sudo. Chat API is located in ModsShared/SudoExile/TotChat
 > You'll find the Sudo API [here](sudo).
 
-!> **Install instructions**  
-1- Extract this into `ConanExilesDevKit\Games\ConanSandbox\Content\ModsShared\`  
-2- Do not modify any of the files in there  
-3- Do not put these files in your mod content folder and do not select them in the modfile list  
-If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
-
-**Download API**: [Tot!Chat 1.2.0](/API/TotChat1.2.0.zip ':ignore')
+[API Download Page](api-download)
 
 ## Internal Data Tables
 ### Tot_DT_ChatCommandTable

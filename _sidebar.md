@@ -12,6 +12,7 @@
 
     - [2025](roadmap.2025)
 - Tot ! API
+    - [Api Download Page](api-download)
     - [Sudo API](sudo)
     - [Admin API](admin)
     - [Scripting API](scripting)

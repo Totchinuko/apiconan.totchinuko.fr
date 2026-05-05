@@ -1,12 +1,7 @@
 # Tot ! iHud API
 ## API Download
-!> **Install instructions**\
-1- Extract this into `ConanExilesDevKit\Games\ConanSandbox\Content\ModsShared\`  
-2- Do not modify any of the files in there  
-3- Do not put these files in your mod content folder and do not select them in the modfile list  
-If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
 
-Download: [iHUD 2.0.0](/API/iHud.2.0.0.zip ':ignore')
+[API Download Page](api-download)
 
 ## Tot_S_iHUDWidgetRow
 `ModsShared/SudoExile/TotIHUD/Types/Tot_S_iHUDWidgetRow`

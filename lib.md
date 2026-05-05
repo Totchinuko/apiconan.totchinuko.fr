@@ -30,13 +30,10 @@ void
 > In order for two mods to use this to communicate an event, it is necessary to maintain a good documentation about what data and context is expected for a given event name. If those expectations were to be changed, a good way to avoid potential critical problems would be to rename the event so that mods expecting the old data would stop raising the even util they are updated. Overall, maintaining good documentation and awareness is essential for using this system as its anonymity makes it harder to maintain
 
 ### Install instructions
-> 1- Extract this into `ConanExilesDevKit\Games\ConanSandbox\Content\ModsShared\`
-> **2- Do not modify any of the files in there**
-
-**Download**: [CrossModEvents](/API/Lib.CrossModEvents.zip ':ignore')
+[API Download Page](api-download)
 
 ## Math Solver <small>1.1.10+</small>
-**Download**: [MathSolver](/API/Lib.MathSolver.zip ':ignore')
+[API Download Page](api-download)
 
 ### Tot_I_MathSolver
 `ModsShared/SudoExile/MathSolver/Tot_I_MathSolver`

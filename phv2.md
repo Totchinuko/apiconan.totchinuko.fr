@@ -7,7 +7,7 @@
 3- Do not modify any of the files in there  
 4- If you do not want to have a dependancy on Sudo, include the files in you modcook BUT, always inform your user that Sudo should always be under your mod.
 
-**Download API**: [Decoration Handler 2.1.1](/API/TotPH.2.1.1.zip ':ignore')
+[API Download Page](api-download)
 
 ## Initial Setup
 Two things need doing on you mod after installing Sudo API and the Decoration Handler.  

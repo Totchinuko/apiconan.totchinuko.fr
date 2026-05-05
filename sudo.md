@@ -2,13 +2,7 @@
 
 ## API Download
 
-!> **Install instructions**\
-1- Extract this into `ConanExilesDevKit\Games\ConanSandbox\Content\ModsShared\`  
-2- Do not modify any of the files in there  
-3- Do not put these files in your mod content folder and do not select them in the modfile list  
-If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
-
-**Download API**: [Tot!Sudo 1.0.34b](/API/SudoExile.1.0.34b.zip ':ignore')
+[API Download Page](api-download)
 
 ## I_EA_Server_Settings
 
