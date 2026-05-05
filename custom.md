@@ -596,16 +596,16 @@ Return an accessory details using its GUID
 
 #### **Output**
 
-|type|name|description|
-|-|-|----|
-|int|TemplateID||
-|Name|Socket||
-|Transform|Transform||
-|int|HideFlags||
-|LinearColor|ColorR||
-|LinearColor|ColorG||
-|LinearColor|ColorB||
-|LinearColor|ColorA||
+| type          | name        |description|
+|---------------|-------------|----|
+| int           | TemplateID  ||
+| Name          | Socket      ||
+| Transform     | Transform   ||
+| int           | HideFlags   ||
+| LinearColor   | PieceUtility ||
+| LinearColor[] | Colors      ||
+| LinearColor[] | Utilities   ||
+| Integer[]     | MatModes    ||
 <!-- tabs:end -->
 
 #### RemoveAccessory <small>Server</small>
@@ -630,17 +630,17 @@ Add an accessory, if an accessory with the same GUID exist, it will be replaced.
 <!-- tabs:start -->
 #### **Input**
 
-|type|name|description|
-|-|-|----|
-|Guid|Guid||
-|int|TemplateID||
-|Name|Socket||
-|Transform|Transform||
-|int|HideFlags||
-|LinearColor|ColorR||
-|LinearColor|ColorG||
-|LinearColor|ColorB||
-|LinearColor|ColorA||
+| type         | name         |description|
+|--------------|--------------|----|
+| Guid         | Guid         ||
+| int          | TemplateID   ||
+| Name         | Socket       ||
+| Transform    | Transform    ||
+| int          | HideFlags    ||
+| LinearColor  | PieceUtility ||
+| LinearColor[] | Colors       ||
+| LinearColor[] | Utilities    ||
+| Integer[]    | MatModes     ||
 
 #### **Output**
 
