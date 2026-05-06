@@ -23,7 +23,10 @@
     - [IHUD API](ihud)
     - [Decoration Handler V2](phv2)
     - [Library](lib)
-- Patche Notes
+- Patch Notes (Enhanced)
+    - [Sudo](patches/sudo.enhanced) 
+    - [Custom](patches/custom.enhanced) 
+- Patch Notes (Legacy)
     - [Admin](patches/admin.0.8.x.md)
     - [Chat](patches/chat.1.3.x.md)
     - [Custom](patches/custom.1.7.x.md)
