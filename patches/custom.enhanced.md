@@ -14,3 +14,17 @@
 - New Armor Material controls for compatible Armor and Accessories. Change the metal of your armors, add some silk shine, or give a Crystal look to some of the elements.
 - Added a dirt slider. I'm gonna put some dirt in your eye.
 - Custom will now produce rolling backups of your files every time you log onto a server, up to 10. This won't prevent you from loosing your things when you format your computer and suddenly remember of your files, but with some chance, it might save a few from a corrupted save.
+
+## 1.10.1
+- Renamed Torch accessory variations Legacy Torches.
+- Added Enhanced version of the accessory Torch
+- Fixed Rigid accessories not working properly
+- Mitigated an issue resetting the Character Body Sliders when sitting on a chair or use vanilla interactable in general. This issue exists even in vanilla with the vanilla skin, only it resolve itself when standing up. I can't fix the root issue of this since it's in protected game code, so for now the character sliders will be reapplied when standing up as well.
+- Fixed an issue that opened both panels at the same time.
+- Fixed UI freaking out when trying to open the panel while the UI of the game is hidden.
+- Fixed Torch Flame Model/Glow
+- Fixed Gem/Algea glow
+- Improve panel switch to prevent a few known issues
+- Improved character neck seam
+- Fixed some vanilla makeup not applying to right areas of the face
+- Fixed the Color picker acting up when on Normal materials
