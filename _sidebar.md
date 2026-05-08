@@ -7,10 +7,8 @@
     - [Todo List](todo)
     - [Mod Orders](modlist)
     - [Videos](stream)
+    - [Totorials for Enhanced](csi-enhance)
     - [Tot ! Custom Help](custom-help)
-- Tot ! Roadmap
-
-    - [2025](roadmap.2025)
 - Tot ! API
     - [Api Download Page](api-download)
     - [Sudo API](sudo)
