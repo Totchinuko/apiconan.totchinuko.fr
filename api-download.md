@@ -33,3 +33,4 @@ If you do not follow those guidelines, whenever we update the API files, your mo
 - [Decoration Handler 2.2.0.E](/API/TotPH.2.2.0.UE5.zip ':ignore')
 - [CrossModEvents](/API/Lib.CrossModEvents.UE5.zip ':ignore')
 - MathSolver - Unreleased at this moment
+- [Flat Chest Redux Files](/API/FlatChestReduxEnhanced.7z ':ignore') (If you want custom to swap the material correctly, your material name should contain FlatChestCustomOverride)
