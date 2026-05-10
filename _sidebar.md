@@ -9,6 +9,8 @@
     - [Videos](stream)
     - [Totorials for Enhanced](csi-enhance)
     - [Tot ! Custom Help](custom-help)
+  - Modding Tools
+    - [Enhanced Text Conversion](enhanced-texture-conversion)
 - Tot ! API
     - [Api Download Page](api-download)
     - [Sudo API](sudo)
