@@ -28,3 +28,14 @@
 - Improved character neck seam
 - Fixed some vanilla makeup not applying to right areas of the face
 - Fixed the Color picker acting up when on Normal materials
+
+## 1.10.3
+- Converted all the Scar/Wrinkles to the proper NCD format used by Enhanced.
+- Re-added and converted cleaned skin and less muscular for male
+- Decrease the minimum of the Iris Size slider. You might need to edit your character to increase it a little if it got too small for you.
+- Decrease the minimum of the Skin Shine slider. You might need to edit your character to increase it a little if it is not shiny enough.
+- Fixed warpaint glow during the day, you might need to adjust the intensity of your characters.
+- Restore wind in the sails and prevent them from getting hairy. (If you know, you know.)
+- Fixed accessory hair/beard selection not allowing to move the camera
+- Fixed a few invisible text label in the sudo settings
+- Removed the need for sunglasses to look at the Gizmos tools

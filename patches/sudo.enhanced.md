@@ -10,3 +10,6 @@
 ## 1.3.2
 - Fixed help tooltips
 - Improved the code responsible for the management of the PhotoMode/Custom camera, to try and fix some rare issues that would glitch the camera when exiting it.
+
+## 1.3.4
+- Reworked the color picker internals to make sure the Hexadecimal work as intended and reliably, even with pickers that handle either linear and sRGB colors.
