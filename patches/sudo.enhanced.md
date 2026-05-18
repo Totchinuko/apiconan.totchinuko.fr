@@ -13,3 +13,7 @@
 
 ## 1.3.4
 - Reworked the color picker internals to make sure the Hexadecimal work as intended and reliably, even with pickers that handle either linear and sRGB colors.
+
+## 1.3.6
+- Fixed color picker samples stacking to infinity
+- Fixed personal panel not converting back color from sRGB
