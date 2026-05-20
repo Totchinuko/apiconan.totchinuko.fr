@@ -30,7 +30,7 @@ If you do not follow those guidelines, whenever we update the API files, your mo
 - [Tot!Custom 1.10.0](/API/TotCustom.1.10.0.UE5.zip ':ignore')
 - iHUD - Unreleased at this moment
 - Roleplay Redux - Unreleased at this moment
-- [Decoration Handler 2.2.0](/API/TotPH.2.2.0.UE5.zip ':ignore')
+- [Decoration Handler 2.2.0](/API/TotPH.2.2.1.UE5.zip ':ignore')
 - [CrossModEvents](/API/Lib.CrossModEvents.UE5.zip ':ignore')
 - MathSolver - Unreleased at this moment
 - [Flat Chest Redux Files](/API/FlatChestReduxEnhanced.7z ':ignore') (If you want custom to swap the material correctly, your material name should contain FlatChestCustomOverride)
