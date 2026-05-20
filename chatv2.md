@@ -194,6 +194,12 @@ UnbindObserver(Tot_I_ChatChannelObserver Observer);
 ```
 Unbind a previously bound observer from the channel. Don't forget to unbind your observer or EndPlay/Destroy of your object.
 
+```csharp
+// Server
+IsUserConnected(Tot_I_ChatUser User, bool ReturnValue);
+```
+Is the user connected to the channel
+
 ### Tot_I_ChatChannelObserver
 Should be implemented by classes that wish to observe a channel.
 
