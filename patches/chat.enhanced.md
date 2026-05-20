@@ -34,3 +34,12 @@
 - Staff can now view the list of all channels present on the server, change their settings, access the connected player list, or close them.
 - Staff members with the moderator permission, are considered the owner of every generic channels, allowing them to access the ownership tab of the channels they are connected to.
 - Added a new command `/staff`, that let you post with a special staff tag and color. Message will behave like a regular message otherwise.
+
+## 2.0.9 beta
+- Fixed blank chat window when the server is set to character remain in the world when players are logged off.
+- Fixed Sippy's card categories
+- Fixed various typos
+- Fixed various formating issues in non IC channels and OOC messages
+- Fixed Ranged chat always using the default range no matter what was selected by the user.
+- Fixed an issue that would scramble messages, even without any language present
+- Fixed invisible chat windows interfering with other UI such as the Radial Wheel

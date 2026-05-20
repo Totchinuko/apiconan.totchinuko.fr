@@ -17,3 +17,6 @@
 ## 1.3.6
 - Fixed color picker samples stacking to infinity
 - Fixed personal panel not converting back color from sRGB
+
+## 1.3.11
+- Fixed issue action wheel issues.

@@ -39,3 +39,7 @@
 - Fixed accessory hair/beard selection not allowing to move the camera
 - Fixed a few invisible text label in the sudo settings
 - Removed the need for sunglasses to look at the Gizmos tools
+
+## 1.10.10
+- Fixed an issue introduced with the rent Conan Enhanced update, that had wide repercussion on many features, such as but not limited to, DLC ownership detection, No Combat mode not working, Thrall customization, etc...
+- Fix various minor array index warnings.
