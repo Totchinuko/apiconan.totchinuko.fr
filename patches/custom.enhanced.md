@@ -43,3 +43,7 @@
 ## 1.10.10
 - Fixed an issue introduced with the rent Conan Enhanced update, that had wide repercussion on many features, such as but not limited to, DLC ownership detection, No Combat mode not working, Thrall customization, etc...
 - Fix various minor array index warnings.
+
+## 1.10.11
+- Removed the code related to detecting and merging down Armors and Weapons that share the same models. Somewhere the code began not working right for reasons unknown, so I've ditched the thing completely. This will make the library of items more cluttered with duplicated, as normal and epic version of the same items will be present for example, but at least there won't be missing items anymore.
+- Fixed pasting a color not refreshing the color preview.
