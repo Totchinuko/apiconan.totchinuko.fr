@@ -87,7 +87,7 @@ This allows you to embed your dice system in its entirely into your server mod.
 **Editing**  
 You can still use the ingame dice system editor, but saving will do nothing. You'll need to export the text and put it in your mod.
 
-**Download API**: [Roleplay Redux Embedded 1.0.0](/API/RoleplayRedux.Embedded.1.0.0.7z ':ignore')
+**Download API**: [Download Page](api-download)
 
 ## API
 
@@ -505,7 +505,7 @@ void
 3- Do not put these files in your mod content folder and do not select them in the modfile list  
 If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
 
-**Download API**: [Roleplay Redux Codex 1.0.0](/API/RoleplayRedux.Codex.1.0.0.7z ':ignore')
+**Download API**: [Download Page](api-download)
 
 ### The Codex
 

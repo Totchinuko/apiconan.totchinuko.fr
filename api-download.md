@@ -12,6 +12,8 @@ If you do not follow those guidelines, whenever we update the API files, your mo
 - [Tot!Custom 1.7.6](/API/TotCustom.1.7.6.zip ':ignore') 
 - [iHUD 2.0.0](/API/iHud.2.0.0.zip ':ignore')
 - [Roleplay Redux 2.0.0](/API/RoleplayRedux2.0.0.7z ':ignore')
+- [Roleplay Redux Embedded 1.0.0](/API/RoleplayRedux.Embedded.1.0.0.7z ':ignore')
+- [Roleplay Redux Codex 1.0.0](/API/RoleplayRedux.Codex.1.0.0.7z ':ignore')
 - [Decoration Handler 2.1.1](/API/TotPH.2.1.1.zip ':ignore')
 - [CrossModEvents](/API/Lib.CrossModEvents.zip ':ignore')
 - [MathSolver](/API/Lib.MathSolver.zip ':ignore')
