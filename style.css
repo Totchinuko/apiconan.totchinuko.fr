@@ -1,5 +1,53 @@
 :root {
-    --theme-color   : #aa4444;
+    --sidebar-width : 20rem;
+    --theme-color   : #da5a5a;
+    --base-background-color: #121314;
+    --base-color           : #ffffff;
+    --base-shade           : #1d1e1f;
+
+    --heading-h2-border-color           : var(--theme-color);
+    --heading-h2-border-style           : solid;
+    --heading-h2-border-width           : 0 0 1px 0;
+    --heading-h2-color                  : var(--theme-color);
+    --heading-h3-border-color           : var(--base-color);
+    --heading-h3-border-style           : solid;
+    --heading-h3-border-width           : 0 0 1px 0;
+    --heading-h3-color                  : var(--base-color);
+
+
+    --code-font-family                  : Inconsolata, Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+    --code-theme-background             : var(--base-shade);
+    --code-theme-comment                : #5A9C46;
+    --code-theme-function               : #da5a5a;
+    --code-theme-keyword                : #9cdcfe;
+    --code-theme-operator               : #ffb30e;
+    --code-theme-punctuation            : #ffb30e;
+    --code-theme-selection              : ;
+    --code-theme-selector               : ;
+    --code-theme-tag                    : #ffb30e;
+    --code-theme-text                   : #ce9178;
+    --code-theme-variable               : #9cdcfe;
+    --code-inline-background            : var(--base-shade);
+
+    /* Background */
+    --cover-background-blend-mode                      : ;
+    --cover-background-color                           : var(--base-background-color);
+    --cover-background-image                           : ;
+    --cover-background-mask-color                      : var(--base-background-color);
+    --cover-background-mask-opacity                    : 1;
+    --cover-background-mask-visibility                 : ;
+    --cover-background-position                        : center center;
+    --cover-background-repeat                          : no-repeat;
+    --cover-background-size                            : cover;
+    /* Sidebar
+    ============================================================================= */
+    --sidebar-background                          : var(--base-shade);
+    --sidebar-border-color                        : var(--theme-color);
+    --sidebar-nav-background                      : var(--base-shade);
+    /* Plugin: Search
+    ============================================================================= */
+    --search-background                      : var(--base-background-color);
+    --search-input-background-color         : var(--base-background-color);
   }
 input[type=checkbox] {
     position: relative;
@@ -16,5 +64,5 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:checked {
-    background-color: rgb(255, 174, 174);
+    background-color: #5A9C46;
 }

@@ -1,4 +1,4 @@
-![logo](img/logo.png)
+![logo](img/sippy.png)
 
 # Tot ! Mods
 
