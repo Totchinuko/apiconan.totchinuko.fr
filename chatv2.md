@@ -543,7 +543,7 @@ Here is the following values used by ChatV2, but your own channels may use whate
 - Seed (Int, Random) - Added just before the message is received by the client, to bake the message seed the client had at message reception (It should never change normally but just in case)
 - Chained (Bool, False) - Cache related header. Was the message chained after another from the same sender in identical conditions? Never seen through the current API.
 - Distance (Float, 0) - Added by Ranged channel, to store the distance between Sender and Recipient when this message was sent. This is so that the focus mode can function on cached messages.
-- EffectiveRange (Float, 0) - Added by Ranged Channels, to store the retrieved range from the server settings at the time of posting.
+- EffectiveRange (Float, 0) - Added by Ranged Channels, to store the retrieved range from the server settings at the time of posting. Can be used by notifications before posting to manually specify a range that is not part of the server Range collection.
 - RangeTag (String, "") - Feed the range tag of a message with arbitrary text. it will take the color of the PrintLevel, and override the actual range of a message, even if specified.
 - PopNotification (Boolean, False) - Display the message as a brief popup on the first chat window, and does not generate any chat log or client cache. This should never be used through a channel that might cache the message.
 

@@ -25,12 +25,12 @@ If you do not follow those guidelines, whenever we update the API files, your mo
 If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
 
 - [Tot!Sudo 1.3.4](/API/SudoExile.1.3.4.UE5.zip ':ignore')
-- [Tot!Chat 2.0.0.Beta](/API/TotChat.2.0.9.UE5.zip ':ignore')
+- [Tot!Chat 2.0.11.Beta](/API/TotChat.2.0.11.UE5.zip ':ignore')
 - Tot!Admin - Unreleased at this moment
 - [Tot!Custom 1.10.0](/API/TotCustom.1.10.0.UE5.zip ':ignore')
 - iHUD - Unreleased at this moment
 - Roleplay Redux - Unreleased at this moment
-- [Decoration Handler 2.2.0](/API/TotPH.2.2.1.UE5.zip ':ignore')
+- [Decoration Handler 2.2.1](/API/TotPH.2.2.1.UE5.zip ':ignore')
 - [CrossModEvents](/API/Lib.CrossModEvents.UE5.zip ':ignore')
 - MathSolver - Unreleased at this moment
 - [Flat Chest Redux Files](/API/FlatChestReduxEnhanced.7z ':ignore') (If you want custom to swap the material correctly, your material name should contain FlatChestCustomOverride)

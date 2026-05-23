@@ -17,7 +17,7 @@
     - [Admin API](admin)
     - [Scripting API](scripting)
     - [Chat API](chat)
-    - [Chat API](chatv2)
+    - [Chat V2 API](chatv2)
     - [Roleplay Redux API](roleplay)
     - [Custom API](custom)
     - [Custom Modeling](modeling)
