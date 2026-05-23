@@ -1,16 +1,15 @@
 <!-- _sidebar.md -->
 - Tot ! Mods
-    
     - [Home](/)
     - [F.A.Q](faq)
     - [Various Tips](tips)
     - [Todo List](todo)
     - [Mod Orders](modlist)
     - [Videos](stream)
-    - [Totorials for Enhanced](csi-enhance)
     - [Tot ! Custom Help](custom-help)
 - Modding Tools
     - [Enhanced Text Conversion](enhanced-texture-conversion)
+    - [Totorials for Enhanced](csi-enhance)
 - Tot ! API
     - [Api Download Page](api-download)
     - [Sudo API](sudo)
