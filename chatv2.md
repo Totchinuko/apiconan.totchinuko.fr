@@ -578,6 +578,23 @@ function UserSentMessage(Guid Guid, long Sender, long Channel, Tot_S_ChatHeader 
 ```
 Message sent by the user. This does not include edition emitted, as those take another route entirely, and skip channels to go directly to users as a global message, regardless of its original channel.
 
+### Tot_I_ChatMessageAction
+Implemented on the components on the main client BasePlayerChar, this can be used to insert menu elements in every chat messages.
+
+#### GetActionMenuRow
+```csharp
+// Server
+function GetActionMenuRow(long AuthorUID, Tot_S_ChatHeader Headers, out Name MenuKey, out string MenuLabel);
+```
+This is called when the menu is built, to insert menu elements into menu. Return None as a MenuKey to not insert anything.
+
+#### OnActionClicked
+```csharp
+// Server
+function OnActionClicked(Name MenuKey, long AuthorUID, Tot_S_ChatHeader Headers, Widget ButtonWidget);
+```
+Called when third party action is clicked, to perform the action. The button widget is here as a reference to use as an anchor for popups or similar effects.
+
 ## Chat Headers
 Chat headers are simply how the chat store most of its Key/Value data. It's used for Entity settings, such as the server, the users or the channels, but also as message headers or typing signals.  
 Here is the following values used by ChatV2, but your own channels may use whatever they wish. Avoid making headers too crowded, they are replicated after all and should stay as lean as possible.
