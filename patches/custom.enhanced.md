@@ -47,3 +47,6 @@
 ## 1.10.11
 - Removed the code related to detecting and merging down Armors and Weapons that share the same models. Somewhere the code began not working right for reasons unknown, so I've ditched the thing completely. This will make the library of items more cluttered with duplicated, as normal and epic version of the same items will be present for example, but at least there won't be missing items anymore.
 - Fixed pasting a color not refreshing the color preview.
+
+## 1.10.13
+- Added Glow Exposure sliders to the Right Eye, Left Eye, Makeup, Warpaints and Blood, to control how much the glow affect the exposure. At 0, glow would follow exposure entirely, glowing weakly in day time. At 1, the glow will stay consistent regardless of the current light condition. 

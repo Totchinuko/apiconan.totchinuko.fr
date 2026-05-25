@@ -43,3 +43,9 @@
 - Fixed Ranged chat always using the default range no matter what was selected by the user.
 - Fixed an issue that would scramble messages, even without any language present
 - Fixed invisible chat windows interfering with other UI such as the Radial Wheel
+
+## 2.0.17
+- Mentions can now be added more quickly by typing a @ symbol in chat. This will open a contextual search, that will search for characters as you type next to it. You can then use the Up and Down arrows to select your mention and the Enter key to insert it in your message. This effectively allow to insert mentions without having to use the mouse. This behavior can be disabled in the settings.
+- Mentions can also be added with a Shift+Click on the Character model in the game.
+- Added a few safeties to prevent identical channels from opening twice on the UI. If this still happen to you, please open a bug report with as many details on the issue as possible.
+- Various script error fixes

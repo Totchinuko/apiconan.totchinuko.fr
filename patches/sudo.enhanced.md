@@ -20,3 +20,7 @@
 
 ## 1.3.11
 - Fixed issue action wheel issues.
+
+## 1.3.18
+- Fixed invisible player nameplates
+- Small performance improvement of nameplates
