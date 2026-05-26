@@ -24,3 +24,8 @@
 ## 1.3.18
 - Fixed invisible player nameplates
 - Small performance improvement of nameplates
+
+## 1.3.20
+- Fixed the controls of the player edition panel
+### Photo Mode
+- Added a saved shot section to save up to 10 positions of the camera to go back to, provided the saved position is within the limited range.

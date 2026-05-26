@@ -49,3 +49,6 @@
 - Mentions can also be added with a Shift+Click on the Character model in the game.
 - Added a few safeties to prevent identical channels from opening twice on the UI. If this still happen to you, please open a bug report with as many details on the issue as possible.
 - Various script error fixes
+
+## 2.0.19
+- Added a popup and setting to choose whether you want to keep the Vanilla chat active alongside Tot!Chat, with instructions on how to configure your inputs. This setting is saved on a per-server basis.
