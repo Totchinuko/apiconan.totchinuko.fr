@@ -561,6 +561,13 @@ function TSignalReceived(long Sender, long Channel, long Recipient, Tot_S_ChatHe
 ```
 Typing signal for bubbles.
 
+#### GetEffectiveRange
+```csharp
+// Client
+function GetEffectiveRange(out float ReturnValue);
+```
+Return the range at which the bubble should be seen given its content. This includes the biggest effective range in its current messages, and the range of the typing indicator. 
+
 ### Tot_I_ChatUserObserver
 Observer for a User. 
 
