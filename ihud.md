@@ -1,4 +1,4 @@
-# Tot ! iHud API
+# Tot ! Hud API
 ## API Download
 
 [API Download Page](api-download)

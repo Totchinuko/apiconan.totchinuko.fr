@@ -21,7 +21,7 @@
     - [Roleplay Redux API](roleplay)
     - [Custom API](custom)
     - [Custom Modeling](modeling)
-    - [IHUD API](ihud)
+    - [HUD API](ihud)
     - [Decoration Handler V2](phv2)
     - [Library](lib)
 - Patch Notes (Enhanced)
