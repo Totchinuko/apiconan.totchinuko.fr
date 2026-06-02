@@ -14,6 +14,7 @@
     - [Api Download Page](api-download)
     - [Sudo API](sudo)
     - [Sudo Nameplate API](nameplate)
+    - [Sudo Map API](map)
     - [Admin API](admin)
     - [Scripting API](scripting)
     - [Chat API](chat)
