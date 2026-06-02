@@ -13,6 +13,7 @@
 - Tot ! API
     - [Api Download Page](api-download)
     - [Sudo API](sudo)
+    - [Sudo Nameplate API](nameplate)
     - [Admin API](admin)
     - [Scripting API](scripting)
     - [Chat API](chat)
