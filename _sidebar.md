@@ -28,4 +28,4 @@
     - [Sudo](patches/sudo.enhanced) 
     - [Chat](patches/chat.enhanced) 
     - [Custom](patches/custom.enhanced) 
-- [Archives](archives)
+- [Archives](archive)
