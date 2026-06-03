@@ -6,7 +6,7 @@ It is located in `ModsShared/SudoExile/TotNameplate`.
 The nameplate system work with a slot system. You insert your widgets in various slot in the nameplate UMG hierarchy, with a numeric priority for sorting.
 
 - `BeforeNameplate` - This is outside the nameplate, on top of it. Useful for things like chat bubbles
-- `AfterNamplate` - This is outside the nameplate, underneath. Useful for things like health bar or other stats.
+- `AfterNameplate` - This is outside the nameplate, underneath. Useful for things like health bar or other stats.
 - `BeforeName` - Inside the nameplate, on the name's left. This is grouped within the Horizontal Box of the name. Keep elements in their small, like an icon or something.
 - `AfterName` - Inside the nameplate, on the name's right. This is grouped within the Horizontal Box of the name. Keep elements in their small, like an icon or something.
 - `AboveName` - Inside the nameplate, on top of the name. This is grouped within the Vertical Box of the nameplate. This is within the padding of the nameplate, so the element won't be flush with the edge of the nameplate.
@@ -29,7 +29,7 @@ function GetActorName(out string ReturnValue);
 Return the display name of the actor that will directly be displayed in the nameplate.
 
 ## Tot_I_NameplateBase <small>Client</small>
-The nameplate itself. You'll receive a reference of that interface on various nameplate ticks if you implement `Tot_I_NameplateElement` or get one throught the `Tot_I_NameplateManager`
+The nameplate itself. You'll receive a reference of that interface on various nameplate ticks if you implement `Tot_I_NameplateElement` or get one thought the `Tot_I_NameplateManager`
 
 ### GetOpacity
 ```csharp
@@ -68,7 +68,8 @@ function GetForceDisplay(out bool Return);
 Is the nameplate forced to be displayed, which force the nameplate opacity to 1.0.
 
 ### GetNameHidden
-```csharpfunction GetNameHidden(out bool Return);
+```csharp
+function GetNameHidden(out bool Return);
 ```
 Is the name inside the plate hidden either by client or server setting.
 
@@ -196,7 +197,7 @@ Get the nameplate of the Actor, if one exists.
 ```csharp
 function SetNameplateLocation(Actor Actor, Vector RelativeLocation, SceneComponent Component, Name SocketName);
 ```
-Change the nameplate location (if one exists) to a new attachement
+Change the nameplate location (if one exists) to a new attachment
 
 ### FindActorName
 ```csharp
