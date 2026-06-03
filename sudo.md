@@ -4,7 +4,8 @@
 
 [API Download Page](api-download)
 
-## I_EA_Server_Settings
+## I_EA_Server_Settings <small>Legacy</small>
+!> This section is only available for Conan Legacy
 
 `I_EA_Server_Settings` is implemented by an Actor (it's a mod controller).  
 You can use it to get/set the activate chat system, as well as listen to changes in the active chat system when an admin might toggle it in the admin UI.
