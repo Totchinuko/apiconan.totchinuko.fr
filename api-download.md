@@ -26,8 +26,8 @@ If you do not follow those guidelines, whenever we update the API files, your mo
 3- Do not put these files in your mod content folder and do not select them in the `modfile` list  
 If you do not follow those guidelines, whenever we update the API files, your mod is going to conflict whenever someone place it lower than Sudo in the modlist.
 
-- [Tot!Sudo 1.3.4](/API/SudoExile.1.3.4.UE5.zip ':ignore')
-- [Tot!Chat 2.0.17.Beta](/API/TotChat.2.0.17.UE5.zip ':ignore')
+- [Tot!Sudo 1.3.29](/API/SudoExile.1.3.29.UE5.zip ':ignore')
+- [Tot!Chat 2.0.26.Beta](/API/TotChat.2.0.26.UE5.zip ':ignore')
 - Tot!Admin - Unreleased at this moment
 - [Tot!Custom 1.10.13](/API/TotCustom.1.10.13.UE5.zip ':ignore')
 - iHUD - Unreleased at this moment
