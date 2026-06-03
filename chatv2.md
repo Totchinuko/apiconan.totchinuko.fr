@@ -122,93 +122,80 @@ Second part of creating a theme, each row is a theme.
 Interface used for channels, if you want to make custom channel types. This should **always** be implemented along with `Tot_I_ChatEntity`.  
 Channels are actors with an actor persistence component. They shouldn't be anything else. They shouldn't be replicated either. For best practice, you should create your channel as a child of the BaseChannel class provided in the API. 
 
-#### DestroyChannel
+#### DestroyChannel <small>Server</small>
 ```csharp
-// Server
 function DestroyChannel(out bool Success, out string ErrorMessage);
 ```
 Called when a channel should be closed and destroyed. If you're implementing your own channel type, you should not forget to also call the delete database function of your persistency component.
 
-#### GetChannelUID
+#### GetChannelUID <small>Server</small>
 ```csharp
-// Server
 function GetChannelUID(out long ReturnValue);
 ```
 Simply return the UID of the channel in Integer 64 format. While implementing your channel, this is the Unique ID of your pe component. You can convert it to Int64 using the helper function.
 
-#### SendMessage
+#### SendMessage <small>Server</small>
 ```csharp
-// Server
 function SendMessage(Guid Guid, long Sender, Tot_S_ChatHeader Headers, string Content);
 ```
 Send a message in this channel. You can leave the Sender to 0 if you wish to perform a notification of some kind. Message with a sender 0 are headless message that will skip traditional checks for users. Guid **is always** a newly generated one with `NewGuid` function. For Headers, check the Header section lower.
 
-#### SendTSignal
+#### SendTSignal <small>Server</small>
 ```csharp
-// Server
 function SendTSignal(long Sender, Tot_S_ChatHeader Headers);
 ```
 Send a typing signal in the channel. In general, you should never use this. This is used by the ChatUser class when players are typing. Signal will disappear after 5sec without sending a new one.
 
-#### ConnectUser
+#### ConnectUser <small>Server</small>
 ```csharp
-// Server
 function ConnectUser(Tot_I_ChatUser user, string Password, bool ForceSwitch);
 ```
 Connect a user to the channel. For proper implementation of the function, check the base channel class provided in the API. ForceSwitch will switch the channel automatically for the channel UI once opened. 
 
-#### DisconnectUser
+#### DisconnectUser <small>Server</small>
 ```csharp
-// Server
 function DisconnectUser(Tot_I_ChatUser user);
 ```
 Disconnect a user from the channel, removing it from the user Channel List.
 
-#### GetChannelName
+#### GetChannelName <small>Server</small>
 ```csharp
-// Server
 function GetChannelName(out string ReturnValue);
 ```
 Display name of the channel for Admin sections
 
-#### GetPersonalizedChannelName
+#### GetPersonalizedChannelName <small>Server</small>
 ```csharp
-// Server
 function GetPersonalizedChannelName(Tot_I_ChatUser user, out string ReturnValue);
 ```
 Display name personalized for a given user. This is used in the chat channel list and the channel header name for this specific user.
 
-#### GetConnectUsers
+#### GetConnectUsers <small>Server</small>
 ```csharp
-// Server
 function GetConnectUsers(out Tot_I_ChatUser[] ReturnValue);
 ```
 List all the users connected to this channel
 
-#### GetChannelType
+#### GetChannelType <small>Server</small>
 ```csharp
-// Server
 function GetChannelType(out Name ReturnValue);
 ```
 Channel type row of you channel. It is **always** identical to the row name defined in `Tot_DT_ChatChannelTypeTable` and `Tot_DT_ChatEntityFormTable`
 
-#### BindObserver
+#### BindObserver <small>Server</small>
 ```csharp
-// Server
 function BindObserver(Tot_I_ChatChannelObserver Observer);
 ```
 Bind an observer to a channel, to receive the message going through it. Your observer will be reported in the server log along with the path of its class for accountability.
 
-#### UnbindObserver
+#### UnbindObserver <small>Server</small>
 ```csharp
-// Server
 function UnbindObserver(Tot_I_ChatChannelObserver Observer);
 ```
 Unbind a previously bound observer from the channel. Don't forget to unbind your observer or EndPlay/Destroy of your object.
 
-#### IsUserConnected
+#### IsUserConnected <small>Server</small>
 ```csharp
-// Server
 function IsUserConnected(Tot_I_ChatUser User, bool ReturnValue);
 ```
 Is the user connected to the channel
@@ -216,19 +203,17 @@ Is the user connected to the channel
 ### Tot_I_ChatChannelObserver
 Should be implemented by classes that wish to observe a channel.
 
-#### MessageProcessed
+#### MessageProcessed <small>Server</small>
 ```csharp
-// Server
 function MessageProcessed(Guid Guid, long Sender, long Channel, Tot_S_ChatHeader Headers, string Content);
 ```
 Called when a message has been sent through a channel. 
 
-### Tot_I_ChatCommand
+### Tot_I_ChatCommand <small>Server</small>
 Implemented by commands, which are either UObjects or Actors. Never call a command directly, commands should be executed by the `Tot_I_ChatUser`. 
 
-#### ExecuteCommand
+#### ExecuteCommand <small>Server</small>
 ```csharp
-// Server
 function ExecuteCommand(Name CommandRow, long sender, long channel, Tot_S_ChatHeader Headers, string[] Arguments);
 ```
 Channel is the channel UI from which the command was typed from. The Arguments are the message split by spaces, minus the words of the command that have been stripped from the beginning. The command row is simply the datatable row of the command.
@@ -236,9 +221,8 @@ Channel is the channel UI from which the command was typed from. The Arguments a
 ### Tot_I_ChatCommandHandler
 Command handlers are simply fallback mechanism. When no normal command has been found, the command is sent to the handlers that can choose or not to handle it. For example, Tot!Admin use this mechanic to turn a script into a command.
 
-#### HandleCommand
+#### HandleCommand <small>Server</small>
 ```csharp
-// Server
 function HandleCommand(Name Command, Name SubCommand, long Sender, long Channel, Tot_S_ChatHeader Headers, string[] Arguments, out bool Handled);
 ```
 Nothing out of the ordinary here, but the implementation should return true if the handler did handle the command, to prevent other handler from receiving it.
@@ -246,16 +230,14 @@ Nothing out of the ordinary here, but the implementation should return true if t
 ### Tot_I_ChatDisposableChannel
 Disposable channels are channels that will be checked every 30 minutes for auto-disposal. If your channel should be automatically destroyed under certain conditions, you should implement this interface. In ChatV2, Direct channels and Guild channels are set to be automatically destroyed after 3 days of non activity.
 
-#### CanBeGarbageCollected
+#### CanBeGarbageCollected <small>Server</small>
 ```csharp
-// Server
 function CanBeGarbageCollected(out bool ReturnValue);
 ```
 Can the channel be garbage collected? If true is returned, Collect Garbage will be called next.
 
-#### CollectGarbage
+#### CollectGarbage <small>Server</small>
 ```csharp
-// Server
 function CollectGarbage(out bool ReturnValue);
 ```
 When called your channel should do the necessary to remove itself from the database, and tie up all the loose ends before destroying itself.
@@ -263,38 +245,33 @@ When called your channel should do the necessary to remove itself from the datab
 ### Tot_I_ChatEntity
 Chat entities are the Server, the Channels or the Users. It's an abstract concept to group the management of the settings under the same UI/function calls. Every channel and Users should be implementing this interface.
 
-#### GetEntitySettings
+#### GetEntitySettings <small>Server</small>
 ```csharp
-// Server
 function GetEntitySettings(out Tot_S_ChatHeader ReturnValue);
 ```
 Get the entity settings. For detail about the Chat Headers, see the dedicated section.
 
-#### SetEntitySettings
+#### SetEntitySettings <small>Server</small>
 ```csharp
-// Server
 function SetEntitySettings(Tot_S_ChatHeader Settings);
 ```
 Set the entity settings, which can trigger a replication after a  (When implementing your channel, you should always put a delay before replicating to bundle up multiple calls into one replication). For detail about the Chat Headers, see the dedicated section.
 
-#### GetEntityType
+#### GetEntityType <small>Server</small>
 ```csharp
-// Server
 function GetEntityType(out Name ReturnValue);
 ```
 Entity type that correspond to the Entity Form row.
 
 
-#### GetEntityName
+#### GetEntityName <small>Server</small>
 ```csharp
-// Server
 function GetEntityName(out string ReturnValue);
 ```
 Display name of the entity, mostly for admin panel purposes.
 
-#### GetEntityUID
+#### GetEntityUID <small>Server</small>
 ```csharp
-// Server
 function GetEntityUID(out long ReturnValue);
 ```
 Simply return the UID of the entity in Integer 64 format. While implementing your entity, this is the Unique ID of your persistency component. You can convert it to Int64 using the helper function.
@@ -302,16 +279,14 @@ Simply return the UID of the entity in Integer 64 format. While implementing you
 ### Tot_I_ChatEntityForm
 Implement on UserWidgets form for a given entity. This is needed for the forms you declare in the entity form table. The form is a piece of UI that aim at editing the settings of an Entity. Settings are retrieved internally by the chat and the RPC is handled behind the scene, to be given to your form and retrieved on user save.
 
-#### SetSettings
+#### SetSettings <small>Client</small>
 ```csharp
-// Client
 function SetSettings(long EntityUID, Name EntityType, string EntityName, Tot_S_ChatHeader Settings);
 ```
 This will be called on your form to pass the data of the edited entity.
 
-#### GetSettings
+#### GetSettings <small>Client</small>
 ```csharp
-// Client
 function GetSettings(out Tot_S_ChatHeader Settings);
 ```
 This will be called on your form when the user press save.
@@ -319,105 +294,91 @@ This will be called on your form when the user press save.
 ### Tot_I_ChatServer
 Unlike in Chat V1, the server class has a more modest role. It's mostly there to store a bunch of server data and settings, take care of message caching and a few other things. It does not handle messages at all, as user send their messages directly to channels.
 
-#### GetRangesLength
+#### GetRangesLength <small>Server/Client</small>
 ```csharp
-// Server/Client
 function GetRangesLength(out int ReturnValue);
 ```
 Length of the Range List
 
-#### GetRangeAt
+#### GetRangeAt <small>Server/Client</small>
 ```csharp
-// Server/Client
 function GetRangeAt(int index, out Guid guid, out string Name, out Name Command, out float Range, out Color Color);
 ```
 Get the data of a range at a given index.
 
-#### GetRange
+#### GetRange <small>Server/Client</small>
 ```csharp
-// Server/Client
 function GetRange(Guid guid, out int index, out string Name, out Name Command, out float Range, out Color Color);
 ```
 Get the data of a range corresponding to a given index. Index is -1 if the Guid was not found.
 
-#### GetDefaultRange
+#### GetDefaultRange <small>Server/Client</small>
 ```csharp
-// Server/Client
 function GetDefaultRange(out Guid Guid);
 ```
 Get the default range (Which is always the first of the list)
 
-#### GetLanguageLength
+#### GetLanguageLength <small>Server/Client</small>
 ```csharp
-// Server/Client
 function GetLanguageLength(out int ReturnValue);
 ```
 Get the length of the Language List
 
-#### GetLanguageAt
+#### GetLanguageAt <small>Server/Client</small>
 ```csharp
-// Server/Client
 function GetLanguageAt(int index, out Guid Guid, out string Name, out Name Font, out bool Admin Only, out bool Universal, out float StartingKnowledge, out int LearningFraction, out float LearningPower);
 ```
 Get the data of a Language at a given index. Font is the row of the fantasy font used for scrambling, LearningFraction and Learning power are the two element of the Learning curve (x/Fraction^Power)
 
-#### GetLanguageAt
+#### GetLanguageAt <small>Server/Client</small>
 ```csharp
-// Server/Client
 function GetLanguageAt(Guid Guid, out int Index, out string Name, out Name Font, out bool Admin Only, out bool Universal, out float StartingKnowledge, out int LearningFraction, out float LearningPower);
 ```
 Get the data of a Language for a given Guid. Index is -1 if the Guid was not found.
 
-#### ExecuteCommand
+#### ExecuteCommand <small>Server</small>
 ```csharp
-// Server
 function ExecuteCommand(long sender, long channel, Name CommandRow, Tot_S_ChatHeader Headers, string[] Args);
 ```
 Should not be called directly. Command execution should be called from the User, or some of the code will be skipped. 
 
-#### GetMainChannels
+#### GetMainChannels <small>Server</small>
 ```csharp
-// Server
 function GetMainChannels(out Tot_I_ChatChannel MainGlobal, out Tot_I_ChatChannel MainLocal);
 ```
 Return the two main channels as defined by the staff. upon the first launch of Chat, the server will create both automatically, but they can be deleted by the staff or recreated/changed. Check for validity before handling them. It's okay for a system to refuse working if a main channel is not defined. ChatV2 does this for a couple commands.
 
-#### GetGuildChannelOrCreate
+#### GetGuildChannelOrCreate <small>Server</small>
 ```csharp
-// Server
 function GetGuildChannelOrCreate(Unique_ID GuildUniqueID, out Tot_I_ChatChannel ReturnValue);
 ```
 Does what it says. Will create a channel automatically if a given clan doesn't have one. A Guild channel is deleted after 3 days of inactivity (connection or messages)
 
-#### PushChannelCache
+#### PushChannelCache <small>Server</small>
 ```csharp
-// Server
 function PushChannelCache(Guid guid, long Sender, long Channel, Tot_S_ChatHeader headers, string Content);
 ```
 Push a chat message into the server cache. If you implement your own channel, and it should support channel cache, then every message should be pushed to the cache. The server will serve the cache on its own, with no involvement of the channel. The exception to this are Ranged channel, which cache their message on the client. So if `IsRanged` check in the Channel definition of the datatable, don't push cache on server.
 
-#### PurgeChannelCache
+#### PurgeChannelCache  <small>Server</small>
 ```csharp
-// Server
 function PurgeChannelCache(long Channel);
 ```
 Purge all the cache a server has for a given channel
 
-### Tot_I_ChatToolbox
+### Tot_I_ChatToolbox  <small>Client</small>
 Only available on Client. Find with `GetAllActorWithInterface`. Provide helper functions.
 
-#### ParseText
+#### ParseText  <small>Client</small>
 ```csharp
-// Client
 function ParseText(string Text, Tot_S_ChatHeader Headers, int LanguageSeed, float LanguageKnowledge, bool RemoveEmotes, out string ReturnValue, int[] InsertedItems, Name LanguageFont);
 ```
 Make use of the chat parser. While greatly optimized in comparison of the V1, this is still performed on Client for practical reason. And it is still and expensive operation, specially when it involved languages.  
 Languege font is provided as return, as it is used to access the datatable, to set the rich text default override to handle the font. Scrambled part of a message are the default text of a rich text, while clear speech is Content.Speech. This is what allow the Language Font API.   
 RemoveEmote is the behavior of the Bubble setting, which allow to hide emotes when requested by a user setting.
 
-#### SpawnUserBubble
+#### SpawnUserBubble  <small>Client</small>
 ```csharp
-// Client
 function SpawnUserBubble(Tot_I_ChatUser User, out Tot_I_ChatUserBubble ReturnValue);
 ```
 Spawn a bubble on a third party user. The actor need to have a Sudo nameplate. 
@@ -425,121 +386,104 @@ Spawn a bubble on a third party user. The actor need to have a Sudo nameplate.
 ### Tot_I_ChatUser
 A chat user. This can be a player, or an NPC. A User is **Always** an ActorComponent. When the User is ready to be found by `GetChatUser` among other systems, the component should set the Tag `TotChatUser` on his Actor tags. This is what allow the user to be found and listed.
 
-#### GetUserUID
+#### GetUserUID <small>Server/Client BPC Only</small>
 ```csharp
-// Server/Client(For BPC only)
 function GetUserUID(out int ReturnValue);
 ```
 Unique_ID of the user, directly converted from the persistency.
 
-#### GetUserName
+#### GetUserName <small>Server/Client BPC Only</small>
 ```csharp
-// Server/Client(For BPC only)
 function GetUserName(out string ReturnValue);
 ```
 Get the display name of the User, as displayed in the chat when posting. For BPC, this is a simply shortcut to Sudo's Display Name API call.
 
-#### GetUserTransform
+#### GetUserTransform <small>Server/Client BPC Only</small>
 ```csharp
-// Server/Client(For BPC only)
 function GetUserTransform(out Transform ReturnValue);
 ```
 Get the Actor transform of the user. This is used by Ranged channel to check for the range.
 
-#### GetKnownLanguageLength
+#### GetKnownLanguageLength <small>Server</small>
 ```csharp
-// Server
 function GetKnownLanguageLength(out int ReturnValue);
 ```
 Length of the Known Language list
 
-#### GetKnownLanguage
+#### GetKnownLanguage <small>Server</small>
 ```csharp
-// Server
 function GetKnownLanguage(Guid guid, out float Knowledge, out int index);
 ```
 Get the current knowledge of a language from 0 to 1. Index is -1 if Guid is not found.
 
-#### GetKnownLanguageAt
+#### GetKnownLanguageAt <small>Server</small>
 ```csharp
-// Server
 function GetKnownLanguageAt(int index, out float Knowledge, out Guid Guid);
 ```
 Get the current knowledge of a language at a given index
 
-#### SetKnownLanguage
+#### SetKnownLanguage <small>Server</small>
 ```csharp
-// Server
 function SetKnownLanguage(Guid guid, float Knowledge, out int index);
 ```
 Set the current knowledge of a language, and return the index
 
-#### RemoveKnownLanguage
+#### RemoveKnownLanguage <small>Server</small>
 ```csharp
-// Server
 function RemoveKnownLanguage(Guid guid);
 ```
 Remove the language knowledge if the user has any
 
-#### MessageReceived
+#### MessageReceived <small>Server</small>
 ```csharp
-// Server
 function MessageReceived(Guid guid, long sender, long Channel, Tot_S_ChatHeader Headers, string Content);
 ```
 Called by a channel when receiving a message, or can be called directly to send notifications for example.
 
-#### TSignalReceived
+#### TSignalReceived <small>Server</small>
 ```csharp
-// Server
 function TSignalReceived(long Sender, long Channel, Tot_S_ChatHeader Headers);
 ```
 Called to transmit a typing signal to the user. I don't believe this will ever be used outside the Chat own needs, but it's there because the chat use its own API. A Typing signal last for 5 second.
 
-#### SendMessageAsUser
+#### SendMessageAsUser <small>Server</small>
 ```csharp
-// Server
 function SendMessageAsUser(Guig guid, long Channel, Tot_S_ChatHeader Headers, string Content);
 ```
 Send a message as if sent by the user. Do not send commands through there, it's already too late in the chain.
 
-#### BindObserver
+#### BindObserver <small>Server</small>
 ```csharp
-// Server
 function BindObserver(Tot_I_ChatUserObserver Observer);
 ```
 Bind an observer to receive the message sent/received by the User. Your observer will be reported in the server log along with the path of its class for accountability.
 
-#### UnbindObserver
+#### UnbindObserver <small>Server</small>
 ```csharp
-// Server
 function UnbindObserver(Tot_I_ChatUserObserver Observer);
 ```
 Unbind a previously bound observer from the user. Don't forget to unbind your observer or EndPlay/Destroy of your object.
 
-#### OpenConnectedChannel
+#### OpenConnectedChannel <small>Server</small>
 ```csharp
-// Server
 function OpenConnectedChannel(long channel, bool ForceSwitch, string SavedPassword);
 ```
 Called by channels upon successful connection. This effectively open a new channel on the UI for human users, and the ForceSwitch will switch the channel upon opening.
 
-#### ChannelSettingsChanged
+#### ChannelSettingsChanged <small>Server</small>
 ```csharp
-// Server
 function ChannelSettingsChanged(long channel, Tot_S_ChatHeader Settings);
 ```
 Called by channel on their connected users, whenever the channel has received a change to its settings.
 
-#### CloseDisconnectedChannel
+#### CloseDisconnectedChannel <small>Server</small>
 ```csharp
-// Server
 function CloseDisconnectedChannel(long channel);
 ```
 Called by channels upon user disconnect, which effectively close the channel from the UI for human users.
 
-#### ServerSettingsChanged
+#### ServerSettingsChanged <small>Server</small>
 ```csharp
-// Server
 function ServerSettingsChanged(Tot_S_ChatHeader Settings);
 ```
 Called by the server to every user with the `TotChatUser` tag on their actor, whenever the server has received a change to its settings. (This does not include changes to Range/Languages)
@@ -547,23 +491,20 @@ Called by the server to every user with the `TotChatUser` tag on their actor, wh
 ### Tot_I_ChatUserBubble
 Interface for the Speech Bubble. Only present on a client as an ActorComponent.
 
-#### MessageReceived
+#### MessageReceived <small>Client</small>
 ```csharp
-// Client
 function MessageReceived(Guid Guid, long Sender, long Channel, long Recipient, Tot_S_ChatHeader headers, string Content);
 ```
 Send a message to the bubble only. This will only work for the MainLocal channel, and if the Recipient is equal to the ChatUser UID located on the same actor.
 
-#### TSignalReceived
+#### TSignalReceived <small>Client</small>
 ```csharp
-// Client
 function TSignalReceived(long Sender, long Channel, long Recipient, Tot_S_ChatHeader headers);
 ```
 Typing signal for bubbles.
 
-#### GetEffectiveRange
+#### GetEffectiveRange <small>Client</small>
 ```csharp
-// Client
 function GetEffectiveRange(out float ReturnValue);
 ```
 Return the range at which the bubble should be seen given its content. This includes the biggest effective range in its current messages, and the range of the typing indicator. 
@@ -571,16 +512,14 @@ Return the range at which the bubble should be seen given its content. This incl
 ### Tot_I_ChatUserObserver
 Observer for a User. 
 
-#### UserReceivedMessage
+#### UserReceivedMessage <small>Server</small>
 ```csharp
-// Server
 function UserReceivedMessage(Guid Guid, long Sender, long Channel, long Recipient, Tot_S_ChatHeader headers, string Content);
 ```
 Called whenever a bound user receive a message. This includes edition of past messages.
 
-#### UserSentMessage
+#### UserSentMessage <small>Server</small>
 ```csharp
-// Server
 function UserSentMessage(Guid Guid, long Sender, long Channel, Tot_S_ChatHeader headers, string Content);
 ```
 Message sent by the user. This does not include edition emitted, as those take another route entirely, and skip channels to go directly to users as a global message, regardless of its original channel.
@@ -588,16 +527,14 @@ Message sent by the user. This does not include edition emitted, as those take a
 ### Tot_I_ChatMessageAction
 Implemented on the components on the main client BasePlayerChar, this can be used to insert menu elements in every chat messages.
 
-#### GetActionMenuRow
+#### GetActionMenuRow <small>Server</small>
 ```csharp
-// Server
 function GetActionMenuRow(long AuthorUID, Tot_S_ChatHeader Headers, out Name MenuKey, out string MenuLabel);
 ```
 This is called when the menu is built, to insert menu elements into menu. Return None as a MenuKey to not insert anything.
 
-#### OnActionClicked
+#### OnActionClicked <small>Server</small>
 ```csharp
-// Server
 function OnActionClicked(Name MenuKey, long AuthorUID, Tot_S_ChatHeader Headers, Widget ButtonWidget);
 ```
 Called when third party action is clicked, to perform the action. The button widget is here as a reference to use as an anchor for popups or similar effects.
