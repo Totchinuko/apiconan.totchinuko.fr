@@ -39,7 +39,7 @@
 - Fixed blank chat window when the server is set to character remain in the world when players are logged off.
 - Fixed Sippy's card categories
 - Fixed various typos
-- Fixed various formating issues in non IC channels and OOC messages
+- Fixed various formatting issues in non IC channels and OOC messages
 - Fixed Ranged chat always using the default range no matter what was selected by the user.
 - Fixed an issue that would scramble messages, even without any language present
 - Fixed invisible chat windows interfering with other UI such as the Radial Wheel
@@ -52,3 +52,15 @@
 
 ## 2.0.19
 - Added a popup and setting to choose whether you want to keep the Vanilla chat active alongside Tot!Chat, with instructions on how to configure your inputs. This setting is saved on a per-server basis.
+
+## 2.0.26
+- Added Catppucin Mocha Theme
+- Increased maximum font scale to 2, and added a slider to configure the typing area font scale
+- Fixed an issue that prevented the Chat Window from popping up when a message is received in the current channel
+- Fixed an issue that prevented to close a popup with Escape, when the typing area is focus in the background
+- Fixed the presence of message parsing on messages containing a third party style
+- Fixed notifications that could be mentioned
+- Fixed cases where the character name would not be displayed when it should
+- Fixed the setting Display Bubble having no effect
+- Fixed nameplate visibility range inconsistencies.
+- Fixed Guild(Clan) channels getting scrapped for inactivity much sooner than they are supposed to.

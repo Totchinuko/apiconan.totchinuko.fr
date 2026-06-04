@@ -19,11 +19,11 @@
 - Renamed Torch accessory variations Legacy Torches.
 - Added Enhanced version of the accessory Torch
 - Fixed Rigid accessories not working properly
-- Mitigated an issue resetting the Character Body Sliders when sitting on a chair or use vanilla interactable in general. This issue exists even in vanilla with the vanilla skin, only it resolve itself when standing up. I can't fix the root issue of this since it's in protected game code, so for now the character sliders will be reapplied when standing up as well.
+- Mitigated an issue resetting the Character Body Sliders when sitting on a chair or use vanilla intractable in general. This issue exists even in vanilla with the vanilla skin, only it resolve itself when standing up. I can't fix the root issue of this since it's in protected game code, so for now the character sliders will be reapplied when standing up as well.
 - Fixed an issue that opened both panels at the same time.
 - Fixed UI freaking out when trying to open the panel while the UI of the game is hidden.
 - Fixed Torch Flame Model/Glow
-- Fixed Gem/Algea glow
+- Fixed Gem/Algae glow
 - Improve panel switch to prevent a few known issues
 - Improved character neck seam
 - Fixed some vanilla makeup not applying to right areas of the face
@@ -49,4 +49,19 @@
 - Fixed pasting a color not refreshing the color preview.
 
 ## 1.10.13
-- Added Glow Exposure sliders to the Right Eye, Left Eye, Makeup, Warpaints and Blood, to control how much the glow affect the exposure. At 0, glow would follow exposure entirely, glowing weakly in day time. At 1, the glow will stay consistent regardless of the current light condition. 
+- Added Glow Exposure sliders to the Right Eye, Left Eye, Makeup, Warpaint and Blood, to control how much the glow affect the exposure. At 0, glow would follow exposure entirely, glowing weakly in day time. At 1, the glow will stay consistent regardless of the current light condition. 
+
+## 1.10.18
+- Added alpha to Hairline color, Beard line and Brows color
+- Added a hairline shine slider that control the shine of Hairline and beard line
+- Fixed accessory export missing some data
+- Fixed the broken export of armors. Much data was missing as it had not been upgraded, and it kept outputting outdated data.
+- Fixed character copy-paste failing to restoring armor colors
+- Fixed pasting armor/accessory color not setting the color properly if it had never been modified from its default
+- Fixed stuck No Combat Mode when it is on before login 
+- Fixed hands with Cleaned Male Skin
+- Fixed input key to clear the current pose
+- Fixed seating snapping
+- Fixed character loosing its head when zooming
+- Fixed footprints changing size with Calf size
+- Fixed glitchy eyebrow tracks
