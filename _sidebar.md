@@ -29,6 +29,7 @@
     - [Tot!Chat](chat.enhanced.md)
     - [Tot!Admin](admin.enhanced)
     - [Tot!Admin Scripting](admin.scripting.enhanced)
+    - [Tot!Custom](custom.enhanced)
 - Patch Notes (Enhanced)
     - [Sudo](patches/sudo.enhanced) 
     - [Chat](patches/chat.enhanced) 
