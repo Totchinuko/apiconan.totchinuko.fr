@@ -543,9 +543,9 @@ Set an Integer as a Numeric return. Will be converted automatically if the retur
 ## Variable Types
 Bellow you'll find all the variable types declared and used by Tot!Admin. I'm open to suggestion to add more that could be used by the many, even if !Admin itself don't make use of them.
 
-[Tot_DT_EnhancedAdminFlowChartFields.csv](/API/Tot_DT_EnhancedAdminFlowChartFields.csv ':ignore')
+[Tot_DT_EnhancedAdminFlowChartVariables.csv](/API/Tot_DT_EnhancedAdminFlowChartVariables.csv ':ignore')
 
 ## Field Types
 Bellow you'll find most of the field already built in Tot!Admin that you can use in your parameters
 
-[Tot_DT_EnhancedAdminFlowChartVariables.csv](/API/Tot_DT_EnhancedAdminFlowChartVariables.csv ':ignore')
+[Tot_DT_EnhancedAdminFlowChartFields.csv](/API/Tot_DT_EnhancedAdminFlowChartFields.csv ':ignore')
