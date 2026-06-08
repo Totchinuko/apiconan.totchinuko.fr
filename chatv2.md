@@ -366,6 +366,12 @@ function PurgeChannelCache(long Channel);
 ```
 Purge all the cache a server has for a given channel
 
+#### GetValidChatCommandRows
+```csharp
+function GetValidChatCommandRows(out Name[] ReturnValue);
+```
+Get the list of enabled commands on the server. This exclude any command that would have been disabled by server admins. The array contains the row keys of the command data table.
+
 ### Tot_I_ChatToolbox  <small>Client</small>
 Only available on Client. Find with `GetAllActorWithInterface`. Provide helper functions.
 
