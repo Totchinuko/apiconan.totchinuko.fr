@@ -28,7 +28,7 @@ If you do not follow those guidelines, whenever we update the API files, your mo
 
 - [Tot!Sudo 1.3.29](/API/SudoExile.1.3.29.UE5.zip ':ignore')
 - [Tot!Chat 2.0.28.Beta](/API/TotChat.2.0.28.UE5.zip ':ignore')
-- Tot!Admin - Unreleased at this moment
+- [Tot!Admin 0.9.3.alpha](/API/TotAdmin.0.9.3.UE5.zip ':ignore')
 - [Tot!Custom 1.10.13](/API/TotCustom.1.10.13.UE5.zip ':ignore')
 - iHUD - Unreleased at this moment
 - Roleplay Redux - Unreleased at this moment
