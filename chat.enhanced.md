@@ -1,4 +1,4 @@
-# Tot ! Chat V2 API
+# Tot ! Enhanced Chat API
 
 ## API Download
 [API Download Page](api-download)
