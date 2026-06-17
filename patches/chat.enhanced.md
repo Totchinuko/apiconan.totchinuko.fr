@@ -64,3 +64,9 @@
 - Fixed the setting Display Bubble having no effect
 - Fixed nameplate visibility range inconsistencies.
 - Fixed Guild(Clan) channels getting scrapped for inactivity much sooner than they are supposed to.
+
+## 2.0.28
+- Added an Active Command panel, to disable commands. This will allow you to resolve conflicts between mod commands, and choose which one should be used, as well as replacing commands with !Admin scripts.
+- Improved vanilla setting management
+- Improved chat input field scrolling
+- Fixed various typos

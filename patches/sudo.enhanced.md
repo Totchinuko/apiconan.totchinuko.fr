@@ -33,3 +33,9 @@
 ## 1.3.29
 - Improved the placement of Contextual containers/menus
 - Added a (convoluted) way to change the game's cursor. It requires you to install a png in your game's folder, but if like me you don't like the huge cursor, there are options now.
+
+## 1.3.32
+- Fixed nameplate not showing up
+- Fixed light overrides that made caves too bright
+- Fixed various typo
+- Improved the glow slider on color pickers

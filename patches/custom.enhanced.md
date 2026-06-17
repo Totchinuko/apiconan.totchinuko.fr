@@ -65,3 +65,7 @@
 - Fixed character loosing its head when zooming
 - Fixed footprints changing size with Calf size
 - Fixed glitchy eyebrow tracks
+
+## 1.10.20
+- Fixed customize command opening on target
+- Fixed partial body icons appearing as full bodies 
