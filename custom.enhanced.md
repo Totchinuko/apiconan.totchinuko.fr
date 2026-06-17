@@ -106,6 +106,20 @@ Here is a list of the content tags:
 - `TotCustom.Scars`
 - `TotCustom.Makeups`
 
+## Material Override
+In order to provide all the effects that Custom provide, and be compatible with a wide range of external content, !Custom override the materials of the models dynamically with its own. For this, Custom must identify the nature of a Material, so that it can choose the perfect replacement. If your skin or hair material, is based on vanilla ones, Custom should be able to recognize them automatically, but in the case where you wish Custom to be compatible while having custom material the rest of the time, you can use the following keywords, directly in the file name of your material:
+
+- `__TCHand` For hand skin 
+- `__TCBody` For body skin
+- `__TCHead` For head skin
+- `__TCSkin` For alternative body skin, such as the Flat Chest. This will skip body skin replacement parameters from Custom to preserve the custom textures.
+- `__TCArmor` For Armor materials
+- `__TCHair` For hairs
+- `__TCFur` For Fur on Armor (Hair shader for armor fur)
+- `__TCBeard` For beards
+
+Simply add these to your file names, and Custom should be able to identify and categorize them accordingly. If you have active scripts that in normal time, dynamically change parameters, it is best to deactivate them when Custom is present, if you wish to be compatible. Otherwise both would fight for the right to apply a parameter.
+
 ## Accessory Guide
 
 ### Simple Movable Accessory
