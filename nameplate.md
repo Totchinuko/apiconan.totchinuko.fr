@@ -130,6 +130,8 @@ Is this nameplate active or not.
 ## Tot_I_NameplateElement <small>Client</small>
 Interface implement by sub-widgets of the nameplate. This is not mandatory, but is strongly advised.
 
+!> When your Element has nothing to show, or should not be visible for any reason, it should turn it's main widget visibility to collapsed. This is because the nameplate check the visibility of all its inner children to decide if it should show up at all. If all the child are not visible, then the main plate will not either.
+
 ### NameplateTick
 ```csharp
 function NameplateTick(Tot_I_NameplateBase BaseNameplate);
