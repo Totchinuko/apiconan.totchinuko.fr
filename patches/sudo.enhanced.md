@@ -39,3 +39,7 @@
 - Fixed light overrides that made caves too bright
 - Fixed various typo
 - Improved the glow slider on color pickers
+
+## 1.3.36
+- Improved background caches to avoid generating object garbage, to improve server crashes tied to object instantiation. This does not address the root of the issue, but it certainly will make it better.
+- Fixed mod map markers displayed on wrong region when updated

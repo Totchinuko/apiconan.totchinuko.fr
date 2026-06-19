@@ -70,3 +70,8 @@
 - Improved vanilla setting management
 - Improved chat input field scrolling
 - Fixed various typos
+
+## 2.0.31
+- Fixed act name not displaying in the input textbox as hint
+- Fixed a few issues with Sippy
+- Fix scrolling issues with settings

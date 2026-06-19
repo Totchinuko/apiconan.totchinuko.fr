@@ -27,3 +27,6 @@
 - Fixed Puppet/NPC emotes not playing
 - Fixed scripted chest wrong password event
 - Fixed Warp HUB map and added region selector
+
+## 0.9.7
+- Fixed a corrupted AI behavior tree for spawned NPC, that could have resulted in many issues. (It's unclear what this might fix, as this corruption straight up crashed my modkit, while the live game didn't seem to care)

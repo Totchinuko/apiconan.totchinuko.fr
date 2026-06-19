@@ -69,3 +69,9 @@
 ## 1.10.20
 - Fixed customize command opening on target
 - Fixed partial body icons appearing as full bodies 
+
+## 1.10.25
+- Rewrote how body/armor materials are categorized and how the parameters are applied. This was a big rework, basically rebuilding some of the backbone of the mod, but a necessary one. This should lead to some very significant performance improvement, specially when editing bodies, armors and accessories. In some cases, performance have been multiplied by 10 while picking a color or dragging a slider, turning a low FPS slog into hopefully, a barely noticeable hit.
+- Other smaller optimizations here and there
+- Fixed newly created character not having the right hairline
+- Fixed the order of following skin layers, to match how it was on Legacy: Warpaints, Complexion, Makeup, hairline, beard line, eyebrows.
