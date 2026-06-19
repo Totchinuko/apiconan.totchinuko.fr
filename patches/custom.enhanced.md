@@ -75,3 +75,6 @@
 - Other smaller optimizations here and there
 - Fixed newly created character not having the right hairline
 - Fixed the order of following skin layers, to match how it was on Legacy: Warpaints, Complexion, Makeup, hairline, beard line, eyebrows.
+
+## 1.10.26
+- Fixed material replacement for various broken instances, notably with other mods. 
