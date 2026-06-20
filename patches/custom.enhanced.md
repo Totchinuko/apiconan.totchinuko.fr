@@ -78,3 +78,10 @@
 
 ## 1.10.26
 - Fixed material replacement for various broken instances, notably with other mods. 
+
+## 1.10.28
+- More fixes of non functional materials
+- Fixed skin shine slider
+- Fixed warpaint glow being stronger on the face
+- Fixed accessory model selection not updating when selecting different kind of accessories.
+- Fixed skin color not apply to some type of accessories
