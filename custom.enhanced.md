@@ -117,6 +117,7 @@ In order to provide all the effects that Custom provide, and be compatible with 
 - `__TCHair` For hairs
 - `__TCFur` For Fur on Armor (Hair shader for armor fur)
 - `__TCBeard` For beards
+- `__TCFull` For accessories. Normally accessories don't support things like body hair or scars. Add this to your material name, and they should support the full set of body effects.
 
 Simply add these to your file names, and Custom should be able to identify and categorize them accordingly. If you have active scripts that in normal time, dynamically change parameters, it is best to deactivate them when Custom is present, if you wish to be compatible. Otherwise both would fight for the right to apply a parameter.
 
