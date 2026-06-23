@@ -85,3 +85,14 @@
 - Fixed warpaint glow being stronger on the face
 - Fixed accessory model selection not updating when selecting different kind of accessories.
 - Fixed skin color not apply to some type of accessories
+
+## 1.10.31
+- Updated the hair shader to the latest version of the game
+- Implemented the new beard shader
+- Separated the Beard line color from the Beard actual color
+- Added shine sliders for beard
+- Removed detail slider for hairs (It did nothing since the transition to Enhanced)
+- Fixed eyelashes parameters
+- Fixed mannequins having weird forearms.
+- Fixed mannequins sometimes having a real head
+- Fixed beard color inconsistencies when swapping models.

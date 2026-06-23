@@ -75,3 +75,8 @@
 - Fixed act name not displaying in the input textbox as hint
 - Fixed a few issues with Sippy
 - Fix scrolling issues with settings
+
+## 2.0.33
+- Added setting to disable the chat blur backdrop
+- Fixed some graphical issues with the Conan theme
+- Fixed some cases where the language font would not apply properly
