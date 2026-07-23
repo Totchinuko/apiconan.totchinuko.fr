@@ -397,6 +397,22 @@ function GetReturnVarType(Name parameterKey, out Name type, out bool isArray);
 ```
 Get the type of a variable inserted in a return. This is only useful if your return is a wildcard type, to identify what type of variable the user has inserted.
 
+#### IsScriptPaused
+```csharp
+function IsScriptPaused(out bool ReturnValue);
+```
+Return if this script instance is currently paused or not.
+
+### Tot_I_FlowChartManager
+Sit on a server side Actor, currently only useful to search existing script stacks.
+
+#### FindStack
+```csharp
+function FindStack(Guid FlowChartGuid, Guid StackGuid, out Tot_I_FlowChartStack ReturnValue, out bool Found);
+```
+Get the reference to an existing script stack. This can be useful to resume a script that has been paused by it's ids. You can get the FlowChartGuid and StackGuid through the stack API, when one of your nodes is running.
+This is for example used by !Admin dialogue system to unpause the correct script instance after the user answered.
+
 ### Tot_I_FlowChartVariable
 `/Game/ModsShared/SudoExile/TotAdmin/Tot_I_FlowChartVariable`  
 This interface is used for variable validators. If you ever need to create your own type of variable, you'll need to provide a class that implement this interface. If your type could be useful for other modders, concider instead making a suggestion for its addition to Tot!Admin, so that everyone can use it as a common bit of data.
