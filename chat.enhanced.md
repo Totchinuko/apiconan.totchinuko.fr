@@ -578,6 +578,7 @@ Here is the following values used by ChatV2, but your own channels may use whate
 - `UnderstandEverything` (Bool, False) - Disable the scrambling of all languages, effectively setting all his message Knowledge to 1.0.
 - `Silenced` (Bool, False) - Prevent a user from posting anything, save for commands.
 - `Seed` (Int, Random) - A seed generated on first connection, used to generate pseudo-random elements, such as the language scrambler. This should never be changed for any reason.
+- `PreventEdit` (Bool, False) - Disable the option for a user to edit one of his own message. If for some reason you need to push a message with the user id, you can prevent them from editing with this toggle.
 
 ### Channel Settings
 - `Password` (String, "") - Set a password for the channel. It's up to the channel to check on connection that the password is indeed valid.
