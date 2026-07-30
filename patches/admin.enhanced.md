@@ -30,3 +30,15 @@
 
 ## 0.9.7
 - Fixed a corrupted AI behavior tree for spawned NPC, that could have resulted in many issues. (It's unclear what this might fix, as this corruption straight up crashed my modkit, while the live game didn't seem to care)
+
+## 0.9.15
+- Modified the way player names are displayed in the Admin map. Instead of a being a simple hover, the system now list the players present in a radius around the cursor, preventing icons from occluding each other.
+- Fixed scripted chests that couldn't be looted when Storage ignore ownership was disabled.
+- Fixed several issues with treasure carry nodes
+- Fixed home listing formatting
+- Fixed spawner not spawning anything on server start
+- Fixed the heatmap sometimes not displaying counts of things.
+- Fixed formatting issues in quest objectives
+- Fixed more instances of log spamming
+- Fixed weather settings in the cheat panel. There are still some transition issues, but I don't control these, and the bug is also present with the vanilla admin panel.
+- Fixed more text clipping issues

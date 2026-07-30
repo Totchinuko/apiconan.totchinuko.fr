@@ -96,3 +96,15 @@
 - Fixed mannequins having weird forearms.
 - Fixed mannequins sometimes having a real head
 - Fixed beard color inconsistencies when swapping models.
+
+## 1.10.38
+- Improved the radium gem lantern to be brighter
+- Improved the item ban list, to only add items that are not already in the list
+- Custom now does not force disable the game legs IK, only when the legs, pelvis or b_root are modified in Poses (as it would bug horribly). However, many other mods still do, so while that one less barrier, there is still some remaining.
+- Fixed compatibility with other mods implementing custom armor shaders (Such as Agony's Attic)
+- Implementing metal roughness control for armors that implement the custom armor shaders
+- Fixed partial body preview sometimes not apply the correct values
+- More fixes to the material color picker
+- Fixed the dyed mode for Quartz that has changed with the last Conan update.
+- Fixed flat chest not having the same glow strength as the rest of the body
+- Fixed hairline shine being inverted. This will likely affect up your existing bodies.

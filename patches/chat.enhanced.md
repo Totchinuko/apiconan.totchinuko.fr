@@ -80,3 +80,9 @@
 - Added setting to disable the chat blur backdrop
 - Fixed some graphical issues with the Conan theme
 - Fixed some cases where the language font would not apply properly
+
+## 2.0.40
+- Added a setting to disable message spawn animation
+- Fixed global channel join/left notification triggering when a character die
+- Fixed chat export missing a scroll bar
+- Fixed cases where the Chat windows would remain visible over other UI when it should not.
