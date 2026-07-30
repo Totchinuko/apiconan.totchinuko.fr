@@ -108,3 +108,9 @@
 - Fixed the dyed mode for Quartz that has changed with the last Conan update.
 - Fixed flat chest not having the same glow strength as the rest of the body
 - Fixed hairline shine being inverted. This will likely affect up your existing bodies.
+
+## 1.10.39
+- Added skin micro-detail sliders
+- Added optional setting to disable everyone else legs IK
+- Fixed re-orderable list not displaying correct selection
+- Improved re-orderable list drag and drop behavior

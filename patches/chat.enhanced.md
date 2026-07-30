@@ -86,3 +86,17 @@
 - Fixed global channel join/left notification triggering when a character die
 - Fixed chat export missing a scroll bar
 - Fixed cases where the Chat windows would remain visible over other UI when it should not.
+
+## 2.0.41
+- Added an optional range background color to messages
+- Changed the typing area for a more stable experience  
+I've remove the scroll bar entirely, which was causing a lot of engine problems such as flickering when coupled with font scaling for the typing area (which was broken until now). Now, the scroll is gone, but the text can still be navigated with the keyboard arrows, page up/down, or home/end for example. I'd like to offer better, but I'm limited with what the engine gives me, and this is so far the less buggy experience. I'll be monitoring how this perform.
+- Players with the Chat Moderator permission, now appear on top of list in the channel open panel, under a staff sub-category.
+- Fixed the typing indicator of the chat only ever displaying one character or nothing.
+- Fixed typing font size setting
+- Fixed the Learning Progression checkbox not reflecting the saved data
+- Fixed the missing name on the server join notification
+- Fixed an issue preventing the edition of the last message with the up arrow, just after sending an edition.
+- Fixed focus mode displaying the wrong selection of users when reopening the panel
+- Fixed bubbles displaying leading/trailing new lines when emotes are hidden.
+- Fixed bubbles displaying an empty message when the user post OOC

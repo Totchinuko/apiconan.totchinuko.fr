@@ -42,3 +42,8 @@
 - Fixed more instances of log spamming
 - Fixed weather settings in the cheat panel. There are still some transition issues, but I don't control these, and the bug is also present with the vanilla admin panel.
 - Fixed more text clipping issues
+
+## 0.9.16
+- Added many log report around spawners and Customized NPC kills to try to find where the crash happen
+- Attempting to improve the reliability of Warps on busy servers (namely client lags)
+- More fix to quest text formatting
