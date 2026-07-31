@@ -116,6 +116,13 @@ Second part of creating a theme, each row is a theme.
 - CornerRadius - This should **Always** be the corner radius defined in your BackgroundA/B brush, as it drive the corner radius of the blur effect.
 - SpeechColor - The default color of speech in text. This should be the same as the one defined in `Content.Speech` of your style. It is used to color scrambled languages.
 
+
+### Tot_DT_ChatEavesdropSourceTable
+Implement your own source of chance for Eavesdropping. Each row is a distinct mechanic, coupled with `Tot_I_ChatEavesdropSource` implementation on a BPC Component.
+
+- ComponentTag: The ComponentTag that will be search for your BPC component when a message need to check for eavesdrop success.
+- DisplayName: UI name of your source.
+
 ## Interfaces
 
 ### Tot_I_ChatChannel
@@ -302,13 +309,13 @@ Length of the Range List
 
 #### GetRangeAt <small>Server/Client</small>
 ```csharp
-function GetRangeAt(int index, out Guid guid, out string Name, out Name Command, out float Range, out Color Color);
+function GetRangeAt(int index, out Guid guid, out string Name, out Name Command, out float Range, out float AddedEavesdropRange, out Color Color);
 ```
 Get the data of a range at a given index.
 
 #### GetRange <small>Server/Client</small>
 ```csharp
-function GetRange(Guid guid, out int index, out string Name, out Name Command, out float Range, out Color Color);
+function GetRange(Guid guid, out int index, out string Name, out Name Command, out float Range, out float AddedEavesdropRange, out Color Color);
 ```
 Get the data of a range corresponding to a given index. Index is -1 if the Guid was not found.
 
@@ -545,6 +552,22 @@ function OnActionClicked(Name MenuKey, long AuthorUID, Tot_S_ChatHeader Headers,
 ```
 Called when third party action is clicked, to perform the action. The button widget is here as a reference to use as an anchor for popups or similar effects.
 
+### Tot_I_ChatEavesdropSource
+Implement that on a BPC Component, and don't forget to add the tag declared in `Tot_DT_ChatEavesdropSourceTable` to your component.
+
+#### IsSuccessEavesdrop <small>Server</small>
+```csharp
+function IsSuccessEavesdrop(Name EavesdropTag, Tot_I_ChatChannel Channel, Tot_I_ChatUser Recipient, ChatHeaders Headers, string Content, out bool IsSuccess);
+```
+Called each time eavesdropping is possible, and your source is the one configured for the given channel. If the call return IsSuccess=true, the message will be heard by the recipient as an eavesdrop.
+
+- EavesdropTag: The current source component tag that is being used.
+- Channel: Current chat channel the eavesdrop is happening on. This is always a Local channel.
+- Recipient: Ref. of the recipient of the message.
+- Headers: Current headers of the message, these can be modified by reference.
+- Content: Content of the message, which can be modified by reference.
+
+
 ## Chat Headers
 Chat headers are simply how the chat store most of its Key/Value data. It's used for Entity settings, such as the server, the users or the channels, but also as message headers or typing signals.  
 Here is the following values used by ChatV2, but your own channels may use whatever they wish. Avoid making headers too crowded, they are replicated after all and should stay as lean as possible.
@@ -573,6 +596,7 @@ Here is the following values used by ChatV2, but your own channels may use whate
 - `EffectiveRange` (Float, 0) - Added by Ranged Channels, to store the retrieved range from the server settings at the time of posting. Can be used by notifications before posting to manually specify a range that is not part of the server Range collection.
 - `RangeTag` (String, "") - Feed the range tag of a message with arbitrary text. it will take the color of the PrintLevel, and override the actual range of a message, even if specified.
 - `PopNotification` (Boolean, False) - Display the message as a brief popup on the first chat window, and does not generate any chat log or client cache. This should never be used through a channel that might cache the message.
+- `Eavesdrop` (Boolean, False) - Added to headers when an Eavesdrop was successful. 
 
 ### User Settings
 - `UnderstandEverything` (Bool, False) - Disable the scrambling of all languages, effectively setting all his message Knowledge to 1.0.
@@ -589,6 +613,8 @@ Here is the following values used by ChatV2, but your own channels may use whate
 - `UseLanguage` (Bool, False) - Toggle the use of languages on a channel
 - `UseICFeatures` (Bool, False) - Toggle IC Features on a channel, which include emotes and emote commands.
 - `OwnerUID` (Integer64, 0) - The owner of the channel. Owner can open the channel player list, kick users out of it, and change the password. Every chat moderator is considered owner of every channel.
+- `Eavesdrop` (String, "NoEavesdrop") - Eavesdrop mode for the given channel, only available for Local channels
+- `RandomEavesdropChance` (Float, 0.0) - Chance (from 0.0 to 1.0) to overhear a message if the Eavesdrop mode is configured on Random.
 
 ### Server Settings
 - `GuildLocked` (Bool, False) - Can users post in any clan channel? Moderators ignore this
