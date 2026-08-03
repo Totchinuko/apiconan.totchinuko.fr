@@ -501,6 +501,12 @@ function ServerSettingsChanged(Tot_S_ChatHeader Settings);
 ```
 Called by the server to every user with the `TotChatUser` tag on their actor, whenever the server has received a change to its settings. (This does not include changes to Range/Languages)
 
+#### GetMainLocalClientRange <small>Client</small>
+```csharp
+function GetMainLocalClientRange(out Guid guid, out string Name, out Name Command, out float Range, out float AddedEavesdropRange, out Color Color);
+```
+Return the range information selected on the main local channel of the user.
+
 ### Tot_I_ChatUserBubble
 Interface for the Speech Bubble. Only present on a client as an ActorComponent.
 
