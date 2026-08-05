@@ -35,4 +35,5 @@ If you do not follow those guidelines, whenever we update the API files, your mo
 - [Decoration Handler 2.2.2](/API/TotPH.2.2.2.UE5.zip ':ignore')
 - [CrossModEvents](/API/Lib.CrossModEvents.UE5.zip ':ignore')
 - MathSolver - Unreleased at this moment
+- [Tot!Mods UI Palette](/API/Tot_W_Component_Gallery_UE5V2.uasset ':ignore')(If you wish your UI to match more closely sudo's UI, those are the design guidelines, you can put that anywhere, but it requires Sudo's API)
 - [Flat Chest Redux Files](/API/FlatChestReduxEnhanced.7z ':ignore') (If you want custom to swap the material correctly, your material name should contain FlatChestCustomOverride)
