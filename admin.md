@@ -4,7 +4,7 @@
 [API Download Page](api-download)
 
 ## Scripting
-Scripting has [its own dedicated page](scripting).
+Scripting has [its own dedicated page](admin.scripting).
 
 ## Move Tool Tags
 Adding the following tags to a placeable actor tags will have the given effect on the move tool.
