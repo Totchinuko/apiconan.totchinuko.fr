@@ -621,6 +621,7 @@ Here is the following values used by ChatV2, but your own channels may use whate
 - `OwnerUID` (Integer64, 0) - The owner of the channel. Owner can open the channel player list, kick users out of it, and change the password. Every chat moderator is considered owner of every channel.
 - `Eavesdrop` (String, "NoEavesdrop") - Eavesdrop mode for the given channel, only available for Local channels
 - `RandomEavesdropChance` (Float, 0.0) - Chance (from 0.0 to 1.0) to overhear a message if the Eavesdrop mode is configured on Random.
+- `PreventDisconnect` (Bool, False) - Prevent a channel from being closed by the user
 
 ### Server Settings
 - `GuildLocked` (Bool, False) - Can users post in any clan channel? Moderators ignore this
