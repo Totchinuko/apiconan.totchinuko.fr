@@ -31,7 +31,9 @@ If you do not follow those guidelines, whenever we update the API files, your mo
 - [Tot!Admin 0.9.15.alpha](/API/TotAdmin.0.9.15.UE5.zip ':ignore')
 - [Tot!Custom 1.10.20](/API/TotCustom.1.10.20.UE5.zip ':ignore')
 - iHUD - Unreleased at this moment
-- Roleplay Redux - Unreleased at this moment
+- [Roleplay Redux 2.2.0](/API/RoleplayRedux.API.2.2.0.UE5.zip ':ignore')
+- [Roleplay Redux Embedded 2.2.0](/API/RoleplayRedux.Embed.2.2.0.UE5.zip ':ignore')
+- [Roleplay Redux Codex 2.2.0](/API/RoleplayRedux.Codex.2.2.0.UE5.zip ':ignore')
 - [Decoration Handler 2.2.2](/API/TotPH.2.2.2.UE5.zip ':ignore')
 - [CrossModEvents](/API/Lib.CrossModEvents.UE5.zip ':ignore')
 - MathSolver - Unreleased at this moment
