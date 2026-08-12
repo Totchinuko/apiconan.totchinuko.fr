@@ -100,3 +100,7 @@ I've remove the scroll bar entirely, which was causing a lot of engine problems 
 - Fixed focus mode displaying the wrong selection of users when reopening the panel
 - Fixed bubbles displaying leading/trailing new lines when emotes are hidden.
 - Fixed bubbles displaying an empty message when the user post OOC
+
+## 2.0.44
+- Added new Eavesdrop mechanic, which is open to other mods via API. This can be configured on any Local chat settings, with an added range for each range definition in the server settings. By itself, Eavesdrop comes with two mode: No Eavesdrop or Random, with the possibility for other mods to add more.
+- Fixed channel observers not receiving any processed messages

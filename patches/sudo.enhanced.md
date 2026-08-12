@@ -43,3 +43,8 @@
 ## 1.3.36
 - Improved background caches to avoid generating object garbage, to improve server crashes tied to object instantiation. This does not address the root of the issue, but it certainly will make it better.
 - Fixed mod map markers displayed on wrong region when updated
+
+## 1.3.53
+- Recook for internal modifications
+- Vanilla Admin is not required anymore to access the Super Admin login, if the password is not empty. For initial setup or when the password is empty, Vanilla Admin is still required.
+- Default Owner role does not require Admin rights anymore to apply upon initial setup.
