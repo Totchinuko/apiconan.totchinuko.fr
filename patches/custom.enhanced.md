@@ -114,3 +114,7 @@
 - Added optional setting to disable everyone else legs IK
 - Fixed re-orderable list not displaying correct selection
 - Improved re-orderable list drag and drop behavior
+
+## 1.10.40
+- Fixed Male character missing Eyebrow tracks
+- Fixed various sound row in body editor missing labels

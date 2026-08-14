@@ -12,3 +12,13 @@
 - Door pounding is not using the Farthest range in the chat settings.
 - Waypoint IDs have changed to GUIDs to simplify the code with the map, therefore town portal ID will need to be reconfigured.
 - Added a setting to output dice related messages to a dedicated dice channel
+
+## 2.2.22
+- Added a new effect to abilities allowing to run a Tot!Admin script, along with passing caster/targets to the script and other parameter configuration.
+- Fixed various issues that would prevent the dice system to load, notably when creating a new one.
+- Fixed a line break issue that would creep in many fields when importing dice configs, along other issues
+- Fixed Edit Bio & Consent button opening an invisible window
+- Fixed various placeable nameplates displaying "Waiting for Data" instead of the item name
+- Fixed Abilities number of targets slider not allowing any
+- Removed a forgotten debug log that would spam the client logs
+- Fixed Map Overlay sizing and improve it's zoom scaling

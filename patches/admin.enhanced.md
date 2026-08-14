@@ -47,3 +47,11 @@
 - Added many log report around spawners and Customized NPC kills to try to find where the crash happen
 - Attempting to improve the reliability of Warps on busy servers (namely client lags)
 - More fix to quest text formatting
+
+## 0.9.21
+- Added 24 Inventory nodes to scripting, courtesy of Noms who worked on those
+- Improved the Post Process Anchor, to try and resolve a disconnection issue present on Linux based servers.
+- Improved Scripting Inspector to be more readable and practical, unifying the scroll bar.
+- Fixed server rules formatting
+- Fixed Spawned AI Speed
+- Improved Spawned AI point to point navigation
