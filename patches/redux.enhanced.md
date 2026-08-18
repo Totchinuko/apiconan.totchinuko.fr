@@ -22,3 +22,9 @@
 - Fixed Abilities number of targets slider not allowing any
 - Removed a forgotten debug log that would spam the client logs
 - Fixed Map Overlay sizing and improve it's zoom scaling
+
+## 2.2.27
+- Fixed map overlay toggle hiding the wrong image.
+- Improved waypoint map UI
+- Fixed consent sheet display not showing up
+- Fixed more break line issue around consent sheets. You may have to remake them as a result.

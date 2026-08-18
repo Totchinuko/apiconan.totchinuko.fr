@@ -118,3 +118,8 @@
 ## 1.10.40
 - Fixed Male character missing Eyebrow tracks
 - Fixed various sound row in body editor missing labels
+
+## 1.10.44
+- Fixed minor order issue with warpaint glow exposure
+- Fixed radium lantern color + improvements
+- Improved lanterns range

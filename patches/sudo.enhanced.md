@@ -48,3 +48,6 @@
 - Recook for internal modifications
 - Vanilla Admin is not required anymore to access the Super Admin login, if the password is not empty. For initial setup or when the password is empty, Vanilla Admin is still required.
 - Default Owner role does not require Admin rights anymore to apply upon initial setup.
+
+## 1.3.61
+- Added HTTP Log that aim to replace Discord Webhooks. With it you can send any HTTP requests containing the log data to any service (including Discord) and customize the payload with Sudo's data.

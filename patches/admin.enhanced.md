@@ -55,3 +55,8 @@
 - Fixed server rules formatting
 - Fixed Spawned AI Speed
 - Improved Spawned AI point to point navigation
+
+## 0.9.25
+- Added new Structure type that can store arbitrary variables in it, to then be serialized (including json) for storage or communication with external server. A collection of nodes is available to set/get/remove/etc... variables from a structure.
+- Added new nodes for Http Request and a simplified Discord Webhook. Currently the Header management of Http Request is a bit rough, I'll improve the experience in a future patch.
+- Fixed and improved the Character context override
