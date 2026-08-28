@@ -60,3 +60,11 @@
 - Added new Structure type that can store arbitrary variables in it, to then be serialized (including json) for storage or communication with external server. A collection of nodes is available to set/get/remove/etc... variables from a structure.
 - Added new nodes for Http Request and a simplified Discord Webhook. Currently the Header management of Http Request is a bit rough, I'll improve the experience in a future patch.
 - Fixed and improved the Character context override
+
+## 0.9.31
+- Added a collection of nodes relative to vectorial calculations, categorized as `3D Operations`
+- Added a new node called `Warp To`, which behave like `Warp To Position`, with an additional rotation parameter
+- Added node Set String (Struct) to add more easily string data to a struct, used for http requests for example.
+- Fixed script node character context variable insertion
+- Fixed various clan leave action failing (Player edition, clan switch, etc...)
+- Fixed Math function `radian` not working as expected

@@ -123,3 +123,11 @@
 - Fixed minor order issue with warpaint glow exposure
 - Fixed radium lantern color + improvements
 - Improved lanterns range
+
+## 1.10.47
+- Added button to the customization panel to disable the current pose
+- Improved edited body rows color
+- Fixed the name of saves created from your current accessory set
+- Fixed typos
+- Fixed edited body rows not displaying the star like it used to
+- Fixed enhanced torch flame (hopefully for good)
