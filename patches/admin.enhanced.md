@@ -68,3 +68,9 @@
 - Fixed script node character context variable insertion
 - Fixed various clan leave action failing (Player edition, clan switch, etc...)
 - Fixed Math function `radian` not working as expected
+
+## 0.9.33
+- Fixed Math expression editor allowing to edit the help section
+- Fixed HTTP Request node having the fire and forget toggle inverted, preventing its use as intended.
+- Fixed Move tool duplicate not showing up in UI
+- Fixed Thrall clan transfer function
