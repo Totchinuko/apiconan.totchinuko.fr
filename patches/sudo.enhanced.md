@@ -52,5 +52,6 @@
 ## 1.3.61
 - Added HTTP Log that aim to replace Discord Webhooks. With it you can send any HTTP requests containing the log data to any service (including Discord) and customize the payload with Sudo's data.
 
-## 1.3.70
-- Fixed Http Log Requests being flagged as the mod calling the creation of the log, rather than sudo itself.
+## 1.3.76
+- Fixed various personal palette issues from the color picker
+- Changed how the player setting "Hide entirely all nameplate" hide the nameplates to avoid revealing the vanilla ones.

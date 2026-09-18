@@ -131,3 +131,9 @@
 - Fixed typos
 - Fixed edited body rows not displaying the star like it used to
 - Fixed enhanced torch flame (hopefully for good)
+
+## 1.10.55
+- Added missing tooltip to hide pose button
+- Reworked the item list to use a pool of icons and a pagination system. This was a necessary change given how considerably slower the engine is at disposing/instantiating objects. On a bright side, the list is now considerably faster to load, even by 2.1 standards.
+- Fixed invisible elements rendering black (bracelet, invisible armor parts, accessory skin issues, armor stands, etc.)
+- Fixed missing book texture

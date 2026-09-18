@@ -69,8 +69,9 @@
 - Fixed various clan leave action failing (Player edition, clan switch, etc...)
 - Fixed Math function `radian` not working as expected
 
-## 0.9.33
+## 0.9.36
 - Fixed Math expression editor allowing to edit the help section
 - Fixed HTTP Request node having the fire and forget toggle inverted, preventing its use as intended.
 - Fixed Move tool duplicate not showing up in UI
 - Fixed Thrall clan transfer function
+- Fixed a number of replication issues around admin tool events. There might be more problems of the kind around other systems/mods that stem from the new networking, so if you find any such problem, let me know. 
