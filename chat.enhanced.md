@@ -469,7 +469,7 @@ Called to transmit a typing signal to the user. I don't believe this will ever b
 ```csharp
 function SendMessageAsUser(Guig guid, long Channel, Tot_S_ChatHeader Headers, string Content);
 ```
-Send a message as if sent by the user. Do not send commands through there, it's already too late in the chain.
+Send a message as if sent by the user, this can also be used to send commands.
 
 #### BindObserver <small>Server</small>
 ```csharp
