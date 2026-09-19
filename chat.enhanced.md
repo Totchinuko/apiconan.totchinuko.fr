@@ -216,6 +216,12 @@ function MessageProcessed(Guid Guid, long Sender, long Channel, Tot_S_ChatHeader
 ```
 Called when a message has been sent through a channel. 
 
+#### GetPersonalizedPosterName <small>Server</small>
+```csharp
+function GetPersonalizedPosterName(Tot_I_ChatUser user, out string ReturnValue);
+```
+Return the name the poster will post with for this channel. This is just for UI display, and the name is always populated by the ChatUser upon posting and modified by the channel before distribution when necessary. When the channel intend on changing the posting name, this function can be used to hint at that change. Return an empty string will hint at the chat that the current character name is to be used.
+
 ### Tot_I_ChatCommand <small>Server</small>
 Implemented by commands, which are either UObjects or Actors. Never call a command directly, commands should be executed by the `Tot_I_ChatUser`. 
 
