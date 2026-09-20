@@ -75,3 +75,10 @@
 - Fixed Move tool duplicate not showing up in UI
 - Fixed Thrall clan transfer function
 - Fixed a number of replication issues around admin tool events. There might be more problems of the kind around other systems/mods that stem from the new networking, so if you find any such problem, let me know. 
+
+## 0.9.38
+- Added a new node `Open In Browser` to open a URL in the User's browser, with a confirmation displaying the full URL to the User prior to open anything.
+- Changed the name expected by `/tunnel puppet <name>` to be the internal name and not the display/chat name (As it used to be on Legacy)
+- Fixed the non functional Http Request node that had the wrong output plug `then`, instead of `wait`. You will have to update your scripts to fix the link.
+- Fixed player wallpapers showing up in the Tool Master List as invalid items
+- Fixed a rare desync with the Move tool, that would fail to send the move command to the server, appearing moved for the user when in reality the object remained unmoved for everyone else. This would only affect certain users, while other would appear unaffected.

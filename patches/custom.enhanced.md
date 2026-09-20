@@ -137,3 +137,8 @@
 - Reworked the item list to use a pool of icons and a pagination system. This was a necessary change given how considerably slower the engine is at disposing/instantiating objects. On a bright side, the list is now considerably faster to load, even by 2.1 standards.
 - Fixed invisible elements rendering black (bracelet, invisible armor parts, accessory skin issues, armor stands, etc.)
 - Fixed missing book texture
+
+## 1.10.57
+- Added a page field to jump to a specific page in the item list
+- Changed how main libraries load their content to be search first. This is to avoid the UI to load hundreds of files and choke the engine with it. In turn, this also disable reordering in those lists. You can revert to the previous behavior in the settings, but understand that if your game freeze as a result, it will be your choice. Unless some improvements are made by the devs, there is not much I can do but to cut down on the amount of content displayed.
+- Further Optimization of Item caching and listing

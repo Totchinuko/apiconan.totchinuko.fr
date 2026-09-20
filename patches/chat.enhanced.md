@@ -104,3 +104,14 @@ I've remove the scroll bar entirely, which was causing a lot of engine problems 
 ## 2.0.44
 - Added new Eavesdrop mechanic, which is open to other mods via API. This can be configured on any Local chat settings, with an added range for each range definition in the server settings. By itself, Eavesdrop comes with two mode: No Eavesdrop or Random, with the possibility for other mods to add more.
 - Fixed channel observers not receiving any processed messages
+
+## 2.0.56
+- Reworked how messages are posted to improve/fix a number of issues, including but not limited to:
+  - Use of /me, /do and /tell in a tunnels was not posting from the proper user
+  - Name displayed in a tunnel channel was the one from the active user and not the target
+  - Modders could not send command as the user
+  - Command usage that use to work in RPR abilities didn't execute
+- Fixed broken blur backdrop
+- Fixed non-editable messages that could be edited with the up arrow
+- Fixed tunneled message that could not be edited inside the tunnel channel
+- Fixed the input key shortcuts that did not function after canceling an edit

@@ -28,3 +28,7 @@
 - Improved waypoint map UI
 - Fixed consent sheet display not showing up
 - Fixed more break line issue around consent sheets. You may have to remake them as a result.
+
+## 2.2.31
+- Fixed a source of warning spam
+- Changed the Build Kit to be search first, and avoid the massive performance hit when opening the panel
