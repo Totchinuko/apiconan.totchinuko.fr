@@ -588,7 +588,7 @@ Here is the following values used by ChatV2, but your own channels may use whate
 - `SenderName` (String, "") - Name of the Sender that will be displayed in the header.
 - `RangeGuid` (Guid, None) - Range of the message as selected by the User. Only useful for Range based channels
 - `LanguageGuid` (Guid, None) - Language of the message as selected by the User. Only useful for channels allowing languages
-- `CastBubble` (Bool, True) - Set to `False` to prevent the message from being displayed in a bubble (Currently not implemented, but message with sender set to 0 will not land on bubbles)
+- `CastBubble` (Bool, True) - Set to `False` to prevent the message from being displayed in a bubble
 - `TextStyle` (String, "") - Override the RichText Style used for this message for a target row of the Style datatable. To Node: The default style of text is always overriden, so never use it.
 - `PrintLevel` (String, "") - Apply a color tag on message text and a special background/border. Levels are: `Info`, `Warning`, `Error` and `Success`. There is a helper function to create notification header like these.
 - `LocationOverride` (Vector, None) - Specify a message 3D location that is different from the sender location. Useful for Headless message (Sender=0), that do not have a sender for range based channels.
