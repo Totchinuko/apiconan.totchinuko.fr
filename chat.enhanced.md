@@ -385,6 +385,12 @@ function GetValidChatCommandRows(out Name[] ReturnValue);
 ```
 Get the list of enabled commands on the server. This exclude any command that would have been disabled by server admins. The array contains the row keys of the command data table.
 
+#### SendMessage
+```csharp
+function SendMessage(Guid guid, long sender, long channel, Tot_S_ChatHeader headers, string content);
+```
+This is simply a step in the pipeline of message processing. Overall this should never need to be called directly unless you're implementing your own `Tot_I_ChatUser`. It is simply the next step after calling `SendMessageAsUser`. It parse for potential chat commands and execute them, or simply reroute the message to right channel if the message is not a command. 
+
 ### Tot_I_ChatToolbox  <small>Client</small>
 Only available on Client. Find with `GetAllActorWithInterface`. Provide helper functions.
 
