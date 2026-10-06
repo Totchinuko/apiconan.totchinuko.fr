@@ -55,3 +55,9 @@
 ## 1.3.76
 - Fixed various personal palette issues from the color picker
 - Changed how the player setting "Hide entirely all nameplate" hide the nameplates to avoid revealing the vanilla ones.
+
+## 1.3.80
+- Rework the 3D Editor Camera collisions to be less frustrating and more user friendly:
+  - Changed how the collisions with the environment works, from a Line of Sight behavior to a more traditional collision check.
+  - Increased the range of the camera in photo mode by a 100%.
+  - This will affect Tot!Custom, the photo mode and the Gizmo mode of the move tool in Tot!Admin

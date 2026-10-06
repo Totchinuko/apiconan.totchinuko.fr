@@ -32,3 +32,6 @@
 ## 2.2.31
 - Fixed a source of warning spam
 - Changed the Build Kit to be search first, and avoid the massive performance hit when opening the panel
+
+## 2.2.34
+- Reduced the weight of the crowbars by 50%

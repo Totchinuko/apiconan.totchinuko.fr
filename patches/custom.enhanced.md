@@ -142,3 +142,6 @@
 - Added a page field to jump to a specific page in the item list
 - Changed how main libraries load their content to be search first. This is to avoid the UI to load hundreds of files and choke the engine with it. In turn, this also disable reordering in those lists. You can revert to the previous behavior in the settings, but understand that if your game freeze as a result, it will be your choice. Unless some improvements are made by the devs, there is not much I can do but to cut down on the amount of content displayed.
 - Further Optimization of Item caching and listing
+
+## 1.10.59
+- Improved accessory position refresh to try and fix a desync related to their relation with body sliders
