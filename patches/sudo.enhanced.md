@@ -61,3 +61,8 @@
   - Changed how the collisions with the environment works, from a Line of Sight behavior to a more traditional collision check.
   - Increased the range of the camera in photo mode by a 100%.
   - This will affect Tot!Custom, the photo mode and the Gizmo mode of the move tool in Tot!Admin
+
+## 1.3.83 
+- Fixed missing Admin Flags menu when !Admin is not installed
+- Fixed an exploit of the 3D Editor camera, allowing to clip through collisions
+  - This was cased by a faulty code that tried to avoid the collision to get stuck on colliders. It was replaced with a more reliable method checking for multiple layers of collisions.

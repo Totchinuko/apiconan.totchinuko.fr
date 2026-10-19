@@ -145,3 +145,13 @@
 
 ## 1.10.59
 - Improved accessory position refresh to try and fix a desync related to their relation with body sliders
+
+## 1.10.63
+- Added a new toggle to the pose panel to disable the character cold breath.
+  - The cold breath effect is sometimes bugged, remaining active after leaving a cold biome, which make taking screenshots annoying. Toggle completely remove the particles.
+- Fixed cases where the pose from other characters would not apply correctly, resulting in character standing with no pose at all
+- Fixed cases where rigid accessory would appeared deformed or incorrectly placed on the character upon character initialization.
+  - The issue was caused by a body slider update that does not happen quickly enough for the accessory position refresh to function correctly. The mod now wait for an animation update before trying to update the accessories.
+
+## 1.10.69
+- Added a `Fighting Body Slider` permission: While **missing** this permission, Body sliders will be disabled while a weapon is equipped, except if No Combat Mode is active or while a panel is open.
