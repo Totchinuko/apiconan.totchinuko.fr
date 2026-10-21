@@ -155,3 +155,8 @@
 
 ## 1.10.69
 - Added a `Fighting Body Slider` permission: While **missing** this permission, Body sliders will be disabled while a weapon is equipped, except if No Combat Mode is active or while a panel is open.
+
+## 1.10.71
+- Fixed `Fighting Body Slider` permissions not applying to other character than your own.
+- Fixed body slider pvp mode applying to NPCs in general.
+- Fixed opening either the panel restoring fighting body sliders to every characters instead of just your own.
