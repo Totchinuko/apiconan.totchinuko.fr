@@ -18,3 +18,14 @@
 - Fixed Shortcut bar sometimes photo bombing
 - Fixed Owners being displayed on containers when the permission was not assigned
 - Fixed combat log not accessible when missing the permission
+
+## 2.2.5
+- Added arrow precision movement, allowing to place HUD widgets with precision.
+- Added widgets coordinate display on the HUD editor panel
+- Round coordinates so that widgets can be better aligned
+- Removed Ping Stat as its value was simply didn't appear to be reliable
+- Buff/Debuff without a valid icon will now have a generic icon instead of a white square.
+- Fixed decoration info displaying the word open/locked on everything instead of just doors
+- Fixed cases where decoration info could be displayed at the same time as the container info
+- Fixed shortcut bar not placing correctly when a container/crafting station is opened and not reacting to interactions
+- Fixed Quick Loot not showing up when aiming at a container if the HUD is hidden.

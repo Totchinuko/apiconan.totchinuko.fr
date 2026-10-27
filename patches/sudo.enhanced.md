@@ -66,3 +66,6 @@
 - Fixed missing Admin Flags menu when !Admin is not installed
 - Fixed an exploit of the 3D Editor camera, allowing to clip through collisions
   - This was cased by a faulty code that tried to avoid the collision to get stuck on colliders. It was replaced with a more reliable method checking for multiple layers of collisions.
+
+## 1.3.85
+- Fixed server markers on minimap not refreshing properly
