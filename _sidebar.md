@@ -37,5 +37,6 @@
     - [Chat](patches/chat.enhanced) 
     - [Custom](patches/custom.enhanced) 
     - [HUD](patches/hud.enhanced) 
+    - [Walk](patches/walk.enhanced) 
     - [Roleplay Redux](patches/redux.enhanced) 
 - [Archives](archive)
